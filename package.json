@@ -1,0 +1,50 @@
+{
+  "name": "@standardnotes/community-packages",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/standardnotes/community-packages"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "lint": "eslint ./config",
+    "clean": "lerna run clean",
+    "build:src": "yarn tsc --project config/tsconfig.json",
+    "build:packages": "yarn workspaces foreach --verbose --interlaced run build",
+    "prepare": "husky install",
+    "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock && yarn install",
+    "release:prod": "lerna version --conventional-commits --yes -m \"chore(release): publish\"",
+    "publish:prod": "lerna publish from-git --yes",
+    "version": "yarn install --no-immutable && git add yarn.lock",
+    "postversion": "./scripts/push-tags-one-by-one.sh",
+    "packages:list": " yarn lerna list -all",
+    "package": "yarn build:src && node scripts/Package.mjs"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@lerna-lite/cli": "^1.5.1",
+    "@lerna-lite/list": "^1.5.1",
+    "@lerna-lite/run": "^1.5.1",
+    "@standardnotes/deterministic-zip": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "changelog-parser": "^2.8.1",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.17.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.6.2",
+    "sass-loader": "^13.0.0",
+    "typescript": "^4.7.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "packageManager": "yarn@3.2.1"
+}
