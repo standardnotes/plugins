@@ -161,6 +161,7 @@ const packageFeature = async ({ feature, noZip }) => {
 
   const packageEntry = {
     ...packageJsonFile.sn,
+    identifier: feature.identifier,
     ...checksum,
     url: `${CdnInfoJson.host}/static/${feature.identifier}/${packageJsonFile.sn.main}`,
     download_url: `${CdnInfoJson.host}/zips/${feature.identifier}.zip`,
