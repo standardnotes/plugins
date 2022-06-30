@@ -1,10 +1,11 @@
-const BaseEditorStaticFiles = ['index.html', 'dist', 'package.json']
+import { PackageDefinition } from "Package"
 
-const Packages = [
+const BasePackageStaticFiles = ["index.html", "dist", "build", "package.json"]
+
+const Packages: PackageDefinition[] = [
   {
-    identifier: 'com.sncommunity.minimal-markdown',
-    path: 'com.sncommunity.minimal-markdown',
-    static_files: [...BaseEditorStaticFiles],
+    identifier: "com.sncommunity.minimal-markdown",
+    staticFiles: [...BasePackageStaticFiles],
   },
 ]
 

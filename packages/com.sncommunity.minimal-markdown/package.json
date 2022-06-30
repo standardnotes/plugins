@@ -4,6 +4,14 @@
   "version": "1.0.0",
   "description": "A minimal Markdown editor for Standard Notes.",
   "main": "dist/dist.js",
+  "sn": {
+    "name": "Minimal Markdown",
+    "content_type": "SN|Component",
+    "area": "editor-editor",
+    "spellcheckControl": true,
+    "note_type": "markdown",
+    "file_type": "txt"
+  },
   "scripts": {
     "build": "grunt",
     "test": "echo \"Error: no test specified\" && exit 0"

@@ -1,2 +1,2 @@
-export * from './Checksums'
+export * from './Package'
 export * from './Packages'

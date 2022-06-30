@@ -9,7 +9,6 @@ node_modules
 .ssh
 dump.rdb
 .vscode
-/dist
 config/dist
 yarn-error.log
 package-lock.json

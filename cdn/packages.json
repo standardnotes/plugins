@@ -1,0 +1,14 @@
+{
+  "com.sncommunity.minimal-markdown": {
+    "name": "Minimal Markdown",
+    "content_type": "SN|Component",
+    "area": "editor-editor",
+    "spellcheckControl": true,
+    "note_type": "markdown",
+    "file_type": "txt",
+    "base64": "f731673036cdaf22ee83442ac9065e84fc61254d7e6a5e796e45f7f01ab76fee",
+    "binary": "c1ccc1124db21b7113dc2ef2c27b99d8958f1ab7b1100cc8d370f96e96790f82",
+    "url": "https://raw.githubusercontent.com/standardnotes/community-packages/main/cdn//static/com.sncommunity.minimal-markdown/undefined",
+    "download_url": "https://raw.githubusercontent.com/standardnotes/community-packages/main/cdn//zips/com.sncommunity.minimal-markdown.zip"
+  }
+}
