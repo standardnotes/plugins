@@ -24,6 +24,7 @@ const SourceFilesPath = path.join(__dirname, "../packages")
 const CdnDir = path.join(__dirname, "../cdn")
 const ZipsDir = path.join(CdnDir, "/zips")
 const AssetsDir = path.join(CdnDir, "/static")
+const EntriesDir = path.join(CdnDir, "/entries")
 
 const TmpDir = path.join(__dirname, "../tmp")
 const PackagesJsonPath = path.join(CdnDir, "packages.json")
@@ -158,12 +159,19 @@ const packageFeature = async ({ feature, noZip }) => {
     packageJsonFile.version
   )
 
-  PackagesJson[feature.identifier] = {
+  const packageEntry = {
     ...packageJsonFile.sn,
     ...checksum,
     url: `${CdnInfoJson.host}/static/${feature.identifier}/${packageJsonFile.sn.main}`,
     download_url: `${CdnInfoJson.host}/zips/${feature.identifier}.zip`,
   }
+
+  PackagesJson[feature.identifier] = packageEntry
+
+  fs.writeFileSync(
+    `${EntriesDir}/${feature.identifier}.json`,
+    JSON.stringify(packageEntry, undefined, 2)
+  )
 
   console.log(`Computed checksums for ${feature.identifier}:`, checksum)
 }
