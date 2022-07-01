@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/community-cdn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "lint": "eslint src/ --ext .ts,.tsx",
     "build": "yarn tsc --project tsconfig.json",
