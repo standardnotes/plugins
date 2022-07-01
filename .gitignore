@@ -4,18 +4,15 @@
 .idea
 node_modules
 .sass-cache
-
 .env
 .ssh
 dump.rdb
 .vscode
-config/dist
 yarn-error.log
 package-lock.json
 codeqldb
 coverage
 lerna-debug.log
-
 **/.pnp.*
 **/.yarn/*
 !.yarn/patches
@@ -24,6 +21,8 @@ lerna-debug.log
 !.yarn/sdks
 !.yarn/versions
 !.yarn/cache
+
+cdn/dist/src
 
 packages/**/build
 packages/**/dist

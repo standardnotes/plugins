@@ -18,11 +18,11 @@ jobs:
       - name: Build packages
         run: yarn build:packages
 
-      - name: Test packages
-        run: yarn test
+      - name: Lint cdn
+        run: yarn lint:cdn
 
-      - name: Lint src
-        run: yarn lint:src
+      - name: Build cdn
+        run: yarn build:cdn
 
-      - name: Build src
-        run: yarn build:src
+      - name: Test packaging
+        run: yarn dev:package

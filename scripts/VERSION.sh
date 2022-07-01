@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo 'Building components from' $(pwd)
+echo 'Building packages from' $(pwd)
 
 yarn clean && yarn build:packages
 
-echo "Packaging component assets and zips..."
+echo "Packaging packages assets and zips..."
 
-node scripts/Package.mjs
+node cdn/scripts/Package.mjs
 git add dist
-(git commit -m 'chore(release): components') || true
+(git commit -m 'chore(release): packages') || true
