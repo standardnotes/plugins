@@ -1847,6 +1847,7 @@ __metadata:
     "@standardnotes/deterministic-zip": ^1.2.0
     "@standardnotes/features": ^1.47.0
     eslint: "*"
+    minimatch: ^5.1.0
     typescript: "*"
   languageName: unknown
   linkType: soft
