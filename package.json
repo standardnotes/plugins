@@ -15,7 +15,7 @@
   "scripts": {
     "lint:cdn": "yarn workspace @standardnotes/community-cdn run lint",
     "build:cdn": "yarn workspace @standardnotes/community-cdn run build",
-    "build:packages": "yarn workspaces foreach --verbose --interlaced --exclude @standardnotes/community-cdn run build",
+    "build:packages": "yarn workspaces foreach --verbose --interlaced --parallel --jobs 10 --exclude @standardnotes/community-cdn run build",
     "clean": "lerna run clean",
     "release": "lerna version --conventional-commits --yes -m \"chore(release): publish\"",
     "publish": "lerna publish from-git --yes --no-verify-access",
