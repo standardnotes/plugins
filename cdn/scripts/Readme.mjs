@@ -19,11 +19,11 @@ export function writePackageDirectoryToReadme() {
   for (const packageEntry of packages) {
     let string = '- '
     string += `**Name:** ${packageEntry.name}`
-    string += '\n  '
+    string += '\n\n  '
     string += `**By:** ${packageEntry.publisher}`
-    string += '\n  '
+    string += '\n\n  '
     string += `**Install URL:** ${packageEntry.latest_url}`
-    string += '\n'
+    string += '\n\n'
 
     directoryString += string
   }
