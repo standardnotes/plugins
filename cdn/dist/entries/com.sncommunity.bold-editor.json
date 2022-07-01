@@ -1,0 +1,17 @@
+{
+  "name": "Bold Editor",
+  "content_type": "SN|Component",
+  "area": "editor-editor",
+  "spellcheckControl": true,
+  "note_type": "rich-text",
+  "main": "dist/index.html",
+  "file_type": "html",
+  "identifier": "com.sncommunity.bold-editor",
+  "version": "1.4.0",
+  "url": "https://standardnotes.github.io/community-packages/cdn/dist/static/com.sncommunity.bold-editor/dist/index.html",
+  "download_url": "https://standardnotes.github.io/community-packages/cdn/dist/zips/com.sncommunity.bold-editor.zip",
+  "latest_url": "https://standardnotes.github.io/community-packages/cdn/dist/entries/com.sncommunity.bold-editor.json",
+  "publisher": "Standard Notes Retired",
+  "base64Hash": "4015787ba9380f0c2d7afe04c0cec2524fe7879940d6680297563e9a0faed916",
+  "binaryHash": "0288dc5f57a3362abfc5f3985c1673f4719210bf0cb0ce6b509342225cdb6f56"
+}
