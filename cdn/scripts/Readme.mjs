@@ -17,13 +17,13 @@ export function writePackageDirectoryToReadme() {
   let directoryString = ''
 
   for (const packageEntry of packages) {
-    const name = `**Name:** ${packageEntry.name}`
-    const publisher = `**By:** ${packageEntry.publisher}`
-    const url = `**Install URL:** ${packageEntry.latest_url}`
-    const string = `- ${name}
-    ${publisher}
-    ${url}
-    \n`
+    let string = '- '
+    string += `**Name:** ${packageEntry.name}`
+    string += '\n  '
+    string += `**By:** ${packageEntry.publisher}`
+    string += '\n  '
+    string += `**Install URL:** ${packageEntry.latest_url}`
+    string += '\n'
 
     directoryString += string
   }
