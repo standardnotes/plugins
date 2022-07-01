@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2022-07-01)
+
+### Features
+
+* individual package entries ([8405d41](https://github.com/standardnotes/community-packages/commit/8405d418f5110dd54310d180ffe7c319e61300bd))
+* initial commit ([cf09e92](https://github.com/standardnotes/community-packages/commit/cf09e925f915349a64c16905140a2b7b50d1b69b))
+
 ## [1.3.13](https://github.com/standardnotes/app/compare/@standardnotes/markdown-minimal@1.3.13-alpha.0...@standardnotes/markdown-minimal@1.3.13) (2022-06-22)
 
 **Note:** Version bump only for package @standardnotes/markdown-minimal
