@@ -2,6 +2,9 @@
   "name": "@standardnotes/community-cdn",
   "version": "0.1.2",
   "license": "AGPL-3.0-or-later",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint src/ --ext .ts,.tsx",
     "build": "yarn tsc --project tsconfig.json",
