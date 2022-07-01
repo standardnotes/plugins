@@ -28,3 +28,15 @@ export const writeJson = (data, path) => {
   const string = JSON.stringify(data, null, 2)
   return fs.writeFileSync(path, string)
 }
+
+export const writeFile = (data, path) => {
+  return fs.writeFileSync(path, data)
+}
+
+export const readFile = (path) => {
+  return fs.readFileSync(path).toString()
+}
+
+export const readJson = (path) => {
+  return JSON.parse(fs.readFileSync(path).toString())
+}

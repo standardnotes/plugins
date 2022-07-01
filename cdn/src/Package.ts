@@ -10,6 +10,7 @@ export type PackageDefinition = {
 export type PackageCdnEntry = FeatureDescription & {
   base64Hash: string
   binaryHash: string
+  publisher: string
 }
 
 export type PackageCdnList = Record<PackageIdentifier, PackageCdnEntry>

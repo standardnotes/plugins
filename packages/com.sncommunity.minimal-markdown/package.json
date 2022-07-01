@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.1.0",
   "description": "A minimal Markdown editor for Standard Notes.",
+  "author": "Standard Notes Retired",
   "main": "dist/dist.js",
   "sn": {
     "name": "Minimal Markdown",
