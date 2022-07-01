@@ -9,7 +9,6 @@
   "scripts": {
     "lint": "eslint src/ --ext .ts,.tsx",
     "build": "yarn tsc --project tsconfig.json",
-    "clean": "lerna run clean",
     "dev:package": "yarn build && node scripts/Package.mjs",
     "version": "./scripts/Compile.sh"
   },
