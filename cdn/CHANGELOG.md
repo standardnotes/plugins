@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/standardnotes/community-packages/compare/@standardnotes/community-cdn@0.1.15...@standardnotes/community-cdn@0.2.0) (2022-07-01)
+
+### Features
+
+* bold editor ([#1](https://github.com/standardnotes/community-packages/issues/1)) ([6a1e13f](https://github.com/standardnotes/community-packages/commit/6a1e13f65adeadca2c6c3dc20c390985db6c7389))
+
 ## [0.1.15](https://github.com/standardnotes/community-packages/compare/@standardnotes/community-cdn@0.1.14...@standardnotes/community-cdn@0.1.15) (2022-07-01)
 
 **Note:** Version bump only for package @standardnotes/community-cdn
