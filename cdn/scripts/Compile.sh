@@ -6,7 +6,7 @@ yarn build:packages
 
 echo "Packaging packages assets and zips..."
 
-node scripts/Package.mjs
+yarn run package
 git add dist
 git add ../README.md
 (git commit -m 'chore(release): packages') || true
