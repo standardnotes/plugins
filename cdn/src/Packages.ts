@@ -7,6 +7,10 @@ const Packages: PackageDefinition[] = [
     identifier: 'com.sncommunity.minimal-markdown',
     staticFiles: [...BasePackageStaticFiles],
   },
+  {
+    identifier: 'com.sncommunity.bold-editor',
+    staticFiles: [...BasePackageStaticFiles],
+  },
 ]
 
 export { Packages }
