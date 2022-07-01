@@ -1,0 +1,10 @@
+.git
+.github
+.yarn
+config
+node_modules
+packages
+scripts
+cdn/entries
+cdn/static
+cdn/zips

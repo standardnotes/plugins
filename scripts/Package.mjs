@@ -109,8 +109,8 @@ const computePackageZipChecksum = async (zipPath) => {
   const binaryHash = checksumString.split("  ")[0]
 
   return {
-    base64: base64Hash,
-    binary: binaryHash,
+    base64Hash: base64Hash,
+    binaryHash: binaryHash,
   }
 }
 
@@ -162,10 +162,11 @@ const packageFeature = async ({ feature, noZip }) => {
   const packageEntry = {
     ...packageJsonFile.sn,
     identifier: feature.identifier,
-    ...checksum,
+    version: packageJsonFile.version,
     url: `${CdnInfoJson.host}/static/${feature.identifier}/${packageJsonFile.sn.main}`,
     download_url: `${CdnInfoJson.host}/zips/${feature.identifier}.zip`,
     latest_url: `${CdnInfoJson.host}/entries/${feature.identifier}.json`,
+    ...checksum,
   }
 
   PackagesJson[feature.identifier] = packageEntry

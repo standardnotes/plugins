@@ -1,7 +1,6 @@
 {
   "name": "@standardnotes/community-packages",
   "version": "0.0.1",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git://github.com/standardnotes/community-packages"
@@ -17,6 +16,7 @@
     "build:packages": "yarn workspaces foreach --verbose --interlaced run build",
     "clean": "lerna run clean",
     "release": "lerna version --conventional-commits --yes -m \"chore(release): publish\"",
+    "publish": "lerna publish from-git --yes",
     "version": "yarn install --no-immutable && git add yarn.lock",
     "postversion": "./scripts/push-tags-one-by-one.sh",
     "dev:reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock && yarn install",
