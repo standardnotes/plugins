@@ -1,5 +1,7 @@
 src
 scripts
 node_modules
-dist
-!dist/packages.json
+dist/entries
+dist/src
+dist/static
+dist/zips
