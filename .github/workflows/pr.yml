@@ -25,4 +25,4 @@ jobs:
         run: yarn build:cdn
 
       - name: Test packaging
-        run: yarn package
+        run: yarn workspace @standardnotes/community-cdn run package
