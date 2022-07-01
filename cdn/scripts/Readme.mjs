@@ -14,16 +14,20 @@ export function writePackageDirectoryToReadme() {
 
   const DirectoryPlaceholder = '<!-- DIRECTORY -->'
 
-  let directoryString = ''
+  let directoryString = ``
+  directoryString += '| Name | Publisher | Install Link |'
+  directoryString += '\n'
+  directoryString += '|------|-----------|--------------|'
 
   for (const packageEntry of packages) {
-    let string = '- '
-    string += `**Name:** ${packageEntry.name}`
-    string += '\n\n  '
-    string += `**By:** ${packageEntry.publisher}`
-    string += '\n\n  '
-    string += `**Install URL:** ${packageEntry.latest_url}`
-    string += '\n\n'
+    let string = '|'
+    string += `${packageEntry.name}`
+    string += '|'
+    string += `${packageEntry.publisher}`
+    string += '|'
+    string += `${packageEntry.latest_url}`
+    string += '|'
+    directoryString += '\n'
 
     directoryString += string
   }
