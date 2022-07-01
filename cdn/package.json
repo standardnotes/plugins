@@ -2,7 +2,7 @@
   "name": "@standardnotes/community-cdn",
   "version": "0.1.4",
   "license": "AGPL-3.0-or-later",
-  "author": "Standard Notes Community",
+  "author": "Standard Notes Community.",
   "publishConfig": {
     "access": "public"
   },
