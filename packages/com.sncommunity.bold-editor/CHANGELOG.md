@@ -7,7 +7,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* bold editor ([#1](https://github.com/standardnotes/community-packages/issues/1)) ([6a1e13f](https://github.com/standardnotes/community-packages/commit/6a1e13f65adeadca2c6c3dc20c390985db6c7389))
+* bold editor ([#1](https://github.com/standardnotes/plugins/issues/1)) ([6a1e13f](https://github.com/standardnotes/plugins/commit/6a1e13f65adeadca2c6c3dc20c390985db6c7389))
 
 ## [1.3.10](https://github.com/standardnotes/app/compare/@standardnotes/bold-editor@1.3.10-alpha.0...@standardnotes/bold-editor@1.3.10) (2022-06-22)
 
