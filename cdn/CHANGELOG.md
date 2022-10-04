@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.2.0...@standardnotes/community-cdn@0.3.0) (2022-10-04)
+
+### Features
+
+* add advanced checklist editor ([#3](https://github.com/standardnotes/plugins/issues/3)) ([71ae54d](https://github.com/standardnotes/plugins/commit/71ae54de2b1563c39a885d1ae6d3b30c0ba72eae))
+
 # [0.2.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.1.15...@standardnotes/community-cdn@0.2.0) (2022-07-01)
 
 ### Features

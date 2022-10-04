@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2022-10-04)
+
+### Features
+
+* add advanced checklist editor ([#3](https://github.com/standardnotes/plugins/issues/3)) ([71ae54d](https://github.com/standardnotes/plugins/commit/71ae54de2b1563c39a885d1ae6d3b30c0ba72eae))
+
 ## [0.2.5](https://github.com/standardnotes/app/compare/@standardnotes/advanced-checklist@0.2.4...@standardnotes/advanced-checklist@0.2.5) (2022-09-13)
 
 **Note:** Version bump only for package @standardnotes/advanced-checklist
