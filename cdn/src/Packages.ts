@@ -11,6 +11,10 @@ const Packages: PackageDefinition[] = [
     identifier: 'com.sncommunity.bold-editor',
     staticFiles: [...BasePackageStaticFiles],
   },
+  {
+    identifier: 'com.sncommunity.advanced-checklist',
+    staticFiles: [...BasePackageStaticFiles],
+  },
 ]
 
 export { Packages }
