@@ -15,7 +15,7 @@
     "area": "editor-editor",
     "spellcheckControl": true,
     "note_type": "task",
-    "main": "build/index.html",
+    "main": "index.html",
     "file_type": "json"
   },
   "homepage": ".",
