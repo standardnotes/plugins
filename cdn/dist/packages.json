@@ -13,8 +13,8 @@
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.minimal-markdown.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.minimal-markdown.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "98f65464a50c0002d5d3bec851681ac6b6fae727973321c4bd13ae1afae80286",
-    "binaryHash": "a936a6d3c7a99d666e82deb75b66ee8307140268de3f986338dcbe5ff4cd8132"
+    "base64Hash": "c2870aa5772317d47084470f909ba8ece19d6c774ade7748c0e81933afdb1dea",
+    "binaryHash": "e14ff8a94857bfda61f3d7a583c6995a43d6982cfd1aa190fa21942c0dc17137"
   },
   "com.sncommunity.bold-editor": {
     "name": "Bold Editor",
@@ -30,8 +30,8 @@
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.bold-editor.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.bold-editor.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "26d17dc741cba275b2b9352098b51cd351ff258cdc0ed339e83680500cf02d26",
-    "binaryHash": "1411b54ae16a0d015a0abd9045313ef84627059d32121d200decce6f759450cb"
+    "base64Hash": "2b101520c9cd9081599aea3911b12c63fd3224386657146cd0906e86f6bedb9e",
+    "binaryHash": "6508fcb47aebd412f1d6861f0d1ab9e43d263042c5357d41edb06811ed56c689"
   },
   "com.sncommunity.advanced-checklist": {
     "name": "Advanced Checklist",
@@ -42,12 +42,12 @@
     "main": "index.html",
     "file_type": "json",
     "identifier": "com.sncommunity.advanced-checklist",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.advanced-checklist/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.advanced-checklist.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "3af32b55c5548c1a4edfab241292cd01326c388621d0500659a073a662ffc7d9",
-    "binaryHash": "b4dfe3eb496d71d64da79e6137ab10fcfd47fcaf813800ea5807da1b4947ece0"
+    "base64Hash": "336bb93e6a6a74613938e663eddb994170d8baa17ff67ec280eef0292c3fa3f9",
+    "binaryHash": "f0adc0d4b73c98dbd12a7f37a880823a1a169b3feafe4839903f14669ef16c9e"
   }
 }
