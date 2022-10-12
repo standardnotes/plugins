@@ -4,14 +4,14 @@
   "area": "editor-editor",
   "spellcheckControl": true,
   "note_type": "task",
-  "main": "build/index.html",
+  "main": "index.html",
   "file_type": "json",
   "identifier": "com.sncommunity.advanced-checklist",
   "version": "0.3.0",
-  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.advanced-checklist/build/index.html",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.advanced-checklist/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.advanced-checklist.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json",
   "publisher": "Standard Notes Retired",
-  "base64Hash": "835e17c164109cc98ed90b8f7f7bcf8bcc72702bdee19f9bd1369513b7da0b5e",
-  "binaryHash": "46955193fcec28a90e1f18c2b8ec3ca68e94a2e7922cbfb35ec09fb9eb7d0641"
+  "base64Hash": "3af32b55c5548c1a4edfab241292cd01326c388621d0500659a073a662ffc7d9",
+  "binaryHash": "b4dfe3eb496d71d64da79e6137ab10fcfd47fcaf813800ea5807da1b4947ece0"
 }
