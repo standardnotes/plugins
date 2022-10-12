@@ -10,7 +10,7 @@
     "lint": "eslint src/ --ext .ts,.tsx",
     "build": "yarn tsc --project tsconfig.json",
     "package": "yarn build && node scripts/Package.mjs",
-    "version": "./scripts/Compile.sh"
+    "compile": "./scripts/Compile.sh"
   },
   "devDependencies": {
     "@standardnotes/deterministic-zip": "^1.2.0",
