@@ -23,4 +23,5 @@ In Standard Notes desktop or web:
 |Minimal Markdown|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.minimal-markdown.json|
 |Bold Editor|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.bold-editor.json|
 |Advanced Checklist|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json|
-|Basic Markdown|undefined|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json|
+|Basic Markdown|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json|
+|Markdown Math|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json|
