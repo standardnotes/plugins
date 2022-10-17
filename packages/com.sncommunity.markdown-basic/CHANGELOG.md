@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.5.0 (2022-10-17)
+
+### Features
+
+* markdown basic editor ([#5](https://github.com/standardnotes/plugins/issues/5)) ([a841914](https://github.com/standardnotes/plugins/commit/a841914cb7e6d102993f7aec83b40741e437837a))
+
 ## [1.4.7](https://github.com/standardnotes/app/compare/@standardnotes/markdown-basic@1.4.7-alpha.0...@standardnotes/markdown-basic@1.4.7) (2022-06-22)
 
 **Note:** Version bump only for package @standardnotes/markdown-basic

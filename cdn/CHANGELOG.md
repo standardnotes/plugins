@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.3.3...@standardnotes/community-cdn@0.4.0) (2022-10-17)
+
+### Features
+
+* markdown basic editor ([#5](https://github.com/standardnotes/plugins/issues/5)) ([a841914](https://github.com/standardnotes/plugins/commit/a841914cb7e6d102993f7aec83b40741e437837a))
+
 ## [0.3.3](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.3.2...@standardnotes/community-cdn@0.3.3) (2022-10-14)
 
 **Note:** Version bump only for package @standardnotes/community-cdn
