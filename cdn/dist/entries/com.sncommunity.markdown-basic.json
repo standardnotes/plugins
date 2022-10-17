@@ -1,0 +1,16 @@
+{
+  "name": "Basic Markdown",
+  "content_type": "SN|Component",
+  "area": "editor-editor",
+  "spellcheckControl": true,
+  "note_type": "markdown",
+  "main": "dist/index.html",
+  "file_type": "txt",
+  "identifier": "com.sncommunity.markdown-basic",
+  "version": "1.4.7",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-basic/dist/index.html",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-basic.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json",
+  "base64Hash": "1504722f029006eeaa0c54acfd83708744bd13fd348fcf7f7d9572f211a52e0f",
+  "binaryHash": "79e7c7e8ebe80c2e7d661be7da13c4bce034a29ff25dfb94b279488cf588b5de"
+}

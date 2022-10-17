@@ -7,11 +7,11 @@
   "main": "build/index.html",
   "file_type": "json",
   "identifier": "com.sncommunity.advanced-checklist",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.advanced-checklist/build/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.advanced-checklist.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json",
   "publisher": "Standard Notes Retired",
-  "base64Hash": "88a8748dd4a2cb45f44b1d3359066ba50ef50300fdce045a56a2f79d2372d7f9",
-  "binaryHash": "f32ae5a12698f880ec482a3722b93908e93f1cdc85c9873dd7a684c4fd5ea836"
+  "base64Hash": "453b8c93119d48bde0d1c71ec692d9e3a044d4c9e60055447d07c20ca1fae4fb",
+  "binaryHash": "ef6cb405bc7da6d60a1f0cfc8024b527e007419cff3aa1ba6813866c86d13fc3"
 }

@@ -42,12 +42,28 @@
     "main": "build/index.html",
     "file_type": "json",
     "identifier": "com.sncommunity.advanced-checklist",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.advanced-checklist/build/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.advanced-checklist.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "88a8748dd4a2cb45f44b1d3359066ba50ef50300fdce045a56a2f79d2372d7f9",
-    "binaryHash": "f32ae5a12698f880ec482a3722b93908e93f1cdc85c9873dd7a684c4fd5ea836"
+    "base64Hash": "453b8c93119d48bde0d1c71ec692d9e3a044d4c9e60055447d07c20ca1fae4fb",
+    "binaryHash": "ef6cb405bc7da6d60a1f0cfc8024b527e007419cff3aa1ba6813866c86d13fc3"
+  },
+  "com.sncommunity.markdown-basic": {
+    "name": "Basic Markdown",
+    "content_type": "SN|Component",
+    "area": "editor-editor",
+    "spellcheckControl": true,
+    "note_type": "markdown",
+    "main": "dist/index.html",
+    "file_type": "txt",
+    "identifier": "com.sncommunity.markdown-basic",
+    "version": "1.4.7",
+    "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-basic/dist/index.html",
+    "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-basic.zip",
+    "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json",
+    "base64Hash": "1504722f029006eeaa0c54acfd83708744bd13fd348fcf7f7d9572f211a52e0f",
+    "binaryHash": "79e7c7e8ebe80c2e7d661be7da13c4bce034a29ff25dfb94b279488cf588b5de"
   }
 }
