@@ -15,6 +15,10 @@ const Packages: PackageDefinition[] = [
     identifier: 'com.sncommunity.advanced-checklist',
     staticFiles: [...BasePackageStaticFiles],
   },
+  {
+    identifier: 'com.sncommunity.markdown-basic',
+    staticFiles: [...BasePackageStaticFiles],
+  },
 ]
 
 export { Packages }
