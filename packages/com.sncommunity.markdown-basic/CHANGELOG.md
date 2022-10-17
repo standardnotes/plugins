@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-basic@1.5.0...@standardnotes/markdown-basic@1.6.0) (2022-10-17)
+
+### Features
+
+* add markdown math ([950eead](https://github.com/standardnotes/plugins/commit/950eeadb32bf39190762477867cb0798bb4f1d55))
+
 # 1.5.0 (2022-10-17)
 
 ### Features

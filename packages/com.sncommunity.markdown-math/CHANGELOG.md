@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2022-10-17)
+
+### Features
+
+* add markdown math ([950eead](https://github.com/standardnotes/plugins/commit/950eeadb32bf39190762477867cb0798bb4f1d55))
+
 ## [1.3.10](https://github.com/standardnotes/app/compare/@standardnotes/markdown-math@1.3.10-alpha.0...@standardnotes/markdown-math@1.3.10) (2022-06-22)
 
 **Note:** Version bump only for package @standardnotes/markdown-math
