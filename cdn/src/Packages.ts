@@ -19,6 +19,10 @@ const Packages: PackageDefinition[] = [
     identifier: 'com.sncommunity.markdown-basic',
     staticFiles: [...BasePackageStaticFiles],
   },
+  {
+    identifier: 'com.sncommunity.markdown-math',
+    staticFiles: [...BasePackageStaticFiles],
+  },
 ]
 
 export { Packages }
