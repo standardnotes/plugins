@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.7](https://github.com/standardnotes/plugins/compare/@standardnotes/titanium-theme@1.4.6...@standardnotes/titanium-theme@1.4.7) (2022-11-04)
+
+**Note:** Version bump only for package @standardnotes/titanium-theme
+
 ## [1.4.6](https://github.com/standardnotes/plugins/compare/@standardnotes/titanium-theme@1.4.5...@standardnotes/titanium-theme@1.4.6) (2022-11-04)
 
 **Note:** Version bump only for package @standardnotes/titanium-theme
