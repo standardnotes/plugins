@@ -1,7 +1,9 @@
 {
   "name": "@standardnotes/spreadsheets",
-  "private": true,
   "version": "1.6.3",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/dist.js",
   "scripts": {
     "skip:lint": "eslint app/ --ext .js",

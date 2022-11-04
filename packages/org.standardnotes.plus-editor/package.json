@@ -1,7 +1,9 @@
 {
   "name": "@standardnotes/rich-text",
-  "private": true,
   "version": "1.8.3",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A rich text editor for Standard Notes",
   "main": "dist/dist.js",
   "author": "Standard Notes <hello@standardnotes.com>",

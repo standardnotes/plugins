@@ -3,7 +3,9 @@
   "version": "2.3.4",
   "main": "dist/dist.js",
   "author": "Standard Notes Core",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js --progress --hot",

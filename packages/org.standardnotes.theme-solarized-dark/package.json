@@ -3,7 +3,9 @@
   "version": "1.4.3",
   "main": "dist/dist.css",
   "author": "Standard Notes",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "sn": {
     "main": "dist/dist.css"
   },

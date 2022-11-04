@@ -1,7 +1,7 @@
 {
   "name": "@standardnotes/markdown-visual",
   "version": "1.2.1",
-  "author": "Johnny Almonte <johnny@standardnotes.com>",
+  "author": "Standard Notes",
   "description": "A lightweight WYSIWYG markdown editor for Standard Notes, derived from Milkdown.",
   "keywords": [
     "Standard Notes",
@@ -10,7 +10,9 @@
   "sn": {
     "main": "build/index.html"
   },
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": ".",
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",

@@ -1,7 +1,9 @@
 {
   "name": "@standardnotes/classic-code-editor",
-  "private": true,
   "version": "1.5.3",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A code editor for Standard Notes",
   "main": "dist/main.js",
   "author": "Standard Notes <hello@standardnotes.org>",

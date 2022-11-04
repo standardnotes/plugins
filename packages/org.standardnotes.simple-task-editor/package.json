@@ -1,7 +1,9 @@
 {
   "name": "@standardnotes/simple-task-editor",
-  "private": true,
   "version": "1.5.4",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/dist.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",

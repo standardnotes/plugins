@@ -2,7 +2,9 @@
   "name": "@standardnotes/futura-theme",
   "version": "1.4.3",
   "main": "dist/dist.css",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "sn": {
     "main": "dist/dist.css"
   },
