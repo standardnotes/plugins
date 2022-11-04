@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/dynamic-theme",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "main": "dist/dist.css",
   "private": true,
   "sn": {

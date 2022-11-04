@@ -4603,7 +4603,7 @@ __metadata:
     "@reach/visually-hidden": 0.16.0
     "@react-hook/resize-observer": ^1.2.5
     "@reduxjs/toolkit": 1.8.0
-    "@standardnotes/editor-kit": 2.2.5
+    "@standardnotes/editor-kit": ^2.3.0
     "@standardnotes/stylekit": 5.23.0
     "@standardnotes/utils": 1.9.0
     "@testing-library/dom": 8.11.3
@@ -4852,7 +4852,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@standardnotes/editor-kit@2.2.5, @standardnotes/editor-kit@workspace:*, @standardnotes/editor-kit@workspace:packages/editor-kit":
+"@standardnotes/editor-kit@^2.3.0, @standardnotes/editor-kit@workspace:*, @standardnotes/editor-kit@workspace:packages/editor-kit":
   version: 0.0.0-use.local
   resolution: "@standardnotes/editor-kit@workspace:packages/editor-kit"
   dependencies:

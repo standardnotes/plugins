@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.3.0 (2022-11-04)
+
+### Features
+
+* add core plugins ([b607787](https://github.com/standardnotes/plugins/commit/b60778762306f5647cb715102eab23083b266718))
+
 ## [2.2.7](https://github.com/standardnotes/app/compare/@standardnotes/authenticator@2.2.6...@standardnotes/authenticator@2.2.7) (2022-11-01)
 
 **Note:** Version bump only for package @standardnotes/authenticator
