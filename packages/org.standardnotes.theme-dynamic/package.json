@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/dynamic-theme",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "main": "dist/dist.css",
   "author": "Standard Notes.",
   "publishConfig": {
