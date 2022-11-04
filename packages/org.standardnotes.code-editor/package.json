@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/classic-code-editor",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "publishConfig": {
     "access": "public"
   },
