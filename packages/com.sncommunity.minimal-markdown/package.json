@@ -1,5 +1,5 @@
 {
-  "name": "@sncommunity/markdown-minimal",
+  "name": "@standardnotes/markdown-minimal",
   "publishConfig": {
     "access": "public"
   },

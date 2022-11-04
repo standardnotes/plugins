@@ -4348,29 +4348,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sncommunity/markdown-minimal@workspace:packages/com.sncommunity.minimal-markdown":
-  version: 0.0.0-use.local
-  resolution: "@sncommunity/markdown-minimal@workspace:packages/com.sncommunity.minimal-markdown"
-  dependencies:
-    "@babel/core": ^7.11.1
-    "@babel/preset-env": ^7.11.0
-    "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"
-    babel-cli: ^6.26.0
-    codemirror: ^5.56.0
-    grunt: ^1.2.1
-    grunt-babel: ^8.0.0
-    grunt-browserify: ^5.3.0
-    grunt-contrib-concat: ^1.0.1
-    grunt-contrib-copy: ^1.0.0
-    grunt-contrib-sass: ^1.0.0
-    grunt-contrib-watch: ^1.1.0
-    grunt-newer: ^1.3.0
-    sass: "*"
-    sn-codemirror-search: 1.0.0
-    sn-stylekit: 2.1.0
-  languageName: unknown
-  linkType: soft
-
 "@standardnotes/advanced-checklist@workspace:packages/com.sncommunity.advanced-checklist":
   version: 0.0.0-use.local
   resolution: "@standardnotes/advanced-checklist@workspace:packages/com.sncommunity.advanced-checklist"
@@ -4774,6 +4751,29 @@ __metadata:
     markdown-it-task-lists: ^2.1.1
     sass: "*"
     sn-stylekit: 2.0.20
+  languageName: unknown
+  linkType: soft
+
+"@standardnotes/markdown-minimal@workspace:packages/com.sncommunity.minimal-markdown":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/markdown-minimal@workspace:packages/com.sncommunity.minimal-markdown"
+  dependencies:
+    "@babel/core": ^7.11.1
+    "@babel/preset-env": ^7.11.0
+    "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"
+    babel-cli: ^6.26.0
+    codemirror: ^5.56.0
+    grunt: ^1.2.1
+    grunt-babel: ^8.0.0
+    grunt-browserify: ^5.3.0
+    grunt-contrib-concat: ^1.0.1
+    grunt-contrib-copy: ^1.0.0
+    grunt-contrib-sass: ^1.0.0
+    grunt-contrib-watch: ^1.1.0
+    grunt-newer: ^1.3.0
+    sass: "*"
+    sn-codemirror-search: 1.0.0
+    sn-stylekit: 2.1.0
   languageName: unknown
   linkType: soft
 
