@@ -26,3 +26,18 @@ cdn/dist/src
 
 packages/**/build
 packages/**/dist
+
+!packages/org.standardnotes.advanced-markdown-editor/dist
+!packages/org.standardnotes.code-editor/dist
+!packages/org.standardnotes.markdown-visual-editor/dist
+!packages/org.standardnotes.plus-editor/dist
+!packages/org.standardnotes.simple-task-editor/dist
+!packages/org.standardnotes.standard-sheets/dist
+!packages/org.standardnotes.theme-autobiography/dist
+!packages/org.standardnotes.theme-dynamic/dist
+!packages/org.standardnotes.theme-focus/dist
+!packages/org.standardnotes.theme-futura/dist
+!packages/org.standardnotes.theme-midnight/dist
+!packages/org.standardnotes.theme-solarized-dark/dist
+!packages/org.standardnotes.theme-titanium/dist
+!packages/org.standardnotes.token-vault/dist
