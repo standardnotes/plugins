@@ -12,6 +12,10 @@
       "cdn"
     ]
   },
+  "files": [
+    "packages/*",
+    "cdn"
+  ],
   "scripts": {
     "build": "yarn workspaces foreach --verbose --interlaced -pt --topological-dev --jobs 10 run build",
     "clean": "lerna run clean",
