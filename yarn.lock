@@ -5035,6 +5035,8 @@ __metadata:
 "@standardnotes/titanium-theme@workspace:packages/org.standardnotes.theme-titanium":
   version: 0.0.0-use.local
   resolution: "@standardnotes/titanium-theme@workspace:packages/org.standardnotes.theme-titanium"
+  dependencies:
+    webpack: "*"
   languageName: unknown
   linkType: soft
 
