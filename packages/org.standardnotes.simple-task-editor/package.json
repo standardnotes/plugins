@@ -1,7 +1,7 @@
 {
   "name": "@standardnotes/simple-task-editor",
   "private": true,
-  "version": "1.5.2",
+  "version": "1.5.3",
   "main": "dist/dist.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
