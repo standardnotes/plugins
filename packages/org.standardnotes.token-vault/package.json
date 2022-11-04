@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/authenticator",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "main": "dist/dist.js",
   "author": "Standard Notes Core",
   "private": true,
