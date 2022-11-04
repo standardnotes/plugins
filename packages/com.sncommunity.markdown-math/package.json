@@ -1,6 +1,8 @@
 {
   "name": "@standardnotes/markdown-math",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.4.1",
   "description": "",
   "main": "index.js",

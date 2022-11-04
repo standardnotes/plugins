@@ -1,6 +1,8 @@
 {
   "name": "@standardnotes/markdown-basic",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.6.1",
   "main": "dist/dist.js",
   "author": "Standard Notes Retired",
