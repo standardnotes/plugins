@@ -2,6 +2,7 @@
   "name": "@standardnotes/futura-theme",
   "version": "1.4.5",
   "main": "dist/dist.css",
+  "author": "Standard Notes",
   "publishConfig": {
     "access": "public"
   },

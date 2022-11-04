@@ -6,7 +6,7 @@
   },
   "description": "A code editor for Standard Notes",
   "main": "dist/main.js",
-  "author": "Standard Notes <hello@standardnotes.org>",
+  "author": "Standard Notes",
   "license": "AGPL-3.0",
   "scripts": {
     "start": "http-server . --cors -p8001 & webpack --progress --config webpack.dev.js",

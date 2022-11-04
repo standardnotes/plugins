@@ -4,6 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "author": "Standard Notes",
   "main": "dist/dist.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
