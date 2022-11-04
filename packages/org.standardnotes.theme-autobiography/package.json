@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/autobiography-theme",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "main": "dist/dist.css",
   "publishConfig": {
     "access": "public"

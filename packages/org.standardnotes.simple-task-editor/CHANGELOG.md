@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.6](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.5.5...@standardnotes/simple-task-editor@1.5.6) (2022-11-04)
+
+**Note:** Version bump only for package @standardnotes/simple-task-editor
+
 ## [1.5.5](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.5.4...@standardnotes/simple-task-editor@1.5.5) (2022-11-04)
 
 **Note:** Version bump only for package @standardnotes/simple-task-editor
