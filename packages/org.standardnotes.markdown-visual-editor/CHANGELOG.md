@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2022-11-04)
+
+### Features
+
+* add core plugins ([b607787](https://github.com/standardnotes/plugins/commit/b60778762306f5647cb715102eab23083b266718))
+
 ## [1.1.5](https://github.com/standardnotes/app/compare/@standardnotes/markdown-visual@1.1.4...@standardnotes/markdown-visual@1.1.5) (2022-11-01)
 
 **Note:** Version bump only for package @standardnotes/markdown-visual

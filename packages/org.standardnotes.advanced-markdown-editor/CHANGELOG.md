@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.7.0 (2022-11-04)
+
+### Features
+
+* add core plugins ([b607787](https://github.com/standardnotes/plugins/commit/b60778762306f5647cb715102eab23083b266718))
+
 ## [1.6.2](https://github.com/standardnotes/app/compare/@standardnotes/markdown-hybrid@1.6.1...@standardnotes/markdown-hybrid@1.6.2) (2022-07-13)
 
 **Note:** Version bump only for package @standardnotes/markdown-hybrid

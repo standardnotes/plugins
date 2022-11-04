@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.8.0 (2022-11-04)
+
+### Features
+
+* add core plugins ([b607787](https://github.com/standardnotes/plugins/commit/b60778762306f5647cb715102eab23083b266718))
+
 ## [1.7.1](https://github.com/standardnotes/app/compare/@standardnotes/rich-text@1.7.0...@standardnotes/rich-text@1.7.1) (2022-07-13)
 
 **Note:** Version bump only for package @standardnotes/rich-text
