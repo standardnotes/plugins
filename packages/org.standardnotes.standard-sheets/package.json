@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/spreadsheets",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "publishConfig": {
     "access": "public"
   },

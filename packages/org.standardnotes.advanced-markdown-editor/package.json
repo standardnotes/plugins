@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/markdown-hybrid",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "publishConfig": {
     "access": "public"
   },

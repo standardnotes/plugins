@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.5](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.3.4...@standardnotes/authenticator@2.3.5) (2022-11-04)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
 ## [2.3.4](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.3.3...@standardnotes/authenticator@2.3.4) (2022-11-04)
 
 **Note:** Version bump only for package @standardnotes/authenticator

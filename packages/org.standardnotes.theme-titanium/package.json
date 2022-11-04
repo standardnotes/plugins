@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/titanium-theme",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "main": "dist/dist.css",
   "publishConfig": {
     "access": "public"
