@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "Standard Notes",
+  "author": "Standard Notes.",
   "main": "dist/dist.js",
   "scripts": {
     "skip:lint": "eslint app/ --ext .js",

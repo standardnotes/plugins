@@ -16,7 +16,7 @@
     "build": "yarn workspaces foreach --verbose --interlaced -pt --topological-dev --jobs 10 run build",
     "clean": "lerna run clean",
     "release": "lerna version --conventional-commits --yes -m \"chore(release): publish\"",
-    "publish": "lerna publish from-git --yes --no-verify-access",
+    "publish": "lerna publish from-git --yes --no-verify-access --loglevel verbose",
     "version": "yarn install --no-immutable && git add yarn.lock",
     "postversion": "./scripts/push-tags-one-by-one.sh",
     "dev:reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock && yarn install",
