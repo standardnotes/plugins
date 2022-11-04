@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2022-11-04)
+
+### Features
+
+* add advanced checklist editor ([#3](https://github.com/standardnotes/plugins/issues/3)) ([71ae54d](https://github.com/standardnotes/plugins/commit/71ae54de2b1563c39a885d1ae6d3b30c0ba72eae))
+* individual package entries ([8405d41](https://github.com/standardnotes/plugins/commit/8405d418f5110dd54310d180ffe7c319e61300bd))
+* initial commit ([cf09e92](https://github.com/standardnotes/plugins/commit/cf09e925f915349a64c16905140a2b7b50d1b69b))
+
 ## [1.2.1](https://github.com/standardnotes/plugins/compare/@sncommunity/markdown-minimal@1.2.0...@sncommunity/markdown-minimal@1.2.1) (2022-11-04)
 
 **Note:** Version bump only for package @sncommunity/markdown-minimal
