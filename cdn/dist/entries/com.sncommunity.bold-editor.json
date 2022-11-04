@@ -7,11 +7,11 @@
   "main": "dist/index.html",
   "file_type": "html",
   "identifier": "com.sncommunity.bold-editor",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.bold-editor/dist/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.bold-editor.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.bold-editor.json",
   "publisher": "Standard Notes Retired",
-  "base64Hash": "64487808bbcfc929b5325d641e3b2a8f5cbe11940af7a7344c85f5997f14980e",
-  "binaryHash": "563aa60a970efe21ae7bab95bf737663f4eaa6bd3f07746626088cd2d27f4d3c"
+  "base64Hash": "efe2c23ae524a81c905c64cf6b73741a0c3697ff620560993479ea5b1796e4b7",
+  "binaryHash": "445570b91d8a2be5209f320278ccc030cb6624454a46f42da18091f29e2d3ba8"
 }
