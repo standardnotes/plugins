@@ -7,11 +7,11 @@
   "main": "dist/index.html",
   "file_type": "txt",
   "identifier": "com.sncommunity.markdown-basic",
-  "version": "1.5.0",
+  "version": "1.6.1",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-basic/dist/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-basic.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json",
   "publisher": "Standard Notes Retired",
-  "base64Hash": "c1447677dddf7473dc9f84242280b1c4df41f2610eaae3fa1a826b71f433c9c9",
-  "binaryHash": "5b3de1ca9d444a792740db5d3255da7f838698f5267ac0bdf0b204dc69b80043"
+  "base64Hash": "746ae35c7378badf1242bb63dcfd4c34014f66b997fa6ffc9ab41b0c9120b6bf",
+  "binaryHash": "08906bf3a6b6339b5f42f7f42784ff497fc18de2bd7e007fb1c91c41bccb7912"
 }

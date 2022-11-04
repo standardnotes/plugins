@@ -7,11 +7,11 @@
   "main": "index.html",
   "file_type": "txt",
   "identifier": "com.sncommunity.markdown-math",
-  "version": "1.3.10",
+  "version": "1.4.1",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-math/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-math.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json",
   "publisher": "Standard Notes Retired",
-  "base64Hash": "eba90210b0dd862efd22b56a2c7578e272e75749e495eceddf96bb4e5864a737",
-  "binaryHash": "5d30a5150289a46fbb27e510ac1ce5e6ec7d2691c30e988767283d1f672aaa62"
+  "base64Hash": "a174ac58cab9914c314a45d08a2f291194be7869a28511a2e43e9da5595f1268",
+  "binaryHash": "f082a4c81dfd4a11388734ee52ec63531daeeb8ff305cc4f13ea51eb9c3fe217"
 }

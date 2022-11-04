@@ -8,13 +8,13 @@
     "note_type": "markdown",
     "file_type": "txt",
     "identifier": "com.sncommunity.minimal-markdown",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.minimal-markdown/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.minimal-markdown.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.minimal-markdown.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "c2870aa5772317d47084470f909ba8ece19d6c774ade7748c0e81933afdb1dea",
-    "binaryHash": "e14ff8a94857bfda61f3d7a583c6995a43d6982cfd1aa190fa21942c0dc17137"
+    "base64Hash": "88864a517b48c1bda7d84f1efe5e2363e65868580caa9add69a63db6261dfd6b",
+    "binaryHash": "f37d62636e6b4334f4f7353b70058f0560b24d68588d60a7e59917c4953d6b86"
   },
   "com.sncommunity.bold-editor": {
     "name": "Bold Editor",
@@ -25,13 +25,13 @@
     "main": "dist/index.html",
     "file_type": "html",
     "identifier": "com.sncommunity.bold-editor",
-    "version": "1.5.0",
+    "version": "1.6.3",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.bold-editor/dist/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.bold-editor.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.bold-editor.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "2b101520c9cd9081599aea3911b12c63fd3224386657146cd0906e86f6bedb9e",
-    "binaryHash": "6508fcb47aebd412f1d6861f0d1ab9e43d263042c5357d41edb06811ed56c689"
+    "base64Hash": "4b69861f9e47a1a23909330b078a7d827370ebfa7772ee3de90ee103aaff8695",
+    "binaryHash": "d451553a82ce4a4d4d60ea8231a2bb653daf38a0f7e0b112b0083187fe664c85"
   },
   "com.sncommunity.advanced-checklist": {
     "name": "Advanced Checklist",
@@ -42,13 +42,13 @@
     "main": "build/index.html",
     "file_type": "json",
     "identifier": "com.sncommunity.advanced-checklist",
-    "version": "0.3.3",
+    "version": "0.4.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.advanced-checklist/build/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.advanced-checklist.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "453b8c93119d48bde0d1c71ec692d9e3a044d4c9e60055447d07c20ca1fae4fb",
-    "binaryHash": "ef6cb405bc7da6d60a1f0cfc8024b527e007419cff3aa1ba6813866c86d13fc3"
+    "base64Hash": "9de14b858ee4d89571d479824e78695fcd18fd1dc82dabfc70b1b8ed76fc1513",
+    "binaryHash": "e15460bdc23f0bd633e2d632ca8f077806234b93ff57473a7fc0acf4ecdd686e"
   },
   "com.sncommunity.markdown-basic": {
     "name": "Basic Markdown",
@@ -59,13 +59,13 @@
     "main": "dist/index.html",
     "file_type": "txt",
     "identifier": "com.sncommunity.markdown-basic",
-    "version": "1.5.0",
+    "version": "1.6.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-basic/dist/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-basic.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "c1447677dddf7473dc9f84242280b1c4df41f2610eaae3fa1a826b71f433c9c9",
-    "binaryHash": "5b3de1ca9d444a792740db5d3255da7f838698f5267ac0bdf0b204dc69b80043"
+    "base64Hash": "746ae35c7378badf1242bb63dcfd4c34014f66b997fa6ffc9ab41b0c9120b6bf",
+    "binaryHash": "08906bf3a6b6339b5f42f7f42784ff497fc18de2bd7e007fb1c91c41bccb7912"
   },
   "com.sncommunity.markdown-math": {
     "name": "Markdown Math",
@@ -76,12 +76,12 @@
     "main": "index.html",
     "file_type": "txt",
     "identifier": "com.sncommunity.markdown-math",
-    "version": "1.3.10",
+    "version": "1.4.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-math/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-math.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "eba90210b0dd862efd22b56a2c7578e272e75749e495eceddf96bb4e5864a737",
-    "binaryHash": "5d30a5150289a46fbb27e510ac1ce5e6ec7d2691c30e988767283d1f672aaa62"
+    "base64Hash": "a174ac58cab9914c314a45d08a2f291194be7869a28511a2e43e9da5595f1268",
+    "binaryHash": "f082a4c81dfd4a11388734ee52ec63531daeeb8ff305cc4f13ea51eb9c3fe217"
   }
 }

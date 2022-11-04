@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', function (event) {
       if (platform) {
         document.body.classList.add(platform);
       }
+    },
+    handleRequestForContentHeight: function handleRequestForContentHeight() {
+      return undefined;
     }
   });
   componentRelay.streamContextItem(function (note) {

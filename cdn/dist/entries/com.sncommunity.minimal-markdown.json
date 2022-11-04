@@ -7,11 +7,11 @@
   "note_type": "markdown",
   "file_type": "txt",
   "identifier": "com.sncommunity.minimal-markdown",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.minimal-markdown/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.minimal-markdown.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.minimal-markdown.json",
   "publisher": "Standard Notes Retired",
-  "base64Hash": "c2870aa5772317d47084470f909ba8ece19d6c774ade7748c0e81933afdb1dea",
-  "binaryHash": "e14ff8a94857bfda61f3d7a583c6995a43d6982cfd1aa190fa21942c0dc17137"
+  "base64Hash": "88864a517b48c1bda7d84f1efe5e2363e65868580caa9add69a63db6261dfd6b",
+  "binaryHash": "f37d62636e6b4334f4f7353b70058f0560b24d68588d60a7e59917c4953d6b86"
 }
