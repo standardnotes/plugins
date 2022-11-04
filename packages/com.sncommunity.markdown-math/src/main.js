@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function (event) {
         document.body.classList.add(platform)
       }
     },
+    handleRequestForContentHeight: () => {
+      return undefined
+    },
   })
 
   componentRelay.streamContextItem((note) => {

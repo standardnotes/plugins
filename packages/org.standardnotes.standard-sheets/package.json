@@ -15,7 +15,7 @@
     "main": "dist/index.html"
   },
   "dependencies": {
-    "@standardnotes/component-relay": "workspace:*"
+    "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",

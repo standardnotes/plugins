@@ -21,7 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
-    "@standardnotes/component-relay": "2.2.0",
+    "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d",
     "babel-cli": "^6.26.0",
     "codemirror": "^5.56.0",
     "grunt": "^1.2.1",

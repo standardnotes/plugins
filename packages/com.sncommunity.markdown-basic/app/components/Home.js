@@ -111,7 +111,10 @@ export default class Home extends React.Component {
       onReady: () => {
         const { platform } = this.componentRelay;
         this.setState({ platform });
-      }
+      },
+      handleRequestForContentHeight: () => {
+        return undefined
+      },
     });
 
     this.componentRelay.streamContextItem((note) => {

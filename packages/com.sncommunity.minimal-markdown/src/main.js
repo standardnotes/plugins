@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', function (event) {
         // only use CodeMirror selection color if we're not on mobile.
         editor.setOption('styleSelectedText', !componentRelay.isMobile)
       },
+      handleRequestForContentHeight: () => {
+        return undefined
+      },
     })
 
     componentRelay.streamContextItem((note) => {

@@ -18,7 +18,7 @@
     "skip:format": "prettier --write 'src/**/*.{html,css,scss,js,jsx,ts,tsx,json}' README.md"
   },
   "dependencies": {
-    "@standardnotes/component-relay": "workspace:*"
+    "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",

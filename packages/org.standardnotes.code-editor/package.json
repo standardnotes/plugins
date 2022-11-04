@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@standardnotes/component-relay": "workspace:*"
+    "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
