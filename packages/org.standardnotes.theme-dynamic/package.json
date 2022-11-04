@@ -2,7 +2,7 @@
   "name": "@standardnotes/dynamic-theme",
   "version": "1.2.7",
   "main": "dist/dist.css",
-  "author": "Standard Notes.",
+  "author": "Standard Notes",
   "publishConfig": {
     "access": "public"
   },

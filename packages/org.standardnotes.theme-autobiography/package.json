@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "Standard Notes",
+  "author": "Standard Notes.",
   "sn": {
     "main": "dist/dist.css"
   },
