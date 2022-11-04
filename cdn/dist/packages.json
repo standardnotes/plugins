@@ -13,8 +13,8 @@
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.minimal-markdown.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.minimal-markdown.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "88864a517b48c1bda7d84f1efe5e2363e65868580caa9add69a63db6261dfd6b",
-    "binaryHash": "f37d62636e6b4334f4f7353b70058f0560b24d68588d60a7e59917c4953d6b86"
+    "base64Hash": "79ab6facb39743a44d8fea6bb7d081d33fbd8866d142da5e330666caaaab26e0",
+    "binaryHash": "990f58f038ce0ec1209249e84f14de3acb50e094cbb00541600a5eea7c905e07"
   },
   "com.sncommunity.bold-editor": {
     "name": "Bold Editor",
@@ -30,8 +30,8 @@
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.bold-editor.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.bold-editor.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "4b69861f9e47a1a23909330b078a7d827370ebfa7772ee3de90ee103aaff8695",
-    "binaryHash": "d451553a82ce4a4d4d60ea8231a2bb653daf38a0f7e0b112b0083187fe664c85"
+    "base64Hash": "64487808bbcfc929b5325d641e3b2a8f5cbe11940af7a7344c85f5997f14980e",
+    "binaryHash": "563aa60a970efe21ae7bab95bf737663f4eaa6bd3f07746626088cd2d27f4d3c"
   },
   "com.sncommunity.advanced-checklist": {
     "name": "Advanced Checklist",
@@ -64,8 +64,8 @@
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-basic.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "746ae35c7378badf1242bb63dcfd4c34014f66b997fa6ffc9ab41b0c9120b6bf",
-    "binaryHash": "08906bf3a6b6339b5f42f7f42784ff497fc18de2bd7e007fb1c91c41bccb7912"
+    "base64Hash": "fb8f43249f424c7d823b9c03feefad639775fa508f75782f9aebe6958cc81805",
+    "binaryHash": "e70df4fc187e7c900bab9ecc1026895f90c6c793016545f9db01ad802ea33331"
   },
   "com.sncommunity.markdown-math": {
     "name": "Markdown Math",
@@ -81,7 +81,7 @@
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-math.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "a174ac58cab9914c314a45d08a2f291194be7869a28511a2e43e9da5595f1268",
-    "binaryHash": "f082a4c81dfd4a11388734ee52ec63531daeeb8ff305cc4f13ea51eb9c3fe217"
+    "base64Hash": "921b22a9ef0a598416fc939f846ef6a452e79d52fe37ac8ee56becf6f94cd41a",
+    "binaryHash": "0c28d4b2346caffb4d31c9e136e7d04b301a19314eaa73c7fa9a2732cd744f48"
   }
 }
