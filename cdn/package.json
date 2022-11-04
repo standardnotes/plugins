@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "package": "yarn build && node scripts/Package.mjs",
+    "package": "node scripts/Package.mjs",
     "compile": "./scripts/Compile.sh"
   },
   "devDependencies": {
