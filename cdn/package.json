@@ -7,8 +7,6 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint src/ --ext .ts,.tsx",
-    "build": "yarn tsc --project tsconfig.json",
     "package": "yarn build && node scripts/Package.mjs",
     "compile": "./scripts/Compile.sh"
   },

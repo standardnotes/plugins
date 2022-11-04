@@ -16,13 +16,7 @@ jobs:
         run: yarn install
 
       - name: Build packages
-        run: yarn build:packages
-
-      - name: Lint cdn
-        run: yarn lint:cdn
-
-      - name: Build cdn
-        run: yarn build:cdn
+        run: yarn build
 
       - name: Test packaging
         run: yarn workspace @standardnotes/community-cdn run package

@@ -35,6 +35,9 @@ export default class Editor extends React.Component {
       insertRawText: (rawText) => {
         this.redactor.insertion.insertHtml(rawText);
       },
+      handleRequestForContentHeight: () => {
+        return undefined
+      },
       preprocessElement: (element) => {
         // Convert inserting element to format Redactor wants.
         // This will wrap img elements, for example, in a figure element.

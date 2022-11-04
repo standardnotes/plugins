@@ -9,7 +9,6 @@ import { spawnSync as spawn } from 'child_process'
 import zip from '@standardnotes/deterministic-zip'
 import minimatch from 'minimatch'
 
-import { Packages } from '../dist/src/Packages.js'
 import { ensureDirExists, doesDirExist, emptyExistingDir } from '../../scripts/ScriptUtils.mjs'
 
 import { writePackageDirectoryToReadme } from './Readme.mjs'
@@ -19,6 +18,7 @@ const __dirname = path.dirname(__filename)
 
 console.log('Beginning packaging procedure...')
 
+const Packages = JSON.parse(fs.readFileSync(path.join(__dirname, '../plugins.json')).toString())
 const SourceFilesPath = path.join(__dirname, '../../packages')
 
 const DistDir = path.join(__dirname, '../dist')

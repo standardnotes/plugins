@@ -75,11 +75,13 @@ const TaskEditor: React.FC = () => {
       onNoteLockToggle: (locked: boolean) => {
         dispatch(setCanEdit(!locked))
       },
+      handleRequestForContentHeight: () => {
+        return undefined
+      }
     }
 
     editorKit.current = new EditorKit(editorKitDelegate, {
       mode: 'json',
-      supportsFileSafe: false,
     })
   }, [dispatch])
 

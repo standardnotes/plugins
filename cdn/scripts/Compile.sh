@@ -2,7 +2,7 @@
 
 echo 'Building packages from' $(pwd)
 
-yarn build:packages
+yarn build
 
 echo "Packaging packages assets and zips..."
 
