@@ -37,7 +37,10 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Compile and Commit Plugins
+      - name: Build plugins
+        run: yarn build
+
+      - name: Package Plugins
         run: yarn workspace @standardnotes/community-cdn compile
 
       - name: Release
