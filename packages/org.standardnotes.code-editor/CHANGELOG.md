@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/standardnotes/plugins/compare/@standardnotes/classic-code-editor@1.5.0...@standardnotes/classic-code-editor@1.5.1) (2022-11-04)
+
+**Note:** Version bump only for package @standardnotes/classic-code-editor
+
 # 1.5.0 (2022-11-04)
 
 ### Features
