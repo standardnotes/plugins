@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.6.7...@standardnotes/spreadsheets@1.7.0) (2022-12-07)
+
+### Features
+
+* add Dracula theme ([6b93b30](https://github.com/standardnotes/plugins/commit/6b93b3005acaceb0d51ebabe6fcb9e7aa12f152e))
+
 ## [1.6.7](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.6.6...@standardnotes/spreadsheets@1.6.7) (2022-11-04)
 
 **Note:** Version bump only for package @standardnotes/spreadsheets
