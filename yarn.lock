@@ -4448,14 +4448,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@standardnotes/autobiography-theme@workspace:packages/org.standardnotes.theme-autobiography":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/autobiography-theme@workspace:packages/org.standardnotes.theme-autobiography"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
-
 "@standardnotes/bold-editor@workspace:packages/com.sncommunity.bold-editor":
   version: 0.0.0-use.local
   resolution: "@standardnotes/bold-editor@workspace:packages/com.sncommunity.bold-editor"
@@ -4567,9 +4559,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@standardnotes/dynamic-theme@workspace:packages/org.standardnotes.theme-dynamic":
+"@standardnotes/dracula-theme@workspace:packages/com.sncommunity.dracula-theme":
   version: 0.0.0-use.local
-  resolution: "@standardnotes/dynamic-theme@workspace:packages/org.standardnotes.theme-dynamic"
+  resolution: "@standardnotes/dracula-theme@workspace:packages/com.sncommunity.dracula-theme"
   dependencies:
     webpack: "*"
   languageName: unknown
@@ -4634,22 +4626,6 @@ __metadata:
   checksum: ff3684399e0e0c0e799f11e69dddea2e1f65f315e5a5dd3ca5640e24e836ee85faf1f5ee15fc804411bf083004527fcef08411d5c2d0b5894491bf2f28ceca68
   languageName: node
   linkType: hard
-
-"@standardnotes/focus-theme@workspace:packages/org.standardnotes.theme-focus":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/focus-theme@workspace:packages/org.standardnotes.theme-focus"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
-
-"@standardnotes/futura-theme@workspace:packages/org.standardnotes.theme-futura":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/futura-theme@workspace:packages/org.standardnotes.theme-futura"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
 
 "@standardnotes/markdown-basic@workspace:packages/com.sncommunity.markdown-basic":
   version: 0.0.0-use.local
@@ -4828,14 +4804,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@standardnotes/midnight-theme@workspace:packages/org.standardnotes.theme-midnight":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/midnight-theme@workspace:packages/org.standardnotes.theme-midnight"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
-
 "@standardnotes/models@npm:1.34.3":
   version: 1.34.3
   resolution: "@standardnotes/models@npm:1.34.3"
@@ -4968,14 +4936,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@standardnotes/solarized-dark-theme@workspace:packages/org.standardnotes.theme-solarized-dark":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/solarized-dark-theme@workspace:packages/org.standardnotes.theme-solarized-dark"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
-
 "@standardnotes/spreadsheets@workspace:packages/org.standardnotes.standard-sheets":
   version: 0.0.0-use.local
   resolution: "@standardnotes/spreadsheets@workspace:packages/org.standardnotes.standard-sheets"
@@ -5031,14 +4991,6 @@ __metadata:
   checksum: e0a9e6732edcd4df9d8861377a5e9fa50708b46f8ce59df43053aeb321cc7b900560ac5c51a06c8a1f58f0cd5cb2a4b99b187490100529fa5d2905ffdfd7c486
   languageName: node
   linkType: hard
-
-"@standardnotes/titanium-theme@workspace:packages/org.standardnotes.theme-titanium":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/titanium-theme@workspace:packages/org.standardnotes.theme-titanium"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
 
 "@standardnotes/utils@npm:1.9.0":
   version: 1.9.0
