@@ -25,3 +25,4 @@ In Standard Notes desktop or web:
 |Advanced Checklist|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json|
 |Basic Markdown|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json|
 |Markdown Math|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json|
+|undefined|Standard Notes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json|

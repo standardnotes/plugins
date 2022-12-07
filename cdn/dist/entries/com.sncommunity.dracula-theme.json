@@ -1,0 +1,11 @@
+{
+  "main": "dist/dist.css",
+  "identifier": "com.sncommunity.dracula-theme",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.dracula-theme/dist/dist.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.dracula-theme.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json",
+  "publisher": "Standard Notes",
+  "base64Hash": "9a1d4714a4a775fa9b0898bf7fd75d938572659f01b044b45edf651913b69870",
+  "binaryHash": "a84f65f0a2ccc056dc20cd4be7c15e0f69d88c80430147acef8b7fc8b2b997c1"
+}
