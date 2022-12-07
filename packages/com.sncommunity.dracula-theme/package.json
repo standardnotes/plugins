@@ -7,6 +7,9 @@
     "access": "public"
   },
   "sn": {
+    "name": "Dracula",
+    "content_type": "SN|Component",
+    "area": "themes",
     "main": "dist/dist.css"
   },
   "scripts": {
