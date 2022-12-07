@@ -1,14 +1,14 @@
 {
   "name": "Dracula",
-  "content_type": "SN|Component",
+  "content_type": "SN|Theme",
   "area": "themes",
   "main": "dist/dist.css",
   "identifier": "com.sncommunity.dracula-theme",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.dracula-theme/dist/dist.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.dracula-theme.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json",
   "publisher": "Standard Notes",
-  "base64Hash": "c887971c48cb87bdb4049acbf08c78e2c6f148920d512b8c1fcc7837ec5dbcd4",
-  "binaryHash": "51be649a4119d481b37d3a605dca602056f3499b821232d0a0b9eabcfec883b0"
+  "base64Hash": "aec65b99ee21f339c76ad36f2c4bca949f14b30acf5aa5254c7cf7d25ee8f4d7",
+  "binaryHash": "3feb8a259955dabc20695bed8f071a143caad88f9a6d8e6b190e9105451e6354"
 }
