@@ -8,7 +8,7 @@
   },
   "sn": {
     "name": "Dracula",
-    "content_type": "SN|Component",
+    "content_type": "SN|Theme",
     "area": "themes",
     "main": "dist/dist.css"
   },
