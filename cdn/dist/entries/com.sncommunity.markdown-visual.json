@@ -1,0 +1,17 @@
+{
+  "name": "Markdown Visual",
+  "content_type": "SN|Component",
+  "main": "build/index.html",
+  "area": "editor-editor",
+  "spellcheckControl": true,
+  "note_type": "markdown",
+  "file_type": "txt",
+  "identifier": "com.sncommunity.markdown-visual",
+  "version": "1.2.3",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-visual/build/index.html",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-visual.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json",
+  "publisher": "Standard Notes.",
+  "base64Hash": "df4f93bee093bab0ecdbcc185598fa3060ebb838f8e97eec94f33728f5483c3d",
+  "binaryHash": "594ce6b21c469b8de0d3252f8720c1c533503a29cde70c8c5439deeb05211d24"
+}
