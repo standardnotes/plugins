@@ -4753,9 +4753,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@standardnotes/markdown-visual@workspace:packages/org.standardnotes.markdown-visual-editor":
+"@standardnotes/markdown-visual@workspace:packages/com.sncommunity.markdown-visual":
   version: 0.0.0-use.local
-  resolution: "@standardnotes/markdown-visual@workspace:packages/org.standardnotes.markdown-visual-editor"
+  resolution: "@standardnotes/markdown-visual@workspace:packages/com.sncommunity.markdown-visual"
   dependencies:
     "@codemirror/lang-markdown": ^0.19.6
     "@milkdown/core": 5.5.0

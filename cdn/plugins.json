@@ -20,6 +20,10 @@
     "staticFiles": ["index.html", "dist", "build", "package.json"]
   },
   {
+    "identifier": "com.sncommunity.markdown-visual",
+    "staticFiles": ["index.html", "dist", "build", "package.json"]
+  },
+  {
     "identifier": "com.sncommunity.dracula-theme",
     "staticFiles": ["dist", "package.json"]
   }
