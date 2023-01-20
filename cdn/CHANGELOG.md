@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.7.2...@standardnotes/community-cdn@0.8.0) (2023-01-20)
+
+### Features
+
+* designate markdown visual as community ([25c2b06](https://github.com/standardnotes/plugins/commit/25c2b0691c56c0eb96d5c2989ff2a9362dac37c2))
+
 ## [0.7.2](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.7.1...@standardnotes/community-cdn@0.7.2) (2022-12-07)
 
 **Note:** Version bump only for package @standardnotes/community-cdn
