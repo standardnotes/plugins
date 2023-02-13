@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-visual@1.3.0...@standardnotes/markdown-visual@1.3.1) (2023-02-13)
+
+### Bug Fixes
+
+* markdown alternative width issue on mobile ([94a080a](https://github.com/standardnotes/plugins/commit/94a080a381e4e7c1acea95ebe7824e947ce3834b))
+
 # [1.3.0](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-visual@1.2.3...@standardnotes/markdown-visual@1.3.0) (2023-01-20)
 
 ### Features
