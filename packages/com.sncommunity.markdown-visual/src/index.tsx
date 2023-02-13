@@ -20,6 +20,7 @@ enum TextChangeSource {
 type AppProps = {}
 type AppState = {
   splitView: boolean
+  splitViewDirection: SplitViewDirection
   editable: boolean
   spellcheck: boolean
   isLoading: boolean
@@ -37,14 +38,22 @@ class AppWrapper extends Component<AppProps, AppState> {
 
     this.state = {
       splitView: false,
+      splitViewDirection: this.getSplitViewDirection(),
       editable: true,
       spellcheck: true,
       isLoading: true,
     }
+
+    this.handleSplitViewDirectionChange = this.handleSplitViewDirectionChange.bind(this)
   }
 
   componentDidMount() {
     this.configureEditorKit()
+    window.matchMedia('(max-width: 768px)').addEventListener('change', this.handleSplitViewDirectionChange)
+  }
+
+  componentWillUnmount(): void {
+    window.matchMedia('(max-width: 768px)').removeEventListener('change', this.handleSplitViewDirectionChange)
   }
 
   private configureEditorKit() {
@@ -146,13 +155,15 @@ class AppWrapper extends Component<AppProps, AppState> {
     })
   }
 
-  private getSplitViewDirection = (environment: string): SplitViewDirection => {
-    const environmentDirectionMap: Record<string, SplitViewDirection> = {
-      web: SplitViewDirection.Horizontal,
-      desktop: SplitViewDirection.Horizontal,
-      mobile: SplitViewDirection.Vertical,
-    }
-    return environmentDirectionMap[environment]
+  private getSplitViewDirection = (): SplitViewDirection => {
+    const isMobile = window.innerWidth < 768
+    return isMobile ? SplitViewDirection.Vertical : SplitViewDirection.Horizontal
+  }
+
+  private handleSplitViewDirectionChange = (event: MediaQueryListEvent) => {
+    this.setState({
+      splitViewDirection: this.getSplitViewDirection(),
+    })
   }
 
   private truncateString(text: string, limit = 90) {
@@ -163,14 +174,11 @@ class AppWrapper extends Component<AppProps, AppState> {
   }
 
   render() {
-    const { splitView, editable, spellcheck, isLoading } = this.state
+    const { splitView, splitViewDirection, editable, spellcheck, isLoading } = this.state
 
     if (isLoading) {
       return null
     }
-
-    const environment = this.editorKit?.environment ?? 'web'
-    const splitViewDirection = this.getSplitViewDirection(environment)
 
     const customMenu: MenuConfig = [
       ...menuConfig,
