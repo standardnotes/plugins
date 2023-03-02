@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.4.1...@standardnotes/advanced-checklist@0.4.2) (2023-03-02)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
 ## [0.4.1](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.4.0...@standardnotes/advanced-checklist@0.4.1) (2022-11-04)
 
 **Note:** Version bump only for package @standardnotes/advanced-checklist
