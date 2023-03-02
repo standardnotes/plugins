@@ -18,6 +18,10 @@
     "main": "build/index.html",
     "file_type": "json"
   },
+  "files": [
+    "build",
+    "package.json"
+  ],
   "homepage": ".",
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
