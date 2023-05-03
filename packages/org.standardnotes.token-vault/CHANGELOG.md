@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.3.9...@standardnotes/authenticator@2.4.0) (2023-05-03)
+
+### Features
+
+* **authenticator:** add export option for entries ([6704483](https://github.com/standardnotes/plugins/commit/67044839b3bc45e366795ecbfb12c78bdbcc22cb))
+
 ## [2.3.9](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.3.7...@standardnotes/authenticator@2.3.9) (2022-11-04)
 
 **Note:** Version bump only for package @standardnotes/authenticator
