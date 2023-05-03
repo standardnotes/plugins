@@ -7,11 +7,11 @@
   "note_type": "markdown",
   "file_type": "txt",
   "identifier": "com.sncommunity.markdown-visual",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-visual/build/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-visual.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json",
   "publisher": "Standard Notes.",
-  "base64Hash": "b982adedf1f665cfd09348e8719c737d4c94e9b75f32a35d79716b0ee038d360",
-  "binaryHash": "af87bd66234b74eddbdc45a9e5ed14120649ad5ad7fa20e5de922d9905931982"
+  "base64Hash": "a43d1f5291a6db1dd0e25e714bd4c27cc5becde58f696678b8660c5bd3c2c1df",
+  "binaryHash": "3e9030eec2af8aac0b952cd6939e9b5a32af5cdae7301c1ee07c906d97bb0c04"
 }
