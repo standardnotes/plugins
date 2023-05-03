@@ -114,7 +114,7 @@ export default class AuthEntry extends React.Component {
 
   render() {
     const { service, account, notes, password, secret } = this.props.entry
-    const { id, onEdit, onRemove, canEdit, style, innerRef, ...divProps } = this.props
+    const { id, onEdit, onRemove, onExport, canEdit, style, innerRef, ...divProps } = this.props
     const { token, timeLeft, entryStyle } = this.state
 
     delete divProps.onCopyValue
@@ -178,6 +178,7 @@ export default class AuthEntry extends React.Component {
               <AuthMenu
                 onEdit={onEdit.bind(this, id)}
                 onRemove={onRemove.bind(this, id)}
+                onExport={onExport.bind(this, id)}
                 buttonColor={entryStyle.color}
               />
             </div>
@@ -193,6 +194,7 @@ AuthEntry.propTypes = {
   entry: PropTypes.object.isRequired,
   onEdit: PropTypes.func.isRequired,
   onRemove: PropTypes.func.isRequired,
+  onExport: PropTypes.func.isRequired,
   onEntryChange: PropTypes.func,
   onCopyValue: PropTypes.func.isRequired,
   canEdit: PropTypes.bool.isRequired,

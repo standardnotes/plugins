@@ -1,15 +1,15 @@
-import ConfirmDialog from '@Components/ConfirmDialog'
-import DataErrorAlert from '@Components/DataErrorAlert'
-import EditEntry from '@Components/EditEntry'
-import ViewEntries from '@Components/ViewEntries'
-import EditorKit from '@standardnotes/editor-kit'
-import update from 'immutability-helper'
-import React from 'react'
-import ReorderIcon from '../assets/svg/reorder-icon.svg'
-import CopyNotification from './CopyNotification'
+import ConfirmDialog from "@Components/ConfirmDialog"
+import DataErrorAlert from "@Components/DataErrorAlert"
+import EditEntry from "@Components/EditEntry"
+import ViewEntries from "@Components/ViewEntries"
+import EditorKit from "@standardnotes/editor-kit"
+import update from "immutability-helper"
+import React from "react"
+import ReorderIcon from "../assets/svg/reorder-icon.svg"
+import CopyNotification from "./CopyNotification"
 
 const initialState = {
-  text: '',
+  text: "",
   entries: [],
   parseError: false,
   editMode: false,
@@ -18,7 +18,7 @@ const initialState = {
   confirmReorder: false,
   displayCopy: false,
   canEdit: true,
-  searchValue: '',
+  searchValue: "",
   lastUpdated: 0,
 }
 
@@ -84,7 +84,7 @@ export default class Home extends React.Component {
     }
 
     this.editorKit = new EditorKit(delegate, {
-      mode: 'json',
+      mode: "json",
     })
   }
 
@@ -97,12 +97,12 @@ export default class Home extends React.Component {
       }
 
       for (const entry of entries) {
-        if (!('service' in entry)) {
-          throw Error('Service key is missing for an entry.')
+        if (!("service" in entry)) {
+          throw Error("Service key is missing for an entry.")
         }
 
-        if (!('secret' in entry) && !('password' in entry)) {
-          throw Error('An entry does not have a secret key or a password.')
+        if (!("secret" in entry) && !("password" in entry)) {
+          throw Error("An entry does not have a secret key or a password.")
         }
       }
 
@@ -180,6 +180,24 @@ export default class Home extends React.Component {
     }))
   }
 
+  onExport = (id) => {
+    const entry = this.state.entries[id]
+    const blob = new Blob([JSON.stringify(entry, null, 2)], {
+      type: "application/json",
+    })
+
+    const link = document.createElement("a")
+    link.setAttribute("download", `${entry.service}-${entry.account}.json`)
+
+    const objUrl = window.URL.createObjectURL(blob)
+    link.href = objUrl
+    document.body.appendChild(link)
+    link.click()
+
+    link.remove()
+    window.URL.revokeObjectURL(objUrl)
+  }
+
   onCancel = () => {
     this.setState({
       confirmRemove: false,
@@ -252,7 +270,7 @@ export default class Home extends React.Component {
 
   clearSearchValue = () => {
     this.setState({
-      searchValue: '',
+      searchValue: "",
     })
   }
 
@@ -297,7 +315,11 @@ export default class Home extends React.Component {
         <CopyNotification isVisible={displayCopy} />
         {!editMode && (
           <div id="header">
-            <div className={`sk-horizontal-group left align-items-center ${!canEdit && 'full-width'}`}>
+            <div
+              className={`sk-horizontal-group left align-items-center ${
+                !canEdit && "full-width"
+              }`}
+            >
               <input
                 name="search"
                 className="sk-input contrast search-bar"
@@ -308,7 +330,10 @@ export default class Home extends React.Component {
                 type="text"
               />
               {searchValue && (
-                <div onClick={this.clearSearchValue} className="sk-button danger">
+                <div
+                  onClick={this.clearSearchValue}
+                  className="sk-button danger"
+                >
                   <div className="sk-label">✕</div>
                 </div>
               )}
@@ -316,7 +341,10 @@ export default class Home extends React.Component {
             {canEdit && (
               <div className="sk-horizontal-group right">
                 <div className="sk-button-group stretch">
-                  <div onClick={this.onReorderEntries} className="sk-button info">
+                  <div
+                    onClick={this.onReorderEntries}
+                    className="sk-button info"
+                  >
                     <ReorderIcon />
                   </div>
                   <div onClick={this.onAddNew} className="sk-button info">
@@ -329,13 +357,19 @@ export default class Home extends React.Component {
         )}
         <div id="content">
           {editMode ? (
-            <EditEntry id={editEntry.id} entry={editEntry.entry} onSave={this.onSave} onCancel={this.onCancel} />
+            <EditEntry
+              id={editEntry.id}
+              entry={editEntry.entry}
+              onSave={this.onSave}
+              onCancel={this.onCancel}
+            />
           ) : (
             <ViewEntries
               entries={entries}
               searchValue={searchValue}
               onEdit={this.onEdit}
               onRemove={this.onRemove}
+              onExport={this.onExport}
               onCopyValue={this.onCopyValue}
               canEdit={canEdit}
               lastUpdated={lastUpdated}
@@ -352,7 +386,7 @@ export default class Home extends React.Component {
           )}
           {confirmReorder && (
             <ConfirmDialog
-              title={'Auto-sort entries'}
+              title={"Auto-sort entries"}
               message="Are you sure you want to auto-sort all entries alphabetically based on service name?"
               onConfirm={this.reorderEntries}
               onCancel={this.onCancel}

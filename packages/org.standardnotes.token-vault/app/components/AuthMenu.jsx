@@ -26,6 +26,11 @@ export default class AuthMenu extends React.Component {
     this.props.onRemove()
   }
 
+  onExport = () => {
+    this.onToggle()
+    this.props.onExport()
+  }
+
   render() {
     const { buttonColor } = this.props
 
@@ -49,6 +54,9 @@ export default class AuthMenu extends React.Component {
               <div className="sk-menu-panel-row" onClick={this.onRemove}>
                 <div className="sk-label">Remove</div>
               </div>
+              <div className="sk-menu-panel-row" onClick={this.onExport}>
+                <div className="sk-label">Export</div>
+              </div>
             </div>
           ))}
       </div>
@@ -59,5 +67,6 @@ export default class AuthMenu extends React.Component {
 AuthMenu.propTypes = {
   onEdit: PropTypes.func.isRequired,
   onRemove: PropTypes.func.isRequired,
+  onExport: PropTypes.func.isRequired,
   buttonColor: PropTypes.string,
 }
