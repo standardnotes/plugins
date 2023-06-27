@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.7.0...@standardnotes/spreadsheets@1.8.0) (2023-06-27)
+
+### Features
+
+* update spreadsheets ([6c8a722](https://github.com/standardnotes/plugins/commit/6c8a722283d4fb43a8a2b2a342c7cd19233f96aa))
+
 # [1.7.0](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.6.7...@standardnotes/spreadsheets@1.7.0) (2022-12-07)
 
 ### Features
