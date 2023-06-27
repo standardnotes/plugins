@@ -52,7 +52,7 @@ a:hover
     margin: 2% auto;
     padding: 3% 5% 0;
     background: #fff;
-    /* border: 1px solid #e2e4e7; */
+    border: 1px solid #e2e4e7;
 }
 
 .offline-button {
@@ -79,6 +79,7 @@ a:hover
 
 #example
 {
+    margin: 2em 0 5em;
     padding: 0;
     border: 0;
     background: transparent;
@@ -575,8 +576,8 @@ ul.keyboard-legend li a {
 }
 
 .box .k-button:hover,
-.box .k-button:focus:active:not(.k-state-disabled):not([disabled]),
-.box .k-button:focus:not(.k-state-disabled):not([disabled]) {
+.box .k-button:focus:active:not(.k-disabled):not([disabled]),
+.box .k-button:focus:not(.k-disabled):not([disabled]) {
     background: #cad0d6;
     border-color: #cad0d6;
     color: #000;
@@ -590,8 +591,8 @@ ul.keyboard-legend li a {
 }
 
 .box .k-primary:hover,
-.box .k-primary:focus:active:not(.k-state-disabled):not([disabled]),
-.box .k-primary:focus:not(.k-state-disabled):not([disabled]) {
+.box .k-primary:focus:active:not(.k-disabled):not([disabled]),
+.box .k-primary:focus:not(.k-disabled):not([disabled]) {
     background: #013A5E;
     border-color: #013A5E;
     color: #fff;

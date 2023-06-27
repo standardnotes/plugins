@@ -35,13 +35,27 @@ body, html {
   background-color: var(--sn-stylekit-editor-background-color) !important;
 }
 
-.k-spreadsheet .k-spreadsheet-name-editor .k-select {
+.k-spreadsheet .k-spreadsheet-name-editor .k-select, .k-spreadsheet .k-tabstrip {
   background-color: var(--sn-stylekit-contrast-background-color) !important;
 }
 
-.k-block, .k-content, .k-dropdown .k-input, .k-popup, .k-toolbar, .k-widget {
+.k-block, .k-content, .k-dropdown .k-input, .k-toolbar, .k-widget {
   color: var(--sn-stylekit-editor-foreground-color) !important;
   background-color: var(--sn-stylekit-editor-background-color) !important;
+}
+
+.k-colorpicker-popup, .k-popup {
+  background-color: var(--sn-stylekit-contrast-background-color) !important;
+}
+
+.k-coloreditor {
+  background-color: transparent !important;
+}
+
+.k-coloreditor .k-button {
+  border-color: var(--sn-stylekit-border-color) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
 }
 
 .k-spreadsheet-filter-menu .k-spreadsheet-value-treeview-wrapper {
@@ -53,11 +67,11 @@ body, html {
   color: var(--sn-stylekit-editor-foreground-color) !important;
 }
 
-.k-dropdown .k-input, .k-dropdown .k-state-focused .k-input, .k-menu .k-popup {
+.k-dropdown .k-input, .k-picker-solid, .k-dropdown .k-focused .k-input, .k-menu .k-popup {
   color: var(--sn-stylekit-editor-foreground-color) !important;
 }
 
-.k-panelbar>li.k-state-default>.k-link, .k-tabstrip-items .k-state-default .k-link {
+.k-panelbar>li.k-default>.k-link, .k-tabstrip-items .k-link {
   color: var(--sn-stylekit-editor-foreground-color) !important;
 }
 
@@ -78,11 +92,11 @@ body, html {
   border-color: var(--sn-stylekit-border-color) !important;
 }
 
-.k-autocomplete .k-input, .k-autocomplete.k-state-focused .k-input, .k-dropdown-wrap .k-input, .k-dropdown-wrap.k-state-focused .k-input, .k-numeric-wrap.k-state-focused .k-input, .k-picker-wrap.k-state-focused .k-input, .k-textbox>input {
+.k-autocomplete .k-input, .k-picker-solid, .k-autocomplete.k-focused .k-input, .k-dropdown-wrap .k-input, .k-dropdown-wrap.k-focused .k-input, .k-numeric-wrap.k-focused .k-input, .k-picker-wrap.k-focused .k-input, .k-textbox>input {
   border-color: var(--sn-stylekit-border-color) !important;
 }
 
-.k-autocomplete, .k-block, .k-button-group .k-tool, .k-calendar th, .k-content, .k-dateinput.k-state-disabled>.k-textbox:hover, .k-dropdown-wrap, .k-dropzone-active, .k-editable-area, .k-editor-dialog .k-tabstrip-items, .k-filter-row>th, .k-footer-template td, .k-grid td, .k-grid td.k-state-selected, .k-grid-content-locked, .k-grid-footer, .k-grid-footer-locked, .k-grid-footer-wrap, .k-grid-header, .k-grid-header-locked, .k-grid-header-wrap, .k-group, .k-group-footer td, .k-grouping-header, .k-grouping-header .k-group-indicator, .k-header, .k-input, .k-maskedtextbox.k-state-disabled>.k-textbox:hover, .k-pager-refresh, .k-pager-wrap, .k-pager-wrap .k-link, .k-panel>.k-item>.k-link, .k-panelbar .k-content, .k-panelbar .k-panel, .k-panelbar>.k-item>.k-link, .k-popup.k-align .k-list .k-item:last-child, .k-separator, .k-slider-track, .k-splitbar, .k-state-default, .k-state-default .k-select, .k-state-disabled, .k-textbox, .k-textbox>input, .k-tiles, .k-toolbar, .k-tooltip, .k-treemap-tile, .k-upload-files, .k-widget {
+.k-autocomplete, .k-block, .k-button-group .k-tool, .k-calendar th, .k-content, .k-dateinput.k-disabled>.k-textbox:hover, .k-dropdown-wrap, .k-dropzone-active, .k-editable-area, .k-editor-dialog .k-tabstrip-items, .k-filter-row>th, .k-footer-template td, .k-grid td, .k-grid td.k-selected, .k-grid-content-locked, .k-grid-footer, .k-grid-footer-locked, .k-grid-footer-wrap, .k-grid-header, .k-grid-header-locked, .k-grid-header-wrap, .k-group, .k-group-footer td, .k-grouping-header, .k-grouping-header .k-group-indicator, .k-header, .k-input, .k-maskedtextbox.k-disabled>.k-textbox:hover, .k-pager-refresh, .k-pager-wrap, .k-pager-wrap .k-link, .k-panel>.k-item>.k-link, .k-panelbar .k-content, .k-panelbar .k-panel, .k-panelbar>.k-item>.k-link, .k-popup.k-align .k-list .k-item:last-child, .k-separator, .k-slider-track, .k-splitbar, .k-default, .k-default .k-select, .k-disabled, .k-textbox, .k-textbox>input, .k-tiles, .k-toolbar, .k-tooltip, .k-treemap-tile, .k-upload-files, .k-widget {
   border-color: var(--sn-stylekit-border-color) !important;
 }
 
@@ -107,7 +121,7 @@ body, html {
   border-color: var(--sn-stylekit-border-color) !important;
 }
 
-.k-list-container {
+.k-list-container, .k-menu-group, .k-list {
   color: var(--sn-stylekit-editor-foreground-color) !important;
   background-color: var(--sn-stylekit-contrast-background-color) !important;
   border-color: var(--sn-stylekit-border-color) !important;
@@ -128,7 +142,7 @@ body, html {
   border-color: transparent !important;
 }
 
-.k-gantt-toolbar .k-state-default, .k-grid .k-grouping-header, .k-grid-header, .k-grid-header-wrap, .k-grouping-header .k-group-indicator, .k-header, .k-pager-wrap, .k-pager-wrap .k-link, .k-pager-wrap .k-textbox {
+.k-gantt-toolbar .k-default, .k-grid .k-grouping-header, .k-grid-header, .k-grid-header-wrap, .k-grouping-header .k-group-indicator, .k-header, .k-pager-wrap, .k-pager-wrap .k-link, .k-pager-wrap .k-textbox {
   border-color: var(--sn-stylekit-border-color) !important;
 }
 
@@ -136,11 +150,11 @@ body, html {
   border-color: var(--sn-stylekit-border-color) !important;
 }
 
-.k-active-filter, .k-state-active, .k-state-active:hover {
+.k-active-filter, .k-active, .k-active:hover {
   border-color: var(--sn-stylekit-border-color) !important;
 }
 
-.k-tabstrip .k-tabstrip-items .k-state-active {
+.k-tabstrip .k-tabstrip-items .k-active {
   border-color: var(--sn-stylekit-info-color) !important;
 }
 
@@ -148,7 +162,7 @@ body, html {
   background-color: var(--sn-stylekit-info-color) !important;
 }
 
-.k-autocomplete, .k-draghandle, .k-dropdown-wrap, .k-grid-header, .k-grouping-header, .k-header, .k-numeric-wrap, .k-pager-wrap, .k-panelbar .k-tabstrip-items .k-item, .k-picker-wrap, .k-progressbar, .k-state-highlight, .k-tabstrip-items .k-item, .k-textbox, .k-toolbar, .km-pane-wrapper>.km-pane>.km-view>.km-content {
+.k-autocomplete, .k-draghandle, .k-dropdown-wrap, .k-picker-solid, .k-grid-header, .k-grouping-header, .k-header, .k-numeric-wrap, .k-pager-wrap, .k-panelbar .k-tabstrip-items .k-item, .k-picker-wrap, .k-progressbar, .k-highlight, .k-tabstrip-items .k-item, .k-textbox, .k-toolbar, .km-pane-wrapper>.km-pane>.km-view>.km-content {
   background-color: var(--sn-stylekit-contrast-background-color) !important;
   background-image: none;
 }
@@ -157,11 +171,12 @@ body, html {
   color: var(--sn-stylekit-info-color) !important;
 }
 
-.k-tabstrip .k-tabstrip-items .k-state-active .k-link {
+.k-tabstrip .k-tabstrip-items .k-active .k-link {
   color: var(--sn-stylekit-info-color) !important;
 }
 
-div.k-window, div.k-window.k-state-focused {
+div.k-window, div.k-window.k-focused, .k-window-titlebar {
+  color: var(--sn-stylekit-editor-foreground-color) !important;
   background-color: var(--sn-stylekit-contrast-background-color) !important;
   border-color: var(--sn-stylekit-border-color) !important;
 }
@@ -175,11 +190,11 @@ div.k-window, div.k-window.k-state-focused {
   border-color: var(--sn-stylekit-border-color) !important;
 }
 
-.k-state-hover>.k-select {
+.k-hover>.k-select {
   border-color: var(--sn-stylekit-info-color) !important;
 }
 
-.k-icon, .k-tool-icon {
+.k-icon, .k-svg-icon, .k-tool-icon {
   color: var(--sn-stylekit-info-color) !important;
 }
 
@@ -194,7 +209,7 @@ div.k-window, div.k-window.k-state-focused {
   }
 }
 
-.k-list .k-item {
+.k-list .k-item, .k-list .k-list-item {
   border: none !important;
   cursor: pointer !important;
 
@@ -202,11 +217,11 @@ div.k-window, div.k-window.k-state-focused {
     color: var(--sn-stylekit-info-color) !important;
   }
 
-  &.k-state-hovered {
+  &.k-hovered {
     background-color: var(--sn-stylekit-background-color) !important;
   }
 
-  &.k-state-selected {
+  &.k-selected {
     background-color: var(--sn-stylekit-info-color) !important;
     color: var(--sn-stylekit-info-contrast-color) !important;
 
@@ -232,4 +247,12 @@ div.k-window, div.k-window.k-state-focused {
 
 .k-spreadsheet-pane .k-spreadsheet-merged-cell {
   background-color: var(--sn-stylekit-background-color);
+}
+
+.k-spreadsheet-tabstrip {
+  padding-top: 4px !important;
+}
+
+.k-spreadsheet-insert-image-dialog {
+  border-color: var(--sn-stylekit-border-color) !important;
 }
