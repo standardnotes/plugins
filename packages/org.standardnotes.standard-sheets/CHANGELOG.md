@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.1](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.8.0...@standardnotes/spreadsheets@1.8.1) (2023-08-15)
+
+### Reverts
+
+* Revert "feat: update spreadsheets" ([3294d3f](https://github.com/standardnotes/plugins/commit/3294d3f5301a6c99153da934c287a6baec02b946))
+
 # [1.8.0](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.7.0...@standardnotes/spreadsheets@1.8.0) (2023-06-27)
 
 ### Features
