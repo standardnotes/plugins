@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.8](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.5.7...@standardnotes/simple-task-editor@1.5.8) (2023-09-11)
+
+### Bug Fixes
+
+* simple task editor task min-height ([18edfe6](https://github.com/standardnotes/plugins/commit/18edfe61f01e29851b35b692c16879d8aa41a491))
+
 ## [1.5.7](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.5.6...@standardnotes/simple-task-editor@1.5.7) (2022-11-04)
 
 **Note:** Version bump only for package @standardnotes/simple-task-editor
