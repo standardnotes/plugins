@@ -26,5 +26,9 @@
   {
     "identifier": "com.sncommunity.dracula-theme",
     "staticFiles": ["dist", "package.json"]
+  },
+  {
+    "identifier": "org.standardnotes.legacy.file-safe",
+    "staticFiles": ["dist", "package.json"]
   }
 ]
