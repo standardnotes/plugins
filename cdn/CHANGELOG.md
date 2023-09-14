@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.8.3...@standardnotes/community-cdn@0.9.0) (2023-09-14)
+
+### Features
+
+* add legacy filesafe ([#14](https://github.com/standardnotes/plugins/issues/14)) ([fafe537](https://github.com/standardnotes/plugins/commit/fafe5374f3f347e1cc2701c578cbdb0fec5e5a17))
+
 ## [0.8.3](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.8.2...@standardnotes/community-cdn@0.8.3) (2023-05-03)
 
 **Note:** Version bump only for package @standardnotes/community-cdn
