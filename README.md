@@ -13,7 +13,7 @@ In Standard Notes desktop or web:
 ## Submitting your plugin to the directory
 
 1. Add plugin to `packages` directory with valid `yarn build` command that generates either a `dist` or `build` directory with your compiled plugin files.
-2. Add entry to `cdn/src/Packages.ts.`
+2. Add entry to `cdn/plugins.json`
 3. Submit pull request.
 
 ## Directory
@@ -27,3 +27,4 @@ In Standard Notes desktop or web:
 |Markdown Math|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json|
 |Dracula|Standard Notes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json|
 |Markdown Visual|Standard Notes.|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json|
+|FileSafe Legacy|undefined|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json|

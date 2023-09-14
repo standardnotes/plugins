@@ -114,5 +114,18 @@
     "publisher": "Standard Notes.",
     "base64Hash": "a43d1f5291a6db1dd0e25e714bd4c27cc5becde58f696678b8660c5bd3c2c1df",
     "binaryHash": "3e9030eec2af8aac0b952cd6939e9b5a32af5cdae7301c1ee07c906d97bb0c04"
+  },
+  "org.standardnotes.legacy.file-safe": {
+    "name": "FileSafe Legacy",
+    "content_type": "SN|Component",
+    "area": "editor-stack",
+    "main": "dist/index.html",
+    "identifier": "org.standardnotes.legacy.file-safe",
+    "version": "2.0.15",
+    "url": "https://standardnotes.github.io/plugins/cdn/dist/static/org.standardnotes.legacy.file-safe/dist/index.html",
+    "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/org.standardnotes.legacy.file-safe.zip",
+    "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json",
+    "base64Hash": "8dad8b123a4de61f874b2f1ebcf9526abf3a224767f80b55aaae4cfc2c9f97e6",
+    "binaryHash": "d0b41e138481eab833042c5cb42f275f53ebde7eaeeab990a5c82b7e92729952"
   }
 }
