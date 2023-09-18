@@ -26,5 +26,5 @@ In Standard Notes desktop or web:
 |Basic Markdown|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json|
 |Markdown Math|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json|
 |Dracula|Standard Notes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json|
-|Markdown Visual|Standard Notes.|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json|
-|FileSafe Legacy|undefined|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json|
+|Markdown Visual|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json|
+|FileSafe Legacy|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json|

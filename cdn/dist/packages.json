@@ -111,9 +111,9 @@
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-visual/build/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-visual.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json",
-    "publisher": "Standard Notes.",
-    "base64Hash": "a43d1f5291a6db1dd0e25e714bd4c27cc5becde58f696678b8660c5bd3c2c1df",
-    "binaryHash": "3e9030eec2af8aac0b952cd6939e9b5a32af5cdae7301c1ee07c906d97bb0c04"
+    "publisher": "Standard Notes Retired",
+    "base64Hash": "aec1d29ae5dbf8f1ca764d625cbd7499eb9912623f6f85b0dd3a0fcfd86e4236",
+    "binaryHash": "07acda70be3deff1b6dbbfcb341c66f0e1fc2c3af783a1f9a754a4ece8b4ea09"
   },
   "org.standardnotes.legacy.file-safe": {
     "name": "FileSafe Legacy",
@@ -121,11 +121,12 @@
     "area": "editor-stack",
     "main": "dist/index.html",
     "identifier": "org.standardnotes.legacy.file-safe",
-    "version": "2.0.15",
+    "version": "2.1.0",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/org.standardnotes.legacy.file-safe/dist/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/org.standardnotes.legacy.file-safe.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json",
-    "base64Hash": "8dad8b123a4de61f874b2f1ebcf9526abf3a224767f80b55aaae4cfc2c9f97e6",
-    "binaryHash": "d0b41e138481eab833042c5cb42f275f53ebde7eaeeab990a5c82b7e92729952"
+    "publisher": "Standard Notes Retired",
+    "base64Hash": "2e3f8cc7069fdea8e08ce770694dd966928584d2cbaaef944744e02fc8ade8fe",
+    "binaryHash": "fbdb148f47cc9e172deff1b31427254667be09c2d2c14d49e42f38d6cbebf739"
   }
 }
