@@ -1,6 +1,9 @@
 {
   "name": "@standardnotes/filesafe-bar",
   "version": "2.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/dist.js",
   "files": [
     "dist"
