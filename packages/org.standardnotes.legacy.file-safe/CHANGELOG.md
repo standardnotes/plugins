@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/standardnotes/plugins/compare/@standardnotes/filesafe-bar@2.1.0...@standardnotes/filesafe-bar@2.1.1) (2023-09-18)
+
+**Note:** Version bump only for package @standardnotes/filesafe-bar
+
 # 2.1.0 (2023-09-14)
 
 ### Features
