@@ -35,7 +35,7 @@
     "copy-webpack-plugin": "10.2.4",
     "css-loader": "~6.6.0",
     "filesafe-embed": "standardnotes/filesafe-embed#309a4282959ffe08ebb8d0e23dbddb60adbd09ce",
-    "filesafe-js": "1.0.5",
+    "filesafe-js": "standardnotes/filesafe-js#3310428d15bbcf0b5d85448d1426cdfec0b031c7",
     "husky": "^7.0.4",
     "mini-css-extract-plugin": "^2.4.3",
     "node-sass": "^7.0.1",

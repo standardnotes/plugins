@@ -5881,7 +5881,7 @@ __metadata:
     copy-webpack-plugin: 10.2.4
     css-loader: ~6.6.0
     filesafe-embed: "standardnotes/filesafe-embed#309a4282959ffe08ebb8d0e23dbddb60adbd09ce"
-    filesafe-js: 1.0.5
+    filesafe-js: "standardnotes/filesafe-js#3310428d15bbcf0b5d85448d1426cdfec0b031c7"
     husky: ^7.0.4
     mini-css-extract-plugin: ^2.4.3
     node-sass: ^7.0.1
@@ -14486,6 +14486,13 @@ __metadata:
   version: 1.0.5
   resolution: "filesafe-js@npm:1.0.5"
   checksum: 1db0bad1861f072067011e271af35ef0f87a4c8b6f9b4e525d5e2ae8872da19418555d72467a5aca86145f678644f3d34e0118f4ea17c7cfc7094380a26f9551
+  languageName: node
+  linkType: hard
+
+"filesafe-js@standardnotes/filesafe-js#3310428d15bbcf0b5d85448d1426cdfec0b031c7":
+  version: 1.0.6
+  resolution: "filesafe-js@https://github.com/standardnotes/filesafe-js.git#commit=3310428d15bbcf0b5d85448d1426cdfec0b031c7"
+  checksum: b122f636c1666401feeab77bb3fbf295da028a7bd21c4ec1c9775b58e895134cdd6c4d681cf993d0cfc18e02a77c90ce3e1784e713859b8111c1f32a42307fe4
   languageName: node
   linkType: hard
 
