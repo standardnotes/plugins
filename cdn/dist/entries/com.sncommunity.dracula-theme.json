@@ -3,12 +3,13 @@
   "content_type": "SN|Theme",
   "area": "themes",
   "main": "dist/dist.css",
+  "showInGallery": true,
   "identifier": "com.sncommunity.dracula-theme",
   "version": "1.1.2",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.dracula-theme/dist/dist.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.dracula-theme.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json",
   "publisher": "Standard Notes",
-  "base64Hash": "f35b76491e3c805d8f906c6fe71d1d29998d3040899051e7985a0527e6ccb455",
-  "binaryHash": "b54dd726dfb2847ba9ccb6fd0576f35be44fe00277c8e442e72e3d5d72e9b870"
+  "base64Hash": "0447a7e87e6c5af7e950f3edb3f266c9400ea0cc029a05d61af348dc41ec488a",
+  "binaryHash": "40ee435c61acab28e48d912948abff06c2bfa9844577aab22d7d2dec5aa385c7"
 }

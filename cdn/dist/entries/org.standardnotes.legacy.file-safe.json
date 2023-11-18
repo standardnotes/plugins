@@ -3,12 +3,13 @@
   "content_type": "SN|Component",
   "area": "editor-stack",
   "main": "dist/index.html",
+  "showInGallery": false,
   "identifier": "org.standardnotes.legacy.file-safe",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/org.standardnotes.legacy.file-safe/dist/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/org.standardnotes.legacy.file-safe.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json",
   "publisher": "Standard Notes Retired",
-  "base64Hash": "980982f8226d1f45c4a33908a973dbddd36914eb2401f09c468d870e98edc6b4",
-  "binaryHash": "04358112c9a33a45774cd721316b9486b08c27957ad10f906f7ebdbe50dde639"
+  "base64Hash": "2322a69ee7d2befd99e1f4c625a238d6c6818038eee2babeedaab8ac9669c8d3",
+  "binaryHash": "ab66702780614e6c6f5bf13564c178ef9f58e325c8e56af7e7754fbc25f8443a"
 }

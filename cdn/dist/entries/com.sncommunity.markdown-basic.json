@@ -5,13 +5,15 @@
   "spellcheckControl": true,
   "note_type": "markdown",
   "main": "dist/index.html",
-  "file_type": "txt",
+  "file_type": "md",
+  "showInGallery": true,
   "identifier": "com.sncommunity.markdown-basic",
   "version": "1.6.2",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-basic/dist/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-basic.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json",
   "publisher": "Standard Notes Retired",
-  "base64Hash": "02e267ddbe3df78b71f2e4dd84ac88f06dd9d9b9eefb02b62ffeb2863aca6d27",
-  "binaryHash": "770a2d94da3e2f187f73e060e4889b1519423bc5469736fb0a2ec4dc6671b8a0"
+  "description": "A Markdown editor with dynamic split-pane preview.",
+  "base64Hash": "d26cfb8e005c5a27d907e565f77a4d763d7a59a84da1b61e1ebe8a48d9be829b",
+  "binaryHash": "02f43989961e6e21f7ca11154b2af14da659ebfb2860513071a90d051d2913de"
 }

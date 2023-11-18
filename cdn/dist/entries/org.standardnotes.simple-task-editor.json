@@ -1,0 +1,19 @@
+{
+  "name": "Checklist",
+  "content_type": "SN|Component",
+  "main": "dist/index.html",
+  "area": "editor-editor",
+  "spellcheckControl": true,
+  "note_type": "task",
+  "file_type": "md",
+  "showInGallery": true,
+  "identifier": "org.standardnotes.simple-task-editor",
+  "version": "1.5.8",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/org.standardnotes.simple-task-editor/dist/index.html",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/org.standardnotes.simple-task-editor.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.simple-task-editor.json",
+  "publisher": "Standard Notes Classic",
+  "description": "A great way to manage short-term and long-term to-do's. You can mark tasks as completed, change their order, and edit the text naturally in place.",
+  "base64Hash": "97c5391e11eeb6cf7826ccb1ea51db8a6328596c0c3eba39fe848893ed43e911",
+  "binaryHash": "f708faa1b6d2d58a99050819f42c739939aabb29e3f9a858b47254feddae249d"
+}
