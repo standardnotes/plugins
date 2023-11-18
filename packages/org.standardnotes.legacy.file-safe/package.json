@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/filesafe-bar",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "author": "Standard Notes Retired",
   "publishConfig": {
     "access": "public"

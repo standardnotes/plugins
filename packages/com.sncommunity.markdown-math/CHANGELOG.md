@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-math@1.4.2...@standardnotes/markdown-math@1.5.0) (2023-11-18)
+
+### Features
+
+* add classic editors ([96a412a](https://github.com/standardnotes/plugins/commit/96a412a9725f689cbd5ca95f7feb5ba19938dd9a))
+
 ## [1.4.2](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-math@1.4.1...@standardnotes/markdown-math@1.4.2) (2022-11-04)
 
 **Note:** Version bump only for package @standardnotes/markdown-math

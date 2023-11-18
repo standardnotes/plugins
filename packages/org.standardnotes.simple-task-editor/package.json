@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/simple-task-editor",
-  "version": "1.5.8",
+  "version": "1.6.0",
   "publishConfig": {
     "access": "public"
   },

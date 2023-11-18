@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/standardnotes/plugins/compare/@standardnotes/dracula-theme@1.1.2...@standardnotes/dracula-theme@1.2.0) (2023-11-18)
+
+### Features
+
+* add classic editors ([96a412a](https://github.com/standardnotes/plugins/commit/96a412a9725f689cbd5ca95f7feb5ba19938dd9a))
+
 ## [1.1.2](https://github.com/standardnotes/plugins/compare/@standardnotes/dracula-theme@1.1.1...@standardnotes/dracula-theme@1.1.2) (2022-12-07)
 
 ### Bug Fixes
