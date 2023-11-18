@@ -5,7 +5,7 @@
   },
   "version": "1.4.0",
   "description": "A minimal Markdown editor with live rendering and in-text search via Ctrl/Cmd + F",
-  "author": "Standard Notes Retired",
+  "author": "Standard Notes Classic",
   "main": "dist/dist.js",
   "sn": {
     "name": "Minimal Markdown",

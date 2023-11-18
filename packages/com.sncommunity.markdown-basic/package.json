@@ -5,7 +5,7 @@
   },
   "version": "1.7.0",
   "main": "dist/dist.js",
-  "author": "Standard Notes Retired",
+  "author": "Standard Notes Classic",
   "description": "A Markdown editor with dynamic split-pane preview.",
   "scripts": {
     "lint": "eslint --cache --ext .jsx,.js --format=node_modules/eslint-formatter-pretty .",

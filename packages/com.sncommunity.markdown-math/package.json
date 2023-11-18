@@ -10,7 +10,7 @@
     "build": "grunt",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "author": "Standard Notes Retired",
+  "author": "Standard Notes Classic",
   "sn": {
     "name": "Markdown Math",
     "content_type": "SN|Component",

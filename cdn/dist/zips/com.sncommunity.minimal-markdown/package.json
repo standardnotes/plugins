@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.2.0",
   "description": "A minimal Markdown editor for Standard Notes.",
-  "author": "Standard Notes Retired",
+  "author": "Standard Notes Classic",
   "main": "dist/dist.js",
   "sn": {
     "name": "Minimal Markdown",
@@ -12,7 +12,8 @@
     "area": "editor-editor",
     "spellcheckControl": true,
     "note_type": "markdown",
-    "file_type": "txt"
+    "file_type": "txt",
+    "showInGallery": true,
   },
   "scripts": {
     "build": "grunt",
