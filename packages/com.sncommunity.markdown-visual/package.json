@@ -1,7 +1,7 @@
 {
   "name": "@standardnotes/markdown-visual",
   "version": "1.4.0",
-  "author": "Standard Notes Retired",
+  "author": "Standard Notes Community",
   "description": "A WYSIWYG-style Markdown editor that renders Markdown in preview-mode while you type without displaying any syntax.",
   "keywords": [
     "Standard Notes",
