@@ -4,9 +4,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "A code editor for Standard Notes",
+  "description": "Syntax highlighting and convenient keyboard shortcuts for over 120 programming languages. Ideal for code snippets and procedures.",
   "main": "dist/main.js",
-  "author": "Standard Notes",
+  "author": "Standard Notes Classic",
   "license": "AGPL-3.0",
   "scripts": {
     "start": "http-server . --cors -p8001 & webpack --progress --config webpack.dev.js",
@@ -15,6 +15,16 @@
     "lint:fix": "eslint src/ --ext .js --fix",
     "clean": "rm -rf ./vendor",
     "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "sn": {
+    "name": "Code",
+    "content_type": "SN|Component",
+    "main": "index.html",
+    "area": "editor-editor",
+    "spellcheckControl": true,
+    "note_type": "code",
+    "file_type": "txt",
+    "showInGallery": true
   },
   "dependencies": {
     "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"

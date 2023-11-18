@@ -4,7 +4,7 @@
     "access": "public"
   },
   "version": "1.4.2",
-  "description": "",
+  "description": "A beautiful split-pane Markdown editor with synced-scroll, LaTeX support, and colorful syntax.",
   "main": "index.js",
   "scripts": {
     "build": "grunt",
@@ -18,7 +18,8 @@
     "spellcheckControl": true,
     "note_type": "markdown",
     "main": "index.html",
-    "file_type": "txt"
+    "file_type": "txt",
+    "showInGallery": true
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",

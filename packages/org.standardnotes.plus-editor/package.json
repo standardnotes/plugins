@@ -4,9 +4,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "A rich text editor for Standard Notes",
+  "description": " 'From highlighting to custom font sizes and colors, to tables and lists, this editor is perfect for crafting any document.",
   "main": "dist/dist.js",
-  "author": "Standard Notes",
+  "author": "Standard Notes Classic",
   "scripts": {
     "skip:lint": "eslint --ext .js .",
     "lint:fix": "eslint --ext .js . --fix",
@@ -15,7 +15,14 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "sn": {
-    "main": "dist/index.html"
+    "name": "Rich Text",
+    "content_type": "SN|Component",
+    "main": "dist/index.html",
+    "area": "editor-editor",
+    "spellcheckControl": true,
+    "note_type": "rich-text",
+    "file_type": "html",
+    "showInGallery": true
   },
   "dependencies": {
     "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"

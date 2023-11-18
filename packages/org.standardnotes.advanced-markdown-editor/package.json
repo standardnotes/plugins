@@ -4,12 +4,19 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "A Standard Notes derived editor that offers full support for Markdown editing.",
+  "description": "A fully featured Markdown editor that supports live preview, a styling toolbar, and split pane support.",
   "main": "dist/dist.js",
   "author": "Standard Notes",
   "license": "AGPL-3.0",
   "sn": {
-    "main": "dist/index.html"
+    "name": "Markdown",
+    "content_type": "SN|Component",
+    "main": "dist/index.html",
+    "area": "editor-editor",
+    "spellcheckControl": true,
+    "note_type": "markdown",
+    "file_type": "md",
+    "showInGallery": true
   },
   "scripts": {
     "start": "webpack serve --config webpack.dev.js --progress --hot",

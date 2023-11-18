@@ -4,8 +4,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "Standard Notes",
+  "author": "Standard Notes Classic",
   "main": "dist/dist.js",
+  "description": "A great way to manage short-term and long-term to-do's. You can mark tasks as completed, change their order, and edit the text naturally in place.",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js --progress --hot",
@@ -14,7 +15,14 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "sn": {
-    "main": "dist/index.html"
+    "name": "Checklist",
+    "content_type": "SN|Component",
+    "main": "dist/index.html",
+    "area": "editor-editor",
+    "spellcheckControl": true,
+    "note_type": "task",
+    "file_type": "md",
+    "showInGallery": true
   },
   "dependencies": {
     "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"

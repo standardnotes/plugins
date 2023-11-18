@@ -6,6 +6,7 @@
   "version": "1.6.2",
   "main": "dist/dist.js",
   "author": "Standard Notes Retired",
+  "description": "A Markdown editor with dynamic split-pane preview.",
   "scripts": {
     "lint": "eslint --cache --ext .jsx,.js --format=node_modules/eslint-formatter-pretty .",
     "lint:fix": "eslint --cache --ext .jsx,.js --format=node_modules/eslint-formatter-pretty .",
@@ -21,7 +22,8 @@
     "spellcheckControl": true,
     "note_type": "markdown",
     "main": "dist/index.html",
-    "file_type": "txt"
+    "file_type": "md",
+    "showInGallery": true
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",

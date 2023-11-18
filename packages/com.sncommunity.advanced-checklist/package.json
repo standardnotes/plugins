@@ -16,7 +16,8 @@
     "spellcheckControl": true,
     "note_type": "task",
     "main": "build/index.html",
-    "file_type": "json"
+    "file_type": "json",
+    "showInGallery": true
   },
   "files": [
     "build",

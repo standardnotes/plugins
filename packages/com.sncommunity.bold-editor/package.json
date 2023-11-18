@@ -4,6 +4,7 @@
     "access": "public"
   },
   "version": "1.6.4",
+  "description": "A simple and peaceful rich editor that helps you write and think clearly.",
   "main": "dist/dist.js",
   "author": "Standard Notes Retired",
   "sn": {
@@ -13,7 +14,8 @@
     "spellcheckControl": true,
     "note_type": "rich-text",
     "main": "dist/index.html",
-    "file_type": "html"
+    "file_type": "html",
+    "showInGallery": false
   },
   "scripts": {
     "lint": "eslint app/ --ext .js",

@@ -10,7 +10,8 @@
     "name": "Dracula",
     "content_type": "SN|Theme",
     "area": "themes",
-    "main": "dist/dist.css"
+    "main": "dist/dist.css",
+    "showInGallery": true
   },
   "scripts": {
     "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",

@@ -20,7 +20,8 @@
     "name": "FileSafe Legacy",
     "content_type": "SN|Component",
     "area": "editor-stack",
-    "main": "dist/index.html"
+    "main": "dist/index.html",
+    "showInGallery": false
   },
   "devDependencies": {
     "@babel/core": "^7.17.2",

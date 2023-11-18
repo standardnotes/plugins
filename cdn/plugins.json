@@ -30,5 +30,21 @@
   {
     "identifier": "org.standardnotes.legacy.file-safe",
     "staticFiles": ["dist", "package.json"]
+  },
+  {
+    "identifier": "org.standardnotes.advanced-markdown-editor",
+    "staticFiles": ["index.html", "dist", "build", "package.json"]
+  },
+  {
+    "identifier": "org.standardnotes.plus-editor",
+    "staticFiles": ["index.html", "dist", "build", "package.json"]
+  },
+  {
+    "identifier": "org.standardnotes.simple-task-editor",
+    "staticFiles": ["index.html", "dist", "build", "package.json"]
+  },
+  {
+    "identifier": "org.standardnotes.code-editor",
+    "staticFiles": ["index.html", "dist", "build", "package.json"]
   }
 ]

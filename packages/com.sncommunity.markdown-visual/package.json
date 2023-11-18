@@ -2,10 +2,10 @@
   "name": "@standardnotes/markdown-visual",
   "version": "1.3.3",
   "author": "Standard Notes Retired",
-  "description": "A lightweight WYSIWYG markdown editor for Standard Notes, derived from Milkdown.",
+  "description": "A WYSIWYG-style Markdown editor that renders Markdown in preview-mode while you type without displaying any syntax.",
   "keywords": [
     "Standard Notes",
-    "Standard Notes Extensions"
+    "Standard Notes Plugins"
   ],
   "sn": {
     "name": "Markdown Visual",
@@ -14,7 +14,8 @@
     "area": "editor-editor",
     "spellcheckControl": true,
     "note_type": "markdown",
-    "file_type": "txt"
+    "file_type": "md",
+    "showInGallery": true
   },
   "publishConfig": {
     "access": "public"

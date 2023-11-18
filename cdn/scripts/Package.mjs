@@ -148,6 +148,7 @@ const packageFeature = async ({ feature, noZip }) => {
     download_url: `${CdnInfoJson.host}/zips/${feature.identifier}.zip`,
     latest_url: `${CdnInfoJson.host}/entries/${feature.identifier}.json`,
     publisher: packageJsonFile.author,
+    description: packageJsonFile.description,
     ...checksum,
   }
 
