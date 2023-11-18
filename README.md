@@ -20,11 +20,11 @@ In Standard Notes desktop or web:
 
 | Name | Publisher | Install Link |
 |------|-----------|--------------|
-|Minimal Markdown|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.minimal-markdown.json|
+|Minimal Markdown|Standard Notes Classic|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.minimal-markdown.json|
 |Bold Editor|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.bold-editor.json|
-|Advanced Checklist|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json|
-|Basic Markdown|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json|
-|Markdown Math|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json|
+|Advanced Checklist|Standard Notes Classic|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json|
+|Basic Markdown|Standard Notes Classic|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json|
+|Markdown Math|Standard Notes Classic|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json|
 |Dracula|Standard Notes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json|
 |Markdown Visual|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json|
 |FileSafe Legacy|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json|
