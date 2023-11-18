@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.7.0",
+  "version": "1.7.1",
   "main": "dist/dist.js",
   "author": "Standard Notes Classic",
   "description": "A Markdown editor with dynamic split-pane preview.",
