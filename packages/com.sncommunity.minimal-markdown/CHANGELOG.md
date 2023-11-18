@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.1...@standardnotes/markdown-minimal@1.4.2) (2023-11-18)
+
+**Note:** Version bump only for package @standardnotes/markdown-minimal
+
 ## [1.4.1](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.0...@standardnotes/markdown-minimal@1.4.1) (2023-11-18)
 
 **Note:** Version bump only for package @standardnotes/markdown-minimal
