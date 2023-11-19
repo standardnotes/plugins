@@ -6,7 +6,7 @@
   },
   "description": "A fully featured Markdown editor that supports live preview, a styling toolbar, and split pane support.",
   "main": "dist/dist.js",
-  "author": "Standard Notes",
+  "author": "Standard Notes Community",
   "license": "AGPL-3.0",
   "sn": {
     "name": "Markdown",
