@@ -28,7 +28,7 @@ In Standard Notes desktop or web:
 |Dracula|Standard Notes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json|
 |Markdown Visual|Standard Notes Community|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json|
 |FileSafe Legacy|Standard Notes Retired|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json|
-|Markdown|Standard Notes|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.advanced-markdown-editor.json|
+|Markdown|Standard Notes Community|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.advanced-markdown-editor.json|
 |Rich Text|Standard Notes Community|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.plus-editor.json|
 |Checklist|Standard Notes Community|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.simple-task-editor.json|
 |Code|Standard Notes Community|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.code-editor.json|
