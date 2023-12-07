@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.10.3...@standardnotes/community-cdn@0.11.0) (2023-12-07)
+
+### Features
+
+* add standard blue dark theme ([#16](https://github.com/standardnotes/plugins/issues/16)) ([a1d8d5d](https://github.com/standardnotes/plugins/commit/a1d8d5dc4894084ca6bea53ad528c7eeb6284b6b))
+
 ## [0.10.3](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.10.2...@standardnotes/community-cdn@0.10.3) (2023-11-19)
 
 **Note:** Version bump only for package @standardnotes/community-cdn
