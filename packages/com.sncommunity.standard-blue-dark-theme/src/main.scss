@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 :root {
-
-  --sn-stylekit-editor-font-family: 'Lato', sans-serif;
-  --sn-stylekit-sans-serif-font: 'Lato', sans-serif;
+  --sn-stylekit-editor-font-family: "Lato", sans-serif;
+  --sn-stylekit-sans-serif-font: "Lato", sans-serif;
 
   --sn-stylekit-neutral-color: #edf2fb;
   --sn-stylekit-neutral-contrast-color: black;
 
-  --sn-stylekit-info-color: #4279FF;
+  --sn-stylekit-info-color: #4279ff;
   --sn-stylekit-info-contrast-color: black;
   --sn-stylekit-info-color-darkened: #050505;
 
-  --sn-stylekit-success-color: #3965CA;
+  --sn-stylekit-success-color: #3965ca;
   --sn-stylekit-success-contrast-color: black;
 
   --sn-stylekit-warning-color: #f6a200;
@@ -23,7 +22,7 @@
 
   --sn-stylekit-shadow-color: #323336;
   --sn-stylekit-background-color: #000000;
-  --sn-stylekit-border-color: #3D465D;
+  --sn-stylekit-border-color: #3d465d;
   --sn-stylekit-foreground-color: #abc4ff;
 
   --navigation-item-selected-background-color: #000000;
@@ -31,17 +30,13 @@
 
   --sn-stylekit-contrast-background-color: #161616;
   --sn-stylekit-contrast-foreground-color: #abc4ff;
-  --sn-stylekit-contrast-border-color: #3E4A6A;
-
-#blocks-editor hr:after {
-  background-color: #abc4ff;
-}
+  --sn-stylekit-contrast-border-color: #3e4a6a;
 
   --sn-stylekit-secondary-background-color: #1e1e1e;
   --sn-stylekit-secondary-foreground-color: #abc4ff;
   --sn-stylekit-secondary-border-color: #abc4ff;
 
-  --sn-stylekit-secondary-contrast-background-color: #1D1D1D;
+  --sn-stylekit-secondary-contrast-background-color: #1d1d1d;
   --sn-stylekit-secondary-contrast-foreground-color: #abc4ff;
   --sn-styleki--secondary-contrast-border-color: #edf2fb;
 
@@ -51,13 +46,12 @@
   --sn-stylekit-passive-color-0: var(--sn-stylekit-neutral-color);
   --sn-stylekit-passive-color-3: var(--sn-stylekit-contrast-border-color);
   --sn-stylekit-passive-color-4: var(--sn-stylekit-secondary-background-color);
-  --sn-stylekit-passive-color-4-opacity-variant: #04194A;
+  --sn-stylekit-passive-color-4-opacity-variant: #04194a;
   --sn-stylekit-passive-color-5: var(--sn-stylekit-secondary-background-color);
 
   --sn-stylekit-paragraph-text-color: #edf2fb;
 
   --preferences-navigation-icon-color: var #050505;
-
 
   --sn-stylekit-input-border-color: #212632;
 
@@ -65,11 +59,14 @@
   --sn-stylekit-scrollbar-track-border-color: #050505;
 
   --sn-stylekit-general-border-radius: 2px;
- 
-  --sn-stylekit-theme-type: dark;
 
+  --sn-stylekit-theme-type: dark;
+}
+
+#blocks-editor hr:after {
+  background-color: #abc4ff;
 }
 
 body {
-  font-family: 'Lato', sans-serif; !important;
+  font-family: "Lato", sans-serif !important;
 }
