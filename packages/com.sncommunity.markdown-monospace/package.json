@@ -12,6 +12,7 @@
     "content_type": "SN|Theme",
     "area": "themes",
     "main": "dist/dist.css",
+    "layerable": true,
     "showInGallery": true
   },
   "scripts": {
