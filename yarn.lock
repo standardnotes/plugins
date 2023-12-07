@@ -6247,6 +6247,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@standardnotes/standard-blue-dark@workspace:packages/com.sncommunity.standard-blue-dark-theme":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/standard-blue-dark@workspace:packages/com.sncommunity.standard-blue-dark-theme"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/stylekit@npm:5.23.0":
   version: 5.23.0
   resolution: "@standardnotes/stylekit@npm:5.23.0"

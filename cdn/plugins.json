@@ -48,6 +48,10 @@
     "staticFiles": ["index.html", "dist", "build", "package.json"]
   },
   {
+    "identifier": "com.sncommunity.standard-blue-dark",
+    "staticFiles": ["dist", "package.json"]
+  },
+  {
     "identifier": "com.sncommunity.markdown-monospace",
     "staticFiles": ["dist", "package.json"]
   }
