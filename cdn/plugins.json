@@ -50,5 +50,9 @@
   {
     "identifier": "com.sncommunity.standard-blue-dark-theme",
     "staticFiles": ["dist", "package.json"]
+  },
+  {
+    "identifier": "com.sncommunity.markdown-monospace",
+    "staticFiles": ["dist", "package.json"]
   }
 ]

@@ -6024,6 +6024,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@standardnotes/markdown-monospace@workspace:packages/com.sncommunity.markdown-monospace":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/markdown-monospace@workspace:packages/com.sncommunity.markdown-monospace"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/markdown-visual@workspace:packages/com.sncommunity.markdown-visual":
   version: 0.0.0-use.local
   resolution: "@standardnotes/markdown-visual@workspace:packages/com.sncommunity.markdown-visual"
