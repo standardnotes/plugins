@@ -13,7 +13,7 @@ In Standard Notes desktop or web:
 ## Submitting your plugin to the directory
 
 1. Add plugin to `packages` directory with valid `yarn build` command that generates either a `dist` or `build` directory with your compiled plugin files.
-2. Add entry to `cdn/plugins.json`
+2. Add entry to `cdn/plugins.json`, ensuring the identifier matches the folder name of your plugin in `packages`.
 3. Submit pull request.
 
 ## Directory

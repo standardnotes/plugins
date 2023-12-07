@@ -48,7 +48,7 @@
     "staticFiles": ["index.html", "dist", "build", "package.json"]
   },
   {
-    "identifier": "com.sncommunity.standard-blue-dark",
+    "identifier": "com.sncommunity.standard-blue-dark-theme",
     "staticFiles": ["dist", "package.json"]
   }
 ]
