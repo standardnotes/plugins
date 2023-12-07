@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/markdown-monospace",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/dist.css",
   "author": "DanielNetoP",
   "description": "Ability to toggle monospace font for Markdown, Minimal Markdown, and Basic Markdown plugins.",
