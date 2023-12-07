@@ -1,0 +1,16 @@
+{
+  "name": "Standard Blue Dark",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/dist.css",
+  "showInGallery": true,
+  "identifier": "com.sncommunity.standard-blue-dark-theme",
+  "version": "1.1.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.standard-blue-dark-theme/dist/dist.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.standard-blue-dark-theme.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-dark-theme.json",
+  "publisher": "Kieran Colfer",
+  "description": "A dark blue theme for Standard Notes. Uses Google Fonts.",
+  "base64Hash": "342066a0c3687bda6a10d73f823e8c955f68b7ff7213190076e48262bb89f3ab",
+  "binaryHash": "f10e61b736527e930f23cc9282a2737159dee3dfd489e6cdc047710b117113f4"
+}

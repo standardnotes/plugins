@@ -1,0 +1,9 @@
+.CodeMirror-code,
+#editor,
+.CodeMirror .CodeMirror-code .cm-comment {
+  font-family: var(--sn-stylekit-monospace-font) !important;
+}
+
+.CodeMirror .CodeMirror-code .cm-comment {
+  font-size: 100% !important;
+}

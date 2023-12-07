@@ -1,0 +1,16 @@
+{
+  "name": "Markdown Monospace",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/dist.css",
+  "showInGallery": true,
+  "identifier": "com.sncommunity.markdown-monospace",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-monospace/dist/dist.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-monospace.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-monospace.json",
+  "publisher": "DanielNetoP",
+  "description": "Ability to toggle monospace font for Markdown, Minimal Markdown, and Basic Markdown plugins.",
+  "base64Hash": "d0ad1ead332d36dca129a37800fbfeec9e9ff5db044e06916cd48f960855523c",
+  "binaryHash": "3256604d80293b3111771d53a62939139184df9a54ad51ec28024c302b60c57b"
+}
