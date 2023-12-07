@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "dist/dist.css",
   "author": "Kieran Colfer",
+  "description": "A dark blue theme for Standard Notes. Uses Google Fonts.",
   "publishConfig": {
     "access": "public"
   },
