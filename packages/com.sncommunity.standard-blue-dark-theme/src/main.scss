@@ -36,7 +36,7 @@
   --sn-stylekit-secondary-foreground-color: #abc4ff;
   --sn-stylekit-secondary-border-color: #abc4ff;
 
-  --sn-stylekit-secondary-contrast-background-color: #1d1d1d;
+  --sn-stylekit-secondary-contrast-background-color: #1d1d1d;var
   --sn-stylekit-secondary-contrast-foreground-color: #abc4ff;
   --sn-styleki--secondary-contrast-border-color: #edf2fb;
 
@@ -44,6 +44,7 @@
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
 
   --sn-stylekit-passive-color-0: var(--sn-stylekit-neutral-color);
+  --sn-stylekit-passive-color-2: var(--sn-stylekit-info-color);
   --sn-stylekit-passive-color-3: var(--sn-stylekit-contrast-border-color);
   --sn-stylekit-passive-color-4: var(--sn-stylekit-secondary-background-color);
   --sn-stylekit-passive-color-4-opacity-variant: #04194a;
