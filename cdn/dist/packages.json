@@ -15,8 +15,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.minimal-markdown.json",
     "publisher": "Standard Notes Community",
     "description": "A minimal Markdown editor with live rendering and in-text search via Ctrl/Cmd + F",
-    "base64Hash": "7d2ea9e2f00eed93d99bf860bd1c19c6fe37291e84c59bc94154161094cd7489",
-    "binaryHash": "6baf160e693dbe75ddbdf70f24c3a71296e971d46e3e4b68c0122f842d0f476a"
+    "base64Hash": "9f033701b60292c5023254b1f1db4d0eec82e21f5663c2f8cb5a2fa3ef835894",
+    "binaryHash": "79b369f6365497e5889000d23ef948cd2d7a8362e7944400df4146083636b48b"
   },
   "com.sncommunity.bold-editor": {
     "name": "Bold Editor",
@@ -34,8 +34,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.bold-editor.json",
     "publisher": "Standard Notes Retired",
     "description": "A simple and peaceful rich editor that helps you write and think clearly.",
-    "base64Hash": "cec233ee15428c98db34d983a30d75a588a6c0e12f198e9cbff4669cb1a91c84",
-    "binaryHash": "b043c23ea10ebdbfad407b0bbb32227e71fbef68b9c6fc776dfd5ec7778c0714"
+    "base64Hash": "7e5cb255ec92ca1da97538a7ccb06d00b12c10ebd314ebe3df4ef1a36a77ef0a",
+    "binaryHash": "57bb4f4a931ab01f506206a9d48e72b851b05eb10176fbd51122a45d7fcf92bd"
   },
   "com.sncommunity.advanced-checklist": {
     "name": "Advanced Checklist",
@@ -53,8 +53,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.advanced-checklist.json",
     "publisher": "Standard Notes Community",
     "description": "A task editor with grouping functionality.",
-    "base64Hash": "3ba15737ccb15eac93209e72f6a28f575e90b9203e74b82de015df5181a9f904",
-    "binaryHash": "10cd0a82121ea48e917d4b72d0718249ea61e7abed12461c71c100085fa18d17"
+    "base64Hash": "b6cc012061b3347981efe43173e079ebc1bec327d3701c8b6abb2746299ae344",
+    "binaryHash": "97b811efe17c675dee9578c902c86f2d2010f9de110839f824c99ac7feb5fd8d"
   },
   "com.sncommunity.markdown-basic": {
     "name": "Basic Markdown",
@@ -72,8 +72,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-basic.json",
     "publisher": "Standard Notes Community",
     "description": "A Markdown editor with dynamic split-pane preview.",
-    "base64Hash": "5cfa959aba5c689e89d36b9ef1fa8bd7a2d644a945e43d86003d1afbc6f25431",
-    "binaryHash": "fb805aff21037d41a088d854fe2eccd84aa2aa784982cf11702124b5be56429d"
+    "base64Hash": "d19c3b69c463b19117d6e970a5a9cb2555bb28dcffff3e4a13e0996eb8fca718",
+    "binaryHash": "3df8ecff6aaf9980d57943f4b353a4ad0fa1c814612a4916cf2114d389e31e7a"
   },
   "com.sncommunity.markdown-math": {
     "name": "Markdown Math",
@@ -91,8 +91,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json",
     "publisher": "Standard Notes Community",
     "description": "A beautiful split-pane Markdown editor with synced-scroll, LaTeX support, and colorful syntax.",
-    "base64Hash": "df6fc83ee615e51e27bec61fafb4168d9b3544ae07c3f467ca378647bd5ad8fa",
-    "binaryHash": "cd45ec2d3e9abd50989ae8c5733eb96987937c117218e8e8fa0a87907f3b90e2"
+    "base64Hash": "09184ae46f21520a42d7c18432afaf030e0d1f2696d568aa460deffffe039cf1",
+    "binaryHash": "08b3e34808550ddd33f6462dbfbb67dc4ccbd8157e2ad9f27538f014cc7a8e75"
   },
   "com.sncommunity.dracula-theme": {
     "name": "Dracula",
@@ -106,8 +106,8 @@
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.dracula-theme.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json",
     "publisher": "Standard Notes",
-    "base64Hash": "35074dbbaa635a3eeb7da77076ccffcfc30bc037fafaaa0b5284b28f537dc6e6",
-    "binaryHash": "a187cfc9ff9b5c9e310faeaf3d5d24fc64fb1c6da55e7784e25784f53f35361e"
+    "base64Hash": "339f43c738dbc969ebf4f101859a227082937ab3c601e05d9c9b12ab4d2cdbcf",
+    "binaryHash": "416326bc29b572ca9b8aa2c6f55d03746e7cf83e3e3bb007085307d1058c3711"
   },
   "com.sncommunity.markdown-visual": {
     "name": "Markdown Visual",
@@ -125,8 +125,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json",
     "publisher": "Standard Notes Community",
     "description": "A WYSIWYG-style Markdown editor that renders Markdown in preview-mode while you type without displaying any syntax.",
-    "base64Hash": "3069d6f8fe89f60e44b5bb33274e331f86edaaa5b14568becc12769bb1adb6b2",
-    "binaryHash": "2adb3fdaf0a9210bb0f6711bcf5677ddeefd2e553272a205d321fafa9c8ceda3"
+    "base64Hash": "cd0af5cbe62cf645234a402ff0f2cee49978f08909811bcbcabe46fd96bc2abf",
+    "binaryHash": "cfafe1946d6053cde671c410678ac8b81e4aaff4a578b692d3cccf79b5132963"
   },
   "org.standardnotes.legacy.file-safe": {
     "name": "FileSafe Legacy",
@@ -140,8 +140,8 @@
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/org.standardnotes.legacy.file-safe.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.legacy.file-safe.json",
     "publisher": "Standard Notes Retired",
-    "base64Hash": "572ed89cf37d267d5214973b4358c57b5b6bdef7670b1c5472eff25be72b10e3",
-    "binaryHash": "8436c89588d07ad3f78382ae5a6313aa2f4e9f1db74c4031c27ad17c9ae7ecf7"
+    "base64Hash": "2ea0d034a75091759a00494d7c70b7a5ab102248836ed2e2ac327c9cd000ea7b",
+    "binaryHash": "373a1c85081b1f367c91f3c417eb7505507fbb17188a257058e64a18c170f3c2"
   },
   "org.standardnotes.advanced-markdown-editor": {
     "name": "Markdown",
@@ -159,8 +159,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.advanced-markdown-editor.json",
     "publisher": "Standard Notes Community",
     "description": "A fully featured Markdown editor that supports live preview, a styling toolbar, and split pane support.",
-    "base64Hash": "f8e0033a47b2b68266cdd3cbc29cd89fe6876cd728fab12859e190f812d21112",
-    "binaryHash": "92688b98be521486bab7c3d8f20357397eeeb023cf04810bdacef00278e0038a"
+    "base64Hash": "bb30bf5deb5e0e468854bea1edc75efc4769647082d10015c356c503d0b685af",
+    "binaryHash": "70a24f90cd4114ee67f9bd2f04ead1f7470279ae3248376a8d09c8c7e58b8786"
   },
   "org.standardnotes.plus-editor": {
     "name": "Rich Text",
@@ -178,8 +178,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.plus-editor.json",
     "publisher": "Standard Notes Community",
     "description": "From highlighting to custom font sizes and colors, to tables and lists, this editor is perfect for crafting any document.",
-    "base64Hash": "85b81925ab24e34012190b5bd78ddd70a4c03d4d2bbd744ac4dc01e1656d3aad",
-    "binaryHash": "575c0544fca7b0e5cbc8117ceebac5050ce2dca1d7248218d6ecaf759b239a55"
+    "base64Hash": "e82326960872e9ea6c559d107a752234141c40a0e7d1303acbda6f5b59fff918",
+    "binaryHash": "93833d65fb1a29788928b4bceb0d004b4c66cef6e339fa561abc9e721ca01784"
   },
   "org.standardnotes.simple-task-editor": {
     "name": "Checklist",
@@ -197,8 +197,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.simple-task-editor.json",
     "publisher": "Standard Notes Community",
     "description": "A great way to manage short-term and long-term to-do's. You can mark tasks as completed, change their order, and edit the text naturally in place.",
-    "base64Hash": "9ff3423594f9dc2142d6867a194fdd8680f4f6de0b70f81ae213113ee1c410c1",
-    "binaryHash": "e520b989aed107d343d2e72ad5e236092adab467a3792130af3ff23d91da5f9d"
+    "base64Hash": "a0507154c3592dd01536943b2c1f337d466ef0514f98915d608f6d601b87258e",
+    "binaryHash": "9588b14c0ba19c57d3655d9f5c0fcd15e280d2f6c89542457a1f5d7611c92ba6"
   },
   "org.standardnotes.code-editor": {
     "name": "Code",
@@ -216,8 +216,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.code-editor.json",
     "publisher": "Standard Notes Community",
     "description": "Syntax highlighting and convenient keyboard shortcuts for over 120 programming languages. Ideal for code snippets and procedures.",
-    "base64Hash": "5192944be9108aba1997d48cd88e9644644fc180230e4a485431ec0dcc236c85",
-    "binaryHash": "a2572aee648842a78bac71897b1ca385ca74580803fda8de0d44f0732ef572f4"
+    "base64Hash": "268b97c061e064eef202f85bdcf0c3ed233275132e3c7bf313f2f017ee3d22f9",
+    "binaryHash": "03bd305380574740d9bc3ea763a0b3b29a21567a13eb41a46a048bb7da2637d0"
   },
   "com.sncommunity.standard-blue-dark-theme": {
     "name": "Standard Blue Dark",
@@ -232,8 +232,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-dark-theme.json",
     "publisher": "Kieran Colfer",
     "description": "A dark blue theme for Standard Notes. Uses Google Fonts.",
-    "base64Hash": "342066a0c3687bda6a10d73f823e8c955f68b7ff7213190076e48262bb89f3ab",
-    "binaryHash": "f10e61b736527e930f23cc9282a2737159dee3dfd489e6cdc047710b117113f4"
+    "base64Hash": "10a85ee77f1613038ba542da92f1fba90f7543a848a80988666b2fdccf393ba7",
+    "binaryHash": "711ace0eefbf2ea0a59008fef4bd0245f26d4d3e7ef7383c8f47e0031c61833a"
   },
   "com.sncommunity.markdown-monospace": {
     "name": "Markdown Monospace",
@@ -243,13 +243,13 @@
     "layerable": true,
     "showInGallery": true,
     "identifier": "com.sncommunity.markdown-monospace",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-monospace/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-monospace.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-monospace.json",
     "publisher": "DanielNetoP",
     "description": "Ability to toggle monospace font for Markdown, Minimal Markdown, and Basic Markdown plugins.",
-    "base64Hash": "06434b1fb8fc0557988c7d71ca4be07dbc2a37c699c4e731f6be9a080181463c",
-    "binaryHash": "f84fa7ce755636a6698e89a76fc673ea74ed7dd51411c789fe2f7f5d22b6dc32"
+    "base64Hash": "91171ccf1b0ad7f4ebdae11fe81ee43fdaf1bd8b4bc5f4c3ea01f6de46a5889b",
+    "binaryHash": "04f9daabc9b01fa041ff8621f2c345c4f36a96a233cce81a9d0ae63426dbb6ff"
   }
 }

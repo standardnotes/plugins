@@ -15,13 +15,13 @@
   --sn-stylekit-danger-contrast-color: black;
   --sn-stylekit-shadow-color: #323336;
   --sn-stylekit-background-color: #000000;
-  --sn-stylekit-border-color: #3d465d;
+  --sn-stylekit-border-color: #282828;
   --sn-stylekit-foreground-color: #abc4ff;
   --navigation-item-selected-background-color: #000000;
   --sn-stylekit-info-backdrop-color: #050505;
   --sn-stylekit-contrast-background-color: #161616;
   --sn-stylekit-contrast-foreground-color: #abc4ff;
-  --sn-stylekit-contrast-border-color: #3e4a6a;
+  --sn-stylekit-contrast-border-color: #282828;
   --sn-stylekit-secondary-background-color: #1e1e1e;
   --sn-stylekit-secondary-foreground-color: #abc4ff;
   --sn-stylekit-secondary-border-color: #abc4ff;
@@ -31,6 +31,7 @@
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
   --sn-stylekit-passive-color-0: var(--sn-stylekit-neutral-color);
+  --sn-stylekit-passive-color-2: var(--sn-stylekit-info-color);
   --sn-stylekit-passive-color-3: var(--sn-stylekit-contrast-border-color);
   --sn-stylekit-passive-color-4: var(--sn-stylekit-secondary-background-color);
   --sn-stylekit-passive-color-4-opacity-variant: #04194a;
