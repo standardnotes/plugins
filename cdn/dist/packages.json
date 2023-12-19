@@ -226,14 +226,14 @@
     "main": "dist/dist.css",
     "showInGallery": true,
     "identifier": "com.sncommunity.standard-blue-dark-theme",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.standard-blue-dark-theme/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.standard-blue-dark-theme.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-dark-theme.json",
     "publisher": "Kieran Colfer",
-    "description": "A dark blue theme for Standard Notes. Uses Google Fonts.",
-    "base64Hash": "10a85ee77f1613038ba542da92f1fba90f7543a848a80988666b2fdccf393ba7",
-    "binaryHash": "711ace0eefbf2ea0a59008fef4bd0245f26d4d3e7ef7383c8f47e0031c61833a"
+    "description": "A dark blue theme for Standard Notes.",
+    "base64Hash": "669e295063efc10e0fa730d4ed5e650c14a9fb843f5dd6d25fd68f0f8f95dffb",
+    "binaryHash": "15dc822b57e7e0460c53af42f383d6fba1c186dfc417afb49c6e834016a0c089"
   },
   "com.sncommunity.markdown-monospace": {
     "name": "Markdown Monospace",
