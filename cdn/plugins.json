@@ -57,6 +57,6 @@
   },
   {
     "identifier": "dev.randombits.excalidraw",
-    "staticFiles": ["index.html","dist", "package.json"]
+    "staticFiles": ["dist", "package.json"]
   }
 ]

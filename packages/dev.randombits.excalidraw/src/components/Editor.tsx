@@ -22,12 +22,7 @@ const Editor = () => {
       if (Object.keys(files).length !== 0) {
         //non empty files
         data.files = files;
-      } 
-
-      // if (Object.keys(appState).length !== 0) {
-      //   //non empty appState
-      //   data.appState = appState;
-      // } 
+      }
       saveNote();
     }
   };
