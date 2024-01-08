@@ -226,14 +226,14 @@
     "main": "dist/dist.css",
     "showInGallery": true,
     "identifier": "com.sncommunity.standard-blue-dark-theme",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.standard-blue-dark-theme/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.standard-blue-dark-theme.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-dark-theme.json",
     "publisher": "Kieran Colfer",
     "description": "A dark blue theme for Standard Notes.",
-    "base64Hash": "669e295063efc10e0fa730d4ed5e650c14a9fb843f5dd6d25fd68f0f8f95dffb",
-    "binaryHash": "15dc822b57e7e0460c53af42f383d6fba1c186dfc417afb49c6e834016a0c089"
+    "base64Hash": "1549bf86884c19adb3512a4df22c185beab8ef0c54fa9c41cf7ee47e0499e953",
+    "binaryHash": "18ae2cf353dd5e082b42933ddac6e3793d7f8d0a4a45f26b257b5865259229f0"
   },
   "com.sncommunity.markdown-monospace": {
     "name": "Markdown Monospace",
@@ -251,5 +251,22 @@
     "description": "Ability to toggle monospace font for Markdown, Minimal Markdown, and Basic Markdown plugins.",
     "base64Hash": "91171ccf1b0ad7f4ebdae11fe81ee43fdaf1bd8b4bc5f4c3ea01f6de46a5889b",
     "binaryHash": "04f9daabc9b01fa041ff8621f2c345c4f36a96a233cce81a9d0ae63426dbb6ff"
+  },
+  "dev.randombits.excalidraw": {
+    "name": "Excalidraw",
+    "content_type": "SN|Component",
+    "area": "editor-editor",
+    "main": "dist/index.html",
+    "file_type": "json",
+    "showInGallery": true,
+    "identifier": "dev.randombits.excalidraw",
+    "version": "1.0.0",
+    "url": "https://standardnotes.github.io/plugins/cdn/dist/static/dev.randombits.excalidraw/dist/index.html",
+    "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/dev.randombits.excalidraw.zip",
+    "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/dev.randombits.excalidraw.json",
+    "publisher": "Matthew Nienow",
+    "description": "A virtual whiteboard editor, with a hand-drawn style. Powered by Excalidraw.",
+    "base64Hash": "75430db0b3591bc843a2b03c34b4d0513545ecd46fc89a89d5d09cb5270cbc83",
+    "binaryHash": "f041fa76362bf20eea79ef1667bddf8a7099cc307e081cdf7dca2232e9aedd55"
   }
 }
