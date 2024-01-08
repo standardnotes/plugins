@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.12.3...@standardnotes/community-cdn@0.13.0) (2024-01-08)
+
+### Features
+
+* add excalidraw plugin ([#20](https://github.com/standardnotes/plugins/issues/20)) ([7b34bc4](https://github.com/standardnotes/plugins/commit/7b34bc4383cd8a19229e3364a86e613234e36160))
+
 ## [0.12.3](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.12.2...@standardnotes/community-cdn@0.12.3) (2023-12-12)
 
 **Note:** Version bump only for package @standardnotes/community-cdn

@@ -2,7 +2,7 @@
   "name": "sn-excalidraw",
   "description": "A virtual whiteboard editor, with a hand-drawn style. Powered by Excalidraw.",
   "author": "Matthew Nienow",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "build": "webpack"
   },
