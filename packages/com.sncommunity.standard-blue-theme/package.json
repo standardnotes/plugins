@@ -1,0 +1,23 @@
+{
+  "name": "@standardnotes/standard-blue",
+  "version": "1.0.0",
+  "main": "dist/dist.css",
+  "author": "Kieran Colfer",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sn": {
+    "name": "Standard Blue",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/dist.css",
+    "showInGallery": true
+  },
+  "scripts": {
+    "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "webpack": "*"
+  }
+}
