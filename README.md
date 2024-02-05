@@ -34,3 +34,4 @@ In Standard Notes desktop or web:
 |Code|Standard Notes Community|https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.code-editor.json|
 |Standard Blue Dark|Kieran Colfer|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-dark-theme.json|
 |Markdown Monospace|DanielNetoP|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-monospace.json|
+|Excalidraw|Matthew Nienow|https://standardnotes.github.io/plugins/cdn/dist/entries/dev.randombits.excalidraw.json|

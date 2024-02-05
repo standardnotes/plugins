@@ -1,0 +1,12 @@
+@import '@standardnotes/stylekit/dist/stylekit.css';
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main {
+  height: 100vh;
+}
