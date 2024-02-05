@@ -58,5 +58,9 @@
   {
     "identifier": "dev.randombits.excalidraw",
     "staticFiles": ["dist", "package.json"]
+  },
+  {
+    "indentifier": "com.sncommunity.standard-blue-theme",
+    "staticFiles": ["dist", "package.json"]
   }
 ]
