@@ -60,7 +60,7 @@
     "staticFiles": ["dist", "package.json"]
   },
   {
-    "indentifier": "com.sncommunity.standard-blue-theme",
+    "identifier": "com.sncommunity.standard-blue-theme",
     "staticFiles": ["dist", "package.json"]
   }
 ]
