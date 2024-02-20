@@ -2,7 +2,7 @@
   "name": "@standardnotes/monokai-ristretto",
   "version": "0.6",
   "main": "dist/dist.css",
-  "author": "Marco Laux",
+  "author": "Marco Laux (marco@laux.wtf)",
   "publishConfig": {
     "access": "public"
   },
