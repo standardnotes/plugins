@@ -58,5 +58,10 @@
   {
     "identifier": "dev.randombits.excalidraw",
     "staticFiles": ["dist", "package.json"]
+  },
+  {
+    "identifier": "wtf.laux.theme.monokai-ristretto",
+    "staticFiles": ["dist", "package.json"]
   }
+]
 ]
