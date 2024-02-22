@@ -60,6 +60,10 @@
     "staticFiles": ["dist", "package.json"]
   },
   {
+    "identifier": "com.sncommunity.standard-blue-theme",
+    "staticFiles": ["dist", "package.json"]
+  },
+  {
     "identifier": "wtf.laux.theme.monokai-ristretto",
     "staticFiles": ["dist", "package.json"]
   }
