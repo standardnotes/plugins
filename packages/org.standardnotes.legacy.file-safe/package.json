@@ -39,7 +39,6 @@
     "filesafe-js": "standardnotes/filesafe-js#09278cc13b61b4dd672613201f69a034d5c41ed4",
     "husky": "^7.0.4",
     "mini-css-extract-plugin": "^2.4.3",
-    "node-sass": "^7.0.1",
     "open-browser-webpack-plugin": "0.0.5",
     "react": "17.0.x",
     "react-dom": "17.0.x",

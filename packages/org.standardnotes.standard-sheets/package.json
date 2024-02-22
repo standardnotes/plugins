@@ -34,7 +34,6 @@
     "eslint": "*",
     "eslint-plugin-react": "^7.24.0",
     "mini-css-extract-plugin": "^2.0.0",
-    "node-sass": "*",
     "react": "16.x",
     "react-dom": "16.x",
     "sass-loader": "^11.0.1",
