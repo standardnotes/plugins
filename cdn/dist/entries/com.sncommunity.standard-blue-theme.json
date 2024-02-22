@@ -1,0 +1,16 @@
+{
+  "name": "Standard Blue",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/dist.css",
+  "showInGallery": true,
+  "identifier": "com.sncommunity.standard-blue-theme",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.standard-blue-theme/dist/dist.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.standard-blue-theme.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-theme.json",
+  "publisher": "Kieran Colfer",
+  "description": "A light blue theme for Standard Notes.",
+  "base64Hash": "3e2b127f888385bb8a323a839482c9080ed2304e149d447fd86781e7131fb24d",
+  "binaryHash": "0d42bbbc4f265b719281427318fb11b0c21d109a1ae474b67076a1fb7f0d32ef"
+}

@@ -8,12 +8,12 @@
   "file_type": "html",
   "showInGallery": true,
   "identifier": "org.standardnotes.plus-editor",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/org.standardnotes.plus-editor/dist/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/org.standardnotes.plus-editor.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.plus-editor.json",
   "publisher": "Standard Notes Community",
   "description": "From highlighting to custom font sizes and colors, to tables and lists, this editor is perfect for crafting any document.",
-  "base64Hash": "296aa7a44f1dec5af86c0f5b488649151e2f3d4645ba688988417e3e6621e5ef",
-  "binaryHash": "8b66b9bf62000ace3d272ae4d5c95810034c891171ab0f662d1aa205f6dd9dd0"
+  "base64Hash": "870761b3b9fd42cdeee5e388e06be33c0187f88f8b425a50dc3f94acfcc699d3",
+  "binaryHash": "7235a4e1ee6efd32739aad6d5b130af1f04b83e70c3e523dc7d408419bb0aeaa"
 }

@@ -35,3 +35,5 @@ In Standard Notes desktop or web:
 |Standard Blue Dark|Kieran Colfer|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-dark-theme.json|
 |Markdown Monospace|DanielNetoP|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-monospace.json|
 |Excalidraw|Matthew Nienow|https://standardnotes.github.io/plugins/cdn/dist/entries/dev.randombits.excalidraw.json|
+|Standard Blue|Kieran Colfer|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-theme.json|
+|Monokai Ristretto|Marco Laux|https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json|

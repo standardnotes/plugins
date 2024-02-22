@@ -1,0 +1,15 @@
+{
+  "name": "Monokai Ristretto",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/dist.css",
+  "showInGallery": true,
+  "identifier": "wtf.laux.theme.monokai-ristretto",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.monokai-ristretto/dist/dist.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.monokai-ristretto.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json",
+  "publisher": "Marco Laux",
+  "base64Hash": "3643653e00dd238055294b99dc71d7ca7780687820bd18b96d5fb6ee0a4e92c5",
+  "binaryHash": "81f5d734e5ae26aa5af9d3a79f54561358c079ee48114b7ff41db8cca54261f4"
+}
