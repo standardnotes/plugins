@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "A simple and peaceful rich editor that helps you write and think clearly.",
   "main": "dist/dist.js",
   "author": "Standard Notes Retired",
