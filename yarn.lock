@@ -7379,6 +7379,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@standardnotes/monokai-ristretto@workspace:packages/wtf.laux.theme.monokai-ristretto":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/monokai-ristretto@workspace:packages/wtf.laux.theme.monokai-ristretto"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/plugins@workspace:.":
   version: 0.0.0-use.local
   resolution: "@standardnotes/plugins@workspace:."
