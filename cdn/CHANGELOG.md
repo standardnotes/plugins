@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.1](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.13.0...@standardnotes/community-cdn@0.13.1) (2024-02-22)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
 # [0.13.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.12.3...@standardnotes/community-cdn@0.13.0) (2024-01-08)
 
 ### Features

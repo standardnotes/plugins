@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/spreadsheets",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "publishConfig": {
     "access": "public"
   },
@@ -34,7 +34,6 @@
     "eslint": "*",
     "eslint-plugin-react": "^7.24.0",
     "mini-css-extract-plugin": "^2.0.0",
-    "node-sass": "*",
     "react": "16.x",
     "react-dom": "16.x",
     "sass-loader": "^11.0.1",

@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "A simple and peaceful rich editor that helps you write and think clearly.",
   "main": "dist/dist.js",
   "author": "Standard Notes Retired",
@@ -40,7 +40,6 @@
     "filesafe-js": "1.0.5",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.4.0",
-    "node-sass": "*",
     "react": "17.x",
     "react-dom": "17.x",
     "sass-loader": "^11.0.1",

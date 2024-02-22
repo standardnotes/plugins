@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.7.2",
+  "version": "1.7.3",
   "main": "dist/dist.js",
   "author": "Standard Notes Community",
   "description": "A Markdown editor with dynamic split-pane preview.",
@@ -53,7 +53,6 @@
     "markdown-it-highlightjs": "^3.2.0",
     "markdown-it-task-lists": "^2.1.1",
     "mini-css-extract-plugin": "^0.10.0",
-    "node-sass": "*",
     "react": "16.x",
     "react-dom": "16.x",
     "sass-loader": "^13.1.0",
