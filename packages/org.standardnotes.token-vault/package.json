@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/authenticator",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "main": "dist/dist.js",
   "author": "Standard Notes",
   "publishConfig": {
@@ -46,7 +46,6 @@
     "immutability-helper": "^3.1.1",
     "jsqr": "^1.4.0",
     "mini-css-extract-plugin": "^2.6.1",
-    "node-sass": "*",
     "notp": "^2.0.3",
     "otplib": "^12.0.1",
     "prettier": "*",

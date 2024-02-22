@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/advanced-checklist",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "A task editor with grouping functionality.",
   "keywords": [
     "Standard Notes",
@@ -118,7 +118,6 @@
     "@types/uuid": "8.3.4",
     "gh-pages": "3.2.3",
     "lint-staged": "12.3.5",
-    "node-sass": "*",
     "prettier": "*",
     "react": "17.0.2",
     "react-app-rewired": "^2.2.1",

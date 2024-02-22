@@ -1,16 +1,15 @@
 :root {
+  --sn-stylekit-editor-font-family: "Lato", sans-serif;
+  --sn-stylekit-sans-serif-font: "Lato", sans-serif;
 
-  --sn-stylekit-editor-font-family: 'Lato', sans-serif;
-  --sn-stylekit-sans-serif-font: 'Lato', sans-serif;
-
-  --sn-stylekit-neutral-color: #6B97FF;
+  --sn-stylekit-neutral-color: #6b97ff;
   --sn-stylekit-neutral-contrast-color: white;
   --sn-stylekit-info-color-darkened: #050505;
 
-  --sn-stylekit-info-color: #4279FF;
+  --sn-stylekit-info-color: #4279ff;
   --sn-stylekit-info-contrast-color: white;
 
-  --sn-stylekit-success-color: #3965CA;
+  --sn-stylekit-success-color: #3965ca;
   --sn-stylekit-success-contrast-color: white;
 
   --sn-stylekit-warning-color: #f6a200;
@@ -28,7 +27,7 @@
   --sn-stylekit-info-backdrop-color: #abc4ff;
 
   --sn-stylekit-contrast-background-color: #e2eafc;
-  --sn-stylekit-contrast-foreground-color: #28385C;
+  --sn-stylekit-contrast-foreground-color: #28385c;
   --sn-stylekit-contrast-border-color: #abc4ff;
 
   --sn-stylekit-secondary-background-color: #dbe8ff;
@@ -45,7 +44,7 @@
   --sn-stylekit-passive-color-0: var(--sn-stylekit-neutral-color);
   --sn-stylekit-passive-color-3: var(--sn-stylekit-contrast-border-color);
   --sn-stylekit-passive-color-4: var(--sn-stylekit-secondary-background-color);
-  --sn-stylekit-passive-color-4-opacity-variant: #C2D4FF;
+  --sn-stylekit-passive-color-4-opacity-variant: #c2d4ff;
   --sn-stylekit-passive-color-5: var(--sn-stylekit-secondary-background-color);
 
   --sn-stylekit-paragraph-text-color: #454545;
@@ -60,9 +59,8 @@
   --sn-stylekit-general-border-radius: 2px;
 
   --sn-stylekit-theme-type: light;
-
 }
 
-  #blocks-editor hr:after {
+#blocks-editor hr:after {
   background-color: #abc4ff;
 }

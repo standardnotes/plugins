@@ -1,14 +1,13 @@
 {
-  "name": "@standardnotes/standard-blue",
-  "version": "1.0.0",
+  "name": "@standardnotes/monokai-ristretto",
+  "version": "0.6",
   "main": "dist/dist.css",
-  "author": "Kieran Colfer",
-  "description": "A light blue theme for Standard Notes.",
+  "author": "Marco Laux",
   "publishConfig": {
     "access": "public"
   },
   "sn": {
-    "name": "Standard Blue",
+    "name": "Monokai Ristretto",
     "content_type": "SN|Theme",
     "area": "themes",
     "main": "dist/dist.css",
