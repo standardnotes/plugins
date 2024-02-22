@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.13.1...@standardnotes/community-cdn@0.14.0) (2024-02-22)
+
+### Features
+
+* Add Monokai Ristretto theme ([#26](https://github.com/standardnotes/plugins/issues/26)) ([a6e46b1](https://github.com/standardnotes/plugins/commit/a6e46b1813162faec633a1e3b9f34e26d7ffce98))
+* add Standard Blue theme ([#25](https://github.com/standardnotes/plugins/issues/25)) ([7d32dfc](https://github.com/standardnotes/plugins/commit/7d32dfc7b55077236b2f040e0ba8075f7dd61408))
+
 ## [0.13.1](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.13.0...@standardnotes/community-cdn@0.13.1) (2024-02-22)
 
 **Note:** Version bump only for package @standardnotes/community-cdn
