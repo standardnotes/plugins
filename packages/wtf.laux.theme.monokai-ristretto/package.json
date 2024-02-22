@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/monokai-ristretto",
-  "version": "0.6",
+  "version": "1.0.0",
   "main": "dist/dist.css",
   "author": "Marco Laux",
   "publishConfig": {
