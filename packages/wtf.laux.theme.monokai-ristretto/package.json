@@ -1,8 +1,9 @@
 {
   "name": "@standardnotes/monokai-ristretto",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/dist.css",
   "author": "Marco Laux",
+  "description": "Dark Theme based on Monokai Ristretto that is easy to the eyes",
   "publishConfig": {
     "access": "public"
   },
@@ -11,7 +12,13 @@
     "content_type": "SN|Theme",
     "area": "themes",
     "main": "dist/dist.css",
-    "showInGallery": true
+    "showInGallery": true,
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#f9cc6c",
+      "foreground_color": "#f9cc6c",
+      "border_color": "#fd6883"
+    }
   },
   "scripts": {
     "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",
