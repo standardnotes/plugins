@@ -350,10 +350,10 @@ button.border-border:hover {
 }
 
 #note-title-editor:focus {
-   background-color: var(--back-editor);
-   padding-left: 0.5em;
-   padding-right: 0.5em;
-   border-color: var(--yellow);
+  background-color: var(--back-editor);
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-color: var(--yellow);
 }
 
 button:hover .bg-info {
@@ -421,7 +421,8 @@ button:hover .bg-info {
 .Lexical__h3,
 .Lexical__h4,
 .Lexical__h5 {
-  margin-bottom: 0.75em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
 .Lexical__paragraph {
@@ -431,6 +432,7 @@ button:hover .bg-info {
 .Lexical__listItem {
   margin-bottom: 0.33em;
 }
+
 
 .Lexical__listItemChecked,
 .Lexical__listItemUnchecked {
@@ -448,10 +450,14 @@ button:hover .bg-info {
 }
 
 .Lexical__listItemChecked:after {
-  border-color: var(--white);
-  width: 11px;
-  height: 21px;
-  left: 6px;
+  content: "\00d7";
+  display: inline-block;
+  transform: none;
+  font-size: 2em;
+  top: -60%;
+  left: 1px;
+  border: none;
+  color: var(--white);
 }
 
 li[role="checkbox"] {
@@ -469,14 +475,11 @@ li[role="checkbox"] {
   border: 2px solid var(--back-button);
   margin-top: 1em;
   margin-bottom: 1em;
+  padding: 1em;
 }
 
 mark {
   background-color: var(--yellow);
-}
-
-.Collapsible__title:before {
-  border-width: 8px 10px 8px 10px;
 }
 
 .Collapsible__container[open]>.Collapsible__title:before {
@@ -484,7 +487,11 @@ mark {
 }
 
 .Collapsible__title {
-  padding: 0.5em 0.5em 0.5em 2.5em;
+  padding: 0.5em 0.5em 0.5em 2em;
+
+  &:before {
+    border-width: 7px 7px 0 7px;
+  }
 }
 
 .Collapsible__content {
@@ -551,6 +558,7 @@ mark {
 }
 
 @media screen and (max-width: 767px) {
+
   .editor-content,
   #editor-content {
     border-radius: 16px 16px 0 0;
@@ -647,7 +655,7 @@ mark {
     color: var(--blue) !important;
   }
 
-  .cm-meta  {
+  .cm-meta {
     color: var(--cyan) !important;
   }
 
