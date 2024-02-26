@@ -1,0 +1,25 @@
+{
+  "name": "@standardnotes/super-colors",
+  "version": "1.0.0",
+  "main": "dist/dist.css",
+  "author": "Marco Laux",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sn": {
+    "name": "Super Colors",
+    "content_type": "SN|Theme",
+    "description": "Theme agnostic toggle to colorize different elements of the Super Editor",
+    "area": "themes",
+    "main": "dist/dist.css",
+    "layerable": true,
+    "showInGallery": true
+  },
+  "scripts": {
+    "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "webpack": "*"
+  }
+}

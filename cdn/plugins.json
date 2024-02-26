@@ -66,5 +66,9 @@
   {
     "identifier": "wtf.laux.theme.monokai-ristretto",
     "staticFiles": ["dist", "package.json"]
+  },
+  {
+    "identifier": "wtf.laux.theme.super-colors",
+    "staticFiles": ["dist", "package.json"]
   }
 ]
