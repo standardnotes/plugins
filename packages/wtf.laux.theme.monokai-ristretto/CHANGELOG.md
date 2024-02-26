@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/standardnotes/plugins/compare/@standardnotes/monokai-ristretto@1.1.0...@standardnotes/monokai-ristretto@1.1.2) (2024-02-26)
+
+### Bug Fixes
+
+* lexical code formatting, dock_icon color, description ([#27](https://github.com/standardnotes/plugins/issues/27)) ([dca63ba](https://github.com/standardnotes/plugins/commit/dca63bac9b9bc26f6e61a3cab324f2a19692cd9f))
+
 # 1.1.0 (2024-02-22)
 
 ### Features
