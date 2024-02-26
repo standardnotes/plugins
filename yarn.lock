@@ -7593,6 +7593,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@standardnotes/super-colors@workspace:packages/wtf.laux.theme.super-colors":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/super-colors@workspace:packages/wtf.laux.theme.super-colors"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/utils@npm:1.9.0":
   version: 1.9.0
   resolution: "@standardnotes/utils@npm:1.9.0"
