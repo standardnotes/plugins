@@ -247,7 +247,7 @@
 
       .border-info {
         border-color: var(--yellow);
-  
+
         svg {
           color: var(--black);
         }
@@ -430,10 +430,10 @@ button.border-border:hover {
 }
 
 #note-title-editor:focus {
-   background-color: var(--back-editor);
-   padding-left: 0.5em;
-   padding-right: 0.5em;
-   border-color: var(--yellow);
+  background-color: var(--back-editor);
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-color: var(--yellow);
 }
 
 button:hover .bg-info {
@@ -497,6 +497,15 @@ li[role="checkbox"] {
   margin: 0.5em 0;
 }
 
+.ContentEditable__root {
+
+  >.Lexical__ul,
+  >.Lexical__ol {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
 .Lexical__quote {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -511,19 +520,31 @@ li[role="checkbox"] {
   padding: 1em;
 }
 
+.Lexical__textCode {
+  background-color: var(--back-list);
+}
+
 mark {
   background-color: var(--yellow);
 }
 
+.Collapsible__container {
+  background-color: var(--back-list);
+}
+
+.Collapsible__container[open] {
+  background-color: var(--back-editor);
+}
+
 .Collapsible__container[open]>.Collapsible__title:before {
-  border-width: 10px 8px 0 8px;
+  border-width: 7px 7px 0 7px;
 }
 
 .Collapsible__title {
   padding: 0.5em 0.5em 0.5em 2em;
 
   &:before {
-    border-width: 7px 7px 0 7px;
+    border-width: 7px 0px 7px 7px;
   }
 }
 
@@ -578,6 +599,7 @@ mark {
 }
 
 @media screen and (max-width: 767px) {
+
   .editor-content,
   #editor-content {
     border-radius: 16px 16px 0 0;
@@ -674,7 +696,7 @@ mark {
     color: var(--blue) !important;
   }
 
-  .cm-meta  {
+  .cm-meta {
     color: var(--cyan) !important;
   }
 
