@@ -4,12 +4,18 @@
   "area": "themes",
   "main": "dist/dist.css",
   "showInGallery": true,
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#f9cc6c",
+    "foreground_color": "#f9cc6c",
+    "border_color": "#fd6883"
+  },
   "identifier": "wtf.laux.theme.monokai-ristretto",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.monokai-ristretto/dist/dist.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.monokai-ristretto.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json",
   "publisher": "Marco Laux",
-  "base64Hash": "3643653e00dd238055294b99dc71d7ca7780687820bd18b96d5fb6ee0a4e92c5",
-  "binaryHash": "81f5d734e5ae26aa5af9d3a79f54561358c079ee48114b7ff41db8cca54261f4"
+  "base64Hash": "ffa04f6dfb24946b6bffc922e56c3096e2ca536a039a578e87fc56150b3d9de7",
+  "binaryHash": "df1da11d0b9eb2f488b890b6906e15f344fd15559356d5db2125093dfc63913a"
 }

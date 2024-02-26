@@ -276,14 +276,14 @@
     "main": "dist/dist.css",
     "showInGallery": true,
     "identifier": "com.sncommunity.standard-blue-theme",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.standard-blue-theme/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.standard-blue-theme.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-theme.json",
     "publisher": "Kieran Colfer",
     "description": "A light blue theme for Standard Notes.",
-    "base64Hash": "3e2b127f888385bb8a323a839482c9080ed2304e149d447fd86781e7131fb24d",
-    "binaryHash": "0d42bbbc4f265b719281427318fb11b0c21d109a1ae474b67076a1fb7f0d32ef"
+    "base64Hash": "7548b2e0436d878fd94d8d73f1f2bfeec54f02ddc0608f1a81d0d92a538e2bff",
+    "binaryHash": "f15447b2062f8623370d1374ad82f603413bb04541d225859046fefcdd8e7fec"
   },
   "wtf.laux.theme.monokai-ristretto": {
     "name": "Monokai Ristretto",
@@ -291,13 +291,19 @@
     "area": "themes",
     "main": "dist/dist.css",
     "showInGallery": true,
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#f9cc6c",
+      "foreground_color": "#f9cc6c",
+      "border_color": "#fd6883"
+    },
     "identifier": "wtf.laux.theme.monokai-ristretto",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.monokai-ristretto/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.monokai-ristretto.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json",
     "publisher": "Marco Laux",
-    "base64Hash": "3643653e00dd238055294b99dc71d7ca7780687820bd18b96d5fb6ee0a4e92c5",
-    "binaryHash": "81f5d734e5ae26aa5af9d3a79f54561358c079ee48114b7ff41db8cca54261f4"
+    "base64Hash": "ffa04f6dfb24946b6bffc922e56c3096e2ca536a039a578e87fc56150b3d9de7",
+    "binaryHash": "df1da11d0b9eb2f488b890b6906e15f344fd15559356d5db2125093dfc63913a"
   }
 }
