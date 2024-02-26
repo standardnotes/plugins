@@ -1,0 +1,172 @@
+body .Lexical__h1,
+body .Lexical__h2,
+body .Lexical__h3,
+body .Lexical__h4,
+body .Lexical__h5 {
+  color: var(--sn-stylekit-accessory-tint-color-3);
+}
+body .Lexical__textBold {
+  color: var(--sn-stylekit-accessory-tint-color-2);
+}
+body .Lexical__textItalic {
+  color: var(--sn-stylekit-accessory-tint-color-5);
+}
+body .Lexical__link {
+  color: var(--sn-stylekit-accessory-tint-color-4);
+}
+body .Lexical__ul > li,
+body .Lexical__ol > li {
+  color: var(--sn-stylekit-accessory-tint-color-1);
+}
+body .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li {
+  color: var(--sn-stylekit-accessory-tint-color-2);
+}
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li {
+  color: var(--sn-stylekit-accessory-tint-color-3);
+}
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li {
+  color: var(--sn-stylekit-accessory-tint-color-4);
+}
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li {
+  color: var(--sn-stylekit-accessory-tint-color-5);
+}
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li > .Lexical__ol > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ul > li,
+body .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li > .Lexical__ol > li {
+  color: var(--sn-stylekit-accessory-tint-color-6);
+}
+body .Lexical__code .Lexical__tokenSelector {
+  color: var(--sn-stylekit-accessory-tint-color-5);
+}
+body .Lexical__code .Lexical__tokenProperty {
+  color: var(--sn-stylekit-accessory-tint-color-6);
+}
+body .Lexical__code .Lexical__tokenFunction {
+  color: var(--sn-stylekit-accessory-tint-color-5);
+}
+body .Lexical__code .Lexical__tokenVariable {
+  color: var(--sn-stylekit-accessory-tint-color-2);
+}
+body .Lexical__code .Lexical__tokenAttr {
+  color: var(--sn-stylekit-accessory-tint-color-4);
+}
+body .Lexical__code .Lexical__tokenOperator {
+  color: var(--sn-stylekit-accessory-tint-color-2);
+}

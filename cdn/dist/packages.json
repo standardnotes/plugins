@@ -298,12 +298,28 @@
       "border_color": "#fd6883"
     },
     "identifier": "wtf.laux.theme.monokai-ristretto",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.monokai-ristretto/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.monokai-ristretto.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json",
     "publisher": "Marco Laux",
-    "base64Hash": "ffa04f6dfb24946b6bffc922e56c3096e2ca536a039a578e87fc56150b3d9de7",
-    "binaryHash": "df1da11d0b9eb2f488b890b6906e15f344fd15559356d5db2125093dfc63913a"
+    "base64Hash": "b0a45caa6562b377f2221b49fc2fa33087dc5708ead24c04ff1ef5d72a368ecc",
+    "binaryHash": "cb97593906332016b12fa2e63e35f95ac77a4e5dedfad0e0005b2a23c0b664af"
+  },
+  "wtf.laux.theme.super-colors": {
+    "name": "Super Colors",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/dist.css",
+    "layerable": true,
+    "showInGallery": true,
+    "identifier": "wtf.laux.theme.super-colors",
+    "version": "1.0.0",
+    "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.super-colors/dist/dist.css",
+    "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.super-colors.zip",
+    "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.super-colors.json",
+    "publisher": "Marco Laux",
+    "base64Hash": "e00ca0dfee0415de398a23a8d5f99492b387e216ad4a446e0f1d8ca14d8f7080",
+    "binaryHash": "a719c40e6acd581302d8f115b14e06aa97af77bb1b5b9a0e7c8a020cd0923399"
   }
 }

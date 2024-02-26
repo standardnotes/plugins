@@ -11,11 +11,11 @@
     "border_color": "#fd6883"
   },
   "identifier": "wtf.laux.theme.monokai-ristretto",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.monokai-ristretto/dist/dist.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.monokai-ristretto.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json",
   "publisher": "Marco Laux",
-  "base64Hash": "ffa04f6dfb24946b6bffc922e56c3096e2ca536a039a578e87fc56150b3d9de7",
-  "binaryHash": "df1da11d0b9eb2f488b890b6906e15f344fd15559356d5db2125093dfc63913a"
+  "base64Hash": "b0a45caa6562b377f2221b49fc2fa33087dc5708ead24c04ff1ef5d72a368ecc",
+  "binaryHash": "cb97593906332016b12fa2e63e35f95ac77a4e5dedfad0e0005b2a23c0b664af"
 }

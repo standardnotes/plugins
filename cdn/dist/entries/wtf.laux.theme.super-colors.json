@@ -1,0 +1,16 @@
+{
+  "name": "Super Colors",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/dist.css",
+  "layerable": true,
+  "showInGallery": true,
+  "identifier": "wtf.laux.theme.super-colors",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.super-colors/dist/dist.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.super-colors.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.super-colors.json",
+  "publisher": "Marco Laux",
+  "base64Hash": "e00ca0dfee0415de398a23a8d5f99492b387e216ad4a446e0f1d8ca14d8f7080",
+  "binaryHash": "a719c40e6acd581302d8f115b14e06aa97af77bb1b5b9a0e7c8a020cd0923399"
+}
