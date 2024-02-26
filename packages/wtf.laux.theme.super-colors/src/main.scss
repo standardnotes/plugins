@@ -1,0 +1,89 @@
+body { // add another element to make sure the hiearchy is higher
+  .Lexical__h1,
+  .Lexical__h2,
+  .Lexical__h3,
+  .Lexical__h4,
+  .Lexical__h5 {
+    color: var(--sn-stylekit-accessory-tint-color-3);
+  }
+
+  .Lexical__textBold{
+    color: var(--sn-stylekit-accessory-tint-color-2);
+  }
+
+  .Lexical__textItalic {
+    color: var(--sn-stylekit-accessory-tint-color-5);
+  }
+
+  .Lexical__link {
+    color: var(--sn-stylekit-accessory-tint-color-4);
+  }
+
+  .Lexical__ul, 
+  .Lexical__ol {
+    > li {
+      color: var(--sn-stylekit-accessory-tint-color-1);
+
+      > .Lexical__ul, 
+      > .Lexical__ol {
+        > li {
+          color: var(--sn-stylekit-accessory-tint-color-2);
+
+          > .Lexical__ul, 
+          > .Lexical__ol {
+            > li {
+              color: var(--sn-stylekit-accessory-tint-color-3);
+
+              > .Lexical__ul, 
+              > .Lexical__ol {
+                > li {
+                  color: var(--sn-stylekit-accessory-tint-color-4);
+
+                  > .Lexical__ul, 
+                  > .Lexical__ol {
+                    > li {
+                      color: var(--sn-stylekit-accessory-tint-color-5);
+
+                      > .Lexical__ul, 
+                      > .Lexical__ol {
+                        > li {
+                          color: var(--sn-stylekit-accessory-tint-color-6);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .Lexical__code {
+    .Lexical__tokenSelector {
+      color: var(--sn-stylekit-accessory-tint-color-5);
+    }
+
+    .Lexical__tokenProperty {
+      color: var(--sn-stylekit-accessory-tint-color-6);
+    }
+
+    .Lexical__tokenFunction {
+      color: var(--sn-stylekit-accessory-tint-color-5);
+    }
+
+    .Lexical__tokenVariable {
+      color: var(--sn-stylekit-accessory-tint-color-2);
+    }
+
+    .Lexical__tokenAttr {
+      color: var(--sn-stylekit-accessory-tint-color-4);
+    }
+
+    .Lexical__tokenOperator {
+      color: var(--sn-stylekit-accessory-tint-color-2);
+    }
+  }
+}
