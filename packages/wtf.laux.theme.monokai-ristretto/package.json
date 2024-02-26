@@ -11,7 +11,7 @@
     "content_type": "SN|Theme",
     "area": "themes",
     "main": "dist/dist.css",
-    "description": "Dark Theme based on Monokai Ristretto that is easy to the eyes",
+    "description": "Dark theme based on Monokai Ristretto that is easy on the eyes",
     "showInGallery": true,
     "dock_icon": {
       "type": "circle",
