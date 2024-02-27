@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "main": "dist/dist.css",
   "author": "Marco Laux",
+  "description": "Dark theme based on Monokai Ristretto that is easy on the eyes",
   "publishConfig": {
     "access": "public"
   },
@@ -11,7 +12,6 @@
     "content_type": "SN|Theme",
     "area": "themes",
     "main": "dist/dist.css",
-    "description": "Dark theme based on Monokai Ristretto that is easy on the eyes",
     "showInGallery": true,
     "dock_icon": {
       "type": "circle",

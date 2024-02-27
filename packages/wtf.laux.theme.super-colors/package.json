@@ -3,13 +3,13 @@
   "version": "1.1.0",
   "main": "dist/dist.css",
   "author": "Marco Laux",
+  "description": "Theme agnostic toggle to colorize different elements of the Super Editor",
   "publishConfig": {
     "access": "public"
   },
   "sn": {
     "name": "Super Colors",
     "content_type": "SN|Theme",
-    "description": "Theme agnostic toggle to colorize different elements of the Super Editor",
     "area": "themes",
     "main": "dist/dist.css",
     "layerable": true,
