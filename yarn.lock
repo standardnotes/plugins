@@ -7362,6 +7362,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@standardnotes/muted-super-colors@workspace:packages/wtf.laux.theme.muted-super-colors":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/muted-super-colors@workspace:packages/wtf.laux.theme.muted-super-colors"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/plugins@workspace:.":
   version: 0.0.0-use.local
   resolution: "@standardnotes/plugins@workspace:."
