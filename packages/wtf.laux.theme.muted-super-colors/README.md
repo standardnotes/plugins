@@ -1,2 +1,2 @@
-# Super Colors
+# Muted Super Colors
 
