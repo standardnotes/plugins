@@ -16,6 +16,7 @@
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.monokai-ristretto.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json",
   "publisher": "Marco Laux",
-  "base64Hash": "b0a45caa6562b377f2221b49fc2fa33087dc5708ead24c04ff1ef5d72a368ecc",
-  "binaryHash": "cb97593906332016b12fa2e63e35f95ac77a4e5dedfad0e0005b2a23c0b664af"
+  "description": "Dark theme based on Monokai Ristretto that is easy on the eyes",
+  "base64Hash": "83a6193d41afeaf0976f0cf1166ce941b2c7ae903503a5c343672f264568e3af",
+  "binaryHash": "48a654b43e7977a90e4c6cdac961b52ad80dac9546bfedc518fc0c2345b4957a"
 }
