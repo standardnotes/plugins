@@ -1,0 +1,25 @@
+{
+  "name": "@standardnotes/super-formatting",
+  "version": "1.0.0",
+  "main": "dist/dist.css",
+  "author": "Marco Laux",
+  "description": "Theme agnostic toggle to adjust the margins and sizes of various elements of the Super Editor",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sn": {
+    "name": "Super Formatting",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/dist.css",
+    "layerable": true,
+    "showInGallery": true
+  },
+  "scripts": {
+    "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "webpack": "*"
+  }
+}
