@@ -7601,6 +7601,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@standardnotes/super-formatting@workspace:packages/wtf.laux.theme.super-formatting":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/super-formatting@workspace:packages/wtf.laux.theme.super-formatting"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/utils@npm:1.9.0":
   version: 1.9.0
   resolution: "@standardnotes/utils@npm:1.9.0"
