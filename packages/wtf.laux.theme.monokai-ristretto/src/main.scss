@@ -139,22 +139,18 @@
 }
 
 * {
-  /* Foreground, Background */
   scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
 }
 
 *::-webkit-scrollbar {
   width: 10px;
-  /* Mostly for vertical scrollbars */
 }
 
 *::-webkit-scrollbar-thumb {
-  /* Foreground */
   background: var(--scrollbar-foreground);
 }
 
 *::-webkit-scrollbar-track {
-  /* Background */
   background: var(--scrollbar-background);
 }
 
@@ -440,7 +436,6 @@ button:hover .bg-info {
   background-color: var(--sn-stylekit-neutral-color);
 }
 
-
 .Lexical__link {
   color: var(--blue);
 }
@@ -449,75 +444,17 @@ button:hover .bg-info {
   color: var(--white);
 }
 
-.Lexical__h1,
-.Lexical__h2,
-.Lexical__h3,
-.Lexical__h4,
-.Lexical__h5 {
-  margin-bottom: 0.5em;
-  margin-top: 1em;
-}
-
-.Lexical__paragraph {
-  margin-bottom: 0.5em;
-}
-
-.Lexical__listItem {
-  margin-bottom: 0.33em;
-}
-
-
-.Lexical__listItemChecked,
-.Lexical__listItemUnchecked {
-  padding-left: calc(var(--font-size) + 1rem);
-}
-
-.Lexical__listItemUnchecked:before,
-.Lexical__listItemChecked:before {
-  --size: 1.3em;
-}
-
 .Lexical__listItemChecked:before {
   background-color: var(--item-cell-selected-background-color);
   cursor: pointer;
 }
 
 .Lexical__listItemChecked:after {
-  content: "\00d7";
-  display: inline-block;
-  transform: none;
-  font-size: 2em;
-  top: -60%;
-  left: 1px;
-  border: none;
   color: var(--white);
-}
-
-li[role="checkbox"] {
-  margin: 0.5em 0;
-}
-
-.ContentEditable__root {
-
-  >.Lexical__ul,
-  >.Lexical__ol {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-}
-
-.Lexical__quote {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-size: inherit;
 }
 
 .Lexical__code {
   background-color: var(--back-editor);
-  border: 2px solid var(--back-button);
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 1em;
 }
 
 .Lexical__textCode {
@@ -534,22 +471,6 @@ mark {
 
 .Collapsible__container[open] {
   background-color: var(--back-editor);
-}
-
-.Collapsible__container[open]>.Collapsible__title:before {
-  border-width: 7px 7px 0 7px;
-}
-
-.Collapsible__title {
-  padding: 0.5em 0.5em 0.5em 2em;
-
-  &:before {
-    border-width: 7px 0px 7px 7px;
-  }
-}
-
-.Collapsible__content {
-  padding: 1em;
 }
 
 .sn-icon-button.toggled {
