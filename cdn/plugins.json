@@ -70,5 +70,9 @@
   {
     "identifier": "wtf.laux.theme.super-colors",
     "staticFiles": ["dist", "package.json"]
+  },
+  {
+    "identifier": "wtf.laux.theme.solarized.light",
+    "staticFiles": ["dist", "package.json"]
   }
 ]

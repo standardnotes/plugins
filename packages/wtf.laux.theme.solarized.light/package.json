@@ -1,0 +1,30 @@
+{
+  "name": "@standardnotes/solarized-light",
+  "version": "1.0.0",
+  "main": "dist/dist.css",
+  "author": "Marco Laux",
+  "description": "Light theme based on Solarized Light",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sn": {
+    "name": "Solarized Light",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/dist.css",
+    "showInGallery": true,
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#b58900",
+      "foreground_color": "#fdf6e3",
+      "border_color": "#fd6883"
+    }
+  },
+  "scripts": {
+    "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "webpack": "*"
+  }
+}
