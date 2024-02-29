@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/dist.css",
   "author": "Marco Laux",
-  "description": "Theme agnostic toggle to adjust the margins and sizes of various elements of the Super Editor",
+  "description": "Theme agnostic toggle to adjust the margins and sizes of various elements of the Super Editor for a better readability",
   "publishConfig": {
     "access": "public"
   },
