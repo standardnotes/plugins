@@ -7504,6 +7504,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@standardnotes/solarized-light@workspace:packages/wtf.laux.theme.solarized.light":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/solarized-light@workspace:packages/wtf.laux.theme.solarized.light"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/spreadsheets@workspace:packages/org.standardnotes.standard-sheets":
   version: 0.0.0-use.local
   resolution: "@standardnotes/spreadsheets@workspace:packages/org.standardnotes.standard-sheets"
