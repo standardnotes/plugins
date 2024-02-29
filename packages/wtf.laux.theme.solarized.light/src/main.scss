@@ -60,7 +60,7 @@
   --sn-stylekit-warning-color: var(--orange);
   --sn-stylekit-warning-contrast-color: var(--base3);
   --sn-stylekit-danger-color: var(--red);
-  --sn-stylekit-danger-contrast-color: var(--base00);
+  --sn-stylekit-danger-contrast-color: var(--base3);
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
   --sn-stylekit-background-color: var(--base3);
@@ -140,6 +140,14 @@
   }
 }
 
+button.bg-default {
+  background-color: var(--normal-button-background-color);
+
+  &:hover {
+    background-color: var(--sn-stylekit-contrast-background-color);
+  }
+}
+
 .content-list-item:hover,
 .content-list-item.selected {
   .bg-passive-4-opacity-variant {
@@ -155,13 +163,19 @@
   background-color: var(--notes-list-back);
 }
 
+.preferences-menu-item {
+  &.selected {
+    background-color: var(--base3);
+  }
+}
+
 *[data-dialog-portal] {
   input.border {
     border-color: var(--yellow);
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
   body.focus-mode {
     #editor-content {
       border-radius: 16px 16px 0 0;
