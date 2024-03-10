@@ -7074,6 +7074,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@standardnotes/everlight@workspace:packages/wtf.laux.theme.everlight":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/everlight@workspace:packages/wtf.laux.theme.everlight"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/features@npm:1.54.0":
   version: 1.54.0
   resolution: "@standardnotes/features@npm:1.54.0"
