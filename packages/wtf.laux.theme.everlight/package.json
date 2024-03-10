@@ -1,0 +1,30 @@
+{
+  "name": "@standardnotes/everlight",
+  "version": "1.0.0",
+  "main": "dist/dist.css",
+  "author": "Marco Laux",
+  "description": "Everlight based on Evernote Light",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sn": {
+    "name": "Everlight",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/dist.css",
+    "showInGallery": true,
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#00a82d",
+      "foreground_color": "#00a82d",
+      "border_color": "#00a82d"
+    }
+  },
+  "scripts": {
+    "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "webpack": "*"
+  }
+}
