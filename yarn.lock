@@ -7362,6 +7362,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@standardnotes/nord@workspace:packages/wtf.laux.theme.nord":
+  version: 0.0.0-use.local
+  resolution: "@standardnotes/nord@workspace:packages/wtf.laux.theme.nord"
+  dependencies:
+    webpack: "*"
+  languageName: unknown
+  linkType: soft
+
 "@standardnotes/plugins@workspace:.":
   version: 0.0.0-use.local
   resolution: "@standardnotes/plugins@workspace:."
