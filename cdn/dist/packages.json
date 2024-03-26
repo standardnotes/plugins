@@ -298,14 +298,14 @@
       "border_color": "#fd6883"
     },
     "identifier": "wtf.laux.theme.monokai-ristretto",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.monokai-ristretto/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.monokai-ristretto.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json",
     "publisher": "Marco Laux",
     "description": "Dark theme based on Monokai Ristretto that is easy on the eyes",
-    "base64Hash": "83a6193d41afeaf0976f0cf1166ce941b2c7ae903503a5c343672f264568e3af",
-    "binaryHash": "48a654b43e7977a90e4c6cdac961b52ad80dac9546bfedc518fc0c2345b4957a"
+    "base64Hash": "486ee0f06637c44ecd6293040e6826bc9f74b7d82e0c26a8c21d8d94c9a3a795",
+    "binaryHash": "c194a2bb17de19b5f5e833eec9823148f4b148a595b9a0b17c112899174292f5"
   },
   "wtf.laux.theme.super-colors": {
     "name": "Super Colors",
@@ -315,13 +315,35 @@
     "layerable": true,
     "showInGallery": true,
     "identifier": "wtf.laux.theme.super-colors",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.super-colors/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.super-colors.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.super-colors.json",
     "publisher": "Marco Laux",
     "description": "Theme agnostic toggle to colorize different elements of the Super Editor",
-    "base64Hash": "7e7de9a5321ccd6755bc3ac181f032c43ea8feea11547a9c3f2f5f3fcf01f9f6",
-    "binaryHash": "9128b32035dfc38b8a5c701c6ef1d2d588b240ab9902cb38d4c10ef9ae844ef1"
+    "base64Hash": "b4c5d5c15ef8b123c1d5db508c7868b85f9eb13e87c4ae91a5eebd23ee919f22",
+    "binaryHash": "f3c67d6a36d8a3d34b77ca06fc89e00dfde2a76c0f71aa9ba9b96b665f48f851"
+  },
+  "wtf.laux.theme.nord": {
+    "name": "Nord",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/dist.css",
+    "showInGallery": true,
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#f9cc6c",
+      "foreground_color": "#f9cc6c",
+      "border_color": "#fd6883"
+    },
+    "identifier": "wtf.laux.theme.nord",
+    "version": "1.0.0",
+    "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.nord/dist/dist.css",
+    "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.nord.zip",
+    "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.nord.json",
+    "publisher": "Marco Laux",
+    "description": "An arctic, north-bluish color palette, based on Nord.",
+    "base64Hash": "a97d803f96241bdf6d6c7e3683c566da8275985549d32ad5b118dc202a3440f0",
+    "binaryHash": "7ef636662444cb70085de7ac0002b979c2ae8b4e166e4c1405c446cfd965f29b"
   }
 }

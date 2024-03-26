@@ -11,12 +11,12 @@
     "border_color": "#fd6883"
   },
   "identifier": "wtf.laux.theme.monokai-ristretto",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.monokai-ristretto/dist/dist.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.monokai-ristretto.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json",
   "publisher": "Marco Laux",
   "description": "Dark theme based on Monokai Ristretto that is easy on the eyes",
-  "base64Hash": "83a6193d41afeaf0976f0cf1166ce941b2c7ae903503a5c343672f264568e3af",
-  "binaryHash": "48a654b43e7977a90e4c6cdac961b52ad80dac9546bfedc518fc0c2345b4957a"
+  "base64Hash": "486ee0f06637c44ecd6293040e6826bc9f74b7d82e0c26a8c21d8d94c9a3a795",
+  "binaryHash": "c194a2bb17de19b5f5e833eec9823148f4b148a595b9a0b17c112899174292f5"
 }

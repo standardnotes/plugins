@@ -6,12 +6,12 @@
   "layerable": true,
   "showInGallery": true,
   "identifier": "wtf.laux.theme.super-colors",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.super-colors/dist/dist.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.super-colors.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.super-colors.json",
   "publisher": "Marco Laux",
   "description": "Theme agnostic toggle to colorize different elements of the Super Editor",
-  "base64Hash": "7e7de9a5321ccd6755bc3ac181f032c43ea8feea11547a9c3f2f5f3fcf01f9f6",
-  "binaryHash": "9128b32035dfc38b8a5c701c6ef1d2d588b240ab9902cb38d4c10ef9ae844ef1"
+  "base64Hash": "b4c5d5c15ef8b123c1d5db508c7868b85f9eb13e87c4ae91a5eebd23ee919f22",
+  "binaryHash": "f3c67d6a36d8a3d34b77ca06fc89e00dfde2a76c0f71aa9ba9b96b665f48f851"
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Nord",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/dist.css",
+  "showInGallery": true,
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#f9cc6c",
+    "foreground_color": "#f9cc6c",
+    "border_color": "#fd6883"
+  },
+  "identifier": "wtf.laux.theme.nord",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/wtf.laux.theme.nord/dist/dist.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/wtf.laux.theme.nord.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.nord.json",
+  "publisher": "Marco Laux",
+  "description": "An arctic, north-bluish color palette, based on Nord.",
+  "base64Hash": "a97d803f96241bdf6d6c7e3683c566da8275985549d32ad5b118dc202a3440f0",
+  "binaryHash": "7ef636662444cb70085de7ac0002b979c2ae8b4e166e4c1405c446cfd965f29b"
+}
