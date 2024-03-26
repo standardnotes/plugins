@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/nord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/dist.css",
   "author": "Marco Laux",
   "description": "An arctic, north-bluish color palette, based on Nord.",
