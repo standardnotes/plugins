@@ -7354,22 +7354,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@standardnotes/monokai-ristretto@workspace:packages/wtf.laux.theme.monokai-ristretto":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/monokai-ristretto@workspace:packages/wtf.laux.theme.monokai-ristretto"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
-
-"@standardnotes/nord@workspace:packages/wtf.laux.theme.nord":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/nord@workspace:packages/wtf.laux.theme.nord"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
-
 "@standardnotes/plugins@workspace:.":
   version: 0.0.0-use.local
   resolution: "@standardnotes/plugins@workspace:."
@@ -7600,14 +7584,6 @@ __metadata:
   checksum: e0a9e6732edcd4df9d8861377a5e9fa50708b46f8ce59df43053aeb321cc7b900560ac5c51a06c8a1f58f0cd5cb2a4b99b187490100529fa5d2905ffdfd7c486
   languageName: node
   linkType: hard
-
-"@standardnotes/super-colors@workspace:packages/wtf.laux.theme.super-colors":
-  version: 0.0.0-use.local
-  resolution: "@standardnotes/super-colors@workspace:packages/wtf.laux.theme.super-colors"
-  dependencies:
-    webpack: "*"
-  languageName: unknown
-  linkType: soft
 
 "@standardnotes/utils@npm:1.9.0":
   version: 1.9.0
