@@ -1,2 +1,0 @@
-# Monokai Ristretto Theme
-
