@@ -1,12 +1,37 @@
-@import '@standardnotes/stylekit/dist/stylekit.css';
+@import 'sn-extension-api/dist/sn.min.css';
 
 body,
 html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .main {
-  height: 100vh;
+    height: 100vh;
+}
+
+.theme-btn {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: var(--color-surface-low);
+    /*color: var(--sn-stylekit-info-contrast-color);*/
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--icon-fill-color);
+    box-shadow: 0 0 0 1px var(--color-surface-lowest);
+}
+
+.theme-btn:hover {
+    background-color: var(--button-hover-bg);
+}
+
+.theme-btn svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
 }
