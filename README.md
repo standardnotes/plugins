@@ -36,6 +36,3 @@ In Standard Notes desktop or web:
 |Markdown Monospace|DanielNetoP|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-monospace.json|
 |Excalidraw|Matthew Nienow|https://standardnotes.github.io/plugins/cdn/dist/entries/dev.randombits.excalidraw.json|
 |Standard Blue|Kieran Colfer|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-theme.json|
-|Monokai Ristretto|Marco Laux|https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.monokai-ristretto.json|
-|Super Colors|Marco Laux|https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.super-colors.json|
-|Nord|Marco Laux|https://standardnotes.github.io/plugins/cdn/dist/entries/wtf.laux.theme.nord.json|
