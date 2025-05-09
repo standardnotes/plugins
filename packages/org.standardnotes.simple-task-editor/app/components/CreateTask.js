@@ -32,7 +32,8 @@ export default class CreateTask extends React.Component {
   handleKeyPress = (event) => {
     if (event.key === 'Enter') {
       var rawString = event.target.value;
-      this.submitTask(rawString);
+      if(rawString)
+        this.submitTask(rawString);
     }
   }
 
