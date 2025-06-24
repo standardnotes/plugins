@@ -1,3 +1,5 @@
+CodeMirror.modeURL = "dist/codemirror/mode/%N/%N.js";
+
 document.addEventListener('DOMContentLoaded', function () {
   const modeByModeMode = CodeMirror.modeInfo.reduce(function (acc, m) {
     if (acc[m.mode]) {
@@ -163,13 +165,15 @@ document.addEventListener('DOMContentLoaded', function () {
     updateVimStatus(keymap)
   }
 
-  window.onLanguageSelect = function () {
+  function onLanguageSelect() {
     const language = modes[select.selectedIndex]
     changeMode(language)
     saveNote()
   }
 
-  window.setDefaultLanguage = function () {
+  document.getElementById('language-select').addEventListener('change', onLanguageSelect)
+
+  function setDefaultLanguage() {
     const language = modes[select.selectedIndex]
 
     // assign default language for this editor when entering notes
@@ -186,6 +190,8 @@ document.addEventListener('DOMContentLoaded', function () {
       message.innerHTML = original
     }, 750)
   }
+
+  document.getElementById('default-label').addEventListener('click', setDefaultLanguage)
 
   function inputModeToMode(inputMode) {
     const convertCodeMirrorMode = function (codeMirrorMode) {
@@ -260,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleButton.classList.add(buttonClass)
   }
 
-  window.toggleVimMode = function () {
+  function toggleVimMode() {
     let newKeyMap
 
     const currentKeyMap = componentRelay.getComponentDataValueForKey('keyMap') ?? 'default'
@@ -273,6 +279,8 @@ document.addEventListener('DOMContentLoaded', function () {
     window.setKeyMap(newKeyMap)
     componentRelay.setComponentDataValueForKey('keyMap', newKeyMap)
   }
+
+  document.getElementById('toggle-vim-mode-button').addEventListener('click', toggleVimMode)
 
   function getInputStyleForEnvironment() {
     const environment = componentRelay.environment ?? 'web'

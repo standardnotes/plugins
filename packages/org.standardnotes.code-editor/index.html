@@ -28,32 +28,29 @@
     <script src="dist/lib/component-relay.js"></script>
     <!-- Required for styling selected text -->
     <script src="dist/codemirror/addon/selection/mark-selection.js"></script>
-    <script>
-      CodeMirror.modeURL = "dist/codemirror/mode/%N/%N.js";
-    </script>
   </head>
 
   <body class="sn-component">
     <div class="wrapper">
       <textarea id="code" name="code"></textarea>
     <div>
-    <div class="sk-app-bar no-edges no-bottom-edge" style="width: inherit;">
+    <div id="bar" class="sk-app-bar no-edges no-bottom-edge">
       <div class="left">
         <div class="sk-app-bar-item no-pointer">
           <span class="sk-p">Language:</span>
         </div>
         <div class="sk-app-bar-item no-pointer">
-          <select id="language-select" onchange="onLanguageSelect(event)"></select>
+          <select id="language-select"></select>
         </div>
         <div class="sk-app-bar-item">
-          <span id="default-label" class="sk-label" onclick="setDefaultLanguage(event)">Set as Default</span>
+          <span id="default-label" class="sk-label">Set as Default</span>
         </div>
       </div>
       <div class="center"></div>
       <div class="right">
         <div class="sk-app-bar-item no-pointer border"></div>
         <div class="sk-app-bar-item">
-          <span id="toggle-vim-mode-button" class="sk-label" onclick="toggleVimMode()">Enable Vim mode</span>
+          <span id="toggle-vim-mode-button" class="sk-label">Enable Vim mode</span>
         </div>
       </div>
     </div>
