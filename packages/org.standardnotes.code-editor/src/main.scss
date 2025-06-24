@@ -103,3 +103,7 @@ body, html {
 .cm-fat-cursor .CodeMirror-line > span[role="presentation"] {
   caret-color: transparent;
 }
+
+#bar {
+  width: inherit;
+}
