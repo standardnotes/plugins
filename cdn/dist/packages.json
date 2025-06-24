@@ -197,8 +197,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.simple-task-editor.json",
     "publisher": "Standard Notes Community",
     "description": "A great way to manage short-term and long-term to-do's. You can mark tasks as completed, change their order, and edit the text naturally in place.",
-    "base64Hash": "e60483c1e46a32d9adac04ae0142f026adb1180dcd4379cbbad3c90bd049a27b",
-    "binaryHash": "57b70270b7f4ccc358f492a8681ecdd8e9fc2916feb1dfb0b0d28ca3a72958e0"
+    "base64Hash": "f999a54396e2d0d3f94011f10bc7b79484a24921053bc843875f7f8ac2d80015",
+    "binaryHash": "b559a1276847ed9959545b8ecd70c4a8314945da33158b6d79369983e48ac59f"
   },
   "org.standardnotes.code-editor": {
     "name": "Code",
@@ -216,8 +216,8 @@
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.code-editor.json",
     "publisher": "Standard Notes Community",
     "description": "Syntax highlighting and convenient keyboard shortcuts for over 120 programming languages. Ideal for code snippets and procedures.",
-    "base64Hash": "268b97c061e064eef202f85bdcf0c3ed233275132e3c7bf313f2f017ee3d22f9",
-    "binaryHash": "03bd305380574740d9bc3ea763a0b3b29a21567a13eb41a46a048bb7da2637d0"
+    "base64Hash": "7286fa130f7057a0a2e4ec5f22f75f3f00fb6dbb9e94008f4f3f98cd8bb75e94",
+    "binaryHash": "5353cd4de82b107ecdd242abd5459e0b52adf1f5322c31b4752bf56e71213b5a"
   },
   "com.sncommunity.standard-blue-dark-theme": {
     "name": "Standard Blue Dark",
@@ -230,10 +230,10 @@
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.standard-blue-dark-theme/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.standard-blue-dark-theme.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-dark-theme.json",
-    "publisher": "Kieran Colfer",
+    "publisher": "Passkeys",
     "description": "A dark blue theme for Standard Notes.",
-    "base64Hash": "1549bf86884c19adb3512a4df22c185beab8ef0c54fa9c41cf7ee47e0499e953",
-    "binaryHash": "18ae2cf353dd5e082b42933ddac6e3793d7f8d0a4a45f26b257b5865259229f0"
+    "base64Hash": "5518404f27a7782d31d03bb209694976da68ad813b92d4bf0609c4eacfdd263e",
+    "binaryHash": "c10bd0156a95951a123d5a5dad2849b27b018ecb659a511198496ee3dd5efb45"
   },
   "com.sncommunity.markdown-monospace": {
     "name": "Markdown Monospace",
@@ -260,14 +260,14 @@
     "file_type": "json",
     "showInGallery": true,
     "identifier": "dev.randombits.excalidraw",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/dev.randombits.excalidraw/dist/index.html",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/dev.randombits.excalidraw.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/dev.randombits.excalidraw.json",
     "publisher": "Matthew Nienow",
     "description": "A virtual whiteboard editor, with a hand-drawn style. Powered by Excalidraw.",
-    "base64Hash": "1671edb49213c6d57b6b2214246f32297aa8ec903d6e120a5cee66aa6e10d9ea",
-    "binaryHash": "cf88e2e1e061ce17d8e8371ee6407c8e77e418f813700933d44d5a5310be33d2"
+    "base64Hash": "f48426222565a0900d6a9363092c79f1625daef1f481edbaa045bfca7038b253",
+    "binaryHash": "bfe85f834339ccf89ed640268dda879c6bff6dc8ebce4b78e8ac4e7eef3b6199"
   },
   "com.sncommunity.standard-blue-theme": {
     "name": "Standard Blue",
@@ -280,9 +280,9 @@
     "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.standard-blue-theme/dist/dist.css",
     "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.standard-blue-theme.zip",
     "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-theme.json",
-    "publisher": "Kieran Colfer",
+    "publisher": "Passkeys",
     "description": "A light blue theme for Standard Notes.",
-    "base64Hash": "7548b2e0436d878fd94d8d73f1f2bfeec54f02ddc0608f1a81d0d92a538e2bff",
-    "binaryHash": "f15447b2062f8623370d1374ad82f603413bb04541d225859046fefcdd8e7fec"
+    "base64Hash": "b56c8f3c3516c32bf0039399d9aadeaea4fbc14b221f2972d0470fc6f1551ee7",
+    "binaryHash": "e265925f0c38d2554353f403b26276669c7969d27c7afbe2502dae82b28814b2"
   }
 }

@@ -9,8 +9,8 @@
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.standard-blue-theme/dist/dist.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.standard-blue-theme.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.standard-blue-theme.json",
-  "publisher": "Kieran Colfer",
+  "publisher": "Passkeys",
   "description": "A light blue theme for Standard Notes.",
-  "base64Hash": "7548b2e0436d878fd94d8d73f1f2bfeec54f02ddc0608f1a81d0d92a538e2bff",
-  "binaryHash": "f15447b2062f8623370d1374ad82f603413bb04541d225859046fefcdd8e7fec"
+  "base64Hash": "b56c8f3c3516c32bf0039399d9aadeaea4fbc14b221f2972d0470fc6f1551ee7",
+  "binaryHash": "e265925f0c38d2554353f403b26276669c7969d27c7afbe2502dae82b28814b2"
 }
