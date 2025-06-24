@@ -2,7 +2,7 @@
   "name": "@standardnotes/standard-blue-dark",
   "version": "1.1.2",
   "main": "dist/dist.css",
-  "author": "Kieran Colfer",
+  "author": "Passkeys",
   "description": "A dark blue theme for Standard Notes.",
   "publishConfig": {
     "access": "public"
