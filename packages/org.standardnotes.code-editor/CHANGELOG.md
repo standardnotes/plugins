@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.2](https://github.com/standardnotes/plugins/compare/@standardnotes/classic-code-editor@1.6.1...@standardnotes/classic-code-editor@1.6.2) (2025-06-24)
+
+### Bug Fixes
+
+* code editor fixes ([#46](https://github.com/standardnotes/plugins/issues/46)) ([7517720](https://github.com/standardnotes/plugins/commit/751772055918b28765ac5b8f0cc748b8a816e69c))
+
 ## [1.6.1](https://github.com/standardnotes/plugins/compare/@standardnotes/classic-code-editor@1.6.0...@standardnotes/classic-code-editor@1.6.1) (2023-11-18)
 
 **Note:** Version bump only for package @standardnotes/classic-code-editor
