@@ -333,13 +333,11 @@ const tasksSlice = createSlice({
           groups: parsedState?.groups ?? [],
         }
 
-        if (newState !== initialState) {
-          state.schemaVersion = newState.schemaVersion
-          state.groups = newState.groups
-          state.defaultSections = newState.defaultSections
-          state.initialized = true
-          delete state.lastError
-        }
+        state.schemaVersion = newState.schemaVersion
+        state.groups = newState.groups
+        state.defaultSections = newState.defaultSections
+        state.initialized = true
+        delete state.lastError
       } catch (error: any) {
         state.initialized = false
         state.lastError = `An error has occurred while parsing the note's content: ${error}`
