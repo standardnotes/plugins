@@ -65,7 +65,8 @@ const TaskEditor: React.FC = () => {
       onNoteValueChange: async (currentNote: any) => {
         note.current = currentNote
 
-        const editable = !currentNote.content.appData['org.standardnotes.sn'].locked ?? true
+        const locked = currentNote.content.appData['org.standardnotes.sn'].locked ?? false
+        const editable = !locked
         const spellCheckEnabled = currentNote.content.spellcheck
 
         dispatch(setCanEdit(editable))
