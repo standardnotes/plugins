@@ -12,13 +12,13 @@ const defaultGroup: GroupModel = {
       id: 'test-1',
       description: 'Testing #1',
       completed: false,
-      createdAt: new Date(),
+      createdAt: new Date().toISOString(),
     },
     {
       id: 'test-2',
       description: 'Testing #2',
       completed: false,
-      createdAt: new Date(),
+      createdAt: new Date().toISOString(),
     },
   ],
   sections: [
@@ -53,7 +53,7 @@ it('renders the completed tasks section', () => {
     id: 'test-3',
     description: 'Testing #3',
     completed: true,
-    createdAt: new Date(),
+    createdAt: new Date().toISOString(),
   })
 
   testRender(<TaskSectionList group={groupWithCompletedTask} />)
@@ -91,7 +91,7 @@ it('renders default sections', () => {
         id: 'test-3',
         description: 'Testing #3',
         completed: true,
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
     ],
   }

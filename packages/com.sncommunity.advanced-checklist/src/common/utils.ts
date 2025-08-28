@@ -73,7 +73,7 @@ function createTaskFromLine(rawTask: string): TaskModel | undefined {
     id: uuidv4(),
     description,
     completed: IS_COMPLETED.test(rawTask),
-    createdAt: new Date(),
+    createdAt: new Date().toISOString(),
   }
 }
 
@@ -127,7 +127,7 @@ export function isLastActiveGroup(allGroups: GroupModel[], groupName: string): b
     if (!current.lastActive) {
       return prev
     }
-    return prev.lastActive > current.lastActive ? prev : current
+    return new Date(prev.lastActive) > new Date(current.lastActive) ? prev : current
   })
 
   return lastActiveGroup.name === groupName

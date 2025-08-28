@@ -32,9 +32,9 @@ export type TaskModel = {
   id: string
   description: string
   completed?: boolean
-  createdAt: Date
-  updatedAt?: Date
-  completedAt?: Date
+  createdAt: string
+  updatedAt?: string
+  completedAt?: string
 }
 
 export type SectionModel = {
@@ -47,7 +47,7 @@ export type GroupModel = {
   name: string
   collapsed?: boolean
   draft?: string
-  lastActive?: Date
+  lastActive?: string
   tasks: TaskModel[]
   sections?: SectionModel[]
 }
@@ -72,7 +72,7 @@ const tasksSlice = createSlice({
       group.tasks.unshift({
         ...task,
         completed: false,
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       })
     },
     taskModified(
@@ -92,7 +92,7 @@ const tasksSlice = createSlice({
         return
       }
       currentTask.description = task.description
-      currentTask.updatedAt = new Date()
+      currentTask.updatedAt = new Date().toISOString()
     },
     taskDeleted(state, action: PayloadAction<{ id: string; groupName: string }>) {
       const { id, groupName } = action.payload
@@ -113,9 +113,9 @@ const tasksSlice = createSlice({
         return
       }
       currentTask.completed = !currentTask.completed
-      currentTask.updatedAt = new Date()
+      currentTask.updatedAt = new Date().toISOString()
       if (currentTask.completed) {
-        currentTask.completedAt = new Date()
+        currentTask.completedAt = new Date().toISOString()
       } else {
         delete currentTask.completedAt
       }
@@ -289,7 +289,7 @@ const tasksSlice = createSlice({
       if (!group) {
         return
       }
-      group.lastActive = new Date()
+      group.lastActive = new Date().toISOString()
     },
     tasksLegacyContentMigrated(state, { payload }: PayloadAction<{ continue: boolean }>) {
       if (!state.legacyContent) {

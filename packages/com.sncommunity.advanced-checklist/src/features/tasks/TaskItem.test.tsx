@@ -9,7 +9,7 @@ const task: TaskModel = {
   id: 'test-1',
   description: 'Testing #1',
   completed: false,
-  createdAt: new Date(),
+  createdAt: new Date().toISOString(),
 }
 
 it('renders a check box and textarea input', async () => {

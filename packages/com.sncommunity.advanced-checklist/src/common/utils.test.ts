@@ -92,18 +92,18 @@ describe('groupTasksByCompletedStatus', () => {
         id: 'test-1',
         description: 'Testing #1',
         completed: false,
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
       {
         id: 'test-2',
         description: 'Testing #2',
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
       {
         id: 'test-3',
         description: 'Testing #3',
         completed: true,
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
     ]
 
@@ -124,13 +124,13 @@ describe('getTaskArrayFromGroupedTasks', () => {
       {
         id: 'test-b-1',
         description: 'Test #1',
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
       {
         id: 'test-b-2',
         description: 'Test #2',
         completed: true,
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
     ]
 
@@ -138,13 +138,13 @@ describe('getTaskArrayFromGroupedTasks', () => {
       {
         id: 'test-c-1',
         description: 'Test #3',
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
       {
         id: 'test-c-2',
         description: 'Test #4',
         completed: true,
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
     ]
 
@@ -190,13 +190,13 @@ describe('getPlainPreview', () => {
       {
         id: 'test-b-1',
         description: 'Test #1',
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
       {
         id: 'test-b-2',
         description: 'Test #2',
         completed: true,
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
     ]
 
@@ -204,18 +204,18 @@ describe('getPlainPreview', () => {
       {
         id: 'test-c-1',
         description: 'Test #3',
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
       {
         id: 'test-c-2',
         description: 'Test #4',
         completed: true,
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
       {
         id: 'test-c-3',
         description: 'Test #5',
-        createdAt: new Date(),
+        createdAt: new Date().toISOString(),
       },
     ]
 
