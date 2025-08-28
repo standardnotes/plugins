@@ -90,6 +90,10 @@ const TaskEditor: React.FC = () => {
     configureEditorKit()
   }, [configureEditorKit])
 
+  useEffect(() => {
+    dispatch(tasksLoaded('{}'))
+  }, [dispatch])
+
   const saveNote = useCallback(() => {
     const { initialized } = store.getState().tasks
     const currentNote = note.current
