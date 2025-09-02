@@ -1,7 +1,7 @@
 import './stylesheets/main.scss'
 
 import EditorKit, { EditorKitDelegate } from '@standardnotes/editor-kit'
-import React, { useCallback, useEffect, useRef } from 'react'
+import React, { useCallback, useEffect, useLayoutEffect, useRef } from 'react'
 import ReactDOM from 'react-dom'
 import { renderToString } from 'react-dom/server'
 import { Provider } from 'react-redux'
@@ -58,8 +58,10 @@ const TaskEditor: React.FC = () => {
   }
 
   const configureEditorKit = useCallback(() => {
+    console.log('configureEditorKit')
     const editorKitDelegate: EditorKitDelegate = {
       setEditorRawText: (rawString: string) => {
+        console.log('setEditorRawText', rawString)
         dispatch(tasksLoaded(rawString))
       },
       onNoteValueChange: async (currentNote: any) => {
@@ -86,13 +88,9 @@ const TaskEditor: React.FC = () => {
     })
   }, [dispatch])
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     configureEditorKit()
   }, [configureEditorKit])
-
-  useEffect(() => {
-    dispatch(tasksLoaded('{}'))
-  }, [dispatch])
 
   const saveNote = useCallback(() => {
     const { initialized } = store.getState().tasks
