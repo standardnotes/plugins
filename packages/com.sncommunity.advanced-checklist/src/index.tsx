@@ -58,10 +58,8 @@ const TaskEditor: React.FC = () => {
   }
 
   const configureEditorKit = useCallback(() => {
-    console.log('configureEditorKit')
     const editorKitDelegate: EditorKitDelegate = {
       setEditorRawText: (rawString: string) => {
-        console.log('setEditorRawText', rawString)
         dispatch(tasksLoaded(rawString))
       },
       onNoteValueChange: async (currentNote: any) => {
