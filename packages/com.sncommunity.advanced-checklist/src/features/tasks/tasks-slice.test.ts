@@ -58,7 +58,7 @@ it('should handle a task being added to the existing tasks store', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -84,13 +84,13 @@ it('should handle a task being added to the existing tasks store', () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'some-id',
             description: 'A simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -137,8 +137,8 @@ it('should handle an existing task being modified', () => {
             id: 'some-id',
             description: 'Task description changed',
             completed: false,
-            createdAt: expect.any(Date),
-            updatedAt: expect.any(Date),
+            createdAt: expect.any(String),
+            updatedAt: expect.any(String),
           },
         ],
         sections: DEFAULT_SECTIONS,
@@ -185,7 +185,7 @@ it('should not modify tasks if an invalid id is provided', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -234,8 +234,8 @@ it('should keep completed field as-is, if task is modified', () => {
             id: 'some-id',
             description: 'New description',
             completed: false,
-            createdAt: expect.any(Date),
-            updatedAt: expect.any(Date),
+            createdAt: expect.any(String),
+            updatedAt: expect.any(String),
           },
         ],
       },
@@ -273,9 +273,9 @@ it('should handle an existing task being toggled', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
-            updatedAt: expect.any(Date),
-            completedAt: expect.any(Date),
+            createdAt: expect.any(String),
+            updatedAt: expect.any(String),
+            completedAt: expect.any(String),
           },
         ],
       },
@@ -325,21 +325,21 @@ test('toggled tasks should be on top of the list', () => {
             id: 'another-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
-            updatedAt: expect.any(Date),
-            completedAt: expect.any(Date),
+            createdAt: expect.any(String),
+            updatedAt: expect.any(String),
+            completedAt: expect.any(String),
           },
           {
             id: 'some-id',
             description: 'A simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'extra-id',
             description: 'A simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -377,8 +377,8 @@ it('should handle an existing completed task being toggled', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: false,
-            createdAt: expect.any(Date),
-            updatedAt: expect.any(Date),
+            createdAt: expect.any(String),
+            updatedAt: expect.any(String),
           },
         ],
       },
@@ -422,7 +422,7 @@ it('should handle an existing task being deleted', () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -472,19 +472,19 @@ it('should handle opening all tasks that are marked as completed', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'yet-another-id',
             description: 'Yet another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -534,7 +534,7 @@ it('should handle clear all completed tasks', () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -790,19 +790,19 @@ it('should handle reordering tasks from the same section', () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'yet-another-id',
             description: 'Yet another simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -862,19 +862,19 @@ it('should handle reordering tasks from different sections', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'yet-another-id',
             description: 'Yet another simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1030,7 +1030,7 @@ it('should handle deleting groups', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1041,7 +1041,7 @@ it('should handle deleting groups', () => {
             id: 'yet-another-id',
             description: 'Yet another simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1154,7 +1154,7 @@ it('should handle merging groups', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1165,13 +1165,13 @@ it('should handle merging groups', () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
           {
             id: 'yet-another-id',
             description: 'Yet another simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1222,7 +1222,7 @@ it('should handle renaming a group', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1233,7 +1233,7 @@ it('should handle renaming a group', () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1295,7 +1295,7 @@ it("should rename a group and preserve it's current order", () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1306,7 +1306,7 @@ it("should rename a group and preserve it's current order", () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1317,7 +1317,7 @@ it("should rename a group and preserve it's current order", () => {
             id: 'yet-another-id',
             description: 'Yet another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1382,7 +1382,7 @@ it('should handle collapsing groups', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1394,7 +1394,7 @@ it('should handle collapsing groups', () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1405,7 +1405,7 @@ it('should handle collapsing groups', () => {
             id: 'yet-another-id',
             description: 'Yet another simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1469,7 +1469,7 @@ it('should handle saving task draft for groups', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1480,7 +1480,7 @@ it('should handle saving task draft for groups', () => {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1492,7 +1492,7 @@ it('should handle saving task draft for groups', () => {
             id: 'yet-another-id',
             description: 'Yet another simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1545,19 +1545,19 @@ it('should handle setting a group as last active', () => {
             id: 'some-id',
             description: 'A simple task',
             completed: true,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
       {
         name: 'Testing',
-        lastActive: expect.any(Date),
+        lastActive: expect.any(String),
         tasks: [
           {
             id: 'another-id',
             description: 'Another simple task',
             completed: false,
-            createdAt: expect.any(Date),
+            createdAt: expect.any(String),
           },
         ],
       },
@@ -1579,9 +1579,116 @@ it('should detect and load legacy content', () => {
           id: expect.any(String),
           description: 'Foo bar',
           completed: false,
-          createdAt: expect.any(Date),
+          createdAt: expect.any(String),
         },
       ],
     },
   })
 })
+
+describe('Backward Compatibility - JSON Serialization Handling', () => {
+  it('should handle legacy notes that had Date objects (via JSON serialization)', () => {
+    const previousState: TasksState = {
+      schemaVersion: LATEST_SCHEMA_VERSION,
+      defaultSections: DEFAULT_SECTIONS,
+      groups: [],
+    }
+
+    // Simulate the actual scenario: old code created Date objects,
+    // but when saved/loaded through JSON, they become strings
+    const legacyDate = new Date('2023-01-15T10:30:00.000Z')
+    
+    // This is what the old code would have created in memory
+    const legacyTasksInMemory = {
+      schemaVersion: LATEST_SCHEMA_VERSION,
+      groups: [
+        {
+          name: 'Legacy Tasks',
+          tasks: [
+            {
+              id: 'legacy-task-1',
+              description: 'Task created with old code',
+              completed: false,
+              createdAt: legacyDate, // Date object in old code
+            },
+            {
+              id: 'legacy-task-2', 
+              description: 'Another legacy task',
+              completed: true,
+              createdAt: legacyDate,
+              updatedAt: legacyDate,
+              completedAt: legacyDate,
+            },
+          ],
+          lastActive: legacyDate,
+        },
+      ],
+    }
+
+    // But when saved and loaded, JSON.stringify/parse converts Date → string
+    const serializedPayload = JSON.stringify(legacyTasksInMemory)
+    const result = reducer(previousState, tasksLoaded(serializedPayload))
+
+    // Verify that the system handles this correctly
+    expect(result).toEqual<TasksState>({
+      schemaVersion: LATEST_SCHEMA_VERSION,
+      defaultSections: DEFAULT_SECTIONS,
+      groups: [
+        {
+          name: 'Legacy Tasks',
+          tasks: [
+            {
+              id: 'legacy-task-1',
+              description: 'Task created with old code',
+              completed: false,
+              createdAt: legacyDate.toISOString(), // Now a string
+            },
+            {
+              id: 'legacy-task-2',
+              description: 'Another legacy task',
+              completed: true,
+              createdAt: legacyDate.toISOString(),
+              updatedAt: legacyDate.toISOString(),
+              completedAt: legacyDate.toISOString(),
+            },
+          ],
+          lastActive: legacyDate.toISOString(),
+        },
+      ],
+      initialized: true,
+    })
+
+    // Explicitly verify that dates are strings, not Date objects
+    const loadedTask = result.groups[0].tasks[0]
+    expect(typeof loadedTask.createdAt).toBe('string')
+    expect(loadedTask.createdAt).toMatch(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/)
+    expect(new Date(loadedTask.createdAt).getTime()).toBe(legacyDate.getTime())
+  })
+
+  it('should demonstrate that JSON serialization automatically converts Date objects', () => {
+    // This test documents the core mechanism that provides backward compatibility
+    const dataWithDateObjects = {
+      createdAt: new Date('2023-01-15T10:30:00.000Z'),
+      updatedAt: new Date('2023-02-20T15:45:30.123Z'),
+    }
+
+    // Verify initial state
+    expect(dataWithDateObjects.createdAt instanceof Date).toBe(true)
+    expect(typeof dataWithDateObjects.createdAt).toBe('object')
+
+    // Simulate the save/load cycle
+    const serialized = JSON.stringify(dataWithDateObjects)
+    const parsed = JSON.parse(serialized)
+
+    // Verify automatic conversion
+    expect(parsed.createdAt instanceof Date).toBe(false)
+    expect(typeof parsed.createdAt).toBe('string')
+    expect(parsed.createdAt).toBe('2023-01-15T10:30:00.000Z')
+    expect(parsed.updatedAt).toBe('2023-02-20T15:45:30.123Z')
+
+    // Verify that the strings are valid ISO dates
+    expect(new Date(parsed.createdAt).getTime()).toBe(dataWithDateObjects.createdAt.getTime())
+    expect(new Date(parsed.updatedAt).getTime()).toBe(dataWithDateObjects.updatedAt.getTime())
+  })
+})
+
