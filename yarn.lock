@@ -6645,7 +6645,7 @@ __metadata:
     "@reach/visually-hidden": 0.16.0
     "@react-hook/resize-observer": ^1.2.5
     "@reduxjs/toolkit": 1.8.0
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#50ffb15c935a297b082eb00ffd031adc05080d7f"
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275"
     "@standardnotes/stylekit": 5.23.0
     "@standardnotes/utils": 1.9.0
     "@testing-library/dom": 8.11.3
@@ -6703,7 +6703,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.18.5
     "@babel/preset-env": ^7.18.2
     "@babel/preset-react": ^7.17.12
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#50ffb15c935a297b082eb00ffd031adc05080d7f"
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275"
     "@standardnotes/eslint-config-extensions": ^1.0.4
     "@standardnotes/styles": 1.6.1
     "@svgr/webpack": ^6.2.1
@@ -6820,19 +6820,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@standardnotes/component-relay@standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d":
-  version: 2.3.0
-  resolution: "@standardnotes/component-relay@https://github.com/standardnotes/component-relay.git#commit=839ff5db9bc92db9d42cad8d202ddc4df729597d"
-  dependencies:
-    "@standardnotes/common": ^1.43.0
-    "@standardnotes/features": 1.54.0
-    "@standardnotes/models": 1.34.3
-    "@standardnotes/sncrypto-common": 1.13.0
-    "@standardnotes/snjs": 2.147.2
-  checksum: c8478582b49b7f4134eeee29e97385dfd92842072ccec8de7038fb51c2b90fd24f017818a35a3e0f0ea071974c36167fec96d0bdf0184d442644538796dfc257
-  languageName: node
-  linkType: hard
-
 "@standardnotes/component-relay@standardnotes/component-relay#c54e74bd6d5a22fda4568325a0a699fa55dd14b4":
   version: 2.3.0
   resolution: "@standardnotes/component-relay@https://github.com/standardnotes/component-relay.git#commit=c54e74bd6d5a22fda4568325a0a699fa55dd14b4"
@@ -6872,14 +6859,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@standardnotes/editor-kit@standardnotes/editor-kit#50ffb15c935a297b082eb00ffd031adc05080d7f":
-  version: 2.3.0
-  resolution: "@standardnotes/editor-kit@https://github.com/standardnotes/editor-kit.git#commit=50ffb15c935a297b082eb00ffd031adc05080d7f"
+"@standardnotes/editor-kit@standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275":
+  version: 2.3.1
+  resolution: "@standardnotes/editor-kit@https://github.com/standardnotes/editor-kit.git#commit=c0743eb4690dcf73aab97da662c3c7e5f8356275"
   dependencies:
-    "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"
+    "@standardnotes/component-relay": "standardnotes/component-relay#c54e74bd6d5a22fda4568325a0a699fa55dd14b4"
     "@standardnotes/models": 1.34.3
     "@standardnotes/snjs": 2.147.2
-  checksum: c59d160a86e9c40c10f20d15a0df8874a8305bd4ae281fad8729fbf9bd714667b3849c78e3a28f18c12127e23bb9e4834139c0501505822662b51c19c9ddf343
+  checksum: f11d9395e150a6876e16be19638fb6da8d1212ca5c810d500283e947057a519fe269c8fcf34a335126655fbe93db680307313e5ee1137cc350cfe55f06484df4
   languageName: node
   linkType: hard
 
@@ -7112,7 +7099,7 @@ __metadata:
     "@milkdown/prose": 5.5.0
     "@milkdown/react": 5.5.0
     "@milkdown/theme-nord": 5.5.0
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#50ffb15c935a297b082eb00ffd031adc05080d7f"
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275"
     "@standardnotes/styles": 1.6.1
     "@testing-library/dom": ^8.11.3
     "@testing-library/jest-dom": ^5.16.2
