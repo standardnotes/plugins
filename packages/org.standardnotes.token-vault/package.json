@@ -2,7 +2,7 @@
   "name": "@standardnotes/authenticator",
   "version": "2.4.2",
   "main": "dist/dist.js",
-  "author": "Standard Notes",
+  "author": "Standard Notes.",
   "publishConfig": {
     "access": "public"
   },

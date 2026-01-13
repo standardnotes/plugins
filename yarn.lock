@@ -6742,7 +6742,7 @@ __metadata:
     "@babel/eslint-parser": ^7.13.14
     "@babel/preset-env": ^7.13.12
     "@babel/preset-react": ^7.13.13
-    "@standardnotes/editor-kit": 2.2.3
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275"
     babel-loader: ^8.2.2
     copy-webpack-plugin: "*"
     css-loader: ^5.2.0
@@ -6851,13 +6851,6 @@ __metadata:
     webpack: "*"
   languageName: unknown
   linkType: soft
-
-"@standardnotes/editor-kit@npm:2.2.3":
-  version: 2.2.3
-  resolution: "@standardnotes/editor-kit@npm:2.2.3"
-  checksum: 83815c0215a13079b2b53a6c83827ee8cac33e4279abaf796c96de312525ec75f91e4352842344b7c9febacb808502d5a50be77de3842252539013efd8c269c9
-  languageName: node
-  linkType: hard
 
 "@standardnotes/editor-kit@standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275":
   version: 2.3.1

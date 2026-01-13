@@ -6,7 +6,7 @@
   },
   "description": "From highlighting to custom font sizes and colors, to tables and lists, this editor is perfect for crafting any document.",
   "main": "dist/dist.js",
-  "author": "Standard Notes Community.",
+  "author": "Standard Notes Community",
   "scripts": {
     "skip:lint": "eslint --ext .js .",
     "lint:fix": "eslint --ext .js . --fix",
