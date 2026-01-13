@@ -25,7 +25,7 @@
     "showInGallery": true
   },
   "dependencies": {
-    "@standardnotes/component-relay": "standardnotes/component-relay#839ff5db9bc92db9d42cad8d202ddc4df729597d"
+    "@standardnotes/component-relay": "standardnotes/component-relay#c54e74bd6d5a22fda4568325a0a699fa55dd14b4"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
