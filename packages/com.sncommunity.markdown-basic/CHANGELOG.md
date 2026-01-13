@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.5](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-basic@1.7.4...@standardnotes/markdown-basic@1.7.5) (2026-01-13)
+
+**Note:** Version bump only for package @standardnotes/markdown-basic
+
+## [1.7.4](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-basic@1.7.3...@standardnotes/markdown-basic@1.7.4) (2026-01-13)
+
+**Note:** Version bump only for package @standardnotes/markdown-basic
+
 ## [1.7.3](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-basic@1.7.2...@standardnotes/markdown-basic@1.7.3) (2024-02-22)
 
 **Note:** Version bump only for package @standardnotes/markdown-basic

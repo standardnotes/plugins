@@ -1,7 +1,7 @@
 {
   "name": "@standardnotes/markdown-visual",
-  "version": "1.4.4",
-  "author": "Standard Notes Community.",
+  "version": "1.4.6",
+  "author": "Standard Notes Community",
   "description": "A WYSIWYG-style Markdown editor that renders Markdown in preview-mode while you type without displaying any syntax.",
   "keywords": [
     "Standard Notes",
@@ -34,7 +34,7 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#50ffb15c935a297b082eb00ffd031adc05080d7f",
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275",
     "@standardnotes/styles": "1.6.1"
   },
   "devDependencies": {

@@ -8,12 +8,12 @@
   "file_type": "md",
   "showInGallery": true,
   "identifier": "org.standardnotes.advanced-markdown-editor",
-  "version": "1.8.1",
+  "version": "1.8.3",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/org.standardnotes.advanced-markdown-editor/dist/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/org.standardnotes.advanced-markdown-editor.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.advanced-markdown-editor.json",
   "publisher": "Standard Notes Community",
   "description": "A fully featured Markdown editor that supports live preview, a styling toolbar, and split pane support.",
-  "base64Hash": "bb30bf5deb5e0e468854bea1edc75efc4769647082d10015c356c503d0b685af",
-  "binaryHash": "70a24f90cd4114ee67f9bd2f04ead1f7470279ae3248376a8d09c8c7e58b8786"
+  "base64Hash": "6ec77efe110aa6a4e7ebd91ff68f340e0b76f6ed4723e54fd425472f7b8d6296",
+  "binaryHash": "5c23fac372607ce780778d225f92914093288d23862fb9a26651f184e2ea1926"
 }

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.5](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-math@1.5.4...@standardnotes/markdown-math@1.5.5) (2026-01-13)
+
+**Note:** Version bump only for package @standardnotes/markdown-math
+
+## [1.5.4](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-math@1.5.3...@standardnotes/markdown-math@1.5.4) (2026-01-13)
+
+**Note:** Version bump only for package @standardnotes/markdown-math
+
+## [1.5.3](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-math@1.5.2...@standardnotes/markdown-math@1.5.3) (2026-01-13)
+
+**Note:** Version bump only for package @standardnotes/markdown-math
+
 ## [1.5.2](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-math@1.5.1...@standardnotes/markdown-math@1.5.2) (2023-11-18)
 
 **Note:** Version bump only for package @standardnotes/markdown-math

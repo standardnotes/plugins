@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.5](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.8.4...@standardnotes/spreadsheets@1.8.5) (2026-01-13)
+
+**Note:** Version bump only for package @standardnotes/spreadsheets
+
+## [1.8.4](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.8.3...@standardnotes/spreadsheets@1.8.4) (2026-01-13)
+
+**Note:** Version bump only for package @standardnotes/spreadsheets
+
+## [1.8.3](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.8.2...@standardnotes/spreadsheets@1.8.3) (2026-01-13)
+
+**Note:** Version bump only for package @standardnotes/spreadsheets
+
 ## [1.8.2](https://github.com/standardnotes/plugins/compare/@standardnotes/spreadsheets@1.8.1...@standardnotes/spreadsheets@1.8.2) (2024-02-22)
 
 **Note:** Version bump only for package @standardnotes/spreadsheets

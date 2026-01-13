@@ -8,12 +8,12 @@
   "file_type": "txt",
   "showInGallery": true,
   "identifier": "com.sncommunity.markdown-math",
-  "version": "1.5.2",
+  "version": "1.5.4",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-math/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-math.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-math.json",
   "publisher": "Standard Notes Community",
   "description": "A beautiful split-pane Markdown editor with synced-scroll, LaTeX support, and colorful syntax.",
-  "base64Hash": "09184ae46f21520a42d7c18432afaf030e0d1f2696d568aa460deffffe039cf1",
-  "binaryHash": "08b3e34808550ddd33f6462dbfbb67dc4ccbd8157e2ad9f27538f014cc7a8e75"
+  "base64Hash": "35258689dbb8c5552b8b33f7ce547c7124daa1aff7f656b2d9ffdd6d8e2f2fdb",
+  "binaryHash": "ef56d9cc433da7ce63f809af595af592c660281323c2078b4389908f86d4de00"
 }
