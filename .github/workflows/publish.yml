@@ -21,9 +21,18 @@ jobs:
         with:
           node-version: 16.x
           registry-url: "https://registry.npmjs.org"
+          scope: "@standardnotes"
 
       - name: Enable Corepack (Yarn)
         run: corepack enable
+
+      - name: Verify npm auth + registry (debug E404)
+        shell: bash
+        run: |
+          node -v
+          npm -v
+          npm config get registry
+          npm whoami
 
       - name: Setup git config
         run: |
