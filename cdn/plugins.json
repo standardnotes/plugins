@@ -66,5 +66,9 @@
   {
     "identifier": "com.sncommunity.dark-mint-theme",
     "staticFiles": ["dist", "package.json"]
+  },
+  {
+    "identifier": ""com.sncommunity.lights-out-theme",
+    "staticFiles": ["dist", "package.json"]
   }
 ]

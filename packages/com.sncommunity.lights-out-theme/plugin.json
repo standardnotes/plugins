@@ -1,0 +1,9 @@
+{
+  "identifier": "com.sncommunity.lights-out-theme",
+  "name": "Lights Out",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A pitch black theme for Standard Notes.",
+  "url": "https://github.com/PASSK3YS/plugins/raw/main/packages/com.sncommunity.lights-out-theme/dist/plugin.json"
+}

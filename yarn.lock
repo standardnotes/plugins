@@ -11856,6 +11856,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"com.sncommunity.lights-out-theme@workspace:packages/com.sncommunity.lights-out-theme":
+  version: 0.0.0-use.local
+  resolution: "com.sncommunity.lights-out-theme@workspace:packages/com.sncommunity.lights-out-theme"
+  dependencies:
+    shx: ^0.4.0
+  languageName: unknown
+  linkType: soft
+
 "combine-source-map@npm:^0.8.0, combine-source-map@npm:~0.8.0":
   version: 0.8.0
   resolution: "combine-source-map@npm:0.8.0"
