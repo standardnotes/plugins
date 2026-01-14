@@ -62,5 +62,8 @@
   {
     "identifier": "com.sncommunity.standard-blue-theme",
     "staticFiles": ["dist", "package.json"]
-  }
+  },
+  {
+    "identifier": "passkeys.dark-mint-theme",
+    "staticFiles": ["dist", "package.json"]
 ]
