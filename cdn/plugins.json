@@ -66,4 +66,5 @@
   {
     "identifier": "com.sncommunity.dark-mint-theme",
     "staticFiles": ["dist", "package.json"]
+  }
 ]
