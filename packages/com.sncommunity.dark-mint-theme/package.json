@@ -1,6 +1,10 @@
 {
-  "name": "com.sncommunity.dark-mint-theme",,
+  "name": "com.sncommunity.dark-mint-theme",
   "version": "1.0.0",
+  "description": "A dark mint theme for Standard Notes.",
+  "author": "Passkeys",
+  "license": "GPL-3.0",
+  "main": "dist/theme.css",
   "scripts": {
     "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/*.css dist/ && shx cp plugin.json dist/"
   },
