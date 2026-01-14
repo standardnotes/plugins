@@ -5,6 +5,13 @@
   "author": "Passkeys",
   "license": "GPL-3.0",
   "main": "dist/theme.css",
+  "sn": {
+    "name": "Dark Mint Theme",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/theme.css",
+    "showInGallery": true
+  },
   "scripts": {
     "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/*.css dist/ && shx cp plugin.json dist/"
   },
