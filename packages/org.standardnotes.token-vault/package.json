@@ -26,7 +26,7 @@
     ]
   },
   "dependencies": {
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275",
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#bea3ae474bef6e5ddbf78e9235cea49a4225da55",
     "@standardnotes/styles": "1.6.1"
   },
   "devDependencies": {

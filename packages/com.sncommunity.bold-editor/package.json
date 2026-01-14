@@ -6,7 +6,7 @@
   "version": "1.7.3",
   "description": "A simple and peaceful rich editor that helps you write and think clearly.",
   "main": "dist/dist.js",
-  "author": "Standard Notes Retired.",
+  "author": "Standard Notes Retired",
   "sn": {
     "name": "Bold Editor",
     "content_type": "SN|Component",
@@ -29,7 +29,7 @@
     "@babel/eslint-parser": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
     "@babel/preset-react": "^7.13.13",
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275",
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#bea3ae474bef6e5ddbf78e9235cea49a4225da55",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "*",
     "css-loader": "^5.2.0",
