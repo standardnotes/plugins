@@ -1,0 +1,21 @@
+{
+  "name": "com.sncommunity.coffee-theme",
+  "version": "1.0.0",
+  "description": "A coffee inspired theme for Standard Notes.",
+  "author": "Passkeys",
+  "license": "GPL-3.0",
+  "main": "dist/theme.css",
+  "sn": {
+    "name": "Coffee Theme",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/theme.css",
+    "showInGallery": true
+  },
+  "scripts": {
+    "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/*.css dist/ && shx cp plugin.json dist/"
+  },
+  "devDependencies": {
+    "shx": "^0.4.0"
+  }
+}

@@ -11848,6 +11848,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"com.sncommunity.coffee-theme@workspace:packages/com.sncommunity.coffee-theme":
+  version: 0.0.0-use.local
+  resolution: "com.sncommunity.coffee-theme@workspace:packages/com.sncommunity.coffee-theme"
+  dependencies:
+    shx: ^0.4.0
+  languageName: unknown
+  linkType: soft
+
 "com.sncommunity.dark-mint-theme@workspace:packages/com.sncommunity.dark-mint-theme":
   version: 0.0.0-use.local
   resolution: "com.sncommunity.dark-mint-theme@workspace:packages/com.sncommunity.dark-mint-theme"
