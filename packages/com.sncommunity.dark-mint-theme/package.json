@@ -1,5 +1,5 @@
 {
-  "name": "org.standardnotes.dark-mint-theme",
+  "name": "com.sncommunity.dark-mint-theme",,
   "version": "1.0.0",
   "scripts": {
     "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/*.css dist/ && shx cp plugin.json dist/"

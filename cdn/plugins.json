@@ -64,6 +64,6 @@
     "staticFiles": ["dist", "package.json"]
   },
   {
-    "identifier": "passkeys.dark-mint-theme",
+    "identifier": "com.sncommunity.dark-mint-theme",
     "staticFiles": ["dist", "package.json"]
 ]
