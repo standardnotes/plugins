@@ -6,7 +6,7 @@
   "version": "1.7.7",
   "description": "A simple and peaceful rich editor that helps you write and think clearly.",
   "main": "dist/dist.js",
-  "author": "Standard Notes Retired.",
+  "author": "Standard Notes Retired",
   "sn": {
     "name": "Bold Editor",
     "content_type": "SN|Component",

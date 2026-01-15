@@ -4,12 +4,15 @@ on:
   push:
     branches: [main]
 
+permissions:
+  id-token: write
+
 jobs:
   Build:
     if: "${{ contains(github.event.head_commit.message, 'chore(release): publish') == false }}"
     runs-on: ubuntu-latest
     env:
-      NODE_AUTH_TOKEN: ${{ secrets.PLUGINS_NPM_TOKEN }}
+      FORCE_PUBLISH: ${{ contains(github.event.head_commit.message, '[force-publish]') }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -21,7 +24,6 @@ jobs:
         with:
           node-version: 16.x
           registry-url: "https://registry.npmjs.org"
-          scope: "@standardnotes"
 
       - name: Enable Corepack (Yarn)
         run: corepack enable
@@ -51,5 +53,10 @@ jobs:
       - name: Release
         run: yarn run release
 
+      - name: Force Publish
+        if: ${{ env.FORCE_PUBLISH == 'true' }}
+        run: yarn run publish:force
+
       - name: Publish
+        if: ${{ env.FORCE_PUBLISH != 'true' }}
         run: yarn run publish
