@@ -22,8 +22,11 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16.x
+          node-version: 20.x
           registry-url: "https://registry.npmjs.org"
+
+      - name: Upgrade npm (trusted publishing requirement)
+        run: npm install -g npm@^11.5.1
 
       - name: Enable Corepack (Yarn)
         run: corepack enable
