@@ -8,12 +8,12 @@
   "file_type": "txt",
   "showInGallery": true,
   "identifier": "org.standardnotes.code-editor",
-  "version": "1.6.4",
+  "version": "1.6.12",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/org.standardnotes.code-editor/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/org.standardnotes.code-editor.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/org.standardnotes.code-editor.json",
   "publisher": "Standard Notes Community",
   "description": "Syntax highlighting and convenient keyboard shortcuts for over 120 programming languages. Ideal for code snippets and procedures.",
-  "base64Hash": "0cde8e50fea85ed1ddffd89d17d2642728e28859e1f66e0cea1ecd2928c4abd3",
-  "binaryHash": "5f666ee71cb1c8e7a22fc457a3f0f45809fdadcdd412840aead3831971bf3df2"
+  "base64Hash": "6e28ceb17b4ce623deb72089b100968fe6a2ff45cefe24d1e22b1d2066dfce57",
+  "binaryHash": "0b4123210dc26e646678b7e43fa7e4800d25afaab16b625b8333d3eb53b1394f"
 }

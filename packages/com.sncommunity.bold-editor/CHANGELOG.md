@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.11](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.10...@standardnotes/bold-editor@1.7.11) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
+## [1.7.10](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.9...@standardnotes/bold-editor@1.7.10) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
+## [1.7.9](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.8...@standardnotes/bold-editor@1.7.9) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
+## [1.7.8](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.7...@standardnotes/bold-editor@1.7.8) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
+## [1.7.7](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.6...@standardnotes/bold-editor@1.7.7) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
+## [1.7.6](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.5...@standardnotes/bold-editor@1.7.6) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
+## [1.7.5](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.4...@standardnotes/bold-editor@1.7.5) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
+## [1.7.4](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.3...@standardnotes/bold-editor@1.7.4) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
+## [1.7.3](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.2...@standardnotes/bold-editor@1.7.3) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
 ## [1.7.2](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.1...@standardnotes/bold-editor@1.7.2) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/bold-editor

@@ -3,6 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.21](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.20...@standardnotes/advanced-checklist@0.5.21) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.20](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.19...@standardnotes/advanced-checklist@0.5.20) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.19](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.18...@standardnotes/advanced-checklist@0.5.19) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.18](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.17...@standardnotes/advanced-checklist@0.5.18) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.17](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.16...@standardnotes/advanced-checklist@0.5.17) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.16](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.15...@standardnotes/advanced-checklist@0.5.16) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.15](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.14...@standardnotes/advanced-checklist@0.5.15) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.14](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.13...@standardnotes/advanced-checklist@0.5.14) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.13](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.12...@standardnotes/advanced-checklist@0.5.13) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
+## [0.5.12](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.11...@standardnotes/advanced-checklist@0.5.12) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/advanced-checklist
+
 ## [0.5.11](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.10...@standardnotes/advanced-checklist@0.5.11) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/advanced-checklist

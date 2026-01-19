@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.12](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.11...@standardnotes/markdown-minimal@1.4.12) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-minimal
+
+## [1.4.11](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.10...@standardnotes/markdown-minimal@1.4.11) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-minimal
+
+## [1.4.10](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.9...@standardnotes/markdown-minimal@1.4.10) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-minimal
+
+## [1.4.9](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.8...@standardnotes/markdown-minimal@1.4.9) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/markdown-minimal
+
+## [1.4.8](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.7...@standardnotes/markdown-minimal@1.4.8) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/markdown-minimal
+
+## [1.4.7](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.6...@standardnotes/markdown-minimal@1.4.7) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/markdown-minimal
+
+## [1.4.6](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.5...@standardnotes/markdown-minimal@1.4.6) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/markdown-minimal
+
 ## [1.4.5](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-minimal@1.4.4...@standardnotes/markdown-minimal@1.4.5) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/markdown-minimal

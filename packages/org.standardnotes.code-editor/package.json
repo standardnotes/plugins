@@ -1,6 +1,11 @@
 {
   "name": "@standardnotes/classic-code-editor",
-  "version": "1.6.5",
+  "version": "1.6.12",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardnotes/plugins",
+    "directory": "packages/org.standardnotes.code-editor"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -27,7 +32,7 @@
     "showInGallery": true
   },
   "dependencies": {
-    "@standardnotes/component-relay": "standardnotes/component-relay#c54e74bd6d5a22fda4568325a0a699fa55dd14b4"
+    "@standardnotes/component-relay": "standardnotes/component-relay#893561d2dc72cd3c66f071b3a509b8b7dcd721de"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",

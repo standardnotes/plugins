@@ -1,6 +1,11 @@
 {
   "name": "@standardnotes/filesafe-bar",
-  "version": "2.2.1",
+  "version": "2.2.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardnotes/plugins",
+    "directory": "packages/org.standardnotes.legacy.file-safe"
+  },
   "author": "Standard Notes Retired",
   "publishConfig": {
     "access": "public"

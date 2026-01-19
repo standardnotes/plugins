@@ -1,10 +1,15 @@
 {
   "name": "@standardnotes/simple-task-editor",
-  "version": "1.6.7",
+  "version": "1.6.14",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardnotes/plugins",
+    "directory": "packages/org.standardnotes.simple-task-editor"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "author": "Standard Notes Community.",
+  "author": "Standard Notes Community",
   "main": "dist/dist.js",
   "description": "A great way to manage short-term and long-term to-do's. You can mark tasks as completed, change their order, and edit the text naturally in place.",
   "scripts": {
@@ -25,7 +30,7 @@
     "showInGallery": true
   },
   "dependencies": {
-    "@standardnotes/component-relay": "standardnotes/component-relay#c54e74bd6d5a22fda4568325a0a699fa55dd14b4"
+    "@standardnotes/component-relay": "standardnotes/component-relay#893561d2dc72cd3c66f071b3a509b8b7dcd721de"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",

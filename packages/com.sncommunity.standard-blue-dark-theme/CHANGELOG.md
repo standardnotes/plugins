@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.11](https://github.com/standardnotes/plugins/compare/@standardnotes/standard-blue-dark@1.1.10...@standardnotes/standard-blue-dark@1.1.11) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/standard-blue-dark
+
+## [1.1.10](https://github.com/standardnotes/plugins/compare/@standardnotes/standard-blue-dark@1.1.9...@standardnotes/standard-blue-dark@1.1.10) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/standard-blue-dark
+
+## [1.1.9](https://github.com/standardnotes/plugins/compare/@standardnotes/standard-blue-dark@1.1.8...@standardnotes/standard-blue-dark@1.1.9) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/standard-blue-dark
+
+## [1.1.8](https://github.com/standardnotes/plugins/compare/@standardnotes/standard-blue-dark@1.1.7...@standardnotes/standard-blue-dark@1.1.8) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/standard-blue-dark
+
+## [1.1.7](https://github.com/standardnotes/plugins/compare/@standardnotes/standard-blue-dark@1.1.6...@standardnotes/standard-blue-dark@1.1.7) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/standard-blue-dark
+
 ## [1.1.6](https://github.com/standardnotes/plugins/compare/@standardnotes/standard-blue-dark@1.1.5...@standardnotes/standard-blue-dark@1.1.6) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/standard-blue-dark

@@ -1,8 +1,13 @@
 {
   "name": "@standardnotes/authenticator",
-  "version": "2.4.3",
+  "version": "2.4.12",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardnotes/plugins",
+    "directory": "packages/org.standardnotes.token-vault"
+  },
   "main": "dist/dist.js",
-  "author": "Standard Notes.",
+  "author": "Standard Notes",
   "publishConfig": {
     "access": "public"
   },
@@ -26,7 +31,7 @@
     ]
   },
   "dependencies": {
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#c0743eb4690dcf73aab97da662c3c7e5f8356275",
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#80f3080594c46a84e6a1689984fbc985ddd44a8f",
     "@standardnotes/styles": "1.6.1"
   },
   "devDependencies": {
