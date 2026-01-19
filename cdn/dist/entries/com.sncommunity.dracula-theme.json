@@ -5,11 +5,11 @@
   "main": "dist/dist.css",
   "showInGallery": true,
   "identifier": "com.sncommunity.dracula-theme",
-  "version": "1.2.0",
+  "version": "1.2.3",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.dracula-theme/dist/dist.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.dracula-theme.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dracula-theme.json",
   "publisher": "Standard Notes",
-  "base64Hash": "35074dbbaa635a3eeb7da77076ccffcfc30bc037fafaaa0b5284b28f537dc6e6",
-  "binaryHash": "a187cfc9ff9b5c9e310faeaf3d5d24fc64fb1c6da55e7784e25784f53f35361e"
+  "base64Hash": "ea0c720962837f1bc30e735d1b6fd93452e0b6437b132c5b64bfa418effd2b00",
+  "binaryHash": "153f4e4ca267841443b08fa6dec70ef463f4abb33678f5fc6f92a2dbac48211c"
 }

@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.14](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.13...@standardnotes/simple-task-editor@1.6.14) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/simple-task-editor
+
+## [1.6.13](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.12...@standardnotes/simple-task-editor@1.6.13) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/simple-task-editor
+
+## [1.6.12](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.11...@standardnotes/simple-task-editor@1.6.12) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/simple-task-editor
+
+## [1.6.11](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.10...@standardnotes/simple-task-editor@1.6.11) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/simple-task-editor
+
+## [1.6.10](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.9...@standardnotes/simple-task-editor@1.6.10) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/simple-task-editor
+
+## [1.6.9](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.8...@standardnotes/simple-task-editor@1.6.9) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/simple-task-editor
+
+## [1.6.8](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.7...@standardnotes/simple-task-editor@1.6.8) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/simple-task-editor
+
 ## [1.6.7](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.6...@standardnotes/simple-task-editor@1.6.7) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/simple-task-editor

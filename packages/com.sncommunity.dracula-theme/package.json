@@ -1,6 +1,11 @@
 {
   "name": "@standardnotes/dracula-theme",
-  "version": "1.2.0",
+  "version": "1.2.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardnotes/plugins",
+    "directory": "packages/com.sncommunity.dracula-theme"
+  },
   "main": "dist/dist.css",
   "author": "Standard Notes",
   "publishConfig": {
