@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.12](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.11...@standardnotes/authenticator@2.4.12) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
+## [2.4.11](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.10...@standardnotes/authenticator@2.4.11) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
+## [2.4.10](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.9...@standardnotes/authenticator@2.4.10) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
+## [2.4.9](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.8...@standardnotes/authenticator@2.4.9) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
+## [2.4.8](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.7...@standardnotes/authenticator@2.4.8) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
+## [2.4.7](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.6...@standardnotes/authenticator@2.4.7) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
+## [2.4.6](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.5...@standardnotes/authenticator@2.4.6) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
+## [2.4.5](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.4...@standardnotes/authenticator@2.4.5) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
+## [2.4.4](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.3...@standardnotes/authenticator@2.4.4) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/authenticator
+
 ## [2.4.3](https://github.com/standardnotes/plugins/compare/@standardnotes/authenticator@2.4.2...@standardnotes/authenticator@2.4.3) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/authenticator

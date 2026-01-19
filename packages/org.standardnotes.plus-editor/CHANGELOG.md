@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.12](https://github.com/standardnotes/plugins/compare/@standardnotes/rich-text@1.9.11...@standardnotes/rich-text@1.9.12) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/rich-text
+
+## [1.9.11](https://github.com/standardnotes/plugins/compare/@standardnotes/rich-text@1.9.10...@standardnotes/rich-text@1.9.11) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/rich-text
+
+## [1.9.10](https://github.com/standardnotes/plugins/compare/@standardnotes/rich-text@1.9.9...@standardnotes/rich-text@1.9.10) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/rich-text
+
+## [1.9.9](https://github.com/standardnotes/plugins/compare/@standardnotes/rich-text@1.9.8...@standardnotes/rich-text@1.9.9) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/rich-text
+
+## [1.9.8](https://github.com/standardnotes/plugins/compare/@standardnotes/rich-text@1.9.7...@standardnotes/rich-text@1.9.8) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/rich-text
+
+## [1.9.7](https://github.com/standardnotes/plugins/compare/@standardnotes/rich-text@1.9.6...@standardnotes/rich-text@1.9.7) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/rich-text
+
+## [1.9.6](https://github.com/standardnotes/plugins/compare/@standardnotes/rich-text@1.9.5...@standardnotes/rich-text@1.9.6) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/rich-text
+
 ## [1.9.5](https://github.com/standardnotes/plugins/compare/@standardnotes/rich-text@1.9.4...@standardnotes/rich-text@1.9.5) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/rich-text

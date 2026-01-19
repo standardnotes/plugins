@@ -6,12 +6,12 @@
   "file_type": "json",
   "showInGallery": true,
   "identifier": "dev.randombits.excalidraw",
-  "version": "1.2.1",
+  "version": "1.2.4",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/dev.randombits.excalidraw/dist/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/dev.randombits.excalidraw.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/dev.randombits.excalidraw.json",
   "publisher": "Matthew Nienow",
   "description": "A virtual whiteboard editor, with a hand-drawn style. Powered by Excalidraw.",
-  "base64Hash": "162b04f1fe5625c4f3288d917768e6d2fd42dbfed87c4177bce58fad33aa0586",
-  "binaryHash": "b557c9b081056d924d1b0bee3e15aaa33c506fe8608e1b66ddac301c0c0619e9"
+  "base64Hash": "0aa9713848b456603b5908c825c47eccebc59268e31dcc06717d49b214251be0",
+  "binaryHash": "fe2b6a0b8bc1b9ce82123eae182a518bbeb92854c60b3555797ee24432b2ac91"
 }

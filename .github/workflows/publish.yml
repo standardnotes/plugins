@@ -4,12 +4,15 @@ on:
   push:
     branches: [main]
 
+permissions:
+  id-token: write
+
 jobs:
   Build:
     if: "${{ contains(github.event.head_commit.message, 'chore(release): publish') == false }}"
     runs-on: ubuntu-latest
     env:
-      NODE_AUTH_TOKEN: ${{ secrets.PLUGINS_NPM_TOKEN }}
+      FORCE_PUBLISH: ${{ contains(github.event.head_commit.message, '[force-publish]') }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -19,20 +22,14 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16.x
+          node-version: 20.x
           registry-url: "https://registry.npmjs.org"
-          scope: "@standardnotes"
+
+      - name: Upgrade npm (trusted publishing requirement)
+        run: npm install -g npm@^11.5.1
 
       - name: Enable Corepack (Yarn)
         run: corepack enable
-
-      - name: Verify npm auth + registry (debug E404)
-        shell: bash
-        run: |
-          node -v
-          npm -v
-          npm config get registry
-          npm whoami
 
       - name: Setup git config
         run: |
@@ -57,7 +54,12 @@ jobs:
         run: yarn workspace @standardnotes/community-cdn compile
 
       - name: Release
+        if: ${{ env.FORCE_PUBLISH != 'true' }}
         run: yarn run release
+
+      - name: Force Release
+        if: ${{ env.FORCE_PUBLISH == 'true' }}
+        run: yarn run release:force
 
       - name: Publish
         run: yarn run publish

@@ -3,6 +3,74 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.15.33](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.32...@standardnotes/community-cdn@0.15.33) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.32](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.31...@standardnotes/community-cdn@0.15.32) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.31](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.30...@standardnotes/community-cdn@0.15.31) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.30](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.29...@standardnotes/community-cdn@0.15.30) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.29](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.28...@standardnotes/community-cdn@0.15.29) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.28](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.27...@standardnotes/community-cdn@0.15.28) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.27](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.26...@standardnotes/community-cdn@0.15.27) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.26](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.25...@standardnotes/community-cdn@0.15.26) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.25](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.24...@standardnotes/community-cdn@0.15.25) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.24](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.23...@standardnotes/community-cdn@0.15.24) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.23](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.22...@standardnotes/community-cdn@0.15.23) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.22](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.21...@standardnotes/community-cdn@0.15.22) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.21](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.20...@standardnotes/community-cdn@0.15.21) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.20](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.19...@standardnotes/community-cdn@0.15.20) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.19](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.18...@standardnotes/community-cdn@0.15.19) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.18](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.17...@standardnotes/community-cdn@0.15.18) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
+## [0.15.17](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.16...@standardnotes/community-cdn@0.15.17) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/community-cdn
+
 ## [0.15.16](https://github.com/standardnotes/plugins/compare/@standardnotes/community-cdn@0.15.15...@standardnotes/community-cdn@0.15.16) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/community-cdn

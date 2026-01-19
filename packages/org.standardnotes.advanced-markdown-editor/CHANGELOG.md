@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.11](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.10...@standardnotes/markdown-hybrid@1.8.11) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-hybrid
+
+## [1.8.10](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.9...@standardnotes/markdown-hybrid@1.8.10) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-hybrid
+
+## [1.8.9](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.8...@standardnotes/markdown-hybrid@1.8.9) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-hybrid
+
+## [1.8.8](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.7...@standardnotes/markdown-hybrid@1.8.8) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/markdown-hybrid
+
+## [1.8.7](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.6...@standardnotes/markdown-hybrid@1.8.7) (2026-01-15)
+
+**Note:** Version bump only for package @standardnotes/markdown-hybrid
+
+## [1.8.6](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.5...@standardnotes/markdown-hybrid@1.8.6) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/markdown-hybrid
+
+## [1.8.5](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.4...@standardnotes/markdown-hybrid@1.8.5) (2026-01-14)
+
+**Note:** Version bump only for package @standardnotes/markdown-hybrid
+
 ## [1.8.4](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.3...@standardnotes/markdown-hybrid@1.8.4) (2026-01-13)
 
 **Note:** Version bump only for package @standardnotes/markdown-hybrid

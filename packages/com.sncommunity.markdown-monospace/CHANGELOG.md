@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-monospace@1.1.3...@standardnotes/markdown-monospace@1.1.4) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-monospace
+
+## [1.1.3](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-monospace@1.1.2...@standardnotes/markdown-monospace@1.1.3) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-monospace
+
+## [1.1.2](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-monospace@1.1.1...@standardnotes/markdown-monospace@1.1.2) (2026-01-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-monospace
+
 ## [1.1.1](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-monospace@1.1.0...@standardnotes/markdown-monospace@1.1.1) (2023-12-07)
 
 ### Bug Fixes
