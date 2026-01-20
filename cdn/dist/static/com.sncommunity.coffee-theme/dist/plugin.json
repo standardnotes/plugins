@@ -1,0 +1,9 @@
+{
+  "identifier": "com.sncommunity.coffee-theme",
+  "name": "Coffee Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A coffee inspired theme for Standard Notes.",
+  "url": "https://github.com/PASSK3YS/plugins/raw/main/packages/com.sncommunity.coffee-theme/dist/plugin.json"
+}
