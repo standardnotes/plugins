@@ -1,0 +1,81 @@
+:root {
+    --c-bg-deep: #0f1b24;
+    --c-bg-sidebar: #152532;
+    --c-bg-active: #1a2d3c;
+
+    --c-mint-bright: #a4f4a1;
+    --c-mint-muted: #7fc194;
+    --c-mint-dim: #5a8e87;
+    --c-border: #1f3649;
+
+    --c-danger: #ff4c4c;
+    --c-warning: #199191;
+
+    --sn-stylekit-theme-type: dark;
+    --sn-stylekit-theme-name: dark-mint-refined;
+
+    --sn-stylekit-background-color: var(--c-bg-deep);
+    --sn-stylekit-foreground-color: var(--c-mint-bright);
+    --sn-stylekit-border-color: var(--c-border);
+    --sn-stylekit-shadow-color: var(--c-border);
+
+    --sn-stylekit-contrast-background-color: var(--c-bg-active);
+    --sn-stylekit-contrast-foreground-color: var(--c-mint-bright);
+    --sn-stylekit-contrast-border-color: var(--c-border);
+
+    --sn-stylekit-secondary-background-color: var(--c-bg-sidebar);
+    --sn-stylekit-secondary-foreground-color: var(--c-mint-bright);
+    --sn-stylekit-secondary-border-color: var(--c-border);
+
+    --navigation-item-selected-background-color: var(--c-bg-active);
+
+    --sn-stylekit-editor-background-color: var(--c-bg-deep);
+    --sn-stylekit-editor-foreground-color: var(--c-mint-bright);
+    --sn-stylekit-paragraph-text-color: var(--c-mint-muted);
+
+    --sn-stylekit-neutral-color: var(--c-mint-muted);
+    --sn-stylekit-neutral-contrast-color: white;
+
+    --sn-stylekit-info-color: var(--c-mint-muted);
+    --sn-stylekit-info-contrast-color: black;
+    --sn-stylekit-info-backdrop-color: var(--c-bg-deep);
+
+    --sn-stylekit-success-color: var(--c-mint-muted);
+    --sn-stylekit-success-contrast-color: black;
+
+    --sn-stylekit-warning-color: var(--c-warning);
+    --sn-stylekit-warning-contrast-color: black;
+
+    --sn-stylekit-danger-color: var(--c-danger);
+    --sn-stylekit-danger-contrast-color: white;
+
+    --sn-stylekit-input-placeholder-color: var(--c-mint-dim);
+    --sn-stylekit-input-border-color: var(--c-mint-dim);
+
+    --sn-stylekit-scrollbar-thumb-color: var(--c-mint-dim);
+    --sn-stylekit-scrollbar-track-border-color: transparent;
+
+    --sn-stylekit-passive-color-0: var(--c-mint-muted);
+    --sn-stylekit-passive-color-1: var(--c-mint-muted);
+    --sn-stylekit-passive-color-3: var(--c-border);
+
+    --sn-stylekit-passive-color-4: var(--c-bg-active);
+
+    --sn-stylekit-passive-color-4-opacity-variant: rgba(127, 193, 148, 0.25);
+
+    --sn-stylekit-passive-color-5: var(--c-bg-deep);
+}
+
+#blocks-editor hr:after {
+background-color: var(--c-mint-dim);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--c-mint-dim);
+    border-radius: 4px;
+}

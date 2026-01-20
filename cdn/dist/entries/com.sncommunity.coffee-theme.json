@@ -1,0 +1,16 @@
+{
+  "name": "Coffee Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/theme.css",
+  "showInGallery": true,
+  "identifier": "com.sncommunity.coffee-theme",
+  "version": "1.0.1",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.coffee-theme/dist/theme.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.coffee-theme.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.coffee-theme.json",
+  "publisher": "Passkeys",
+  "description": "A coffee inspired theme for Standard Notes.",
+  "base64Hash": "a49fe7025e2b749d8444f33f8f46a9b3b54016990ff91713815c8ac11595bac5",
+  "binaryHash": "b2729d67db7c4e149be9b78b6d229ebaf5b061f179a523cb54647ad16dbbd7cc"
+}
