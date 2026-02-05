@@ -67,7 +67,6 @@ module.exports = {
           'redactor/plugins/**/*.min.js',
         ],
         "vendor.css": [
-          require.resolve('filesafe-embed/dist/dist.css'),
           'redactor/src/redactor.min.css',
           'redactor/plugins/inlinestyle/inlinestyle.min.css'
         ]
