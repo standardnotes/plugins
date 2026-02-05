@@ -7165,8 +7165,6 @@ __metadata:
     dompurify: ^2.2.9
     eslint: "*"
     eslint-plugin-react: "*"
-    filesafe-embed: 1.0.13
-    filesafe-js: 1.0.5
     html-webpack-plugin: ^5.3.1
     mini-css-extract-plugin: ^1.4.0
     react: 17.x
@@ -16274,24 +16272,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filesafe-embed@npm:1.0.13":
-  version: 1.0.13
-  resolution: "filesafe-embed@npm:1.0.13"
-  checksum: 8e69eb0fc784355b38958cbf707e24c0b9304466964eac47d9126fe9fcf3561623d1e6b62802db253d8bd5a536c952bcce1249651658e226be84bde15eed430c
-  languageName: node
-  linkType: hard
-
 "filesafe-embed@standardnotes/filesafe-embed#309a4282959ffe08ebb8d0e23dbddb60adbd09ce":
   version: 1.1.0
   resolution: "filesafe-embed@https://github.com/standardnotes/filesafe-embed.git#commit=309a4282959ffe08ebb8d0e23dbddb60adbd09ce"
   checksum: 3e795f069b31564b1c77d6af9920c75f63c034d12e9b1437e4de1384e30003496fe4e72bc85961d5a862be114e6f0acec51481288041d76e2ebd819675fbad04
-  languageName: node
-  linkType: hard
-
-"filesafe-js@npm:1.0.5":
-  version: 1.0.5
-  resolution: "filesafe-js@npm:1.0.5"
-  checksum: 1db0bad1861f072067011e271af35ef0f87a4c8b6f9b4e525d5e2ae8872da19418555d72467a5aca86145f678644f3d34e0118f4ea17c7cfc7094380a26f9551
   languageName: node
   linkType: hard
 
