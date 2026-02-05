@@ -1,15 +1,7 @@
 import React from 'react';
-import FilesafeEmbed from 'filesafe-embed';
 import EditorKit from '@standardnotes/editor-kit';
 import DOMPurify  from 'dompurify';
 import { SKAlert } from 'sn-stylekit';
-
-// Not used directly here, but required to be imported so that it is included
-// in dist file.
-// Note that filesafe-embed also imports filesafe-js, but conditionally, so
-// it's not included in it's own dist files.
-// eslint-disable-next-line no-unused-vars
-import Filesafe from 'filesafe-js';
 
 export default class Editor extends React.Component {
 
@@ -161,35 +153,25 @@ export default class Editor extends React.Component {
 
     this.editorKit = new EditorKit(delegate, {
       mode: 'html',
-      supportsFileSafe: true,
       // Redactor has its own debouncing, so we'll set ours to 0
       coallesedSavingDelay: 0
     });
   }
 
   async configureEditor() {
-    // We need to set this as a window variable so that the filesafe plugin
-    // can interact with this object passing it as an opt for some reason
-    // strips any functions off the objects.
-    const filesafeInstance = await this.editorKit.getFileSafe();
-    window.filesafe_params = {
-      embed: FilesafeEmbed,
-      client: filesafeInstance
-    };
     this.redactor = $R('#editor', {
       styles: true,
       toolbarFixed: true, // sticky toolbar
       tabAsSpaces: 2, // currently tab only works if you use spaces.
       tabKey: true, // explicitly set tabkey for editor use, not for focus.
       linkSize: 20000, // redactor default is 30, which truncates the link.
-      buttonsAdd: ['filesafe'],
       buttons: [
         'bold', 'italic', 'underline', 'deleted', 'format', 'fontsize',
-        'fontfamily', 'fontcolor', 'filesafe', 'link', 'lists', 'alignment',
+        'fontfamily', 'fontcolor', 'link', 'lists', 'alignment',
         'line', 'redo', 'undo', 'indent', 'outdent', 'textdirection', 'html'
       ],
       plugins: [
-        'filesafe', 'fontsize', 'fontfamily', 'fontcolor', 'alignment',
+        'fontsize', 'fontfamily', 'fontcolor', 'alignment',
         'table', 'inlinestyle', 'textdirection'
       ],
       fontfamily: [
@@ -206,7 +188,7 @@ export default class Editor extends React.Component {
           this.editorKit.onEditorValueChanged(html);
         },
         pasted: (_nodes) => {
-          this.editorKit.onEditorPaste();
+          this.editorKit.onEditorPaste?.();
         },
         image: {
           resized: (image) => {
@@ -222,16 +204,12 @@ export default class Editor extends React.Component {
       imageEditable: false,
       imageCaption: false,
       imageLink: false,
-      imageResizable: true, // requires image to be wrapped in a figure.
-      imageUpload: (formData, files, _event) => {
-        // Called when images are pasted from the clipboard too.
-        this.onEditorFilesDrop(files);
-      }
+      imageResizable: true // requires image to be wrapped in a figure.
     });
 
     this.redactor.editor.getElement().on('keyup.textsearcher', (event) => {
       const key = event.which;
-      this.editorKit.onEditorKeyUp({
+      this.editorKit.onEditorKeyUp?.({
         key,
         isSpace: key == this.redactor.keycodes.SPACE,
         isEnter: key == this.redactor.keycodes.ENTER
@@ -243,27 +221,6 @@ export default class Editor extends React.Component {
     // it doesn't save the caret location, so focuses to beginning.
     if (!this.redactor.editor.isEmpty()) {
       this.redactor.editor.endFocus();
-    }
-  }
-
-  onEditorFilesDrop(files) {
-    if (!this.editorKit.canUseFileSafe()) {
-      return;
-    }
-
-    if (!this.editorKit.canUploadFiles()) {
-      // Open filesafe modal
-      this.redactor.plugin.filesafe.open();
-      return;
-    }
-
-    for (const file of files) {
-      // Observers in EditorKitInternal.js will handle successful upload
-      this.editorKit.uploadJSFileObject(file).then((descriptor) => {
-        if (!descriptor || !descriptor.uuid) {
-          // alert("File failed to upload. Please try again");
-        }
-      });
     }
   }
 

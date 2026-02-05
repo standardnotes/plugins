@@ -41,8 +41,6 @@
     "dompurify": "^2.2.9",
     "eslint": "*",
     "eslint-plugin-react": "*",
-    "filesafe-embed": "1.0.13",
-    "filesafe-js": "1.0.5",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.4.0",
     "react": "17.x",
