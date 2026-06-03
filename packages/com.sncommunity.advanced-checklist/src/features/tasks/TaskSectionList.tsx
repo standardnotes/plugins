@@ -31,9 +31,12 @@ const TaskSectionList: React.FC<TaskSectionListProps> = ({ group }) => {
       return
     }
 
+    const sectionId = source.droppableId.replace(/-droppable$/, '')
+
     dispatch(
       tasksReordered({
         groupName: group.name,
+        sectionId,
         swapTaskIndex: source.index,
         withTaskIndex: destination.index,
         isSameSection: source.droppableId === destination.droppableId,

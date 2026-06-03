@@ -35,6 +35,24 @@ export function groupTasksByCompletedStatus(tasks: TaskModel[]) {
   }
 }
 
+export function taskMatchesSection(task: TaskModel, sectionId: string): boolean {
+  return sectionId === 'completed-tasks' ? task.completed === true : !task.completed
+}
+
+export function reorderTasksWithinSection(
+  tasks: TaskModel[],
+  sectionId: string,
+  fromIndex: number,
+  toIndex: number,
+): TaskModel[] {
+  const matchesSection = (task: TaskModel) => taskMatchesSection(task, sectionId)
+  const sectionTasks = tasks.filter(matchesSection)
+  const reorderedSection = arrayMoveImmutable(sectionTasks, fromIndex, toIndex)
+
+  let sectionIndex = 0
+  return tasks.map((task) => (matchesSection(task) ? reorderedSection[sectionIndex++] : task))
+}
+
 export function getTaskArrayFromGroupedTasks(groupedTasks: GroupModel[]): TaskModel[] {
   let taskArray: TaskModel[] = []
 
