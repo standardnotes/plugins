@@ -5,12 +5,12 @@
   "main": "dist/theme.css",
   "showInGallery": true,
   "identifier": "com.sncommunity.dark-mint-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.dark-mint-theme/dist/theme.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.dark-mint-theme.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dark-mint-theme.json",
   "publisher": "Passkeys",
   "description": "A dark mint theme for Standard Notes.",
-  "base64Hash": "50cc66dd6670f5491a9a9528096b38ac2bad8fe9d5a647595b8ffde3575f8adc",
-  "binaryHash": "7bc576bf23aabd298861d53ba30be74aa6f4e627fa557281af686bbe89b63d2b"
+  "base64Hash": "24999ae99a83e2272c504011019b98ca3a46c018abe6687e7e84e2c81aeb7788",
+  "binaryHash": "08d424486a6d74b788514bee019283c03cb864946eaf7040b408cce04f85eae8"
 }

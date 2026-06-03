@@ -5,12 +5,12 @@
   "main": "dist/theme.css",
   "showInGallery": true,
   "identifier": "com.sncommunity.coffee-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.coffee-theme/dist/theme.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.coffee-theme.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.coffee-theme.json",
   "publisher": "Passkeys",
   "description": "A coffee inspired theme for Standard Notes.",
-  "base64Hash": "beee790d513fcbf0dd34e96e7d41e3b205cc19f256f84cf02468f6c254aa7d9c",
-  "binaryHash": "f902a343e46e3e83348d6e7ef434ae5175dfaab21f6be55e3e5d7abdcd69b7c9"
+  "base64Hash": "83667df715b33ac88cf04adbd282c226cc01a93cfe9662219e42b18c4f410182",
+  "binaryHash": "b4b825767fb1f217a2e1d3c97c53abbdafb3df8a873f7b059fab7fd1baf07ced"
 }

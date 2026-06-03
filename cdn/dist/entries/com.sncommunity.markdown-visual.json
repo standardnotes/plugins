@@ -8,12 +8,12 @@
   "file_type": "md",
   "showInGallery": true,
   "identifier": "com.sncommunity.markdown-visual",
-  "version": "1.4.15",
+  "version": "1.4.16",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.markdown-visual/build/index.html",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.markdown-visual.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.markdown-visual.json",
   "publisher": "Standard Notes Community",
   "description": "A WYSIWYG-style Markdown editor that renders Markdown in preview-mode while you type without displaying any syntax.",
-  "base64Hash": "459ad12e5e94bd03a12b201a736c8637131ff72fc04f1e786f5a4f03aef2146b",
-  "binaryHash": "26f8af15044389a6816323f1f0de131a595b005bc52c15951c927711a4b1d54e"
+  "base64Hash": "169d8daaa4ab77be993ebe41f1e54b1a808d09f2081cab0685d3508a14b3dd29",
+  "binaryHash": "08b624f769850c9fcdb32a4f2539f7074abc0073f87b324aba37973a6f9d80c4"
 }

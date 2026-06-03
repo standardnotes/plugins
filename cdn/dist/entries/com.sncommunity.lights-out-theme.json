@@ -5,12 +5,12 @@
   "main": "dist/theme.css",
   "showInGallery": true,
   "identifier": "com.sncommunity.lights-out-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.sncommunity.lights-out-theme/dist/theme.css",
   "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.sncommunity.lights-out-theme.zip",
   "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.lights-out-theme.json",
   "publisher": "Passkeys",
   "description": "A pitch black theme for Standard Notes.",
-  "base64Hash": "b38962a51498207274eed7e6c1eb4a1bba4228dab34e24642dfb3057bdb0e0a4",
-  "binaryHash": "e381af84225d80a5f1ff750cec7ffd850e8fd33579f6c4c12eba2848a7aeebae"
+  "base64Hash": "d6744d6ccc95d4a9c65b5c7ecc8307627d6bff9f707ed8475008259c90a3f474",
+  "binaryHash": "8b0583998bbf662f6ad6a964e0d8d5506e7c1badb6cdca0cbcd61624d373c25b"
 }
