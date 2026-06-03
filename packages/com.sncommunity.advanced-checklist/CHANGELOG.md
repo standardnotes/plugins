@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.23](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.22...@standardnotes/advanced-checklist@0.5.23) (2026-06-03)
+
+### Bug Fixes
+
+* Fixes reordering of items on Advanced Checklist when some items are marked complete ([#73](https://github.com/standardnotes/plugins/issues/73)) ([485fa3d](https://github.com/standardnotes/plugins/commit/485fa3d96e85591d623591e17955f568e07833e1))
+
 ## [0.5.22](https://github.com/standardnotes/plugins/compare/@standardnotes/advanced-checklist@0.5.21...@standardnotes/advanced-checklist@0.5.22) (2026-02-06)
 
 **Note:** Version bump only for package @standardnotes/advanced-checklist
