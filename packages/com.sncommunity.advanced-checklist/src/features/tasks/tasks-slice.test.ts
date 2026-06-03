@@ -739,6 +739,7 @@ it('should handle adding an existing task group', () => {
 })
 
 it('should handle reordering tasks from the same section', () => {
+  const createdAt = new Date().toISOString()
   const previousState: TasksState = {
     schemaVersion: '1.0.0',
     defaultSections: [],
@@ -747,22 +748,28 @@ it('should handle reordering tasks from the same section', () => {
         name: 'Test',
         tasks: [
           {
-            id: 'some-id',
-            description: 'A simple task',
+            id: 'completed-1',
+            description: 'A completed task',
             completed: true,
-            createdAt: new Date().toISOString(),
+            createdAt,
           },
           {
-            id: 'another-id',
-            description: 'Another simple task',
+            id: 'open-1',
+            description: 'First open task',
             completed: false,
-            createdAt: new Date().toISOString(),
+            createdAt,
           },
           {
-            id: 'yet-another-id',
-            description: 'Yet another simple task',
+            id: 'open-2',
+            description: 'Second open task',
+            completed: false,
+            createdAt,
+          },
+          {
+            id: 'completed-2',
+            description: 'Another completed task',
             completed: true,
-            createdAt: new Date().toISOString(),
+            createdAt,
           },
         ],
       },
@@ -774,6 +781,7 @@ it('should handle reordering tasks from the same section', () => {
       previousState,
       tasksReordered({
         groupName: 'Test',
+        sectionId: 'open-tasks',
         swapTaskIndex: 0,
         withTaskIndex: 1,
         isSameSection: true,
@@ -787,20 +795,26 @@ it('should handle reordering tasks from the same section', () => {
         name: 'Test',
         tasks: [
           {
-            id: 'another-id',
-            description: 'Another simple task',
-            completed: false,
-            createdAt: expect.any(String),
-          },
-          {
-            id: 'some-id',
-            description: 'A simple task',
+            id: 'completed-1',
+            description: 'A completed task',
             completed: true,
             createdAt: expect.any(String),
           },
           {
-            id: 'yet-another-id',
-            description: 'Yet another simple task',
+            id: 'open-2',
+            description: 'Second open task',
+            completed: false,
+            createdAt: expect.any(String),
+          },
+          {
+            id: 'open-1',
+            description: 'First open task',
+            completed: false,
+            createdAt: expect.any(String),
+          },
+          {
+            id: 'completed-2',
+            description: 'Another completed task',
             completed: true,
             createdAt: expect.any(String),
           },
@@ -846,6 +860,7 @@ it('should handle reordering tasks from different sections', () => {
       previousState,
       tasksReordered({
         groupName: 'Test',
+        sectionId: 'open-tasks',
         swapTaskIndex: 0,
         withTaskIndex: 1,
         isSameSection: false,

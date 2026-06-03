@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { arrayDefault, arrayMoveImmutable, isJsonString, parseMarkdownTasks } from '../../common/utils'
+import { arrayDefault, arrayMoveImmutable, isJsonString, parseMarkdownTasks, reorderTasksWithinSection } from '../../common/utils'
 
 export const LATEST_SCHEMA_VERSION = '1.0.0'
 export const DEFAULT_SECTIONS: SectionModel[] = [
@@ -148,12 +148,13 @@ const tasksSlice = createSlice({
       state,
       action: PayloadAction<{
         groupName: string
+        sectionId: string
         swapTaskIndex: number
         withTaskIndex: number
         isSameSection: boolean
       }>,
     ) {
-      const { groupName, swapTaskIndex, withTaskIndex, isSameSection } = action.payload
+      const { groupName, sectionId, swapTaskIndex, withTaskIndex, isSameSection } = action.payload
       if (!isSameSection) {
         return
       }
@@ -161,7 +162,7 @@ const tasksSlice = createSlice({
       if (!group) {
         return
       }
-      group.tasks = arrayMoveImmutable(group.tasks, swapTaskIndex, withTaskIndex)
+      group.tasks = reorderTasksWithinSection(group.tasks, sectionId, swapTaskIndex, withTaskIndex)
     },
     tasksGroupAdded(
       state,

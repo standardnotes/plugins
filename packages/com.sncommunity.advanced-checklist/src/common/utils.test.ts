@@ -7,6 +7,7 @@ import {
   getPlainPreview,
   getTaskArrayFromGroupedTasks,
   groupTasksByCompletedStatus,
+  reorderTasksWithinSection,
   parseMarkdownTasks,
   truncateText,
 } from './utils'
@@ -115,6 +116,36 @@ describe('groupTasksByCompletedStatus', () => {
 
     expect(completedTasks).toHaveLength(1)
     expect(completedTasks[0]).toBe(tasks[2])
+  })
+})
+
+describe('reorderTasksWithinSection', () => {
+  const createdAt = new Date().toISOString()
+
+  it('should reorder open tasks without moving completed tasks in the array', () => {
+    const tasks: TaskModel[] = [
+      { id: 'completed-1', description: 'Done A', completed: true, createdAt },
+      { id: 'open-1', description: 'Open A', completed: false, createdAt },
+      { id: 'open-2', description: 'Open B', completed: false, createdAt },
+      { id: 'completed-2', description: 'Done B', completed: true, createdAt },
+    ]
+
+    const reordered = reorderTasksWithinSection(tasks, 'open-tasks', 0, 1)
+
+    expect(reordered.map((task) => task.id)).toEqual(['completed-1', 'open-2', 'open-1', 'completed-2'])
+  })
+
+  it('should reorder completed tasks without moving open tasks in the array', () => {
+    const tasks: TaskModel[] = [
+      { id: 'open-1', description: 'Open A', completed: false, createdAt },
+      { id: 'completed-1', description: 'Done A', completed: true, createdAt },
+      { id: 'completed-2', description: 'Done B', completed: true, createdAt },
+      { id: 'open-2', description: 'Open B', completed: false, createdAt },
+    ]
+
+    const reordered = reorderTasksWithinSection(tasks, 'completed-tasks', 0, 1)
+
+    expect(reordered.map((task) => task.id)).toEqual(['open-1', 'completed-2', 'completed-1', 'open-2'])
   })
 })
 
