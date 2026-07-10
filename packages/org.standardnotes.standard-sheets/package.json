@@ -23,7 +23,7 @@
     "main": "dist/index.html"
   },
   "dependencies": {
-    "@standardnotes/component-relay": "standardnotes/component-relay#893561d2dc72cd3c66f071b3a509b8b7dcd721de"
+    "@standardnotes/component-relay": "standardnotes/component-relay#164428640ba59e31e7ca3ca932b7d7521594f17c"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",

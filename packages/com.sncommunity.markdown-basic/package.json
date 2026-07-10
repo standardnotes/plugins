@@ -41,7 +41,7 @@
     "@babel/preset-stage-0": "^7.8.3",
     "@babel/register": "^7.10.5",
     "@babel/runtime": "^7.11.2",
-    "@standardnotes/component-relay": "standardnotes/component-relay#893561d2dc72cd3c66f071b3a509b8b7dcd721de",
+    "@standardnotes/component-relay": "standardnotes/component-relay#164428640ba59e31e7ca3ca932b7d7521594f17c",
     "@standardnotes/eslint-config-extensions": "^1.0.0",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "*",
