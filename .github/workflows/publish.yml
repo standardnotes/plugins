@@ -61,5 +61,8 @@ jobs:
       - name: Package Plugins
         run: yarn workspace @standardnotes/community-cdn compile
 
+      - name: Push CDN package commit
+        run: git push origin HEAD
+
       - name: Publish
         run: yarn run publish
