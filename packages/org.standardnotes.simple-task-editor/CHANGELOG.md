@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.17](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.16...@standardnotes/simple-task-editor@1.6.17) (2026-08-05)
+
+### Bug Fixes
+
+* Escapes preview HTML in checklist editor ([#76](https://github.com/standardnotes/plugins/issues/76)) ([49ce8c0](https://github.com/standardnotes/plugins/commit/49ce8c0a921af233c4d8baa9fb2895c650e95f07))
+
 ## [1.6.16](https://github.com/standardnotes/plugins/compare/@standardnotes/simple-task-editor@1.6.15...@standardnotes/simple-task-editor@1.6.16) (2026-07-10)
 
 **Note:** Version bump only for package @standardnotes/simple-task-editor
