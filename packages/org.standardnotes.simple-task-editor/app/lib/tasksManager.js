@@ -3,6 +3,15 @@ import ComponentRelay from '@standardnotes/component-relay'
 
 const TaskDelimitter = '\n'
 
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
+
 export default class TasksManager {
   spellcheckEnabled = true
 
@@ -189,7 +198,7 @@ export default class TasksManager {
       html += "<ul style='padding-left: 19px; margin-top: 10px;'>"
       for (let i = 0; i < tasksToPreview; i++) {
         const task = openTasks[i]
-        html += `<li style='margin-bottom: 6px;'>${task.content}</li>`
+        html += `<li style='margin-bottom: 6px;'>${escapeHtml(task.content)}</li>`
       }
       html += '</ul>'
 
