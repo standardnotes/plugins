@@ -11,7 +11,7 @@
   "license": "GPL-3.0",
   "main": "dist/theme.css",
   "sn": {
-    "name": "Coffee Theme",
+    "name": "Coffee",
     "content_type": "SN|Theme",
     "area": "themes",
     "main": "dist/theme.css",
