@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (note.content.text !== lastValue) {
       ignoreTextChange = true
       window.easymde.value(note.content.text)
+      toggleHighlightByLength(note.content.text)
       ignoreTextChange = false
     }
 
@@ -113,10 +114,9 @@ document.addEventListener('DOMContentLoaded', function () {
       shortcuts: {
         toggleSideBySide: 'Cmd-Alt-P',
       },
-      // Syntax highlighting is disabled until we figure out performance issue: https://github.com/sn-extensions/advanced-markdown-editor/pull/20#issuecomment-513811633
-      // renderingConfig: {
-      //   codeSyntaxHighlighting: true
-      // },
+      renderingConfig: {
+        codeSyntaxHighlighting: true,
+      },
       toolbar: [
         {
           className: 'fa fa-eye',
@@ -193,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
           componentRelay.saveItemWithPresave(note, () => {
             lastValue = window.easymde.value()
+            toggleHighlightByLength(lastValue)
 
             let html = window.easymde.options.previewRender(window.easymde.value())
             let strippedHtml = truncateString(strip(html))
@@ -367,5 +368,10 @@ document.addEventListener('DOMContentLoaded', function () {
   function getInputStyleForEnvironment() {
     const environment = componentRelay.environment ?? 'web'
     return environment === 'mobile' ? 'textarea' : 'contenteditable'
+  }
+
+  function toggleHighlightByLength(text) {
+    const maxHighlightLength = 5000
+    window.easymde.options.renderingConfig.codeSyntaxHighlighting = (window.easymde && text.length < maxHighlightLength)
   }
 })
