@@ -1,0 +1,24 @@
+{
+  "name": "Catppuccin Macchiato",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": true,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.catppuccin-macchiato/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#7dc4e4",
+    "foreground_color": "#7dc4e4",
+    "border_color": "#7dc4e4"
+  },
+  "identifier": "com.standardpalettes.catppuccin-macchiato",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.catppuccin-macchiato/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.catppuccin-macchiato.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.catppuccin-macchiato.json",
+  "publisher": "StandardPalettes",
+  "description": "Catppuccin Macchiato theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "2a0586483d8ba5be2fba158b6155f3760e40e4e79ad9ad45ac0eda8f356bad7f",
+  "binaryHash": "9da54da4a7a7a5ef8bb8d25000937b1f217f1dcce36dedfce8c28964b935da4a"
+}

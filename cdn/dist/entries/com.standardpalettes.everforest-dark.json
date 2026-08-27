@@ -1,0 +1,24 @@
+{
+  "name": "Everforest Dark",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": true,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.everforest-dark/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#89b896",
+    "foreground_color": "#89b896",
+    "border_color": "#89b896"
+  },
+  "identifier": "com.standardpalettes.everforest-dark",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.everforest-dark/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.everforest-dark.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.everforest-dark.json",
+  "publisher": "StandardPalettes",
+  "description": "Everforest Dark theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "a528b39b754c778f1f4a929caec8d0b5fc0ffe45e7a33a4d7f9364d955aa20e2",
+  "binaryHash": "c0f63a3ca4f297f9ed73cf566c20d773832f70bca4a308f8251f45740ddabcd9"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Rosé Pine Base",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": true,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.rose-pine-base/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#eb6f92",
+    "foreground_color": "#eb6f92",
+    "border_color": "#eb6f92"
+  },
+  "identifier": "com.standardpalettes.rose-pine-base",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.rose-pine-base/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.rose-pine-base.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.rose-pine-base.json",
+  "publisher": "StandardPalettes",
+  "description": "Rosé Pine Base theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "1244a5a6db7ce1dde10f4f465600219ef4e8afbe5b94142536c80ddd1b53f905",
+  "binaryHash": "4f68ee4ec732ebf30d70f9def1292c412350c93b80c953a570a1ba625f011c86"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Tokyo Night Night",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": true,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.tokyo-night-night/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#7aa2f7",
+    "foreground_color": "#7aa2f7",
+    "border_color": "#7aa2f7"
+  },
+  "identifier": "com.standardpalettes.tokyo-night-night",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.tokyo-night-night/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.tokyo-night-night.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.tokyo-night-night.json",
+  "publisher": "StandardPalettes",
+  "description": "Tokyo Night Night theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "953c2d8a457767a84136c0c6c746ea9147ede46138760433f1c383364016e475",
+  "binaryHash": "f1bbaca4c4f08e6ca8426b8b8ab24b45a093c0189a242241e9331324b0c0dda6"
+}

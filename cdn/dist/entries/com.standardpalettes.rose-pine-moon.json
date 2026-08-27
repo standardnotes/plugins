@@ -1,0 +1,24 @@
+{
+  "name": "Rosé Pine Moon",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": true,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.rose-pine-moon/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#eb6f92",
+    "foreground_color": "#eb6f92",
+    "border_color": "#eb6f92"
+  },
+  "identifier": "com.standardpalettes.rose-pine-moon",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.rose-pine-moon/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.rose-pine-moon.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.rose-pine-moon.json",
+  "publisher": "StandardPalettes",
+  "description": "Rosé Pine Moon theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "239a0598bf2d41f34629a80e1e435fc6d75c4f38585017dc3c91f8bb08301319",
+  "binaryHash": "32c9afa58549461f0260fa8de26a8315b45c92228fcd13c99e00fba4554f3f08"
+}

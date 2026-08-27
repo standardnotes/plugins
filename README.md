@@ -39,3 +39,15 @@ In Standard Notes desktop or web:
 |Dark Mint Theme|Passkeys|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.dark-mint-theme.json|
 |Coffee Theme|Passkeys|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.coffee-theme.json|
 |Lights Out|Passkeys|https://standardnotes.github.io/plugins/cdn/dist/entries/com.sncommunity.lights-out-theme.json|
+|Catppuccin Latte|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.catppuccin-latte.json|
+|Catppuccin Frappé|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.catppuccin-frappe.json|
+|Catppuccin Macchiato|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.catppuccin-macchiato.json|
+|Catppuccin Mocha|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.catppuccin-mocha.json|
+|Tokyo Night Night|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.tokyo-night-night.json|
+|Tokyo Night Storm|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.tokyo-night-storm.json|
+|Tokyo Night Day|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.tokyo-night-day.json|
+|Rosé Pine Base|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.rose-pine-base.json|
+|Rosé Pine Moon|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.rose-pine-moon.json|
+|Rosé Pine Dawn|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.rose-pine-dawn.json|
+|Everforest Dark|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.everforest-dark.json|
+|Everforest Light|StandardPalettes|https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.everforest-light.json|
