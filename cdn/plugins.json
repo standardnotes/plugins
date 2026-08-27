@@ -75,4 +75,52 @@
    "identifier": "com.sncommunity.coffee-theme",
    "staticFiles": ["dist", "package.json"]
  }
+ {
+   "identifier": "com.standardpalettes.catppuccin-latte",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.catppuccin-frappe",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.catppuccin-macchiato",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.catppuccin-mocha",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.tokyo-night-night",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.tokyo-night-storm",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.tokyo-night-day",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.rose-pine-base",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.rose-pine-moon",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.rose-pine-dawn",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.everforest-dark",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ },,
+ {
+   "identifier": "com.standardpalettes.everforest-light",
+   "staticFiles": ["dist", "package.json", "thumbnail.png"]
+ }
 ]
