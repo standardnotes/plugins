@@ -1,0 +1,24 @@
+{
+  "name": "Catppuccin Latte",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": false,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.catppuccin-latte/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#1e66f5",
+    "foreground_color": "#1e66f5",
+    "border_color": "#1e66f5"
+  },
+  "identifier": "com.standardpalettes.catppuccin-latte",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.catppuccin-latte/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.catppuccin-latte.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.catppuccin-latte.json",
+  "publisher": "StandardPalettes",
+  "description": "Catppuccin Latte theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "d4ae29528957bc2212b93db4af4edb7f1581b4cd9681c6bdf59ce32b6e82f391",
+  "binaryHash": "f1ab33e2fee19e149b1ff6fda1c52d907d40256732ec2b5b9bb88092bdce8d73"
+}

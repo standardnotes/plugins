@@ -1,0 +1,189 @@
+/*
+ * Standard Notes Theme: Catppuccin Latte
+ * Family: catppuccin
+ * Flavor: latte
+ * Generated from palette: catppuccin/palettes/latte.json
+ */
+
+:root {
+  --sn-stylekit-background-color: #eff1f5;
+  --sn-stylekit-secondary-background-color: #ccd0da;
+  --sn-stylekit-contrast-background-color: #dce0e8;
+  --sn-stylekit-editor-background-color: #eff1f5;
+  --sn-stylekit-secondary-contrast-background-color: #bcc0cc;
+  --sn-stylekit-foreground-color: #4c4f69;
+  --sn-stylekit-secondary-foreground-color: #6c6f85;
+  --sn-stylekit-contrast-foreground-color: #4c4f69;
+  --sn-stylekit-secondary-contrast-foreground-color: #5c5f77;
+  --sn-stylekit-editor-foreground-color: #4c4f69;
+  --sn-stylekit-border-color: #acb0be;
+  --sn-stylekit-secondary-border-color: #bcc0cc;
+  --sn-stylekit-contrast-border-color: #acb0be;
+  --sn-stylekit-secondary-contrast-border-color: #bcc0cc;
+  --sn-stylekit-passive-color-0: #7c7f93;
+  --sn-stylekit-passive-color-1: #8c8fa1;
+  --sn-stylekit-passive-color-2: #9ca0b0;
+  --sn-stylekit-passive-color-3: #acb0be;
+  --sn-stylekit-passive-color-4: #bcc0cc;
+  --sn-stylekit-passive-color-5: #ccd0da;
+  --sn-stylekit-passive-color-6: #eff1f5;
+  --sn-stylekit-passive-color-super-light: #e6e9ef;
+  --sn-stylekit-passive-color-4-opacity-variant: rgba(156, 160, 176, 0.25);
+  --sn-stylekit-accessory-tint-color-1: #1e66f5;
+  --sn-stylekit-accessory-tint-color-2: #ea76cb;
+  --sn-stylekit-accessory-tint-color-3: #df8e1d;
+  --sn-stylekit-accessory-tint-color-4: #7287fd;
+  --sn-stylekit-accessory-tint-color-5: #40a02b;
+  --sn-stylekit-accessory-tint-color-6: #fe640b;
+  --sn-stylekit-info-color: #1e66f5;
+  --sn-stylekit-info-contrast-color: #dce0e8;
+  --sn-stylekit-info-backdrop-color: rgba(30, 102, 245, 0.1);
+  --sn-stylekit-info-color-darkened: #1e66f5;
+  --sn-stylekit-success-color: #40a02b;
+  --sn-stylekit-success-contrast-color: #dce0e8;
+  --sn-stylekit-warning-color: #df8e1d;
+  --sn-stylekit-warning-contrast-color: #dce0e8;
+  --sn-stylekit-danger-color: #d20f39;
+  --sn-stylekit-danger-contrast-color: #dce0e8;
+  --sn-stylekit-danger-light-color: #ccd0da;
+  --sn-stylekit-neutral-color: #6c6f85;
+  --sn-stylekit-neutral-contrast-color: #eff1f5;
+  --sn-stylekit-shadow-color: #9ca0b0;
+  --sn-stylekit-paragraph-text-color: #6c6f85;
+  --sn-stylekit-input-placeholder-color: #7c7f93;
+  --sn-stylekit-input-border-color: #acb0be;
+  --sn-stylekit-scrollbar-thumb-color: #acb0be;
+  --sn-stylekit-scrollbar-track-border-color: #bcc0cc;
+  --sn-stylekit-theme-type: light;
+  --sn-stylekit-theme-name: catppuccin-latte;
+}
+
+/* App-level variables */
+:root {
+  --primary-bg-color: #eff1f5;
+  --editor-bg-color: #eff1f5;
+  --sn-desktop-titlebar-background-color: #eff1f5;
+  --sn-desktop-titlebar-foreground-color: #4c4f69;
+  --navigation-item-selected-background-color: #1e66f5;
+  --normal-button-background-color: #1e66f5;
+  --separator-color: #acb0be;
+  --popover-border-color: #acb0be;
+}
+
+/* Super Editor Syntax Highlighting */
+  .Lexical__code {
+    background-color: #dce0e8;
+    color: #4c4f69;
+  }
+
+  .Lexical__tokenComment {
+    color: #acb0be;
+  }
+
+  .Lexical__tokenPunctuation {
+    color: #7c7f93;
+  }
+
+  .Lexical__tokenProperty {
+    color: #e64553;
+  }
+
+  .Lexical__tokenSelector {
+    color: #fe640b;
+  }
+
+  .Lexical__tokenOperator {
+    color: #fe640b;
+  }
+
+  .Lexical__tokenAttr {
+    color: #1e66f5;
+  }
+
+  .Lexical__tokenVariable {
+    color: #d20f39;
+  }
+
+  .Lexical__tokenFunction {
+    color: #ea76cb;
+  }
+
+  .Lexical__tokenKeyword {
+    color: #7287fd;
+  }
+
+  .Lexical__tokenString {
+    color: #40a02b;
+  }
+
+  .Lexical__tokenNumber {
+    color: #fe640b;
+  }
+
+  .Lexical__tokenBoolean {
+    color: #1e66f5;
+  }
+
+  .Lexical__tokenNull {
+    color: #e64553;
+  }
+
+  .Lexical__tokenUndefined {
+    color: #e64553;
+  }
+
+  .Lexical__tokenType {
+    color: #df8e1d;
+  }
+
+  .Lexical__tokenClass {
+    color: #df8e1d;
+  }
+
+  .Lexical__tokenInterface {
+    color: #df8e1d;
+  }
+
+  .Lexical__tokenEnum {
+    color: #df8e1d;
+  }
+
+  .Lexical__tokenConst {
+    color: #7287fd;
+  }
+
+  .Lexical__tokenLet {
+    color: #7287fd;
+  }
+
+  .Lexical__tokenVar {
+    color: #7287fd;
+  }
+
+  .Lexical__tokenInserted {
+    color: #40a02b;
+  }
+
+  .Lexical__tokenDeleted {
+    color: #d20f39;
+  }
+
+  .Lexical__tokenChanged {
+    color: #df8e1d;
+  }
+
+  .Lexical__tokenBold {
+    color: #4c4f69;
+  }
+
+  .Lexical__tokenItalic {
+    color: #4c4f69;
+  }
+
+  .Lexical__tokenUnderline {
+    color: #4c4f69;
+  }
+
+  .Lexical__tokenStrikethrough {
+    color: #4c4f69;
+  }

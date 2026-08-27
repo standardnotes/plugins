@@ -1,0 +1,27 @@
+{
+  "name": "@standardpalettes/catppuccin-mocha",
+  "version": "1.0.0",
+  "description": "Catppuccin Mocha theme for Standard Notes - part of the StandardPalettes pack",
+  "author": "StandardPalettes",
+  "license": "MIT",
+  "main": "dist/index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenseeing/sn-themes"
+  },
+  "sn": {
+    "name": "Catppuccin Mocha",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/index.css",
+    "showInGallery": true,
+    "isDark": true,
+    "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.catppuccin-mocha/thumbnail.png",
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#89b4fa",
+      "foreground_color": "#89b4fa",
+      "border_color": "#89b4fa"
+    }
+  }
+}

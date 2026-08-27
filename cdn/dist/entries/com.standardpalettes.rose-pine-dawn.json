@@ -1,0 +1,24 @@
+{
+  "name": "Rosé Pine Dawn",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": false,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.rose-pine-dawn/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#b4637a",
+    "foreground_color": "#b4637a",
+    "border_color": "#b4637a"
+  },
+  "identifier": "com.standardpalettes.rose-pine-dawn",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.rose-pine-dawn/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.rose-pine-dawn.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.rose-pine-dawn.json",
+  "publisher": "StandardPalettes",
+  "description": "Rosé Pine Dawn theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "bb5855640a6754efd59b908ccb2d95a3513efbaac3dee96caa2399c85d58acca",
+  "binaryHash": "6e5235b252d9f82ec0ae97d645d1f80252ae95bf46cb311c459ba4c93dacfbda"
+}

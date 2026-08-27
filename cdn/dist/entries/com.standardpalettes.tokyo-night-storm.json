@@ -1,0 +1,24 @@
+{
+  "name": "Tokyo Night Storm",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": true,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.tokyo-night-storm/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#7aa2f7",
+    "foreground_color": "#7aa2f7",
+    "border_color": "#7aa2f7"
+  },
+  "identifier": "com.standardpalettes.tokyo-night-storm",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.tokyo-night-storm/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.tokyo-night-storm.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.tokyo-night-storm.json",
+  "publisher": "StandardPalettes",
+  "description": "Tokyo Night Storm theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "1175d99d571d2dbc7706c638765cfed17466db23de5750579eb69fbf9532bce5",
+  "binaryHash": "b09f59b6f789c5e2357c8d2b69d63a93c58ed08f7fdbbfa435807eb6514d0b43"
+}

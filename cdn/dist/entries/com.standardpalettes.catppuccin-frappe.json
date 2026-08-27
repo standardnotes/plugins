@@ -1,0 +1,24 @@
+{
+  "name": "Catppuccin Frappé",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": true,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.catppuccin-frappe/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#8caaee",
+    "foreground_color": "#8caaee",
+    "border_color": "#8caaee"
+  },
+  "identifier": "com.standardpalettes.catppuccin-frappe",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.catppuccin-frappe/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.catppuccin-frappe.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.catppuccin-frappe.json",
+  "publisher": "StandardPalettes",
+  "description": "Catppuccin Frappé theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "b71c7cc9bbf0831793b0044372ca40b8f5c069504cba5b340b93a0e02d4ba213",
+  "binaryHash": "13c7a0ca6397626f4fa76ae6ce07acf3e7119dfde7d89ec84892bd1aa3ea4ce1"
+}

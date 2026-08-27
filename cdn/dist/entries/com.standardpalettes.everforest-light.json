@@ -1,0 +1,24 @@
+{
+  "name": "Everforest Light",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "main": "dist/index.css",
+  "showInGallery": true,
+  "isDark": false,
+  "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.everforest-light/thumbnail.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#689d6a",
+    "foreground_color": "#689d6a",
+    "border_color": "#689d6a"
+  },
+  "identifier": "com.standardpalettes.everforest-light",
+  "version": "1.0.0",
+  "url": "https://standardnotes.github.io/plugins/cdn/dist/static/com.standardpalettes.everforest-light/dist/index.css",
+  "download_url": "https://standardnotes.github.io/plugins/cdn/dist/zips/com.standardpalettes.everforest-light.zip",
+  "latest_url": "https://standardnotes.github.io/plugins/cdn/dist/entries/com.standardpalettes.everforest-light.json",
+  "publisher": "StandardPalettes",
+  "description": "Everforest Light theme for Standard Notes - part of the StandardPalettes pack",
+  "base64Hash": "a1be8a46c69e70dab8a4cc47d1d8c9b6b4351f74315e0c8471d07896f3c3902e",
+  "binaryHash": "3e5dfbed96410f3132fb0786e96e55cd12aca65f9df786396a57eca81c35bbfc"
+}
