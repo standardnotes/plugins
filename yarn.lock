@@ -27734,6 +27734,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sn-cypherpunk-theme@workspace:packages/io.github.nickstruglia.cypherpunk":
+  version: 0.0.0-use.local
+  resolution: "sn-cypherpunk-theme@workspace:packages/io.github.nickstruglia.cypherpunk"
+  dependencies:
+    shx: ^0.4.0
+  languageName: unknown
+  linkType: soft
+
 "sn-excalidraw@workspace:packages/dev.randombits.excalidraw":
   version: 0.0.0-use.local
   resolution: "sn-excalidraw@workspace:packages/dev.randombits.excalidraw"

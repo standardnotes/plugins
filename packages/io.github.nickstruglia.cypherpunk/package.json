@@ -1,0 +1,35 @@
+{
+  "name": "sn-cypherpunk-theme",
+  "version": "1.0.1",
+  "private": true,
+  "description": "A green-phosphor cypherpunk theme for Standard Notes.",
+  "author": "Nicholas Truglia",
+  "license": "MIT",
+  "homepage": "https://github.com/nickstruglia/standard-notes-cypherpunk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardnotes/plugins",
+    "directory": "packages/io.github.nickstruglia.cypherpunk"
+  },
+  "main": "dist/index.css",
+  "sn": {
+    "name": "Cypherpunk",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/index.css",
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#00ff41",
+      "foreground_color": "#001a07",
+      "border_color": "#00ff41"
+    },
+    "marketing_url": "https://github.com/nickstruglia/standard-notes-cypherpunk",
+    "showInGallery": true
+  },
+  "scripts": {
+    "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/*.css dist/"
+  },
+  "devDependencies": {
+    "shx": "^0.4.0"
+  }
+}

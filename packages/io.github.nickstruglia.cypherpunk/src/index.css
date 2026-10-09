@@ -1,0 +1,486 @@
+/*! Cypherpunk 1.0.1 | MIT License | https://github.com/nickstruglia/standard-notes-cypherpunk */
+/*
+  Cypherpunk: a green-phosphor terminal theme for Standard Notes.
+
+  Standard Notes loads this file in the app and in every editor iframe, so
+  element-level defaults stay low-specificity (:where) and anything that only
+  makes sense in the app is scoped to the app's own ids and classes.
+*/
+
+/* ---- Palette ---------------------------------------------------------- */
+
+:root {
+  --cp-void: #050805;
+  --cp-panel: #0b130d;
+  --cp-raised: #0f1c12;
+  --cp-raised-2: #15281a;
+  --cp-hover: #0f2216;
+  --cp-selected: #133520;
+  --cp-text: #a6ffbf;
+  --cp-text-soft: #8fe6a8;
+  --cp-muted: #4fbf6a;
+  --cp-subtle: #5aa86f;
+  --cp-dim: #3a6e48;
+  --cp-line: #2a7a40;
+  --cp-line-strong: #2f8a49;
+  --cp-phosphor: #00ff41;
+  --cp-ink: #001a07;
+  --cp-amber: #ffb000;
+  --cp-red: #ff4d4d;
+  --cp-glow: rgb(0 255 65 / 0.45);
+  --cp-font: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, "Roboto Mono", "DejaVu Sans Mono", monospace;
+
+  color-scheme: dark;
+
+  /* Must stay a literal 6-digit hex: the app parses it for the status bar,
+     the browser theme color and translucent menus. */
+  --sn-stylekit-background-color: #050805;
+  --sn-stylekit-theme-type: dark;
+  --sn-stylekit-theme-name: cypherpunk;
+
+  --sn-stylekit-foreground-color: var(--cp-text);
+  --sn-stylekit-border-color: var(--cp-line);
+  --sn-stylekit-shadow-color: #000000;
+
+  --sn-stylekit-contrast-background-color: var(--cp-raised);
+  --sn-stylekit-contrast-foreground-color: var(--cp-text);
+  --sn-stylekit-contrast-border-color: var(--cp-line);
+  --sn-stylekit-secondary-background-color: var(--cp-panel);
+  --sn-stylekit-secondary-foreground-color: var(--cp-text);
+  --sn-stylekit-secondary-border-color: var(--cp-line);
+  --sn-stylekit-secondary-contrast-background-color: var(--cp-raised-2);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--cp-text);
+  --sn-stylekit-secondary-contrast-border-color: var(--cp-line-strong);
+
+  --sn-stylekit-editor-background-color: var(--cp-void);
+  --sn-stylekit-editor-foreground-color: var(--cp-text);
+  --sn-stylekit-paragraph-text-color: var(--cp-text-soft);
+
+  --sn-stylekit-info-color: var(--cp-phosphor);
+  --sn-stylekit-info-color-darkened: #00c934;
+  --sn-stylekit-info-contrast-color: var(--cp-ink);
+  --sn-stylekit-info-backdrop-color: rgb(0 255 65 / 0.1);
+  --sn-stylekit-neutral-color: var(--cp-muted);
+  --sn-stylekit-neutral-contrast-color: var(--cp-ink);
+  --sn-stylekit-success-color: #39e75f;
+  --sn-stylekit-success-contrast-color: var(--cp-ink);
+  --sn-stylekit-warning-color: var(--cp-amber);
+  --sn-stylekit-warning-contrast-color: #1f1400;
+  --sn-stylekit-danger-color: var(--cp-red);
+  --sn-stylekit-danger-contrast-color: #200000;
+  --sn-stylekit-danger-light-color: #2a0c0c;
+
+  --sn-stylekit-input-placeholder-color: var(--cp-subtle);
+  --sn-stylekit-input-border-color: var(--cp-line-strong);
+  --sn-stylekit-scrollbar-thumb-color: var(--cp-line-strong);
+  --sn-stylekit-scrollbar-track-border-color: var(--cp-raised);
+  --sn-stylekit-menu-border: 1px solid var(--cp-line);
+  --sn-stylekit-general-border-radius: 4px;
+
+  /* Passive colors run from strongest text (0) to faintest surface (6). */
+  --sn-stylekit-passive-color-0: #86d99c;
+  --sn-stylekit-passive-color-1: var(--cp-subtle);
+  --sn-stylekit-passive-color-2: var(--cp-dim);
+  --sn-stylekit-passive-color-3: #1a4226;
+  --sn-stylekit-passive-color-4: #12241a;
+  --sn-stylekit-passive-color-4-opacity-variant: rgb(79 191 106 / 0.16);
+  --sn-stylekit-passive-color-5: #0d1a11;
+  --sn-stylekit-passive-color-6: #112016;
+  --sn-stylekit-passive-color-super-light: var(--cp-panel);
+
+  /* Note-type icons and the selected note's edge. */
+  --sn-stylekit-accessory-tint-color-1: var(--cp-phosphor);
+  --sn-stylekit-accessory-tint-color-2: #ff6fb5;
+  --sn-stylekit-accessory-tint-color-3: var(--cp-amber);
+  --sn-stylekit-accessory-tint-color-4: #a98bff;
+  --sn-stylekit-accessory-tint-color-5: #2ff3e0;
+  --sn-stylekit-accessory-tint-color-6: #ff9a52;
+
+  --sn-stylekit-sans-serif-font: var(--cp-font);
+  --sn-stylekit-monospace-font: var(--cp-font);
+  --sn-stylekit-editor-font-family: var(--cp-font);
+
+  /* App surfaces (the app derives most of these; dark themes must set the
+     two whose defaults are light literals). */
+  --modal-background-color: var(--cp-panel);
+  --editor-header-bar-background-color: var(--cp-void);
+  --editor-title-bar-border-bottom-color: var(--cp-line);
+  --editor-title-input-color: var(--cp-phosphor);
+  --text-selection-color: var(--cp-ink);
+  --text-selection-background-color: var(--cp-phosphor);
+  --items-column-background-color: var(--cp-void);
+  --items-column-items-background-color: var(--cp-void);
+  --items-column-border-left-color: var(--cp-line);
+  --items-column-border-right-color: var(--cp-line);
+  --items-column-search-background-color: var(--cp-raised);
+  --item-cell-selected-background-color: var(--cp-selected);
+  --item-cell-selected-border-left-color: var(--cp-phosphor);
+  --navigation-column-background-color: var(--cp-panel);
+  --navigation-section-title-color: var(--cp-muted);
+  --navigation-item-text-color: var(--cp-text);
+  --navigation-item-count-color: var(--cp-muted);
+  --navigation-item-selected-background-color: var(--cp-selected);
+  --preferences-background-color: var(--cp-panel);
+  --preferences-navigation-icon-color: var(--cp-muted);
+  --preferences-navigation-selected-background-color: var(--cp-selected);
+  --dropdown-menu-radio-button-inactive-color: var(--cp-subtle);
+  --panel-resizer-background-color: var(--cp-raised-2);
+  --link-element-color: var(--cp-phosphor);
+  --normal-button-background-color: var(--cp-raised);
+  --popover-background-color: var(--cp-panel);
+  --popover-border-color: var(--cp-line);
+  --separator-color: var(--cp-line);
+
+  --sn-desktop-titlebar-bg-color: var(--cp-panel);
+  --sn-desktop-titlebar-border-color: var(--cp-line);
+  --sn-desktop-titlebar-ui-color: var(--cp-text);
+  --sn-desktop-titlebar-ui-hover-color: var(--cp-phosphor);
+
+  caret-color: var(--cp-phosphor);
+}
+
+/* ---- Base (app and editors) ------------------------------------------- */
+
+::selection {
+  background-color: var(--text-selection-background-color);
+  color: var(--text-selection-color);
+}
+
+@supports (caret-shape: block) {
+  :where(input, textarea, [contenteditable]) {
+    caret-shape: block;
+  }
+}
+
+:where(:focus-visible) {
+  outline: 2px solid var(--cp-phosphor);
+  outline-offset: 2px;
+}
+
+:where(a) {
+  color: var(--link-element-color);
+}
+
+:where(h1, h2, h3) {
+  text-shadow: 0 0 0.4em var(--cp-glow);
+}
+
+:where(code, kbd, samp, pre) {
+  font-family: var(--cp-font);
+}
+
+:where(hr) {
+  border-color: var(--cp-line);
+}
+
+:where(mark) {
+  background-color: rgb(255 176 0 / 0.3);
+  color: inherit;
+}
+
+:where(input, textarea, select)::placeholder {
+  color: var(--sn-stylekit-input-placeholder-color);
+  opacity: 1;
+}
+
+:where(input[type="checkbox"], input[type="radio"], progress, input[type="range"]) {
+  accent-color: var(--cp-phosphor);
+}
+
+/* Editors without their own scrollbar styling. The app styles its own. */
+:root:not(:has(> body[class*="-web"], > body[class*="-desktop"])) {
+  scrollbar-color: var(--sn-stylekit-scrollbar-thumb-color) transparent;
+}
+
+/* ---- App shell (body carries a platform class like "linux-web") ------- */
+
+body[class*="-web"],
+body[class*="-desktop"],
+body[class*="-web"] .font-sans,
+body[class*="-desktop"] .font-sans {
+  font-family: var(--cp-font);
+}
+
+/* Dividers and dropdown outlines that use the faint passive tone. */
+body[class*="-web"] .border-passive-3,
+body[class*="-desktop"] .border-passive-3 {
+  border-color: var(--cp-line);
+}
+
+/* A few app icons hard-code the default theme's blue and grey. */
+body[class*="-web"] svg [fill="#086DD6" i],
+body[class*="-desktop"] svg [fill="#086DD6" i] {
+  fill: var(--sn-stylekit-info-color);
+}
+
+body[class*="-web"] svg [fill="#72767E" i],
+body[class*="-desktop"] svg [fill="#72767E" i] {
+  fill: var(--sn-stylekit-neutral-color);
+}
+
+/* Empty-state illustrations ship light grey fills. */
+svg > circle[fill="#F4F5F7" i] {
+  fill: var(--cp-raised);
+  stroke: var(--cp-line);
+}
+
+svg:has(> circle[fill="#F4F5F7" i]) [fill="#fff" i] {
+  fill: var(--cp-panel);
+}
+
+svg:has(> circle[fill="#F4F5F7" i]) [fill="#BBBEC4" i] {
+  fill: var(--cp-muted);
+}
+
+/* Switches: the app paints "off" with the neutral color, which reads as lit
+   in a green theme. Dim the track and light the knob instead. */
+label:has(> span > input[type="checkbox"]) > div.bg-neutral {
+  background-color: var(--cp-hover);
+  border-color: var(--cp-line);
+}
+
+label:has(> span > input[type="checkbox"]) > div.bg-neutral > div {
+  background-color: var(--cp-muted);
+}
+
+body[class*="-web"] [role="menu"] [role^="menuitem"]:focus-visible,
+body[class*="-desktop"] [role="menu"] [role^="menuitem"]:focus-visible {
+  outline: 1px solid var(--cp-phosphor);
+  outline-offset: -1px;
+}
+
+.z-toast [role="status"] {
+  border: 1px solid var(--cp-line);
+  box-shadow: 0 0 1.25rem rgb(0 255 65 / 0.12);
+}
+
+/* ---- Navigation ------------------------------------------------------- */
+
+#navigation .tag.selected > .tag-info > .title,
+#navigation .root-drop.selected > .tag-info > .title {
+  color: var(--cp-phosphor);
+  -webkit-text-fill-color: var(--cp-phosphor);
+  text-shadow: 0 0 0.45em var(--cp-glow);
+}
+
+#navigation .tag.selected {
+  box-shadow: inset 2px 0 0 var(--cp-phosphor);
+}
+
+#navigation .tag:hover:not(.selected) {
+  background-color: var(--cp-hover);
+}
+
+#navigation .section-title-bar {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ---- Notes list ------------------------------------------------------- */
+
+#items-column .content-list-item:hover:not(.selected) {
+  background-color: var(--cp-hover);
+}
+
+#items-column .content-list-item.selected {
+  background-color: var(--item-cell-selected-background-color);
+}
+
+#items-column .content-list-item.selected .font-semibold {
+  color: var(--cp-phosphor);
+  text-shadow: 0 0 0.45em var(--cp-glow);
+}
+
+/* ---- Editor ----------------------------------------------------------- */
+
+#note-title-editor {
+  text-shadow: 0 0 0.4em var(--cp-glow);
+}
+
+/* The plain editor's search draws highlights behind a see-through textarea.
+   Keep the active match legible and the selection see-through. */
+.plain-editor-search-container .plain-search-highlight {
+  color: var(--cp-text);
+}
+
+.plain-editor-search-container .plain-search-highlight-active {
+  color: var(--cp-ink);
+}
+
+#editor-content .plain-editor-search-container textarea.editable.plain-editor-with-search-highlights {
+  caret-color: var(--cp-phosphor);
+}
+
+#editor-content .plain-editor-search-container textarea.plain-editor-with-search-highlights::selection {
+  background: rgb(0 255 65 / 0.35) !important;
+}
+
+/* ---- Super editor ----------------------------------------------------- */
+
+.Lexical__h1,
+.Lexical__h2,
+.Lexical__h3 {
+  color: var(--cp-phosphor);
+  text-shadow: 0 0 0.4em var(--cp-glow);
+}
+
+.Lexical__quote {
+  color: var(--sn-stylekit-passive-color-0);
+  border-left-color: var(--cp-line-strong);
+}
+
+.Lexical__textCode {
+  font-family: var(--cp-font);
+  background-color: var(--cp-raised);
+  color: var(--cp-phosphor);
+}
+
+.Lexical__code {
+  background-color: var(--cp-panel);
+  border: 1px solid var(--cp-line);
+  color: var(--cp-text);
+}
+
+/* Syntax colors: phosphor green, amber and cyan, like a terminal palette. */
+.Lexical__tokenAttr { color: var(--cp-phosphor); }
+.Lexical__tokenSelector { color: #ffcc66; }
+.Lexical__tokenFunction { color: #7df9ff; }
+.Lexical__tokenProperty { color: #ff9a52; }
+.Lexical__tokenVariable { color: var(--cp-amber); }
+.Lexical__tokenOperator { color: var(--cp-text); }
+.Lexical__tokenPunctuation { color: #86d99c; }
+.Lexical__tokenComment { color: var(--cp-subtle); font-style: italic; }
+
+.Lexical__link {
+  text-decoration: underline;
+  text-decoration-color: rgb(0 255 65 / 0.45);
+  text-underline-offset: 0.2em;
+}
+
+.Lexical__listItemUnchecked::before {
+  border-color: var(--cp-line-strong);
+  background-color: var(--cp-void);
+}
+
+.Lexical__listItemChecked::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4.5 10.5l3.5 3.5 7.5-8' fill='none' stroke='%23001a07' stroke-width='2.4' stroke-linecap='square'/%3E%3C/svg%3E");
+}
+
+.Lexical__hashtag {
+  background-color: rgb(0 255 65 / 0.12);
+  border-bottom-color: rgb(0 255 65 / 0.4);
+}
+
+.Lexical__tableCell {
+  border-color: var(--cp-line);
+}
+
+.Lexical__tableCellHeader {
+  background-color: var(--cp-raised);
+}
+
+.Lexical__tableSelected,
+.Lexical__tableCellPrimarySelected {
+  outline-color: var(--cp-phosphor);
+  border-color: var(--cp-phosphor);
+}
+
+.Lexical__tableCellSelected {
+  background-color: rgb(0 255 65 / 0.16);
+}
+
+.Lexical__tableCellResizeRuler,
+.Lexical__tableCellSortedIndicator {
+  background-color: var(--cp-phosphor);
+}
+
+.Lexical__tableCellActionButton {
+  background-color: var(--cp-raised-2);
+  color: var(--cp-text);
+}
+
+.Lexical__tableCellActionButton:hover {
+  background-color: var(--cp-selected);
+}
+
+.Lexical__characterLimit {
+  background-color: rgb(255 77 77 / 0.3) !important;
+}
+
+#blocks-editor hr::after {
+  background-color: var(--cp-line);
+}
+
+/* ---- Print: black on white, no glow ----------------------------------- */
+
+@media print {
+  :root {
+    color-scheme: light;
+    --cp-void: #ffffff;
+    --cp-panel: #ffffff;
+    --cp-raised: #ffffff;
+    --cp-raised-2: #ffffff;
+    --cp-hover: #ffffff;
+    --cp-selected: #ffffff;
+    --cp-text: #000000;
+    --cp-text-soft: #000000;
+    --cp-muted: #000000;
+    --cp-subtle: #000000;
+    --cp-dim: #000000;
+    --cp-line: #000000;
+    --cp-line-strong: #000000;
+    --cp-phosphor: #000000;
+    --cp-ink: #ffffff;
+    --cp-amber: #000000;
+    --cp-red: #000000;
+    --cp-glow: transparent;
+    --sn-stylekit-background-color: #ffffff;
+    --sn-stylekit-info-backdrop-color: #ffffff;
+    --sn-stylekit-warning-contrast-color: #ffffff;
+    --sn-stylekit-danger-contrast-color: #ffffff;
+    --sn-stylekit-danger-light-color: #ffffff;
+    --sn-stylekit-success-color: #000000;
+    --sn-stylekit-info-color-darkened: #000000;
+    --sn-stylekit-passive-color-0: #000000;
+    --sn-stylekit-passive-color-3: #000000;
+    --sn-stylekit-passive-color-4: #ffffff;
+    --sn-stylekit-passive-color-4-opacity-variant: #ffffff;
+    --sn-stylekit-passive-color-5: #ffffff;
+    --sn-stylekit-passive-color-6: #ffffff;
+    --sn-stylekit-accessory-tint-color-2: #000000;
+    --sn-stylekit-accessory-tint-color-4: #000000;
+    --sn-stylekit-accessory-tint-color-5: #000000;
+    --sn-stylekit-accessory-tint-color-6: #000000;
+    --sn-stylekit-input-placeholder-color: #595959;
+    --sn-stylekit-shadow-color: transparent;
+    --popover-background-color: #ffffff;
+  }
+
+  *,
+  *::before,
+  *::after {
+    color: #000000 !important;
+    background-color: transparent !important;
+    border-color: #000000 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  /* On phones the panes are stacked, each hiding the ones beneath it; keep
+     them (and any open menu or dialog) opaque. */
+  html,
+  body,
+  #navigation,
+  #items-column,
+  #editor-column,
+  .app-pane,
+  [data-popover],
+  [role="dialog"] {
+    background-color: #ffffff !important;
+  }
+
+  ::placeholder {
+    color: var(--sn-stylekit-input-placeholder-color) !important;
+  }
+}

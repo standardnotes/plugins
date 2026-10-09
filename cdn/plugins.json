@@ -74,5 +74,9 @@
  {
    "identifier": "com.sncommunity.coffee-theme",
    "staticFiles": ["dist", "package.json"]
+ },
+ {
+   "identifier": "io.github.nickstruglia.cypherpunk",
+   "staticFiles": ["dist", "package.json"]
  }
 ]
