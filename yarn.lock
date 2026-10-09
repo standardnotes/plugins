@@ -27769,6 +27769,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sn-keyfold@workspace:packages/io.github.nickstruglia.keyfold":
+  version: 0.0.0-use.local
+  resolution: "sn-keyfold@workspace:packages/io.github.nickstruglia.keyfold"
+  languageName: unknown
+  linkType: soft
+
 "sn-stylekit@npm:2.0.19":
   version: 2.0.19
   resolution: "sn-stylekit@npm:2.0.19"

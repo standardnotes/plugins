@@ -1,0 +1,28 @@
+{
+  "name": "sn-keyfold",
+  "version": "1.0.31",
+  "private": true,
+  "description": "A key manager for Standard Notes: seed phrases, wallet, SSH and PGP keys, API tokens and recovery codes, in collapsible cards with hidden fields and checksum checks.",
+  "author": "Nicholas Truglia",
+  "license": "MIT",
+  "homepage": "https://github.com/nickstruglia/standard-notes-keyfold",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardnotes/plugins",
+    "directory": "packages/io.github.nickstruglia.keyfold"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "sn": {
+    "name": "Keyfold",
+    "content_type": "SN|Component",
+    "area": "editor-editor",
+    "main": "dist/index.html",
+    "file_type": "json",
+    "interchangeable": false,
+    "marketing_url": "https://github.com/nickstruglia/standard-notes-keyfold",
+    "thumbnail_url": "https://standardnotes.github.io/plugins/cdn/dist/static/io.github.nickstruglia.keyfold/dist/icon.svg",
+    "showInGallery": true
+  }
+}
