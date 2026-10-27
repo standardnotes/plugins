@@ -1,4 +1,4 @@
-import { defaultValueCtx, Editor, editorViewOptionsCtx, rootCtx } from '@milkdown/core'
+import { defaultValueCtx, Editor, editorViewCtx, editorViewOptionsCtx, rootCtx } from '@milkdown/core'
 import { clipboard } from '@milkdown/plugin-clipboard'
 import { cursor } from '@milkdown/plugin-cursor'
 import { diagram } from '@milkdown/plugin-diagram'
@@ -7,6 +7,7 @@ import { indent } from '@milkdown/plugin-indent'
 import { listener, listenerCtx } from '@milkdown/plugin-listener'
 import { math } from '@milkdown/plugin-math'
 import { prism } from '@milkdown/plugin-prism'
+import { EditorView } from '@milkdown/prose'
 import { slash } from '@milkdown/plugin-slash'
 import { tooltip } from '@milkdown/plugin-tooltip'
 import { gfm } from '@milkdown/preset-gfm'
@@ -18,21 +19,34 @@ import { MenuConfig } from './plugins/advanced-menu/config'
 export type CreateEditorParams = {
   root: HTMLElement | null
   onChange: (text: string) => void
+  /** Called each time the editor is created, which replaces its DOM */
+  onMounted: (view: EditorView) => void
   value?: string
   menuConfig: MenuConfig
   editable: boolean
   spellcheck: boolean
 }
 
-export const createEditor = ({ root, onChange, value, menuConfig, editable, spellcheck }: CreateEditorParams) => {
+export const createEditor = ({
+  root,
+  onChange,
+  onMounted,
+  value,
+  menuConfig,
+  editable,
+  spellcheck,
+}: CreateEditorParams) => {
   const editor = Editor.make()
     .config((ctx) => {
       ctx.set(rootCtx, root)
       value && ctx.set(defaultValueCtx, value)
 
-      ctx.get(listenerCtx).markdownUpdated((_, markdown) => {
-        onChange(markdown)
-      })
+      ctx
+        .get(listenerCtx)
+        .markdownUpdated((_, markdown) => {
+          onChange(markdown)
+        })
+        .mounted((ctx) => onMounted(ctx.get(editorViewCtx)))
 
       ctx.set(editorViewOptionsCtx, {
         editable: () => editable,

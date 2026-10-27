@@ -222,6 +222,10 @@ export default class Editor extends React.Component {
     if (!this.redactor.editor.isEmpty()) {
       this.redactor.editor.endFocus();
     }
+
+    this.editorKit.registerScrollContainer(document.scrollingElement, {
+      moveCaretToEnd: () => this.redactor.editor.endFocus()
+    });
   }
 
   /**

@@ -53,10 +53,12 @@ export default class Home extends React.Component {
       return;
     }
 
-    this.scrollContainer = this.componentRelay.registerScrollContainer(this.editor, () => {
-      const end = this.editor.value.length;
-      this.editor.focus({ preventScroll: true });
-      this.editor.setSelectionRange(end, end);
+    this.scrollContainer = this.componentRelay.registerScrollContainer(this.editor, {
+      moveCaretToEnd: () => {
+        const end = this.editor.value.length;
+        this.editor.focus({ preventScroll: true });
+        this.editor.setSelectionRange(end, end);
+      },
     });
   }
 

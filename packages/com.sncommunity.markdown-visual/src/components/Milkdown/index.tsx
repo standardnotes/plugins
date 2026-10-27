@@ -14,6 +14,7 @@ export type MilkdownRef = {
 
 type MilkdownProps = {
   onChange: CreateEditorParams['onChange']
+  onMounted: CreateEditorParams['onMounted']
   value?: CreateEditorParams['value']
   menuConfig: MenuConfig
   editable: CreateEditorParams['editable']
@@ -21,7 +22,7 @@ type MilkdownProps = {
 }
 
 const Milkdown = (
-  { onChange, value, menuConfig, editable, spellcheck }: MilkdownProps,
+  { onChange, onMounted, value, menuConfig, editable, spellcheck }: MilkdownProps,
   ref: React.ForwardedRef<MilkdownRef>,
 ) => {
   const editorRef = useRef<EditorRef>(null)
@@ -58,13 +59,14 @@ const Milkdown = (
       return createEditor({
         root,
         onChange,
+        onMounted,
         value,
         menuConfig,
         editable,
         spellcheck,
       })
     },
-    [value, onChange, value, menuConfig, editable, spellcheck],
+    [value, onChange, onMounted, value, menuConfig, editable, spellcheck],
   )
 
   return (
