@@ -18,6 +18,20 @@ packages/org.standardnotes.advanced-markdown-editor/src/main.scss
       "human_author": null
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 43,
+    "ai_accepted": 43,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 43,
+    "tool_model_breakdown": {
+      "cursor::default": {
+        "ai_additions": 43,
+        "ai_accepted": 43
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
