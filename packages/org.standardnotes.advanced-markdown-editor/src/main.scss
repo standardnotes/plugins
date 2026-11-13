@@ -194,6 +194,12 @@ body, html {
   // Faded Markdown syntax
   .cm-formatting-header, .cm-formatting-strong, .cm-formatting-em {
     opacity: 0.2;
+
+    &.CodeMirror-selectedtext {
+      opacity: 1;
+      color: var(--sn-stylekit-info-contrast-color) !important;
+      background: var(--sn-stylekit-info-color) !important;
+    }
   }
 
   .cm-link, .cm-url {
@@ -237,6 +243,43 @@ body, html {
 .CodeMirror-selectedtext {
   color: var(--sn-stylekit-info-contrast-color);
   background: var(--sn-stylekit-info-color) !important;
+}
+
+.CodeMirror-line::selection,
+.CodeMirror-line > span::selection,
+.CodeMirror-line > span > span::selection {
+  background: var(--sn-stylekit-info-color);
+  color: var(--sn-stylekit-info-contrast-color);
+}
+
+.CodeMirror-line::-moz-selection,
+.CodeMirror-line > span::-moz-selection,
+.CodeMirror-line > span > span::-moz-selection {
+  background: var(--sn-stylekit-info-color);
+  color: var(--sn-stylekit-info-contrast-color);
+}
+
+// On mobile, CodeMirror uses native selection (styleSelectedText: false). Overlay
+// selection styling doubles the text when opening the cut/copy menu.
+body.native-mobile-web {
+  .CodeMirror-selected {
+    background: transparent !important;
+  }
+
+  .CodeMirror-selectedtext {
+    color: inherit !important;
+    background: transparent !important;
+  }
+
+  .CodeMirror-line::selection,
+  .CodeMirror-line > span::selection,
+  .CodeMirror-line > span > span::selection,
+  .CodeMirror-line::-moz-selection,
+  .CodeMirror-line > span::-moz-selection,
+  .CodeMirror-line > span > span::-moz-selection {
+    background: var(--sn-stylekit-info-color);
+    color: inherit;
+  }
 }
 
 .CodeMirror-gutters {
