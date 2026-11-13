@@ -1,0 +1,198 @@
+packages/org.standardnotes.token-vault/app/components/DataErrorAlert.jsx
+  s_cc45adbef7217d::t_ec59988ae302e8 1-2,14
+  s_cc45adbef7217d::t_3b86c542ad29be 7,13
+packages/org.standardnotes.token-vault/app/components/Home.jsx
+  s_cc45adbef7217d::t_3b86c542ad29be 65-66,327,352,382-383,390-391
+  s_cc45adbef7217d::t_8eb6b1d1a1d5d5 392
+  s_cc45adbef7217d::t_b37d7ae21a9d7d 10
+packages/com.sncommunity.advanced-checklist/src/features/tasks/MigrateLegacyContent.tsx
+  s_cc45adbef7217d::t_3b86c542ad29be 31,37,40
+  s_cc45adbef7217d::t_402adf7739fa68 5,32
+packages/org.standardnotes.standard-sheets/webpack.config.js
+  s_cc45adbef7217d::t_f09da75aaeb579 1
+  s_cc45adbef7217d::t_1b44ab91da63e9 41-42
+packages/com.sncommunity.advanced-checklist/src/features/tasks/tasks-slice.ts
+  s_cc45adbef7217d::t_3b86c542ad29be 308,344
+  s_cc45adbef7217d::t_cef844884c5195 2
+  s_cc45adbef7217d::t_6a2f7628e480bd 309
+  s_cc45adbef7217d::t_8d64c045b174f7 345
+packages/com.sncommunity.advanced-checklist/src/features/tasks/NotePreview.tsx
+  s_cc45adbef7217d::t_da43e53ce67a26 1-2,30,32-35,40,54,70-74,82
+  s_cc45adbef7217d::t_3b86c542ad29be 31,69
+packages/dev.randombits.excalidraw/src/components/Unsupported.tsx
+  s_cc45adbef7217d::t_3b86c542ad29be 11-12,14,18
+  s_cc45adbef7217d::t_fa6122497b1600 2,15-17
+packages/org.standardnotes.token-vault/app/components/QRCodeReader.jsx
+  s_cc45adbef7217d::t_9f3b64b3eaa299 5
+  s_cc45adbef7217d::t_3b86c542ad29be 63,68,81
+packages/com.sncommunity.bold-editor/package.json
+  s_cc45adbef7217d::t_55ec9073470f09 25-27
+packages/org.standardnotes.simple-task-editor/app/lib/tasksManager.js
+  s_cc45adbef7217d::t_e2f65f9748aa7a 214-218
+  s_cc45adbef7217d::t_3b86c542ad29be 193,213,231
+  s_cc45adbef7217d::t_c2b27ce506f17f 3
+  s_cc45adbef7217d::t_9a344af9705004 232-235
+  s_cc45adbef7217d::t_37488dd4e5c324 194-198
+packages/com.sncommunity.advanced-checklist/src/features/tasks/CreateGroup.tsx
+  s_cc45adbef7217d::t_3b86c542ad29be 129,140
+  s_cc45adbef7217d::t_51b1cd8ec206f9 3
+packages/com.sncommunity.advanced-checklist/src/features/tasks/CreateTask.tsx
+  s_cc45adbef7217d::t_3b86c542ad29be 71
+  s_cc45adbef7217d::t_9c5b396150db18 3
+packages/com.sncommunity.advanced-checklist/src/features/tasks/RenameTaskGroups.tsx
+  s_cc45adbef7217d::t_c26104f8bbb47f 5,64
+  s_cc45adbef7217d::t_3b86c542ad29be 48,57,65-66,73
+packages/org.standardnotes.plus-editor/src/main.js
+  s_cc45adbef7217d::t_0e5818e631f73b 1-2
+  s_cc45adbef7217d::t_f6d7dad15283d4 294-295
+  s_cc45adbef7217d::t_f6e69d1ab9aeac 236,243
+  s_cc45adbef7217d::t_420730e6ebedd9 227-228
+packages/com.sncommunity.advanced-checklist/src/features/tasks/CompletedTasksActions.tsx
+  s_cc45adbef7217d::t_72579d7b9382f4 3,72
+  s_cc45adbef7217d::t_3b86c542ad29be 49,52,61,71
+packages/org.standardnotes.simple-task-editor/app/components/Tasks.js
+  s_cc45adbef7217d::t_c14e7668adef8e 2
+  s_cc45adbef7217d::t_3b86c542ad29be 128,135,171,180,189-190
+packages/org.standardnotes.standard-sheets/package.json
+  s_cc45adbef7217d::t_3fcda1fb80f3d1 26-27
+packages/dev.randombits.excalidraw/webpack.config.js
+  s_cc45adbef7217d::t_f4054cacde33a7 36
+packages/org.standardnotes.token-vault/package.json
+  s_cc45adbef7217d::t_d5e328ebf51811 35-36
+  s_cc45adbef7217d::t_bd0bbb718fc12d 34
+packages/dev.randombits.excalidraw/package.json
+  s_cc45adbef7217d::t_480c0576710fd8 26-27
+packages/org.standardnotes.token-vault/app/components/EditEntry.jsx
+  s_cc45adbef7217d::t_3b86c542ad29be 114,118,171-172,180,190,204,213,222,235-236,246,265,275,279
+  s_cc45adbef7217d::t_e94c60806e9dbd 8
+  s_cc45adbef7217d::t_bb9696e93fe718 233-234,237
+  s_cc45adbef7217d::t_eb5b395a98d9f6 263-264,266
+  s_cc45adbef7217d::t_7c9f37cf66354c 169-170,173
+  s_cc45adbef7217d::t_c82535b3de67e2 278,280
+packages/org.standardnotes.token-vault/app/components/AuthMenu.jsx
+  s_cc45adbef7217d::t_0aceddcb0ed3a9 3
+  s_cc45adbef7217d::t_3b86c542ad29be 53,56,59
+packages/com.sncommunity.advanced-checklist/src/common/sectionDisplayName.ts
+  s_cc45adbef7217d::t_bb9b7d3617e986 1-6,8-9,11-13
+  s_cc45adbef7217d::t_3b86c542ad29be 7,10
+packages/org.standardnotes.standard-sheets/app/components/Home.js
+  s_cc45adbef7217d::t_27b32e5b7ca43a 29-30,32-34
+  s_cc45adbef7217d::t_69377ad5671227 3
+  s_cc45adbef7217d::t_efebf31cd29ed3 42
+  s_cc45adbef7217d::t_3b86c542ad29be 31,41,121
+packages/com.sncommunity.advanced-checklist/src/features/tasks/TaskGroupOptions.tsx
+  s_cc45adbef7217d::t_3b86c542ad29be 31,37,41,45,52-53,58
+  s_cc45adbef7217d::t_d58d0e207dff2c 4
+packages/dev.randombits.excalidraw/src/providers/EditorProvider.tsx
+  s_cc45adbef7217d::t_0f9bf882bd620b 72
+  s_cc45adbef7217d::t_44f96c664b2585 2
+package.json
+  s_cc45adbef7217d::t_a19a678e814845 48-49
+  s_cc45adbef7217d::t_9be4675d621ed8 25
+  s_cc45adbef7217d::t_5794076a3a33c5 24
+packages/com.sncommunity.advanced-checklist/package.json
+  s_cc45adbef7217d::t_df0d6caa53a949 40
+  s_cc45adbef7217d::t_fa7d58371fa736 100-101
+  s_cc45adbef7217d::t_1677fe362dc19c 39
+packages/org.standardnotes.token-vault/webpack.config.js
+  s_cc45adbef7217d::t_a31fd78013eb51 61-62
+packages/org.standardnotes.token-vault/app/components/CopyNotification.jsx
+  s_cc45adbef7217d::t_3b86c542ad29be 7
+  s_cc45adbef7217d::t_0768a9ff8265d2 2
+packages/org.standardnotes.simple-task-editor/package.json
+  s_cc45adbef7217d::t_41bc4493304800 33-34
+packages/org.standardnotes.simple-task-editor/app/components/CreateTask.js
+  s_cc45adbef7217d::t_3b86c542ad29be 49
+  s_cc45adbef7217d::t_9424e3a1bf0081 3
+packages/com.sncommunity.advanced-checklist/src/features/tasks/MergeTaskGroups.tsx
+  s_cc45adbef7217d::t_a65133e600715c 5,48,50,78
+  s_cc45adbef7217d::t_3b86c542ad29be 49,56,71,79-80,83
+packages/com.sncommunity.advanced-checklist/src/common/components/ConfirmDialog.tsx
+  s_cc45adbef7217d::t_ca8f3fa29dbae7 7
+  s_cc45adbef7217d::t_3b86c542ad29be 22,25
+packages/org.standardnotes.advanced-markdown-editor/src/main.js
+  s_cc45adbef7217d::t_2404d9f19c80bc 346,354
+  s_cc45adbef7217d::t_00e24a5f735242 140
+  s_cc45adbef7217d::t_910b9d882dbd43 2-3
+  s_cc45adbef7217d::t_d9d943b0ca4864 336-337
+  s_cc45adbef7217d::t_0ba0c8357bd5c2 128
+packages/org.standardnotes.simple-task-editor/webpack.config.js
+  s_cc45adbef7217d::t_65ed983b3a847b 45-46
+  s_cc45adbef7217d::t_133374ab1b9297 1
+packages/org.standardnotes.plus-editor/package.json
+  s_cc45adbef7217d::t_cd381c0fe83ea6 33-34
+packages/com.sncommunity.bold-editor/app/components/Editor.js
+  s_cc45adbef7217d::t_0de84a5713ab7e 5
+  s_cc45adbef7217d::t_450962074484bb 275-276
+  s_cc45adbef7217d::t_fd1fbd3c2030d5 284,291
+packages/org.standardnotes.advanced-markdown-editor/package.json
+  s_cc45adbef7217d::t_172667ca75e881 35-36
+packages/com.sncommunity.advanced-checklist/src/features/tasks/TaskSectionList.test.tsx
+  s_cc45adbef7217d::t_14b20ee7ed26f7 41
+po/template.pot
+  s_cc45adbef7217d::t_e82c77a5ffd70b 1-6,8-14,16-20,22-25,27-30,32-36,38-41,43-47,49-55,57-60,62-65,67-70,72-75,77-80,82-85,87-91,93-96,98-102,104-107,109-113,115-121,123-128,130-133,135-138,140-144,146-152,154-160,162-166,168-171,173-176,178-181,183-185,226-227,229-232,234-237,239-244,246-249,251-254,256-259,261-265,267-270,272-275,277-280,282-285,287-290,292-295,297-301,303-308,310-313,315-318,320-323,325-328,330-333,335-338,340-343,345-348,350-353,355-359,361-364,366-369,371-374,376-379,381-384,386-389,391-394,396-401,403-407,409-415,417-423,425-430,432-435,437-440,442-445,447-450,452-455,457-460,462-467,469-474,476-483,485
+  s_cc45adbef7217d::t_06946995e8e43f 186-225,486-547,553-582
+  s_cc45adbef7217d::t_40505dedc24b69 7,15,21,26,31,37,42,48,56,61,66,71,76,81,86,92,97,103,108,114,122,129,134,139,145,153,161,167,172,177,182,228,233,238,245,250,255,260,266,271,276,281,286,291,296,302,309,314,319,324,329,334,339,344,349,354,360,365,370,375,380,385,390,395,402,408,416,424,431,436,441,446,451,456,461,468,475,484
+  s_cc45adbef7217d::t_4a7c5959efbe8e 548-552
+  s_cc45adbef7217d::t_b25829bc458f0e 583
+packages/org.standardnotes.token-vault/app/components/ConfirmDialog.jsx
+  s_cc45adbef7217d::t_00d0d4209bae81 2
+  s_cc45adbef7217d::t_3b86c542ad29be 20,23
+packages/com.sncommunity.advanced-checklist/src/features/tasks/TasksSection.tsx
+  s_cc45adbef7217d::t_421edbc2f19975 104
+  s_cc45adbef7217d::t_dde3718c80914f 10
+packages/dev.randombits.excalidraw/src/components/Editor.tsx
+  s_cc45adbef7217d::t_163727eb19654f 60
+  s_cc45adbef7217d::t_30a33aac6cce49 2
+  s_cc45adbef7217d::t_adb3b18629cb9b 73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cd7148e4e4667e47f9db2c4a3c4dfcdfea569071",
+  "prompts": {},
+  "sessions": {
+    "s_cc45adbef7217d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "3effdfda-9e8a-4e38-a50a-7e8947c29e8c",
+        "model": "default"
+      },
+      "human_author": "Antonella Sgarlatta <anto@standardnotes.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 459563,
+        "output_tokens": 59717,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 15543744
+      },
+      "by_tool_model": {
+        "cursor::default": {
+          "input_tokens": 459563,
+          "output_tokens": 59717,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 15543744
+        }
+      },
+      "tool_uses": {
+        "delete": 1,
+        "grep": 187,
+        "read": 156,
+        "shell": 27,
+        "write": 142
+      }
+    },
+    "by_prompt": {
+      "s_cc45adbef7217d": {
+        "input_tokens": 459563,
+        "output_tokens": 59717,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 15543744
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
