@@ -2,6 +2,7 @@ import { parseKeyUri } from '@Lib/otp'
 import jsQR from 'jsqr'
 import PropTypes from 'prop-types'
 import React from 'react'
+import { c } from 'ttag'
 
 const convertToGrayScale = (imageData) => {
   if (!imageData) {
@@ -59,12 +60,12 @@ export default class QRCodeReader extends React.Component {
       if (code) {
         const otpData = parseKeyUri(code.data)
         if (otpData.type !== 'totp') {
-          onError(`The '${otpData.type}' type is not supported.`)
+          onError(c('Plugins.Authenticator.Error').t`The '${otpData.type}' type is not supported.`)
         } else {
           onSuccess(otpData)
         }
       } else {
-        onError('Error reading QR code from image. Please try again.')
+        onError(c('Plugins.Authenticator.Error').t`Error reading QR code from image. Please try again.`)
       }
     }
 
@@ -77,7 +78,7 @@ export default class QRCodeReader extends React.Component {
     return (
       <div className="qr-code-reader-container">
         <div className="sk-button info" onClick={() => this.fileInputRef.current.click()}>
-          <div className="sk-label">Upload QR Code</div>
+          <div className="sk-label">{c('Plugins.Authenticator.Action').t`Upload QR Code`}</div>
           <input type="file" style={{ display: 'none' }} ref={this.fileInputRef} onChange={this.onImageSelected} />
         </div>
       </div>

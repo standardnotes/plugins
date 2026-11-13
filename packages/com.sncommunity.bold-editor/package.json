@@ -22,6 +22,9 @@
     "file_type": "html",
     "showInGallery": false
   },
+  "dependencies": {
+    "ttag": "^1.8.12"
+  },
   "scripts": {
     "lint": "eslint app/ --ext .js",
     "lint:fix": "eslint app/ --ext .js --fix",
@@ -34,7 +37,7 @@
     "@babel/eslint-parser": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
     "@babel/preset-react": "^7.13.13",
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#626d7a6e63d4ada48be36676c466fea46d7709d3",
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#46f753b8a00f581d2428687fd269ec299f9da2c2",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "*",
     "css-loader": "^5.2.0",

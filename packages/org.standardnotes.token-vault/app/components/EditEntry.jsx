@@ -5,6 +5,7 @@ import { SKAlert } from '@standardnotes/styles'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { TwitterPicker } from 'react-color'
+import { c } from 'ttag'
 
 export default class EditEntry extends React.Component {
   static defaultProps = {
@@ -110,11 +111,11 @@ export default class EditEntry extends React.Component {
     const { id, entry, showColorPicker, qrCodeError, is2fa } = this.state
 
     const qrCodeAlert = new SKAlert({
-      title: 'Error',
+      title: c('Plugins.Authenticator.Title').t`Error`,
       text: qrCodeError,
       buttons: [
         {
-          text: 'OK',
+          text: c('Plugins.Authenticator.Action').t`OK`,
           style: 'info',
           action: this.dismissQRCodeError,
         },
@@ -165,14 +166,18 @@ export default class EditEntry extends React.Component {
             <div className="sk-panel-section-title sk-panel-row">
               <div className="sk-panel-row">
                 <div className="left-header">
-                  <div className="sk-panel-section-title pr-4">{id != null ? 'Edit entry' : 'Add new entry'}</div>
+                  <div className="sk-panel-section-title pr-4">
+                    {id != null
+                      ? c('Plugins.Authenticator.Title').t`Edit entry`
+                      : c('Plugins.Authenticator.Title').t`Add new entry`}
+                  </div>
                   <div className="sk-input-group" onChange={handleTypeChange}>
                     <label>
                       <input className="sk-input" type="radio" value="2fa" name="type" defaultChecked={is2fa} /> 2FA
                     </label>
                     <label>
                       <input className="sk-input" type="radio" value="password" name="type" defaultChecked={!is2fa} />{' '}
-                      Password only
+                      {c('Plugins.Authenticator.Label').t`Password only`}
                     </label>
                   </div>
                 </div>
@@ -182,7 +187,7 @@ export default class EditEntry extends React.Component {
                 <>
                   {entryColor && (
                     <div className="sk-button danger" onClick={this.removeColor}>
-                      <div className="sk-label">Clear color</div>
+                      <div className="sk-label">{c('Plugins.Authenticator.Action').t`Clear color`}</div>
                     </div>
                   )}
                   <div className="color-picker-swatch" onClick={this.handleSwatchClick}>
@@ -196,7 +201,7 @@ export default class EditEntry extends React.Component {
                 <input
                   name="service"
                   className="sk-input contrast"
-                  placeholder="Service"
+                  placeholder={c('Plugins.Authenticator.Placeholder').t`Service`}
                   value={entry.service}
                   onChange={this.handleInputChange}
                   type="text"
@@ -205,7 +210,7 @@ export default class EditEntry extends React.Component {
                 <input
                   name="account"
                   className="sk-input contrast"
-                  placeholder="Account"
+                  placeholder={c('Plugins.Authenticator.Placeholder').t`Account`}
                   value={entry.account}
                   onChange={this.handleInputChange}
                   type="text"
@@ -214,7 +219,7 @@ export default class EditEntry extends React.Component {
                   <input
                     name="secret"
                     className="sk-input contrast"
-                    placeholder="Secret"
+                    placeholder={c('Plugins.Authenticator.Placeholder').t`Secret`}
                     value={entry.secret}
                     onChange={this.handleInputChange}
                     type="text"
@@ -225,7 +230,11 @@ export default class EditEntry extends React.Component {
                 <input
                   name="password"
                   className="sk-input contrast"
-                  placeholder={`Password ${is2fa ? '(optional)' : ''}`}
+                  placeholder={
+                    is2fa
+                      ? c('Plugins.Authenticator.Placeholder').t`Password (optional)`
+                      : c('Plugins.Authenticator.Placeholder').t`Password`
+                  }
                   value={entry.password}
                   onChange={this.handleInputChange}
                   type="text"
@@ -234,7 +243,7 @@ export default class EditEntry extends React.Component {
                 <input
                   name="notes"
                   className="sk-input contrast"
-                  placeholder="Notes"
+                  placeholder={c('Plugins.Authenticator.Placeholder').t`Notes`}
                   value={entry.notes}
                   onChange={this.handleInputChange}
                   type="text"
@@ -251,7 +260,10 @@ export default class EditEntry extends React.Component {
                     onSwatchHover={(color, event) => {
                       const hoveredColor = color.hex.toUpperCase()
                       if (themeColors.includes(hoveredColor)) {
-                        event.target.setAttribute('title', 'This color will change depending on your active theme.')
+                        event.target.setAttribute(
+                          'title',
+                          c('Plugins.Authenticator.Info').t`This color will change depending on your active theme.`,
+                        )
                       }
                     }}
                   />
@@ -260,10 +272,12 @@ export default class EditEntry extends React.Component {
               <div className="sk-panel-section">
                 <div className="sk-button-group stretch">
                   <button type="button" className="sk-button neutral" onClick={this.props.onCancel}>
-                    <div className="sk-label">Cancel</div>
+                    <div className="sk-label">{c('Plugins.Authenticator.Action').t`Cancel`}</div>
                   </button>
                   <button type="submit" className="sk-button info">
-                    <div className="sk-label">{id != null ? 'Save' : 'Create'}</div>
+                    <div className="sk-label">
+                      {id != null ? c('Plugins.Authenticator.Action').t`Save` : c('Plugins.Authenticator.Action').t`Create`}
+                    </div>
                   </button>
                 </div>
               </div>

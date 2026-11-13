@@ -1,5 +1,6 @@
 import Task from '@Models/Task'
 import ComponentRelay from '@standardnotes/component-relay'
+import { c, msgid } from 'ttag'
 
 const TaskDelimitter = '\n'
 
@@ -189,7 +190,12 @@ export default class TasksManager {
     const tasksToPreview = Math.min(openTasks.length, taskPreviewLimit)
 
     let html = '<div>'
-    html += `<div style="margin-top: 8px;"><strong>${completedTasks.length}/${totalLength} tasks completed</strong></div>`
+    const completedSummary = c('Plugins.SimpleTaskEditor.Info').ngettext(
+      msgid`${completedTasks.length}/${totalLength} task completed`,
+      `${completedTasks.length}/${totalLength} tasks completed`,
+      totalLength,
+    )
+    html += `<div style="margin-top: 8px;"><strong>${completedSummary}</strong></div>`
     html += `<progress max="100" style="margin-top: 10px; width: 100%;" value="${
       (completedTasks.length / totalLength) * 100
     }"></progress>`
@@ -204,8 +210,12 @@ export default class TasksManager {
 
       if (openTasks.length > tasksToPreview) {
         const diff = openTasks.length - tasksToPreview
-        const noun = diff == 1 ? 'task' : 'tasks'
-        html += `<div><strong>And ${diff} other open ${noun}.</strong></div>`
+        const remainingOpen = c('Plugins.SimpleTaskEditor.Info').ngettext(
+          msgid`And ${diff} other open task.`,
+          `And ${diff} other open tasks.`,
+          diff,
+        )
+        html += `<div><strong>${remainingOpen}</strong></div>`
       }
     }
 
@@ -218,7 +228,11 @@ export default class TasksManager {
     const { openTasks, completedTasks } = this.categorizedTasks
     const totalLength = openTasks.length + completedTasks.length
 
-    return `${completedTasks.length}/${totalLength} tasks completed.`
+    return `${c('Plugins.SimpleTaskEditor.Info').ngettext(
+      msgid`${completedTasks.length}/${totalLength} task completed.`,
+      `${completedTasks.length}/${totalLength} tasks completed.`,
+      totalLength,
+    )}`
   }
 
   save() {

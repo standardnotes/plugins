@@ -2,6 +2,7 @@ import React from 'react';
 import EditorKit from '@standardnotes/editor-kit';
 import DOMPurify  from 'dompurify';
 import { SKAlert } from 'sn-stylekit';
+import { c } from 'ttag';
 
 export default class Editor extends React.Component {
 
@@ -271,9 +272,8 @@ export default class Editor extends React.Component {
   }
 
   async showUnsafeContentAlert() {
-    const text = 'We’ve detected that this note contains a script or code snippet which may be unsafe to execute. ' +
-                  'Scripts executed in the editor have the ability to impersonate as the editor to Standard Notes. ' +
-                  'Press Continue to mark this script as safe and proceed, or Cancel to avoid rendering this note.';
+    const text = c('Plugins.Editor.Security')
+      .t`We’ve detected that this note contains a script or code snippet which may be unsafe to execute. Scripts executed in the editor have the ability to impersonate as the editor to Standard Notes. Press Continue to mark this script as safe and proceed, or Cancel to avoid rendering this note.`;
 
     return new Promise((resolve) => {
       this.alert = new SKAlert({
@@ -281,14 +281,14 @@ export default class Editor extends React.Component {
         text,
         buttons: [
           {
-            text: 'Cancel',
+            text: c('Plugins.Editor.Action').t`Cancel`,
             style: 'neutral',
             action: function() {
               resolve(false);
             },
           },
           {
-            text: 'Continue',
+            text: c('Plugins.Editor.Action').t`Continue`,
             style: 'danger',
             action: function() {
               resolve(true);

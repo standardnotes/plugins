@@ -1,4 +1,5 @@
 import React from 'react';
+import { c } from 'ttag';
 import TasksManager from '@Lib/tasksManager';
 import TaskRow from '@Components/TaskRow';
 import CreateTask from '@Components/CreateTask';
@@ -124,14 +125,14 @@ export default class Tasks extends React.Component {
   }
 
   onReopenCompleted = () => {
-    if (confirm('Are you sure you want to reopen completed tasks?')) {
+    if (confirm(c('Plugins.SimpleTaskEditor.Confirmation').t`Are you sure you want to reopen completed tasks?`)) {
       TasksManager.get().reopenCompleted();
       this.updateTasks();
     }
   }
 
   onDeleteCompleted = () => {
-    if (confirm('Are you sure you want to delete completed tasks?')) {
+    if (confirm(c('Plugins.SimpleTaskEditor.Confirmation').t`Are you sure you want to delete completed tasks?`)) {
       TasksManager.get().deleteCompleted();
       this.updateTasks();
     }
@@ -167,7 +168,7 @@ export default class Tasks extends React.Component {
         }
 
         <div className='task-section'>
-          <h3>Open Tasks</h3>
+          <h3>{c('Plugins.SimpleTaskEditor.Label').t`Open Tasks`}</h3>
           <div id="open-tasks">
             {openTasks.map((task, index) => {
               return this.taskRowForTask(task, index);
@@ -176,7 +177,7 @@ export default class Tasks extends React.Component {
         </div>
 
         <div className='task-section'>
-          <h3>Completed Tasks</h3>
+          <h3>{c('Plugins.SimpleTaskEditor.Label').t`Completed Tasks`}</h3>
           <div id="completed-tasks">
             {completedTasks.map((task, index) => {
               return this.taskRowForTask(task, index);
@@ -185,8 +186,8 @@ export default class Tasks extends React.Component {
 
           {completedTasks.length > 0 &&
             <div>
-              <a className="clear-button" onClick={this.onReopenCompleted}>Reopen Completed</a>
-              <a className="clear-button" onClick={this.onDeleteCompleted}>Delete Completed</a>
+              <a className="clear-button" onClick={this.onReopenCompleted}>{c('Plugins.SimpleTaskEditor.Action').t`Reopen Completed`}</a>
+              <a className="clear-button" onClick={this.onDeleteCompleted}>{c('Plugins.SimpleTaskEditor.Action').t`Delete Completed`}</a>
             </div>
           }
         </div>

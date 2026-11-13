@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styled from 'styled-components'
+import { c } from 'ttag'
 
 import { useAppDispatch, useAppSelector } from '../../app/hooks'
 import { ConfirmDialog } from '../../common/components'
@@ -45,10 +46,10 @@ const CompletedTasksActions: React.FC<CompletedTasksActionsProps> = ({ groupName
   return (
     <div data-testid="completed-tasks-actions">
       <ActionButton onClick={() => setShowReopenDialog(true)} data-testid="reopen-completed-button">
-        Reopen Completed
+        {c('Plugins.AdvancedChecklist.Action').t`Reopen Completed`}
       </ActionButton>
       <ActionButton onClick={() => setShowDeleteDialog(true)} data-testid="delete-completed-button">
-        Delete Completed
+        {c('Plugins.AdvancedChecklist.Action').t`Delete Completed`}
       </ActionButton>
       {showReopenDialog && (
         <ConfirmDialog
@@ -57,7 +58,7 @@ const CompletedTasksActions: React.FC<CompletedTasksActionsProps> = ({ groupName
           confirmButtonCb={() => dispatch(openAllCompleted({ groupName }))}
           cancelButtonCb={() => setShowReopenDialog(false)}
         >
-          Are you sure you want to reopen completed tasks in the '<strong>{groupName}</strong>' group?
+          {c('Plugins.AdvancedChecklist.Confirmation').t`Are you sure you want to reopen completed tasks in the '${groupName}' group?`}
         </ConfirmDialog>
       )}
       {showDeleteDialog && (
@@ -67,7 +68,8 @@ const CompletedTasksActions: React.FC<CompletedTasksActionsProps> = ({ groupName
           confirmButtonCb={() => dispatch(deleteAllCompleted({ groupName }))}
           cancelButtonCb={() => setShowDeleteDialog(false)}
         >
-          Are you sure you want to delete completed tasks in the '<strong>{groupName}</strong>' group?
+          {c('Plugins.AdvancedChecklist.Confirmation')
+            .t`Are you sure you want to delete completed tasks in the '${groupName}' group?`}
         </ConfirmDialog>
       )}
     </div>

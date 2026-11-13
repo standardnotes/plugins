@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+import { c } from 'ttag'
+
 document.addEventListener('DOMContentLoaded', function () {
   let workingNote
   let ignoreTextChange = false
@@ -123,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function () {
           default: true,
           name: 'preview',
           noDisable: true,
-          title: 'Toggle Preview',
+          title: c('Plugins.MarkdownHybrid.Action').t`Toggle Preview`,
           action: function () {
             window.easymde.togglePreview()
             saveMetadata()
@@ -135,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
           name: 'side-by-side',
           noDisable: true,
           noMobile: true,
-          title: 'Toggle Side by Side',
+          title: c('Plugins.MarkdownHybrid.Action').t`Toggle Side by Side`,
           action: function () {
             window.easymde.toggleSideBySide()
             saveMetadata()
@@ -331,10 +333,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     showingUnsafeContentAlert = true
 
-    const text =
-      'We’ve detected that this note contains a script or code snippet which may be unsafe to execute. ' +
-      'Scripts executed in the editor have the ability to impersonate as the editor to Standard Notes. ' +
-      'Press Continue to mark this script as safe and proceed, or Cancel to avoid rendering this note.'
+    const text = c('Plugins.Editor.Security')
+      .t`We’ve detected that this note contains a script or code snippet which may be unsafe to execute. Scripts executed in the editor have the ability to impersonate as the editor to Standard Notes. Press Continue to mark this script as safe and proceed, or Cancel to avoid rendering this note.`
 
     return new Promise((resolve) => {
       const Stylekit = require('sn-stylekit')
@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function () {
         text,
         buttons: [
           {
-            text: 'Cancel',
+            text: c('Plugins.Editor.Action').t`Cancel`,
             style: 'neutral',
             action: function () {
               showingUnsafeContentAlert = false
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
           },
           {
-            text: 'Continue',
+            text: c('Plugins.Editor.Action').t`Continue`,
             style: 'danger',
             action: function () {
               showingUnsafeContentAlert = false
