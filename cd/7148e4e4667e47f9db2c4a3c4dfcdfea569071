@@ -161,6 +161,20 @@ packages/dev.randombits.excalidraw/src/components/Editor.tsx
       "human_author": "Antonella Sgarlatta <anto@standardnotes.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 36,
+    "ai_additions": 824,
+    "ai_accepted": 824,
+    "git_diff_deleted_lines": 156,
+    "git_diff_added_lines": 860,
+    "tool_model_breakdown": {
+      "cursor::default": {
+        "ai_additions": 824,
+        "ai_accepted": 824
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -193,6 +207,12 @@ packages/dev.randombits.excalidraw/src/components/Editor.tsx
         "cache_read_input_tokens": 15543744
       }
     }
+  },
+  "activity": {
+    "added_sloc": 939,
+    "deleted_sloc": 365,
+    "checkpoints": 122,
+    "span_seconds": 15450
   },
   "proton_build": "1.7.6-proton.8"
 }
