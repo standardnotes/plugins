@@ -1,0 +1,54 @@
+packages/org.standardnotes.advanced-markdown-editor/src/main.scss
+  s_99ecdf9bc90400::t_f6129d547d97da 248-261
+  s_99ecdf9bc90400::t_5f024fa73d90b0 197-202
+  s_99ecdf9bc90400::t_989f6c683bcf91 262-284
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "147abc462eaf865d8ed81bba5d3a23a169b3327d",
+  "prompts": {},
+  "sessions": {
+    "s_99ecdf9bc90400": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "a26d64e1-f960-4560-ae04-e58dfdab1349",
+        "model": "default"
+      },
+      "human_author": null
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 1227013,
+        "output_tokens": 36333,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 12276928
+      },
+      "by_tool_model": {
+        "cursor::default": {
+          "input_tokens": 1227013,
+          "output_tokens": 36333,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 12276928
+        }
+      },
+      "tool_uses": {
+        "grep": 103,
+        "read": 72,
+        "shell": 8,
+        "write": 24
+      }
+    },
+    "by_prompt": {
+      "s_99ecdf9bc90400": {
+        "input_tokens": 1227013,
+        "output_tokens": 36333,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 12276928
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
