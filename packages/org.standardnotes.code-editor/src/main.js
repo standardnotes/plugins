@@ -1,6 +1,20 @@
+import { c } from 'ttag'
+
 CodeMirror.modeURL = "dist/codemirror/mode/%N/%N.js";
 
 document.addEventListener('DOMContentLoaded', function () {
+  const defaultLanguageLabel = c('Plugins.CodeEditor.Action').t`Set as Default`
+  const successLabel = c('Plugins.CodeEditor.Info').t`Success`
+  const vimModeLabel = c('Plugins.CodeEditor.Label').t`Vim mode`
+
+  const languageHeading = document.querySelector('#bar .left .sk-p')
+  if (languageHeading) {
+    languageHeading.textContent = c('Plugins.CodeEditor.Label').t`Language:`
+  }
+  const defaultLabelEl = document.getElementById('default-label')
+  if (defaultLabelEl) {
+    defaultLabelEl.textContent = defaultLanguageLabel
+  }
   const modeByModeMode = CodeMirror.modeInfo.reduce(function (acc, m) {
     if (acc[m.mode]) {
       acc[m.mode].push(m)
@@ -181,8 +195,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // show a confirmation message
     const message = document.getElementById('default-label')
-    const original = message.innerHTML
-    message.innerHTML = 'Success'
+    const original = defaultLanguageLabel
+    message.innerHTML = successLabel
     message.classList.add('success')
 
     setTimeout(function () {
@@ -257,10 +271,13 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateVimStatus(keyMap) {
     const toggleButton = document.getElementById('toggle-vim-mode-button')
 
-    const newAction = keyMap === 'vim' ? 'Disable' : 'Enable'
+    const newAction =
+      keyMap === 'vim'
+        ? c('Plugins.CodeEditor.Action').t`Disable`
+        : c('Plugins.CodeEditor.Action').t`Enable`
     const buttonClass = keyMap === 'vim' ? 'danger' : 'success'
 
-    toggleButton.innerHTML = `${newAction} Vim mode`
+    toggleButton.innerHTML = `${newAction} ${vimModeLabel}`
     toggleButton.classList.remove('danger')
     toggleButton.classList.remove('success')
     toggleButton.classList.add(buttonClass)

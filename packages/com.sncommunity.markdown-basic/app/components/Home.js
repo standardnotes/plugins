@@ -1,5 +1,6 @@
 import React from 'react';
 import ComponentRelay from '@standardnotes/component-relay';
+import { c } from 'ttag';
 const MarkdownIt = require('markdown-it');
 
 const EditMode = 0;
@@ -12,9 +13,9 @@ export default class Home extends React.Component {
     super(props);
 
     this.modes = [
-      { mode: EditMode, label: 'Edit', css: 'edit' },
-      { mode: SplitMode, label: 'Split', css: 'split' },
-      { mode: PreviewMode, label: 'Preview', css: 'preview' },
+      { mode: EditMode, label: c('Plugins.MarkdownBasic.Action').t`Edit`, css: 'edit' },
+      { mode: SplitMode, label: c('Plugins.MarkdownBasic.Action').t`Split`, css: 'split' },
+      { mode: PreviewMode, label: c('Plugins.MarkdownBasic.Action').t`Preview`, css: 'preview' },
     ];
 
     this.state = { mode: this.modes[0] };

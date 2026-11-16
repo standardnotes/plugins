@@ -4,6 +4,7 @@ import { AlertDialog, AlertDialogDescription, AlertDialogLabel } from '@reach/al
 import React, { useRef } from 'react'
 
 import { sanitizeHtmlString } from '@standardnotes/utils'
+import { c } from 'ttag'
 
 type ConfirmDialogProps = {
   testId?: string
@@ -18,10 +19,10 @@ type ConfirmDialogProps = {
 export const ConfirmDialog: React.FC<ConfirmDialogProps> = ({
   testId,
   title = '',
-  confirmButtonText = 'Confirm',
+  confirmButtonText = c('Plugins.AdvancedChecklist.Action').t`Confirm`,
   confirmButtonStyle = 'info',
   confirmButtonCb,
-  cancelButtonText = 'Cancel',
+  cancelButtonText = c('Plugins.AdvancedChecklist.Action').t`Cancel`,
   cancelButtonCb,
   children,
 }) => {

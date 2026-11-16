@@ -30,6 +30,9 @@
     "file_type": "md",
     "showInGallery": true
   },
+  "dependencies": {
+    "ttag": "^1.8.12"
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
@@ -41,7 +44,7 @@
     "@babel/preset-stage-0": "^7.8.3",
     "@babel/register": "^7.10.5",
     "@babel/runtime": "^7.11.2",
-    "@standardnotes/component-relay": "standardnotes/component-relay#164428640ba59e31e7ca3ca932b7d7521594f17c",
+    "@standardnotes/component-relay": "standardnotes/component-relay#77c1c70dd48facb8f2e3b47a62d26ff5810d79ee",
     "@standardnotes/eslint-config-extensions": "^1.0.0",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "*",

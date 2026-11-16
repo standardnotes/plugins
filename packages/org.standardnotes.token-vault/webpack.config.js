@@ -58,8 +58,8 @@ module.exports = {
     extensions: ['.js', '.jsx'],
     alias: {
       '@Components': path.resolve(__dirname, 'app/components'),
-      '@Lib': path.resolve(__dirname, 'app/lib')
-    }
+      '@Lib': path.resolve(__dirname, 'app/lib'),
+    },
   },
   plugins: [
     new MiniCssExtractPlugin({

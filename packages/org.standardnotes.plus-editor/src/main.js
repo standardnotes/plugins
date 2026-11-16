@@ -1,3 +1,5 @@
+import { c } from 'ttag'
+
 document.addEventListener('DOMContentLoaded', function () {
   let componentRelay
   let workingNote, clientData
@@ -222,10 +224,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function showUnsafeContentAlert() {
-    const text =
-      'We’ve detected that this note contains a script or code snippet which may be unsafe to execute. ' +
-      'Scripts executed in the editor have the ability to impersonate as the editor to Standard Notes. ' +
-      'Press Continue to mark this script as safe and proceed, or Cancel to avoid rendering this note.'
+    const text = c('Plugins.Editor.Security')
+      .t`We’ve detected that this note contains a script or code snippet which may be unsafe to execute. Scripts executed in the editor have the ability to impersonate as the editor to Standard Notes. Press Continue to mark this script as safe and proceed, or Cancel to avoid rendering this note.`
 
     return new Promise((resolve) => {
       const alert = new Stylekit.SKAlert({
@@ -233,14 +233,14 @@ document.addEventListener('DOMContentLoaded', function () {
         text,
         buttons: [
           {
-            text: 'Cancel',
+            text: c('Plugins.Editor.Action').t`Cancel`,
             style: 'neutral',
             action: function () {
               resolve(false)
             },
           },
           {
-            text: 'Continue',
+            text: c('Plugins.Editor.Action').t`Continue`,
             style: 'danger',
             action: function () {
               resolve(true)
@@ -291,7 +291,8 @@ document.addEventListener('DOMContentLoaded', function () {
         onInit: function () {},
         onImageUpload: function () {
           alert(
-            'Embedding encrypted images directly inside the editor is not presently supported. You can attach files to be outside the editor instead. For embedding images directly inside this note, use the Image button in the toolbar and insert the URL of an image hosted externally (outside of Standard Notes). For more information, visit https://standardnotes.com/help/36/how-do-i-attach-encrypted-files-to-my-notes.',
+            c('Plugins.RichText.Info')
+              .t`Embedding encrypted images directly inside the editor is not presently supported. You can attach files to be outside the editor instead. For embedding images directly inside this note, use the Image button in the toolbar and insert the URL of an image hosted externally (outside of Standard Notes). For more information, visit https://standardnotes.com/help/36/how-do-i-attach-encrypted-files-to-my-notes.`,
           )
         },
       },

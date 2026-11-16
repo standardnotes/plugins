@@ -31,8 +31,9 @@
     ]
   },
   "dependencies": {
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#626d7a6e63d4ada48be36676c466fea46d7709d3",
-    "@standardnotes/styles": "1.6.1"
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#46f753b8a00f581d2428687fd269ec299f9da2c2",
+    "@standardnotes/styles": "1.6.1",
+    "ttag": "^1.8.12"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",

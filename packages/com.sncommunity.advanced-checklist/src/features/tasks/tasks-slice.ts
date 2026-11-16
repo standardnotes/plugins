@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { c } from 'ttag'
 import { arrayDefault, arrayMoveImmutable, isJsonString, parseMarkdownTasks, reorderTasksWithinSection } from '../../common/utils'
 
 export const LATEST_SCHEMA_VERSION = '1.0.0'
@@ -304,9 +305,8 @@ const tasksSlice = createSlice({
       } else {
         state.initialized = false
         state.groups = []
-        state.lastError =
-          'The legacy content migration has been canceled by the user. ' +
-          'Please reload this note to try again or switch to the Basic Checklist editor.'
+        state.lastError = c('Plugins.AdvancedChecklist.Error')
+          .t`The legacy content migration has been canceled by the user. Please reload this note to try again or switch to the Basic Checklist editor.`
       }
 
       delete state.legacyContent
@@ -341,7 +341,8 @@ const tasksSlice = createSlice({
         delete state.lastError
       } catch (error: any) {
         state.initialized = false
-        state.lastError = `An error has occurred while parsing the note's content: ${error}`
+        state.lastError = c('Plugins.AdvancedChecklist.Error')
+          .t`An error has occurred while parsing the note's content: ${error}`
         return
       }
     },

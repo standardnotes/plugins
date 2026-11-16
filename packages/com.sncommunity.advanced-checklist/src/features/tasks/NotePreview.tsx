@@ -1,3 +1,5 @@
+import { c, msgid } from 'ttag'
+
 import {
   getPercentage,
   getTaskArrayFromGroupedTasks,
@@ -25,12 +27,17 @@ const GroupSummary: React.FC<GroupSummaryProps> = ({ groups }) => {
   }
 
   const remainingGroups = totalGroups - groupsToPreview.length
-  const groupNoun = remainingGroups > 1 ? 'groups' : 'group'
+
+  const remainingGroupsLabel = c('Plugins.AdvancedChecklist.Info').ngettext(
+    msgid`And ${remainingGroups} other group`,
+    `And ${remainingGroups} other groups`,
+    remainingGroups,
+  )
 
   return (
     <>
       <div className="my-2">
-        {groupsToPreview.map((group, index) => {
+        {groupsToPreview.map((group) => {
           const totalTasks = group.tasks.length
           const totalCompletedTasks = group.tasks.filter((task) => task.completed === true).length
 
@@ -44,11 +51,7 @@ const GroupSummary: React.FC<GroupSummaryProps> = ({ groups }) => {
           )
         })}
       </div>
-      {remainingGroups > 0 && (
-        <p data-testid="groups-remaining">
-          And {remainingGroups} other {groupNoun}
-        </p>
-      )}
+      {remainingGroups > 0 && <p data-testid="groups-remaining">{remainingGroupsLabel}</p>}
     </>
   )
 }
@@ -63,6 +66,12 @@ const NotePreview: React.FC<NotePreviewProps> = ({ groupedTasks }) => {
   const percentage = getPercentage(allTasks.length, completedTasks.length)
   const roundedPercentage = Math.floor(percentage / 10) * 10
 
+  const completedSummary = c('Plugins.AdvancedChecklist.Info').ngettext(
+    msgid`${completedTasks.length}/${allTasks.length} task completed`,
+    `${completedTasks.length}/${allTasks.length} tasks completed`,
+    allTasks.length,
+  )
+
   return (
     <>
       <div className="flex flex-grow items-center mb-3">
@@ -70,9 +79,7 @@ const NotePreview: React.FC<NotePreviewProps> = ({ groupedTasks }) => {
           <circle className="background" />
           <circle className={`progress p-${roundedPercentage}`} />
         </svg>
-        <Title>
-          {completedTasks.length}/{allTasks.length} tasks completed
-        </Title>
+        <Title>{completedSummary}</Title>
       </div>
       <GroupSummary groups={groupedTasks} />
     </>

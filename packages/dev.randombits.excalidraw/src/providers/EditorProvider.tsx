@@ -1,4 +1,5 @@
 import React, {createContext, useContext, useEffect, useState} from 'react';
+import { c } from 'ttag';
 import Unsupported from "../components/Unsupported";
 import Editor from "../components/Editor";
 import {createNewData, parseEditorData} from "../utils";
@@ -68,7 +69,7 @@ export const EditorProvider = () => {
     } else if (unsupported) {
       return <Unsupported eraseFn={eraseDataAndStartNewNote}></Unsupported>;
     } else {
-      return <div>Loading...</div>;
+      return <div>{c('Plugins.Excalidraw.Info').t`Loading...`}</div>;
     }
   };
 

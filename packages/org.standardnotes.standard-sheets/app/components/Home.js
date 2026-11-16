@@ -1,5 +1,6 @@
 import React from 'react'
 import ComponentRelay from '@standardnotes/component-relay'
+import { c } from 'ttag'
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -25,14 +26,20 @@ export default class Home extends React.Component {
           excelImport: (event) => {
             // Excel import functionality has been disabled completely.
             // We'll keep this code around below incase we enable it again in the future.
-            if (!confirm('Importing will completely overwrite any existing data. Are you sure you want to continue?')) {
+            if (
+              !confirm(
+                c('Plugins.Spreadsheets.Confirmation')
+                  .t`Importing will completely overwrite any existing data. Are you sure you want to continue?`,
+              )
+            ) {
               event.preventDefault()
               return
             }
 
             if (
               !confirm(
-                'Note that importing from Excel may cause very large file sizes within Standard Notes, which may affect performance. You may continue with import, but if you notice performance issues, it is recommended you manually import data instead.',
+                c('Plugins.Spreadsheets.Info')
+                  .t`Note that importing from Excel may cause very large file sizes within Standard Notes, which may affect performance. You may continue with import, but if you notice performance issues, it is recommended you manually import data instead.`,
               )
             ) {
               event.preventDefault()
@@ -111,7 +118,7 @@ export default class Home extends React.Component {
 
     this.componentRelay.saveItemWithPresave(note, () => {
       note.content.preview_html = null
-      note.content.preview_plain = 'Created with Secure Spreadsheets'
+      note.content.preview_plain = c('Plugins.Spreadsheets.Info').t`Created with Secure Spreadsheets`
 
       const json = this.getJSON()
       const content = JSON.stringify(json)
