@@ -1,0 +1,52 @@
+yarn.lock
+  s_da28c63a83a9f5::t_d7146d470ed410 8918
+package.json
+  s_da28c63a83a9f5::t_d8df03637e041a 33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d3bf9a74b1dae362e5dae6577e965e7d1da3277f",
+  "prompts": {},
+  "sessions": {
+    "s_da28c63a83a9f5": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "2641b182-9cbc-46d4-a518-d59d491d0c91",
+        "model": "default"
+      },
+      "human_author": "Antonella Sgarlatta <anto@standardnotes.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 61349,
+        "output_tokens": 543,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 259840
+      },
+      "by_tool_model": {
+        "cursor::default": {
+          "input_tokens": 61349,
+          "output_tokens": 543,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 259840
+        }
+      },
+      "tool_uses": {
+        "read": 1,
+        "shell": 1
+      }
+    },
+    "by_prompt": {
+      "s_da28c63a83a9f5": {
+        "input_tokens": 61349,
+        "output_tokens": 543,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 259840
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
