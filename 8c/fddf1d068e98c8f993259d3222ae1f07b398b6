@@ -1,0 +1,52 @@
+.gitlab-ci.yml
+  s_50e759cfcd8757::t_ff92f8febebc61 1-125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8cfddf1d068e98c8f993259d3222ae1f07b398b6",
+  "prompts": {},
+  "sessions": {
+    "s_50e759cfcd8757": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "1131d54e-8cab-49d3-81fa-9dadbde48404",
+        "model": "default"
+      },
+      "human_author": "Antonella Sgarlatta <anto@standardnotes.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 120488,
+        "output_tokens": 10661,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1739392
+      },
+      "by_tool_model": {
+        "cursor::default": {
+          "input_tokens": 120488,
+          "output_tokens": 10661,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1739392
+        }
+      },
+      "tool_uses": {
+        "grep": 18,
+        "read": 40,
+        "shell": 18,
+        "write": 1
+      }
+    },
+    "by_prompt": {
+      "s_50e759cfcd8757": {
+        "input_tokens": 120488,
+        "output_tokens": 10661,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1739392
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
