@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.15](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.14...@standardnotes/bold-editor@1.7.15) (2026-11-16)
+
+**Note:** Version bump only for package @standardnotes/bold-editor
+
 ## [1.7.14](https://github.com/standardnotes/plugins/compare/@standardnotes/bold-editor@1.7.13...@standardnotes/bold-editor@1.7.14) (2026-07-10)
 
 **Note:** Version bump only for package @standardnotes/bold-editor

@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.14](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.13...@standardnotes/markdown-hybrid@1.8.14) (2026-11-16)
+
+**Note:** Version bump only for package @standardnotes/markdown-hybrid
+
 ## [1.8.13](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.12...@standardnotes/markdown-hybrid@1.8.13) (2026-07-10)
 
 **Note:** Version bump only for package @standardnotes/markdown-hybrid
