@@ -29,6 +29,7 @@
     "@lerna-lite/publish": "^4.10.5",
     "@lerna-lite/run": "^4.10.5",
     "@lerna-lite/version": "^4.10.5",
+    "@standardnotes/component-relay": "standardnotes/component-relay#77c1c70dd48facb8f2e3b47a62d26ff5810d79ee",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
     "changelog-parser": "^2.8.1",
