@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let lastValue, lastUUID, clientData
   let renderNote = false
   let showingUnsafeContentAlert = false
+  let caretRegistration
 
   const componentRelay = new ComponentRelay({
     targetWindow: window,
@@ -99,6 +100,8 @@ document.addEventListener('DOMContentLoaded', function () {
       } else if (window.easymde.isPreviewActive()) {
         window.easymde.togglePreview()
       }
+
+      caretRegistration.notifyTextLoaded()
     }
   })
 
@@ -219,6 +222,17 @@ document.addEventListener('DOMContentLoaded', function () {
         return
       }
       scrollCursorIntoView(editor)
+    })
+
+    const codeMirrorCaretHandler = ComponentRelay.createCodeMirrorCaretHandler(window.easymde.codemirror)
+    caretRegistration = componentRelay.registerCaretHandler({
+      ...codeMirrorCaretHandler,
+      restore: (offset) => {
+        // The editor is hidden while previewing, so there is nothing to focus
+        if (!window.easymde.isPreviewActive()) {
+          codeMirrorCaretHandler.restore(offset)
+        }
+      },
     })
 
     // Some sort of issue on Mobile RN where this causes an exception (".className is not defined")

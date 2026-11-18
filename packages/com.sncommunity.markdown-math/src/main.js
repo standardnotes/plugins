@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
     },
   })
 
+  const caretRegistration = componentRelay.registerCaretHandler(ComponentRelay.createTextareaCaretHandler(editor))
+
   componentRelay.streamContextItem((note) => {
     workingNote = note
 
@@ -28,6 +30,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
     window.upmath.updateText()
 
     editor.setAttribute('spellcheck', JSON.stringify(workingNote.content.spellcheck))
+
+    caretRegistration.notifyTextLoaded()
   })
 
   editor.addEventListener('input', function (event) {

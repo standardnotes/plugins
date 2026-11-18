@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
   let workingNote, clientData
   let lastValue, lastUUID
   let editor
+  let caretRegistration
   let ignoreTextChange = false
   let initialLoad = true
 
@@ -78,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
       if (initialLoad) {
         initialLoad = false
         editor.getDoc().clearHistory()
+        caretRegistration.notifyTextLoaded()
       }
 
       editor.setOption('spellcheck', workingNote.content.spellcheck)
@@ -92,6 +94,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
       inputStyle: getInputStyleForEnvironment(),
     })
     editor.setSize(undefined, '100%')
+    caretRegistration = componentRelay.registerCaretHandler(ComponentRelay.createCodeMirrorCaretHandler(editor))
 
     editor.on('change', function () {
       if (ignoreTextChange) {
