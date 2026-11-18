@@ -1,0 +1,37 @@
+packages/com.sncommunity.markdown-math/src/main.js
+  s_e372ddb368bb0b::t_17f422db8b04ab 19-20
+  s_e372ddb368bb0b::t_76a233eba4a018 34
+  s_e372ddb368bb0b::t_f1bc725aee7e1f 33
+packages/com.sncommunity.minimal-markdown/src/main.js
+  s_e372ddb368bb0b::t_4360ca5205ac78 82
+  s_e372ddb368bb0b::t_24235b2d372a2b 97
+  s_e372ddb368bb0b::t_0a3fbef39785df 6
+packages/com.sncommunity.markdown-basic/app/components/Home.js
+  s_e372ddb368bb0b::t_2dbb4034f233eb 144-145
+  s_e372ddb368bb0b::t_93312d0e315149 120-123
+packages/org.standardnotes.advanced-markdown-editor/src/main.js
+  s_e372ddb368bb0b::t_8465614de742c4 9
+  s_e372ddb368bb0b::t_d45303f5741990 103-104
+  s_e372ddb368bb0b::t_88dfcaf529010a 227-237
+packages/org.standardnotes.code-editor/src/main.js
+  s_e372ddb368bb0b::t_61383b7a16b817 124
+  s_e372ddb368bb0b::t_4e8bbf3bfe5789 102
+  s_e372ddb368bb0b::t_aba284bca98857 24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e51b284eee544d52ddc51a404216abe77743a679",
+  "prompts": {},
+  "sessions": {
+    "s_e372ddb368bb0b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "27d2be57-91de-4005-9386-22f786a7254f",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Antonella Sgarlatta <anto@standardnotes.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
