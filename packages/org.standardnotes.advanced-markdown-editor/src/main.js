@@ -228,10 +228,15 @@ document.addEventListener('DOMContentLoaded', function () {
     caretRegistration = componentRelay.registerCaretHandler({
       ...codeMirrorCaretHandler,
       restore: (offset) => {
-        // The editor is hidden while previewing, so there is nothing to focus
-        if (!window.easymde.isPreviewActive()) {
-          codeMirrorCaretHandler.restore(offset)
+        if (window.easymde.isPreviewActive()) {
+          if (offset !== undefined) {
+            const editor = window.easymde.codemirror
+            editor.setCursor(editor.posFromIndex(offset))
+          }
+          return true
         }
+
+        return codeMirrorCaretHandler.restore(offset)
       },
     })
 
