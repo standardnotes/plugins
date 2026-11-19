@@ -16,6 +16,20 @@ packages/org.standardnotes.advanced-markdown-editor/src/main.js
       "human_author": "Antonella Sgarlatta <anto@standardnotes.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 8,
+    "ai_accepted": 8,
+    "git_diff_deleted_lines": 3,
+    "git_diff_added_lines": 8,
+    "tool_model_breakdown": {
+      "cursor::gpt-5.6-sol": {
+        "ai_additions": 8,
+        "ai_accepted": 8
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -48,6 +62,11 @@ packages/org.standardnotes.advanced-markdown-editor/src/main.js
         "cache_read_input_tokens": 9192731
       }
     }
+  },
+  "activity": {
+    "added_sloc": 7,
+    "deleted_sloc": 3,
+    "checkpoints": 1
   },
   "proton_build": "1.7.6-proton.8"
 }
