@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.15](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.14...@standardnotes/markdown-hybrid@1.8.15) (2026-11-23)
+
+### Bug Fixes
+
+* Fixes advanced markdown selection styling ([#81](https://github.com/standardnotes/plugins/issues/81)) ([1804a31](https://github.com/standardnotes/plugins/commit/1804a31d0b56ea0c3e78c0a09b39ccbf9adc9810))
+
 ## [1.8.14](https://github.com/standardnotes/plugins/compare/@standardnotes/markdown-hybrid@1.8.13...@standardnotes/markdown-hybrid@1.8.14) (2026-11-16)
 
 **Note:** Version bump only for package @standardnotes/markdown-hybrid
