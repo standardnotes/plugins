@@ -7,7 +7,7 @@
     "directory": "packages/com.sncommunity.lights-out-theme"
   },
   "description": "A pitch black theme for Standard Notes.",
-  "author": "Passkeys",
+  "author": "K Colfer",
   "license": "GPL-3.0",
   "main": "dist/theme.css",
   "sn": {

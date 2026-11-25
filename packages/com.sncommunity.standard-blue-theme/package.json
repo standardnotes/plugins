@@ -7,7 +7,7 @@
     "directory": "packages/com.sncommunity.standard-blue-theme"
   },
   "main": "dist/dist.css",
-  "author": "Passkeys",
+  "author": "K Colfer",
   "description": "A light blue theme for Standard Notes.",
   "publishConfig": {
     "access": "public"
