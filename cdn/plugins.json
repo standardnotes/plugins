@@ -60,6 +60,10 @@
     "staticFiles": ["dist", "package.json"]
   },
   {
+    "identifier": "io.github.nickstruglia.keyfold",
+    "staticFiles": ["dist", "package.json"]
+  },
+  {
     "identifier": "com.sncommunity.standard-blue-theme",
     "staticFiles": ["dist", "package.json"]
   },
