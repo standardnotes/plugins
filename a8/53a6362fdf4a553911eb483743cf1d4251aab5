@@ -48,5 +48,11 @@ package.json
       }
     }
   },
+  "activity": {
+    "added_sloc": 64,
+    "deleted_sloc": 21,
+    "checkpoints": 5,
+    "span_seconds": 34
+  },
   "proton_build": "1.7.6-proton.8"
 }
