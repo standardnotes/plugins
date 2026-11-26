@@ -18,6 +18,18 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   const caretRegistration = componentRelay.registerCaretHandler(ComponentRelay.createTextareaCaretHandler(editor))
 
+  // The textarea decorator wraps the textarea in the element that scrolls
+  componentRelay.registerScrollContainer(editor.closest('.ldt'), {
+    moveCaretToEnd: () => {
+      const end = editor.value.length
+      editor.focus({ preventScroll: true })
+      editor.setSelectionRange(end, end)
+    },
+    // The preview only follows the source while the source leads, which hovering the preview would otherwise change
+    beforeScrollToEnd: () => window.upmath.lockScrollToSrc(),
+    afterScrollToEnd: () => window.upmath.unlockScrollToSrc(),
+  })
+
   componentRelay.streamContextItem((note) => {
     workingNote = note
 

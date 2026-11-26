@@ -27,6 +27,7 @@ export default class Home extends React.Component {
 
     this.configureMarkdown();
     this.connectToBridge();
+    this.registerScrollContainer();
     this.updatePreviewText();
     this.addChangeListener();
 
@@ -38,6 +39,27 @@ export default class Home extends React.Component {
       { el: this.editor, handler: this.scrollHandler(this.editor, this.preview) },
       { el: this.preview, handler: this.scrollHandler(this.preview, this.editor) }
     ];
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.mode !== this.state.mode) {
+      this.registerScrollContainer();
+    }
+  }
+
+  registerScrollContainer() {
+    if (this.state.mode.mode === PreviewMode) {
+      this.scrollContainer = this.componentRelay.registerScrollContainer(this.preview);
+      return;
+    }
+
+    this.scrollContainer = this.componentRelay.registerScrollContainer(this.editor, {
+      moveCaretToEnd: () => {
+        const end = this.editor.value.length;
+        this.editor.focus({ preventScroll: true });
+        this.editor.setSelectionRange(end, end);
+      },
+    });
   }
 
   UNSAFE_componentWillUpdate(nextProps, nextState) {
@@ -136,6 +158,7 @@ export default class Home extends React.Component {
 
       this.editor.value = note.content.text;
       this.preview.innerHTML = this.markdown.render(note.content.text);
+      this.scrollContainer.notifyContentChange();
 
       document.getElementById('editor').setAttribute(
         'spellcheck',

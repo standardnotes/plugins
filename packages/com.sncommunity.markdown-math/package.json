@@ -30,7 +30,7 @@
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
-    "@standardnotes/component-relay": "standardnotes/component-relay#164428640ba59e31e7ca3ca932b7d7521594f17c",
+    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae",
     "draggabilly": "^2.2.0",
     "grunt": "^1.0.4",
     "grunt-babel": "^8.0.0",

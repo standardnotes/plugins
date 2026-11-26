@@ -150,6 +150,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const initialKeyMap = componentRelay.getComponentDataValueForKey('keyMap') ?? 'default'
     window.setKeyMap(initialKeyMap)
+
+    const { notifyContentChange } = componentRelay.registerScrollContainer(editor.getScrollerElement(), {
+      moveCaretToEnd: () => {
+        editor.focus()
+        editor.execCommand('goDocEnd')
+      },
+    })
+    // CodeMirror sizes its content area through style changes, which the relay doesn't observe
+    editor.on('update', notifyContentChange)
   }
 
   function createSelectElements() {
