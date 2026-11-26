@@ -30,7 +30,7 @@
     "showInGallery": true
   },
   "dependencies": {
-    "@standardnotes/component-relay": "standardnotes/component-relay#164428640ba59e31e7ca3ca932b7d7521594f17c"
+    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
