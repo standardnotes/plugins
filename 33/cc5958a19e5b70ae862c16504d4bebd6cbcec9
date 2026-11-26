@@ -1,0 +1,37 @@
+packages/com.sncommunity.advanced-checklist/package.json
+  h_ddce7f0538b395 107
+packages/com.sncommunity.bold-editor/package.json
+  h_ddce7f0538b395 37
+packages/com.sncommunity.markdown-basic/package.json
+  h_ddce7f0538b395 44
+packages/com.sncommunity.markdown-math/package.json
+  h_ddce7f0538b395 33
+packages/com.sncommunity.markdown-visual/package.json
+  h_ddce7f0538b395 42
+packages/com.sncommunity.minimal-markdown/package.json
+  h_ddce7f0538b395 32
+packages/org.standardnotes.advanced-markdown-editor/package.json
+  h_ddce7f0538b395 35
+packages/org.standardnotes.code-editor/package.json
+  h_ddce7f0538b395 35
+packages/org.standardnotes.plus-editor/package.json
+  h_ddce7f0538b395 33
+packages/org.standardnotes.simple-task-editor/package.json
+  h_ddce7f0538b395 33
+packages/org.standardnotes.standard-sheets/package.json
+  h_ddce7f0538b395 26
+packages/org.standardnotes.token-vault/package.json
+  h_ddce7f0538b395 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "33cc5958a19e5b70ae862c16504d4bebd6cbcec9",
+  "prompts": {},
+  "humans": {
+    "h_ddce7f0538b395": {
+      "author": "Antonella Sgarlatta <anto@standardnotes.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
