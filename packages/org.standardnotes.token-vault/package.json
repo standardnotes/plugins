@@ -31,7 +31,7 @@
     ]
   },
   "dependencies": {
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#91d822552328af6940f15de556cd29532c494935",
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#fc7d1121f553cbb4cfb577d46c44cae07c87a511",
     "@standardnotes/styles": "1.6.1",
     "ttag": "^1.8.12"
   },
