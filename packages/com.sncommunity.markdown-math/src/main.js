@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
     },
   })
 
+  const caretRegistration = componentRelay.registerCaretHandler(ComponentRelay.createTextareaCaretHandler(editor))
+
   // The textarea decorator wraps the textarea in the element that scrolls
   componentRelay.registerScrollContainer(editor.closest('.ldt'), {
     moveCaretToEnd: () => {
@@ -40,6 +42,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
     window.upmath.updateText()
 
     editor.setAttribute('spellcheck', JSON.stringify(workingNote.content.spellcheck))
+
+    caretRegistration.notifyTextLoaded()
   })
 
   editor.addEventListener('input', function (event) {

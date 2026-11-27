@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let lastValue, lastUUID, clientData
   let renderNote = false
   let showingUnsafeContentAlert = false
+  let caretRegistration
   let notifyScrollContentChange
 
   const componentRelay = new ComponentRelay({
@@ -102,6 +103,8 @@ document.addEventListener('DOMContentLoaded', function () {
       } else if (window.easymde.isPreviewActive()) {
         window.easymde.togglePreview()
       }
+
+      caretRegistration.notifyTextLoaded()
       registerScrollContainer(mode === 'preview')
     }
   })
@@ -217,6 +220,22 @@ document.addEventListener('DOMContentLoaded', function () {
         return
       }
       scrollCursorIntoView(editor)
+    })
+
+    const codeMirrorCaretHandler = ComponentRelay.createCodeMirrorCaretHandler(window.easymde.codemirror)
+    caretRegistration = componentRelay.registerCaretHandler({
+      ...codeMirrorCaretHandler,
+      restore: (offset) => {
+        if (window.easymde.isPreviewActive()) {
+          if (offset !== undefined) {
+            const editor = window.easymde.codemirror
+            editor.setCursor(editor.posFromIndex(offset))
+          }
+          return true
+        }
+
+        return codeMirrorCaretHandler.restore(offset)
+      },
     })
 
     // CodeMirror sizes its content area through style changes, which the relay doesn't observe

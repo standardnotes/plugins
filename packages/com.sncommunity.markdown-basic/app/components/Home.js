@@ -140,6 +140,10 @@ export default class Home extends React.Component {
       },
     });
 
+    this.caretRegistration = this.componentRelay.registerCaretHandler(
+      ComponentRelay.createTextareaCaretHandler(this.editor)
+    );
+
     this.componentRelay.streamContextItem((note) => {
       this.note = note;
 
@@ -161,6 +165,8 @@ export default class Home extends React.Component {
         'spellcheck',
         JSON.stringify(note.content.spellcheck)
       );
+
+      this.caretRegistration.notifyTextLoaded();
     });
   }
 
