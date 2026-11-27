@@ -7,6 +7,7 @@ import update from "immutability-helper"
 import React from "react"
 import ReorderIcon from "../assets/svg/reorder-icon.svg"
 import CopyNotification from "./CopyNotification"
+import { c } from "ttag"
 
 const initialState = {
   text: "",
@@ -61,8 +62,8 @@ export default class Home extends React.Component {
         } finally {
           // eslint-disable-next-line no-unsafe-finally
           return {
-            html: `<div><strong>${entries.length}</strong> TokenVault Entries </div>`,
-            plain: `${entries.length} TokenVault Entries`,
+            html: `<div><strong>${entries.length}</strong> ${c('Plugins.Authenticator.Info').t`TokenVault Entries`} </div>`,
+            plain: c('Plugins.Authenticator.Info').t`${entries.length} TokenVault Entries`,
           }
         }
       },
@@ -323,7 +324,7 @@ export default class Home extends React.Component {
               <input
                 name="search"
                 className="sk-input contrast search-bar"
-                placeholder="Search entries..."
+                placeholder={c('Plugins.Authenticator.Placeholder').t`Search entries...`}
                 value={searchValue}
                 onChange={this.onSearchChange}
                 autoComplete="off"
@@ -348,7 +349,7 @@ export default class Home extends React.Component {
                     <ReorderIcon />
                   </div>
                   <div onClick={this.onAddNew} className="sk-button info">
-                    <div className="sk-label">Add new</div>
+                    <div className="sk-label">{c('Plugins.Authenticator.Action').t`Add new`}</div>
                   </div>
                 </div>
               </div>
@@ -378,16 +379,17 @@ export default class Home extends React.Component {
           )}
           {confirmRemove && (
             <ConfirmDialog
-              title={`Remove ${editEntry.entry.service}`}
-              message="Are you sure you want to remove this entry?"
+              title={c('Plugins.Authenticator.Title').t`Remove ${editEntry.entry.service}`}
+              message={c('Plugins.Authenticator.Confirmation').t`Are you sure you want to remove this entry?`}
               onConfirm={() => this.removeEntry(editEntry.id)}
               onCancel={this.onCancel}
             />
           )}
           {confirmReorder && (
             <ConfirmDialog
-              title={"Auto-sort entries"}
-              message="Are you sure you want to auto-sort all entries alphabetically based on service name?"
+              title={c('Plugins.Authenticator.Title').t`Auto-sort entries`}
+              message={c('Plugins.Authenticator.Confirmation')
+                .t`Are you sure you want to auto-sort all entries alphabetically based on service name?`}
               onConfirm={this.reorderEntries}
               onCancel={this.onCancel}
             />

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { c } from 'ttag';
 import TasksManager from '@Lib/tasksManager';
 
 export default class CreateTask extends React.Component {
@@ -45,7 +46,7 @@ export default class CreateTask extends React.Component {
     let placeholderText = '';
 
     if (TasksManager.get().showTutorial) {
-      placeholderText = 'Type in your task, then press Enter.';
+      placeholderText = c('Plugins.SimpleTaskEditor.Placeholder').t`Type in your task, then press Enter.`;
     }
 
     const { spellcheckEnabled } = TasksManager.get();

@@ -1,4 +1,5 @@
 import React from 'react';
+import { c } from 'ttag';
 import {Excalidraw, Footer, getSceneVersion, MainMenu} from "@excalidraw/excalidraw";
 import {useEditor} from "../providers/EditorProvider";
 import snApi from "sn-extension-api";
@@ -56,9 +57,7 @@ const Editor = () => {
           </g>
         </svg>
 
-        <span>
-            Light Mode
-      </span>
+        <span>{c('Plugins.Excalidraw.Action').t`Light Mode`}</span>
       </button>;
 
     } else {
@@ -71,9 +70,7 @@ const Editor = () => {
           <path clip-rule="evenodd" d="M10 2.5h.328a6.25 6.25 0 0 0 6.6 10.372A7.5 7.5 0 1 1 10 2.493V2.5Z"
                 stroke="currentColor"></path>
         </svg>
-        <span>
-            Dark Mode
-</span>
+        <span>{c('Plugins.Excalidraw.Action').t`Dark Mode`}</span>
       </button>;
     }
   };

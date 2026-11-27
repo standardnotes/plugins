@@ -2,6 +2,7 @@ import '@reach/dialog/styles.css'
 
 import { AlertDialog, AlertDialogLabel } from '@reach/alert-dialog'
 import React, { useRef } from 'react'
+import { c } from 'ttag'
 
 import { useAppDispatch } from '../../app/hooks'
 import { tasksLegacyContentMigrated } from './tasks-slice'
@@ -27,15 +28,16 @@ const MigrateLegacyContent: React.FC = () => {
             <div className="sk-panel-content">
               <div className="sk-panel-section">
                 <AlertDialogLabel className="sk-h3 sk-panel-section-title">
-                  Are you sure you want to migrate legacy content to the new format?
+                  {c('Plugins.AdvancedChecklist.Confirmation')
+                    .t`Are you sure you want to migrate legacy content to the new format?`}
                 </AlertDialogLabel>
 
                 <div className="flex my-1">
                   <button className="sn-button small neutral" onClick={handleCancel} ref={cancelRef}>
-                    Cancel
+                    {c('Plugins.AdvancedChecklist.Action').t`Cancel`}
                   </button>
                   <button className="sn-button small ml-2 info" onClick={handleMigrate}>
-                    Migrate
+                    {c('Plugins.AdvancedChecklist.Action').t`Migrate`}
                   </button>
                 </div>
               </div>

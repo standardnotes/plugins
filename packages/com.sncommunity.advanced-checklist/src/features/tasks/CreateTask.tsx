@@ -1,5 +1,6 @@
 import { ChangeEvent, createRef, KeyboardEvent, useState } from 'react'
 import styled from 'styled-components'
+import { c } from 'ttag'
 import { v4 as uuidv4 } from 'uuid'
 
 import { useAppDispatch, useAppSelector, useDebouncedCallback } from '../../app/hooks'
@@ -67,7 +68,7 @@ const CreateTask: React.FC<CreateTaskProps> = ({ group }) => {
         enterKeyHint={'go'}
         onChange={onTextChange}
         onKeyPress={handleKeyPress}
-        placeholder={'Type a task and press enter'}
+        placeholder={c('Plugins.AdvancedChecklist.Placeholder').t`Type a task and press enter`}
         ref={inputRef}
         spellCheck={spellCheckerEnabled}
         value={taskDraft}

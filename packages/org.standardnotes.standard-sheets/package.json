@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/spreadsheets",
-  "version": "1.8.15",
+  "version": "1.8.16",
   "repository": {
     "type": "git",
     "url": "https://github.com/standardnotes/plugins",
@@ -23,7 +23,8 @@
     "main": "dist/index.html"
   },
   "dependencies": {
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae",
+    "ttag": "^1.8.12"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",

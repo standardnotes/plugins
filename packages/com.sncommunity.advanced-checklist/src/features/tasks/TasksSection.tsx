@@ -7,6 +7,7 @@ import styled from 'styled-components'
 
 import { useAppDispatch, useAppSelector, usePrevious } from '../../app/hooks'
 import { SubTitle } from '../../common/components'
+import { getSectionDisplayName } from '../../common/sectionDisplayName'
 import { SectionModel, TaskModel, tasksGroupCollapsed } from './tasks-slice'
 
 import TaskItem from './TaskItem'
@@ -100,7 +101,7 @@ const TasksSection: React.FC<TasksSectionProps> = ({ groupName, tasks, section, 
         {(provided) => (
           <Wrapper>
             <SectionHeader>
-              <SubTitle onClick={handleCollapse}>{section.name}</SubTitle>
+              <SubTitle onClick={handleCollapse}>{getSectionDisplayName(section)}</SubTitle>
             </SectionHeader>
             {!collapsed && (
               <InnerTasksContainer

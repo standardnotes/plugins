@@ -2,6 +2,7 @@ import '@reach/dialog/styles.css'
 
 import { AlertDialog, AlertDialogDescription, AlertDialogLabel } from '@reach/alert-dialog'
 import React, { useRef, useState } from 'react'
+import { c } from 'ttag'
 
 import { useAppDispatch, useAppSelector } from '../../app/hooks'
 import { tasksGroupMerged } from './tasks-slice'
@@ -44,13 +45,15 @@ const MergeTaskGroups: React.FC<MergeTaskGroupsProps> = ({ groupName, handleClos
           <div className="sk-panel">
             <div className="sk-panel-content">
               <div className="sk-panel-section">
-                <AlertDialogLabel className="sk-h3 sk-panel-section-title">Merging task groups</AlertDialogLabel>
+                <AlertDialogLabel className="sk-h3 sk-panel-section-title">
+                  {c('Plugins.AdvancedChecklist.Title').t`Merging task groups`}
+                </AlertDialogLabel>
 
                 {mergeableGroups.length > 0 ? (
                   <>
                     <AlertDialogDescription className="sk-panel-row">
                       <p className="color-foreground">
-                        Select which group you want to merge '<strong>{groupName}</strong>' into:
+                        {c('Plugins.AdvancedChecklist.Info').t`Select which group you want to merge '${groupName}' into:`}
                       </p>
                     </AlertDialogDescription>
                     <fieldset className="flex flex-col" onChange={handleChange}>
@@ -65,17 +68,19 @@ const MergeTaskGroups: React.FC<MergeTaskGroupsProps> = ({ groupName, handleClos
                 ) : (
                   <AlertDialogDescription>
                     <p className="color-foreground">
-                      There are no other groups to merge '<strong>{groupName}</strong>' with.
+                      {c('Plugins.AdvancedChecklist.Info').t`There are no other groups to merge '${groupName}' with.`}
                     </p>
                   </AlertDialogDescription>
                 )}
 
                 <div className="flex my-1 mt-4">
                   <button className="sn-button small neutral" onClick={handleClose} ref={cancelRef}>
-                    {!mergeWith ? 'Close' : 'Cancel'}
+                    {!mergeWith
+                      ? c('Plugins.AdvancedChecklist.Action').t`Close`
+                      : c('Plugins.AdvancedChecklist.Action').t`Cancel`}
                   </button>
                   <button className="sn-button small ml-2 info" onClick={handleMergeGroups}>
-                    Merge groups
+                    {c('Plugins.AdvancedChecklist.Action').t`Merge groups`}
                   </button>
                 </div>
               </div>

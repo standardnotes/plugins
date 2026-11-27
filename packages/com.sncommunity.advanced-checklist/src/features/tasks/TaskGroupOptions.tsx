@@ -1,6 +1,7 @@
 import { Menu, MenuButton, MenuItem, MenuList } from '@reach/menu-button'
 import VisuallyHidden from '@reach/visually-hidden'
 import { useState } from 'react'
+import { c } from 'ttag'
 
 import { useAppDispatch } from '../../app/hooks'
 import { tasksGroupDeleted } from './tasks-slice'
@@ -27,34 +28,34 @@ const TaskGroupOptions: React.FC<TaskGroupOptionsProps> = ({ groupName }) => {
     <>
       <Menu>
         <MenuButton data-testid="task-group-options" className="sn-icon-button">
-          <VisuallyHidden>Options for '{groupName}' group</VisuallyHidden>
+          <VisuallyHidden>{c('Plugins.AdvancedChecklist.AriaLabel').t`Options for '${groupName}' group`}</VisuallyHidden>
           <MoreIcon />
         </MenuButton>
         <MenuList>
           <MenuItem data-testid="delete-task-group" onSelect={() => setShowDeleteDialog(true)}>
             <TrashIcon />
-            <span className="px-1">Delete group</span>
+            <span className="px-1">{c('Plugins.AdvancedChecklist.Action').t`Delete group`}</span>
           </MenuItem>
           <MenuItem data-testid="merge-task-group" onSelect={() => setShowMergeDialog(true)}>
             <MergeIcon />
-            <span className="px-1">Merge into another group</span>
+            <span className="px-1">{c('Plugins.AdvancedChecklist.Action').t`Merge into another group`}</span>
           </MenuItem>
           <MenuItem data-testid="rename-task-group" onSelect={() => setShowRenameDialog(true)}>
             <RenameIcon />
-            <span className="px-1">Rename</span>
+            <span className="px-1">{c('Plugins.AdvancedChecklist.Action').t`Rename`}</span>
           </MenuItem>
         </MenuList>
       </Menu>
       {showDeleteDialog && (
         <ConfirmDialog
           testId="delete-task-group-dialog"
-          title="Delete group"
-          confirmButtonText="Delete"
+          title={c('Plugins.AdvancedChecklist.Title').t`Delete group`}
+          confirmButtonText={c('Plugins.AdvancedChecklist.Action').t`Delete`}
           confirmButtonStyle="danger"
           confirmButtonCb={() => dispatch(tasksGroupDeleted({ groupName }))}
           cancelButtonCb={() => setShowDeleteDialog(false)}
         >
-          Are you sure you want to delete the group '<strong>{groupName}</strong>'?
+          {c('Plugins.AdvancedChecklist.Confirmation').t`Are you sure you want to delete the group '${groupName}'?`}
         </ConfirmDialog>
       )}
       {showMergeDialog && <MergeTaskGroups groupName={groupName} handleClose={() => setShowMergeDialog(false)} />}

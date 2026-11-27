@@ -1,6 +1,6 @@
 {
   "name": "@standardnotes/authenticator",
-  "version": "2.4.14",
+  "version": "2.4.15",
   "repository": {
     "type": "git",
     "url": "https://github.com/standardnotes/plugins",
@@ -32,7 +32,8 @@
   },
   "dependencies": {
     "@standardnotes/editor-kit": "standardnotes/editor-kit#91d822552328af6940f15de556cd29532c494935",
-    "@standardnotes/styles": "1.6.1"
+    "@standardnotes/styles": "1.6.1",
+    "ttag": "^1.8.12"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",

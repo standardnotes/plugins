@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.7.14",
+  "version": "1.7.15",
   "repository": {
     "type": "git",
     "url": "https://github.com/standardnotes/plugins",
@@ -21,6 +21,9 @@
     "main": "dist/index.html",
     "file_type": "html",
     "showInGallery": false
+  },
+  "dependencies": {
+    "ttag": "^1.8.12"
   },
   "scripts": {
     "lint": "eslint app/ --ext .js",

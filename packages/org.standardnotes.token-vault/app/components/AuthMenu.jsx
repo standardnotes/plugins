@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import { c } from 'ttag'
 
 export default class AuthMenu extends React.Component {
   constructor(props) {
@@ -49,13 +50,13 @@ export default class AuthMenu extends React.Component {
           (
             <div className="sk-menu-panel">
               <div className="sk-menu-panel-row" onClick={this.onEdit}>
-                <div className="sk-label">Edit</div>
+                <div className="sk-label">{c('Plugins.Authenticator.Action').t`Edit`}</div>
               </div>
               <div className="sk-menu-panel-row" onClick={this.onRemove}>
-                <div className="sk-label">Remove</div>
+                <div className="sk-label">{c('Plugins.Authenticator.Action').t`Remove`}</div>
               </div>
               <div className="sk-menu-panel-row" onClick={this.onExport}>
-                <div className="sk-label">Export</div>
+                <div className="sk-label">{c('Plugins.Authenticator.Action').t`Export`}</div>
               </div>
             </div>
           ))}
