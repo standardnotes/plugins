@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import { c } from 'ttag'
 
 const ConfirmDialog = ({ title, message, onConfirm, onCancel }) => (
   <div className="auth-overlay">
@@ -16,10 +17,10 @@ const ConfirmDialog = ({ title, message, onConfirm, onCancel }) => (
       <div className="sk-panel-footer">
         <div className="sk-button-group stretch">
           <div className="sk-button neutral" onClick={onCancel}>
-            <div className="sk-label">Cancel</div>
+            <div className="sk-label">{c('Plugins.Authenticator.Action').t`Cancel`}</div>
           </div>
           <div className="sk-button info" onClick={onConfirm}>
-            <div className="sk-label">Confirm</div>
+            <div className="sk-label">{c('Plugins.Authenticator.Action').t`Confirm`}</div>
           </div>
         </div>
       </div>

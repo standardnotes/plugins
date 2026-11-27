@@ -33,7 +33,7 @@ module.exports = (env, argv) => ({
       'node_modules',
       'src'
     ],
-    extensions: ['.tsx', '.ts', '.js']
+    extensions: ['.tsx', '.ts', '.js'],
   },
   devServer: {
     https: false,

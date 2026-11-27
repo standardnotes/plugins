@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -38,8 +38,8 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '.css', '.scss'],
     alias: {
-      stylekit: path.join(__dirname, 'node_modules/sn-stylekit/dist/stylekit.css')
-    }
+      stylekit: path.join(__dirname, 'node_modules/sn-stylekit/dist/stylekit.css'),
+    },
   },
   plugins: [
     new MiniCssExtractPlugin({

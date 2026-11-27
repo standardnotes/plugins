@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -42,8 +42,8 @@ module.exports = {
       stylekit: path.resolve(__dirname, 'node_modules/sn-stylekit/dist/stylekit.css'),
       '@Components': path.resolve(__dirname, 'app/components'),
       '@Lib': path.resolve(__dirname, 'app/lib'),
-      '@Models': path.resolve(__dirname, 'app/models')
-    }
+      '@Models': path.resolve(__dirname, 'app/models'),
+    },
   },
   plugins: [
     new MiniCssExtractPlugin({

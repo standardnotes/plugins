@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.7.14",
+  "version": "1.7.15",
   "repository": {
     "type": "git",
     "url": "https://github.com/standardnotes/plugins",
@@ -29,6 +29,9 @@
     "main": "dist/index.html",
     "file_type": "md",
     "showInGallery": true
+  },
+  "dependencies": {
+    "ttag": "^1.8.12"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",

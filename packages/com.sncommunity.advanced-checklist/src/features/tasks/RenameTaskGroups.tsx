@@ -2,6 +2,7 @@ import '@reach/dialog/styles.css'
 
 import { AlertDialog, AlertDialogDescription, AlertDialogLabel } from '@reach/alert-dialog'
 import React, { KeyboardEvent, useRef, useState } from 'react'
+import { c } from 'ttag'
 
 import { useAppDispatch } from '../../app/hooks'
 import { TextInput } from '../../common/components'
@@ -44,7 +45,7 @@ const RenameTaskGroups: React.FC<RenameTaskGroupsProps> = ({ groupName, handleCl
             <div className="sk-panel-content">
               <div className="sk-panel-section">
                 <AlertDialogLabel className="sk-h3 sk-panel-section-title">
-                  Renaming group '<strong>{groupName}</strong>':
+                  {c('Plugins.AdvancedChecklist.Title').t`Renaming group '${groupName}':`}
                 </AlertDialogLabel>
 
                 <AlertDialogDescription>
@@ -53,21 +54,23 @@ const RenameTaskGroups: React.FC<RenameTaskGroupsProps> = ({ groupName, handleCl
                     autoFocus
                     onChange={handleChange}
                     onKeyPress={handleKeyPress}
-                    placeholder="Enter new group name"
+                    placeholder={c('Plugins.AdvancedChecklist.Placeholder').t`Enter new group name`}
                     value={renameTo}
                   />
                 </AlertDialogDescription>
 
                 <div className="flex my-1 mt-4">
                   <button className="sn-button small neutral" onClick={handleClose} ref={cancelRef}>
-                    {renameTo.length === 0 ? 'Close' : 'Cancel'}
+                    {renameTo.length === 0
+                      ? c('Plugins.AdvancedChecklist.Action').t`Close`
+                      : c('Plugins.AdvancedChecklist.Action').t`Cancel`}
                   </button>
                   <button
                     className="sn-button small ml-2 info"
                     disabled={renameTo.length === 0}
                     onClick={handleRenameGroup}
                   >
-                    Rename
+                    {c('Plugins.AdvancedChecklist.Action').t`Rename`}
                   </button>
                 </div>
               </div>

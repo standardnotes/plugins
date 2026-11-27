@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.6](https://github.com/standardnotes/plugins/compare/sn-excalidraw@1.2.5...sn-excalidraw@1.2.6) (2026-11-16)
+
+**Note:** Version bump only for package sn-excalidraw
+
 ## [1.2.5](https://github.com/standardnotes/plugins/compare/sn-excalidraw@1.2.4...sn-excalidraw@1.2.5) (2026-02-06)
 
 **Note:** Version bump only for package sn-excalidraw

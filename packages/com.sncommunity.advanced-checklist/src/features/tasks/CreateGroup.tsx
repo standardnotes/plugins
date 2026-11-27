@@ -1,5 +1,6 @@
 import { ChangeEvent, createRef, FocusEvent, KeyboardEvent, useState } from 'react'
 import styled from 'styled-components'
+import { c } from 'ttag'
 
 import { useAppDispatch, useAppSelector } from '../../app/hooks'
 import { tasksGroupAdded } from './tasks-slice'
@@ -125,7 +126,7 @@ const CreateGroup: React.FC = () => {
               onBlur={handleBlur}
               onChange={handleTextChange}
               onKeyPress={handleKeyPress}
-              placeholder="Name your task group and press enter"
+              placeholder={c('Plugins.AdvancedChecklist.Placeholder').t`Name your task group and press enter`}
               ref={inputRef}
               spellCheck={spellCheckerEnabled}
               textSize="big"
@@ -136,7 +137,7 @@ const CreateGroup: React.FC = () => {
             <TutorialContainer>
               <Tutorial>
                 <ArrowVector style={{ marginRight: 140, marginBottom: 12 }} />
-                <TutorialText>Get started by naming your first task group</TutorialText>
+                <TutorialText>{c('Plugins.AdvancedChecklist.Info').t`Get started by naming your first task group`}</TutorialText>
               </Tutorial>
               <EmptyContainer1 />
               <EmptyContainer2 />
