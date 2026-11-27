@@ -8394,7 +8394,7 @@ __metadata:
     "@reach/visually-hidden": 0.16.0
     "@react-hook/resize-observer": ^1.2.5
     "@reduxjs/toolkit": 1.8.0
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#91d822552328af6940f15de556cd29532c494935"
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#fc7d1121f553cbb4cfb577d46c44cae07c87a511"
     "@standardnotes/stylekit": 5.23.0
     "@standardnotes/utils": 1.9.0
     "@testing-library/dom": 8.11.3
@@ -8453,7 +8453,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.18.5
     "@babel/preset-env": ^7.18.2
     "@babel/preset-react": ^7.17.12
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#91d822552328af6940f15de556cd29532c494935"
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#fc7d1121f553cbb4cfb577d46c44cae07c87a511"
     "@standardnotes/eslint-config-extensions": ^1.0.4
     "@standardnotes/styles": 1.6.1
     "@svgr/webpack": ^6.2.1
@@ -8493,7 +8493,7 @@ __metadata:
     "@babel/eslint-parser": ^7.13.14
     "@babel/preset-env": ^7.13.12
     "@babel/preset-react": ^7.13.13
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#91d822552328af6940f15de556cd29532c494935"
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#fc7d1121f553cbb4cfb577d46c44cae07c87a511"
     babel-loader: ^8.2.2
     copy-webpack-plugin: "*"
     css-loader: ^5.2.0
@@ -8524,7 +8524,7 @@ __metadata:
     "@babel/cli": ^7.12.10
     "@babel/core": ^7.12.10
     "@babel/preset-env": ^7.12.11
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     codemirror: 5.65.2
     copy-webpack-plugin: "*"
     css-loader: ^5.0.1
@@ -8579,9 +8579,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@standardnotes/component-relay@standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae":
-  version: 2.4.0
-  resolution: "@standardnotes/component-relay@https://github.com/standardnotes/component-relay.git#commit=5d59a586d573f7a630ea66b1f9866c4479d472ae"
+"@standardnotes/component-relay@standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048":
+  version: 2.4.1
+  resolution: "@standardnotes/component-relay@https://github.com/standardnotes/component-relay.git#commit=632daf1ac731e77bb1bc0ef8db21160868de6048"
   dependencies:
     "@standardnotes/common": ^1.43.0
     "@standardnotes/features": 1.54.0
@@ -8589,7 +8589,7 @@ __metadata:
     "@standardnotes/sncrypto-common": 1.13.0
     "@standardnotes/snjs": 2.147.2
     ttag: ^1.8.12
-  checksum: e21de37cfef0cde2ac549245426b641a5babd48979a4be1a691445a57500d71fe09b688445d10a39c8c989cbc5371d277bfb47e36f23ca3eb25a57f064e5c8f5
+  checksum: 319096eabc42bb6ece0c33746e41a9359c79a39e639aac3f8865972a562c0d19b36c5a918ec476a09a11dee8aa2806310121c30cac986e9d0fe2665f18a4ad89
   languageName: node
   linkType: hard
 
@@ -8620,14 +8620,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@standardnotes/editor-kit@standardnotes/editor-kit#91d822552328af6940f15de556cd29532c494935":
+"@standardnotes/editor-kit@standardnotes/editor-kit#fc7d1121f553cbb4cfb577d46c44cae07c87a511":
   version: 2.5.0
-  resolution: "@standardnotes/editor-kit@https://github.com/standardnotes/editor-kit.git#commit=91d822552328af6940f15de556cd29532c494935"
+  resolution: "@standardnotes/editor-kit@https://github.com/standardnotes/editor-kit.git#commit=fc7d1121f553cbb4cfb577d46c44cae07c87a511"
   dependencies:
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     "@standardnotes/models": 1.34.3
     "@standardnotes/snjs": 2.147.2
-  checksum: 354662adeac6a94fd377f3d3ae4f73d36fccb7db01e26200098f3ef8f895f0e69e97c70501fc0ec1837a5bcca74792eb8c43a42f1c2755e26574bf2ecf2ffde4
+  checksum: c10dfa06cbf83085fa3beaff16c8bba9b53bab5125a8ebc990cd35bca778b62348503b5d314ba6acfcf694c8eeae477ae93ee2a485a70770927d1cdd893cd2ba
   languageName: node
   linkType: hard
 
@@ -8727,7 +8727,7 @@ __metadata:
     "@babel/preset-stage-0": ^7.8.3
     "@babel/register": ^7.10.5
     "@babel/runtime": ^7.11.2
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     "@standardnotes/eslint-config-extensions": ^1.0.0
     babel-loader: ^8.1.0
     copy-webpack-plugin: "*"
@@ -8763,7 +8763,7 @@ __metadata:
     "@babel/cli": ^7.13.10
     "@babel/core": ^7.13.13
     "@babel/preset-env": ^7.13.12
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     copy-webpack-plugin: "*"
     css-loader: ^5.2.0
     dompurify: ^2.2.9
@@ -8794,7 +8794,7 @@ __metadata:
     "@babel/cli": ^7.7.7
     "@babel/core": ^7.7.7
     "@babel/preset-env": ^7.7.7
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     draggabilly: ^2.2.0
     grunt: ^1.0.4
     grunt-babel: ^8.0.0
@@ -8823,7 +8823,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.11.1
     "@babel/preset-env": ^7.11.0
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     babel-cli: ^6.26.0
     codemirror: ^5.56.0
     grunt: ^1.2.1
@@ -8870,7 +8870,7 @@ __metadata:
     "@milkdown/prose": 5.5.0
     "@milkdown/react": 5.5.0
     "@milkdown/theme-nord": 5.5.0
-    "@standardnotes/editor-kit": "standardnotes/editor-kit#91d822552328af6940f15de556cd29532c494935"
+    "@standardnotes/editor-kit": "standardnotes/editor-kit#fc7d1121f553cbb4cfb577d46c44cae07c87a511"
     "@standardnotes/styles": 1.6.1
     "@testing-library/dom": ^8.11.3
     "@testing-library/jest-dom": ^5.16.2
@@ -8915,7 +8915,7 @@ __metadata:
     "@lerna-lite/publish": ^4.10.5
     "@lerna-lite/run": ^4.10.5
     "@lerna-lite/version": ^4.10.5
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     "@typescript-eslint/eslint-plugin": ^5.20.0
     "@typescript-eslint/parser": ^5.20.0
     changelog-parser: ^2.8.1
@@ -8950,7 +8950,7 @@ __metadata:
     "@babel/core": ^7.13.8
     "@babel/eslint-parser": ^7.13.8
     "@babel/preset-env": ^7.13.8
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     "@standardnotes/eslint-config-extensions": 1.0.1
     bootstrap: 3.4.1
     css-loader: ^5.1.0
@@ -8993,7 +8993,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.13.0
     "@babel/preset-env": ^7.13.10
     "@babel/preset-react": ^7.12.13
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     "@standardnotes/eslint-config-extensions": ^1.0.2
     babel-loader: ^8.2.2
     css-loader: ^5.1.3
@@ -9045,7 +9045,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.10.1
     "@babel/preset-env": ^7.14.7
     "@babel/preset-react": ^7.10.1
-    "@standardnotes/component-relay": "standardnotes/component-relay#5d59a586d573f7a630ea66b1f9866c4479d472ae"
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048"
     "@standardnotes/eslint-config-extensions": ^1.0.4
     babel-loader: ^8.2.2
     copy-webpack-plugin: "*"
