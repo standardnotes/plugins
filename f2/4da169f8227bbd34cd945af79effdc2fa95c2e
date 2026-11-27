@@ -1,0 +1,74 @@
+packages/com.sncommunity.advanced-checklist/package.json
+  s_24f695a1dabaea::t_fa22e1e8a8f8b2 3,39-40,100-101
+packages/com.sncommunity.bold-editor/package.json
+  s_24f695a1dabaea::t_7a7b98cc498ecd 6,25-27
+packages/com.sncommunity.markdown-basic/package.json
+  s_24f695a1dabaea::t_c7b2eb4e3dfd39 6,33-35
+packages/com.sncommunity.markdown-math/package.json
+  s_24f695a1dabaea::t_5c8ff105a2f77b 6
+packages/com.sncommunity.markdown-visual/package.json
+  s_24f695a1dabaea::t_61b9eab26d44c9 3
+packages/com.sncommunity.minimal-markdown/package.json
+  s_24f695a1dabaea::t_c91fd951dbae90 6
+packages/org.standardnotes.advanced-markdown-editor/package.json
+  s_24f695a1dabaea::t_eab1378d4d5afd 3,35-36
+packages/org.standardnotes.code-editor/package.json
+  s_24f695a1dabaea::t_2b47859a904f54 3,35-36
+packages/org.standardnotes.plus-editor/package.json
+  s_24f695a1dabaea::t_1b677364e52aa2 3,33-34
+packages/org.standardnotes.simple-task-editor/package.json
+  s_24f695a1dabaea::t_1b2da5c59b3e98 3,33-34
+packages/org.standardnotes.standard-sheets/package.json
+  s_24f695a1dabaea::t_154cade38178b2 3,26-27
+packages/org.standardnotes.token-vault/package.json
+  s_24f695a1dabaea::t_ebd78ca3738545 3,35-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f24da169f8227bbd34cd945af79effdc2fa95c2e",
+  "prompts": {},
+  "sessions": {
+    "s_24f695a1dabaea": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "bdaa1c0e-f15e-435a-b85b-d3bbf926769a",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Antonella Sgarlatta <anto@standardnotes.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 201,
+        "output_tokens": 14136,
+        "cache_creation_input_tokens": 301364,
+        "cache_read_input_tokens": 14150697
+      },
+      "by_tool_model": {
+        "cursor::gpt-5.6-sol": {
+          "input_tokens": 201,
+          "output_tokens": 14136,
+          "cache_creation_input_tokens": 301364,
+          "cache_read_input_tokens": 14150697
+        }
+      },
+      "tool_uses": {
+        "grep": 28,
+        "read": 20,
+        "shell": 25,
+        "write": 9
+      }
+    },
+    "by_prompt": {
+      "s_24f695a1dabaea": {
+        "input_tokens": 201,
+        "output_tokens": 14136,
+        "cache_creation_input_tokens": 301364,
+        "cache_read_input_tokens": 14150697
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
