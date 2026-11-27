@@ -99,6 +99,15 @@ document.addEventListener('DOMContentLoaded', function (event) {
       }
       saveNote()
     })
+
+    const { notifyContentChange } = componentRelay.registerScrollContainer(editor.getScrollerElement(), {
+      moveCaretToEnd: () => {
+        editor.focus()
+        editor.execCommand('goDocEnd')
+      },
+    })
+    // CodeMirror sizes its content area through style changes, which the relay doesn't observe
+    editor.on('update', notifyContentChange)
   }
 
   function getInputStyleForEnvironment() {

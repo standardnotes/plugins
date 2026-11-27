@@ -80,6 +80,15 @@ document.addEventListener('DOMContentLoaded', function () {
     componentRelay.streamContextItem((note) => {
       onReceivedNote(note)
     })
+
+    const editable = document.querySelector('.note-editable')
+    componentRelay.registerScrollContainer(editable, {
+      moveCaretToEnd: () => {
+        editable.focus({ preventScroll: true })
+        window.getSelection().selectAllChildren(editable)
+        window.getSelection().collapseToEnd()
+      },
+    })
   }
 
   function strip(html) {

@@ -476,8 +476,16 @@
 		eTextarea.addEventListener('touchstart', syncScroll.switchScrollToSrc);
 		eTextarea.addEventListener('mouseover', syncScroll.switchScrollToSrc);
 
-		eResultHtml.addEventListener('touchstart', syncScroll.switchScrollToResult);
-		eResultHtml.addEventListener('mouseover', syncScroll.switchScrollToResult);
+		// While locked, hovering the preview mustn't make it lead, or it overwrites the source's scroll position
+		var isScrollLockedToSrc = false;
+		var switchScrollToResult = function () {
+			if (!isScrollLockedToSrc) {
+				syncScroll.switchScrollToResult();
+			}
+		};
+
+		eResultHtml.addEventListener('touchstart', switchScrollToResult);
+		eResultHtml.addEventListener('mouseover', switchScrollToResult);
 
 		syncScroll.switchScrollToSrc();
 
@@ -574,6 +582,13 @@
 			getHTML: () => {
 				var result = document.getElementsByClassName('result-html');
 				return eResultHtml.innerHTML;
+			},
+			lockScrollToSrc: () => {
+				isScrollLockedToSrc = true;
+				syncScroll.switchScrollToSrc();
+			},
+			unlockScrollToSrc: () => {
+				isScrollLockedToSrc = false;
 			}
 		}
 

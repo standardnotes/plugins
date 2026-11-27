@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let lastValue, lastUUID, clientData
   let renderNote = false
   let showingUnsafeContentAlert = false
+  let notifyScrollContentChange
 
   const componentRelay = new ComponentRelay({
     targetWindow: window,
@@ -101,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
       } else if (window.easymde.isPreviewActive()) {
         window.easymde.togglePreview()
       }
+      registerScrollContainer(mode === 'preview')
     }
   })
 
@@ -126,10 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
           name: 'preview',
           noDisable: true,
           title: c('Plugins.MarkdownHybrid.Action').t`Toggle Preview`,
-          action: function () {
-            window.easymde.togglePreview()
-            saveMetadata()
-          },
+          action: togglePreview,
         },
         {
           className: 'fa fa-columns',
@@ -138,10 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
           noDisable: true,
           noMobile: true,
           title: c('Plugins.MarkdownHybrid.Action').t`Toggle Side by Side`,
-          action: function () {
-            window.easymde.toggleSideBySide()
-            saveMetadata()
-          },
+          action: toggleSideBySide,
         },
         '|',
         'heading',
@@ -223,12 +219,53 @@ document.addEventListener('DOMContentLoaded', function () {
       scrollCursorIntoView(editor)
     })
 
+    // CodeMirror sizes its content area through style changes, which the relay doesn't observe
+    window.easymde.codemirror.on('update', () => notifyScrollContentChange?.())
+    registerScrollContainer(false)
+
+    // Takes precedence over EasyMDE's own bindings, so shortcuts also update the scroll container
+    const isMac = /Mac/.test(navigator.platform)
+    window.easymde.codemirror.addKeyMap({
+      [isMac ? 'Cmd-P' : 'Ctrl-P']: togglePreview,
+      [isMac ? 'Cmd-Alt-P' : 'Ctrl-Alt-P']: toggleSideBySide,
+    })
+
     // Some sort of issue on Mobile RN where this causes an exception (".className is not defined")
     try {
       window.easymde.toggleFullScreen()
     } catch (e) {
       console.error('Error:', e)
     }
+  }
+
+  function togglePreview() {
+    // EasyMDE marks the preview as active asynchronously, so read the state before toggling
+    const willShowPreview = !window.easymde.isPreviewActive()
+    window.easymde.togglePreview()
+    registerScrollContainer(willShowPreview)
+    saveMetadata()
+  }
+
+  function toggleSideBySide() {
+    // Side by side always hides the full preview, and its own preview follows the editor's scroll
+    window.easymde.toggleSideBySide()
+    registerScrollContainer(false)
+    saveMetadata()
+  }
+
+  function registerScrollContainer(isShowingPreview) {
+    const codemirror = window.easymde.codemirror
+    if (isShowingPreview) {
+      notifyScrollContentChange = undefined
+      componentRelay.registerScrollContainer(codemirror.getWrapperElement().querySelector('.editor-preview-full'))
+      return
+    }
+    notifyScrollContentChange = componentRelay.registerScrollContainer(codemirror.getScrollerElement(), {
+      moveCaretToEnd: () => {
+        codemirror.focus()
+        codemirror.execCommand('goDocEnd')
+      },
+    }).notifyContentChange
   }
 
   function saveMetadata() {

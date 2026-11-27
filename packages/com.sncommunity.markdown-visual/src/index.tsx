@@ -8,6 +8,7 @@ import MilkdownEditor, { MilkdownRef } from './components/Milkdown'
 import SplitView, { SplitViewDirection } from './components/SplitView'
 
 import EditorKit, { EditorKitDelegate } from '@standardnotes/editor-kit'
+import { EditorView, Selection } from '@milkdown/prose'
 import { marked } from 'marked'
 
 import { MenuConfig, menuConfig } from './components/Milkdown/plugins/advanced-menu/config'
@@ -147,6 +148,15 @@ class AppWrapper extends Component<AppProps, AppState> {
     }
   }
 
+  private registerScrollContainer = (view: EditorView) => {
+    this.editorKit!.registerScrollContainer(view.dom.closest('.milkdown') as HTMLElement, {
+      moveCaretToEnd: () => {
+        view.focus()
+        view.dispatch(view.state.tr.setSelection(Selection.atEnd(view.state.doc)))
+      },
+    })
+  }
+
   private toggleSplitView = () => {
     const { splitView } = this.state
 
@@ -198,6 +208,7 @@ class AppWrapper extends Component<AppProps, AppState> {
         <MilkdownEditor
           ref={this.milkdownRef}
           onChange={this.onTextChange}
+          onMounted={this.registerScrollContainer}
           value={this.prevText}
           menuConfig={customMenu}
           editable={editable}

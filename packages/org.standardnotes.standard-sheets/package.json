@@ -23,7 +23,7 @@
     "main": "dist/index.html"
   },
   "dependencies": {
-    "@standardnotes/component-relay": "standardnotes/component-relay#77c1c70dd48facb8f2e3b47a62d26ff5810d79ee",
+    "@standardnotes/component-relay": "standardnotes/component-relay#632daf1ac731e77bb1bc0ef8db21160868de6048",
     "ttag": "^1.8.12"
   },
   "devDependencies": {
